@@ -74,7 +74,7 @@ A deep dive into common web vulnerabilities and how to prevent them.
   Covers CSRF (Cross-site Request Forgery), CORS, and authentication flaws.
 
 - [Web Security – Part 4](https://www.flexiquiz.com/SC/N/WebSecPart4)  
-  Explores secure headers, TLS, and web application firewalls (WAFs).
+  Explores secure headers, TLS, and firewalls.
 
 ---
 
