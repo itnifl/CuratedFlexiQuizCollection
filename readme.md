@@ -17,7 +17,7 @@ A four-part series focused on core software testing concepts, methodologies, and
   Explores automated testing, integration testing, and test strategies.
 
 - [Software Testing and Quality Quiz – Part 3](https://www.flexiquiz.com/SC/N/SoftwareTesting3)  
-  Delves into test-driven development (TDD), regression testing, and agile practices.
+  Delves into testing methodologies.
 
 - [Software Testing and Quality Quiz – Part 4](https://www.flexiquiz.com/SC/N/SoftwareTesting4)  
   Examines advanced topics like performance testing and test coverage metrics.
