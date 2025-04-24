@@ -1,4 +1,4 @@
-# 📚 My FlexiQuiz Learning Series
+![image](https://github.com/user-attachments/assets/88601164-0052-472d-ab2b-cfe5f6cb15ac)# 📚 My FlexiQuiz Learning Series
 
 Welcome to my curated collection of quizzes hosted on [FlexiQuiz](https://www.flexiquiz.com). These assessments are designed to test and reinforce knowledge across a variety of technical domains including **software testing**, **Java programming**, **cryptography**, and **software security**.
 
@@ -60,6 +60,9 @@ A comprehensive series covering secure development practices and application-lev
 
 - [Software Security – Part 4](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart4)  
   Focuses on secure SDLC, code reviews, and static/dynamic security testing.
+
+- [Software Security - Part 5](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart5) \
+  Focuses on threat modeling, security models, and general cybersecurity.
 
 ---
 
