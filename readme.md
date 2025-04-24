@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/88601164-0052-472d-ab2b-cfe5f6cb15ac)# 📚 My FlexiQuiz Learning Series
+📚 My FlexiQuiz Learning Series
 
 Welcome to my curated collection of quizzes hosted on [FlexiQuiz](https://www.flexiquiz.com). These assessments are designed to test and reinforce knowledge across a variety of technical domains including **software testing**, **Java programming**, **cryptography**, and **software security**.
 
