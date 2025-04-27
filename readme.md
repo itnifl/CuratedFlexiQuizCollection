@@ -25,6 +25,9 @@ A four-part series focused on core software testing concepts, methodologies, and
 - [Software Testing and Quality Quiz – Part 5](https://www.flexiquiz.com/SC/N/SoftwareTesting5) \
   Explores requirements engineering and test setup.
 
+- [Software Testing and Quality Quiz – Part 6](https://www.flexiquiz.com/SC/N/SoftwareTesting6) \
+  Explores code smells, DU-coverage and Devops.
+
 ---
 
 ## Java Programming
