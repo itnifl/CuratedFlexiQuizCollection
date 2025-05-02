@@ -31,6 +31,9 @@ A four-part series focused on core software testing concepts, methodologies, and
 - [Software Testing and Quality Quiz – Part 7](https://www.flexiquiz.com/SC/N/SoftwareTesting7) \
   Explores domain testing, code smells, sustainability, all-pair combinatorial tests, and Devops terms
 
+- [Software Testing and Quality Quiz - Part 8](https://www.flexiquiz.com/SC/N/SoftwareTesting8) \
+  Explores code refactoring, testing concepts, requirements quality, requirements classification, sustainable software requirements, branch and statement coverage.
+
 ---
 
 ## Java Programming
