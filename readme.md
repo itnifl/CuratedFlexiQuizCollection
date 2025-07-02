@@ -1,8 +1,8 @@
-📚 My FlexiQuiz Learning Series
+## 📚 My FlexiQuiz Learning Series
 
-Welcome to my curated collection of quizzes hosted on [FlexiQuiz](https://www.flexiquiz.com). These assessments are designed to test and reinforce knowledge across a variety of technical domains including **software testing**, **Java programming**, **cryptography**, and **software security**.
+Welcome to my curated collection of quizzes hosted on [FlexiQuiz](https://www.flexiquiz.com). These assessments are designed to test and reinforce knowledge across a variety of technical domains including **software testing**, **Java programming**, **cryptography**,  **software security**, and **algorithms + data structures**.
 
-Each quiz has been crafted to balance core theory with real-world application and critical thinking.
+Each quiz has been crafted to balance core theory with real-world application and critical thinking. Many of them are content from subjects at NTNU Trondheim, several of them are old exams questions from previous exams.
 
 ---
 
