@@ -8,7 +8,7 @@ Each quiz has been crafted to balance core theory with real-world application an
 
 ## Software Testing and Quality Series
 
-A four-part series focused on core software testing concepts, methodologies, and best practices.
+A series focused on core software testing concepts, methodologies, and best practices.
 
 - [Software Testing and Quality Quiz – Part 1](https://www.flexiquiz.com/SC/N/SoftwareTesting1)  
   Covers basic testing terminology, unit testing, and manual testing fundamentals.
@@ -93,3 +93,11 @@ A deep dive into common web vulnerabilities and how to prevent them.
 
 ---
 
+## Algorithms and Data Structures
+
+A comprehensive series covering secure development practices and application-level security.
+
+- [Algorithms and Data Structures – Part 1](https://www.flexiquiz.com/SC/N/Algdat1)  
+  Intro to algorithms and data structures, sorting, searching, runtimes, asymptotic notations, and divide-and-conquer classics.
+
+---
