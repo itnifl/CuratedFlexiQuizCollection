@@ -99,5 +99,7 @@ A comprehensive series covering secure development practices and application-lev
 
 - [Algorithms and Data Structures – Part 1](https://www.flexiquiz.com/SC/N/Algdat1)  
   Intro to algorithms and data structures, sorting, searching, runtimes, asymptotic notations, and divide-and-conquer classics.
+- [Algorithms and Data Structures – Part 2](https://www.flexiquiz.com/SC/N/Algdat2)  
+  Time-complexity categories (logarithmic, square-root, linear, linearithmic, cubic, exponential, factorial), asymptotic-notation symbols and meanings (Big O, little o, Big Ω, little ω, Θ), simplifying and combining asymptotic bounds, verifying asymptotic statements, insertion-sort runtimes, merge-sort runtimes, quicksort runtimes, edge-relaxation (RELAX) operation, Dijkstra’s algorithm, Bellman–Ford vs Dijkstra comparison, Kruskal’s algorithm, minimum spanning trees, Δ-stepping / New-SSSP algorithm, greedy-choice property, approximation algorithms, Ford–Fulkerson pseudopolynomial runtime and maximum-flow complexity, pivot selection in quicksort.
 
 ---
