@@ -6,7 +6,7 @@ Each quiz has been crafted to balance core theory with real-world application an
 
 ---
 
-## Software Testing and Quality Series
+## Software Testing and Quality Series - TDT4242
 
 A series focused on core software testing concepts, methodologies, and best practices.
 
@@ -36,7 +36,7 @@ A series focused on core software testing concepts, methodologies, and best prac
 
 ---
 
-## Java Programming
+## Java Programming - TDT4100
 
 A foundational Java quiz for programmers looking to evaluate their language knowledge.
 
@@ -45,7 +45,7 @@ A foundational Java quiz for programmers looking to evaluate their language know
 
 ---
 
-## Cryptography Fundamentals
+## Cryptography Fundamentals - TDT4237
 
 A concise introduction to the world of secure communications and encryption techniques.
 
@@ -54,7 +54,7 @@ A concise introduction to the world of secure communications and encryption tech
 
 ---
 
-## Software Security Series
+## Software Security Series - TDT4237
 
 A comprehensive series covering secure development practices and application-level security.
 
@@ -75,7 +75,7 @@ A comprehensive series covering secure development practices and application-lev
 
 ---
 
-## Web Application Security Series
+## Web Application Security Series - TDT4237
 
 A deep dive into common web vulnerabilities and how to prevent them.
 
@@ -93,13 +93,13 @@ A deep dive into common web vulnerabilities and how to prevent them.
 
 ---
 
-## Algorithms and Data Structures
+## Algorithms and Data Structures - TDT4120
 
 A comprehensive series covering secure development practices and application-level security.
 
 - [Algorithms and Data Structures – Part 1](https://www.flexiquiz.com/SC/N/Algdat1)  
   The 25‑page quiz is a concise tour of first‑semester algorithmic thinking: it opens with complexity theory, spotlighting NP‑completeness and the domino effect of an efficient solution to any NP‑complete problem; then it revisits classic combinatorial challenges such as the Traveling‑Salesperson and shortest‑path problems while contrasting scenarios that demand exact answers with those where near‑optimal suffices, and highlights the difference between offline and online algorithm settings. Practical correctness proofs follow, using loop invariants on a simple SUM‑ARRAY routine, before turning to selection sort’s invariant, loop bound, and Θ‑time analysis, plus linear search’s average and worst cases and a thought experiment on forcing a “good” best case for any sort. Divide‑and‑conquer appears through a fill‑in‑the‑blank Master‑Theorem template and a Θ(n log n) two‑sum algorithm, and the quiz closes with ranking common growth rates, simplifying asymptotic expressions, and converting polynomials to tight Θ‑notation—together forming a compact checklist of essential algorithm‑analysis skills.
-  
+
 - [Algorithms and Data Structures – Part 2](https://www.flexiquiz.com/SC/N/Algdat2)  
   This quiz walks you through the entire “algorithms and data‑structures toolbox,” starting with the language of growth rates—matching expressions like lg n, √n, n log n, 2ⁿ, and n! to their names and interpreting Big‑O, Θ, Ω, o, and ω symbols—before testing your ability to classify real formulas and combine asymptotic bounds. It then shifts to practical algorithm analysis: you compare Insertion Sort, Merge Sort, and Quicksort across best, average, and worst cases; dig into how the Relax (u, v, w) operation underpins Dijkstra’s and how Bellman‑Ford differs; and review Kruskal’s role in building minimum‑spanning trees. Advanced sections probe a proposed New‑SSSP method, examine why simply proving the greedy‑choice property isn’t enough, and ask you to debate pseudopolynomial versus NP‑hard claims around Ford‑Fulkerson and hyperflows. The final question highlights how choosing the right pivot can make or break Quicksort’s performance, tying algorithm theory back to implementation details.
 
