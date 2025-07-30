@@ -121,8 +121,8 @@ The fifth quiz zeroes in on asymptotic‑notation fluency: it asks you first to 
 - [henrhoi/Algdat-TDT4120 (GitHub)](https://github.com/henrhoi/Algdat-TDT4120)
 - [Xtrah/TDT4120 (GitHub)](https://github.com/Xtrah/TDT4120)
 
-- [NTNU TDT4120 — Algorithms and Data Structures (official course page)](https://www.ntnu.edu/studies/courses/TDT4120) — syllabus, course content, and official info. 
-- [CP-Algorithms — Algorithms for Competitive Programming](https://cp-algorithms.com/) — clear, implementation-focused explanations of many algorithms and data structures.
+- [NTNU TDT4120 — Algorithms and Data Structures (official course page)](https://www.ntnu.edu/studies/courses/TDT4120). 
+- [CP-Algorithms — Algorithms for Competitive Programming](https://cp-algorithms.com/).
 
 
 ---
