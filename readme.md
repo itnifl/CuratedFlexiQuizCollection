@@ -10,7 +10,7 @@ Each quiz has been crafted to balance core theory with real-world application an
 
 A series focused on core software testing concepts, methodologies, and best practices.
 
-TDT4242 - “Advanced Software Engineering” is a 7.5‑ECTS spring‑semester course at NTNU that deepens your ability to engineer smart, safety‑critical and otherwise complex software‑intensive systems. Delivered in English, it is organised into four interconnected modules—(1) requirements specification, where you learn to transform stakeholder wishes into precise, high‑quality technical requirements; (2) testing management, which surveys modern test‑planning and test‑automation strategies; (3) code‑quality improvement, covering static analysis, peer review and systematic refactoring; and (4) verification & validation of large‑scale or AI‑assisted systems. Weekly lectures are paired with mandatory exercises and a group project in which you practise requirements engineering, design targeted test suites, and refactor real code bases. By the end you should be able to diagnose requirement flaws, select and apply suitable test and code‑review techniques, and critically assess emerging AI‑supported development tools. The course assumes prior experience in web development and Python/JavaScript (e.g., TDT4140) and is assessed by a four‑hour written school exam (letter grading), with approved coursework as a prerequisite for sitting the exam,
+TDT4242 - “Advanced Software Engineering” is a 7.5‑ECTS spring‑semester course at NTNU that deepens your ability to engineer smart, safety‑critical and otherwise complex software‑intensive systems. Delivered in English, it is organised into four interconnected modules - (1) requirements specification, where you learn to transform stakeholder wishes into precise, high‑quality technical requirements; (2) testing management, which surveys modern test‑planning and test‑automation strategies; (3) code‑quality improvement, covering static analysis, peer review and systematic refactoring; and (4) verification & validation of large‑scale or AI‑assisted systems. Weekly lectures are paired with mandatory exercises and a group project in which you practise requirements engineering, design targeted test suites, and refactor real code bases. By the end you should be able to diagnose requirement flaws, select and apply suitable test and code‑review techniques, and critically assess emerging AI‑supported development tools. The course assumes prior experience in web development and Python/JavaScript (e.g., TDT4140) and is assessed by a four‑hour written school exam (letter grading), with approved coursework as a prerequisite for sitting the exam,
 
 - [Software Testing and Quality Quiz – Part 1](https://www.flexiquiz.com/SC/N/SoftwareTesting1)  
   Covers basic testing terminology, unit testing, and manual testing fundamentals.
@@ -113,5 +113,16 @@ TDT4120 - “Algorithms and Data Structures” is a 7.5‑ECTS intermediate co
 
 - [Algorithms and Data Structures – Part 5](https://www.flexiquiz.com/SC/N/Algdat5)  
 The fifth quiz zeroes in on asymptotic‑notation fluency: it asks you first to compare two exponential functions via their ratio, then to rank 12 standard growth rates from constant to super‑exponential, reinforcing intuitive speed ordering. Next, you must decide which Big‑Oh / little‑oh relations are obligatorily true, and twice choose the tightest asymptotic bound for composite expressions that mix Θ, O, o and Ω terms—one dominated by an n⁴ component plus lower‑order extras, the other by intertwined linear and quadratic terms. In short, every question tests your ability to recognize, rank and simplify time‑complexity expressions and to pick the most precise bound.
+
+
+**TDT4120 - Resources:**
+
+- [VisuAlgo: Sorting](https://visualgo.net/en/sorting)
+- [henrhoi/Algdat-TDT4120 (GitHub)](https://github.com/henrhoi/Algdat-TDT4120)
+- [Xtrah/TDT4120 (GitHub)](https://github.com/Xtrah/TDT4120)
+
+- [NTNU TDT4120 — Algorithms and Data Structures (official course page)](https://www.ntnu.edu/studies/courses/TDT4120) — syllabus, course content, and official info. 
+- [CP-Algorithms — Algorithms for Competitive Programming](https://cp-algorithms.com/) — clear, implementation-focused explanations of many algorithms and data structures.
+
 
 ---
