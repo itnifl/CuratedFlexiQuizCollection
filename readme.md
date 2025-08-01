@@ -6,6 +6,39 @@ Each quiz has been crafted to balance core theory with real-world application an
 
 ---
 
+## CPU-X and the human centered design process - TDT4180 ##
+
+- [CPUX-F - Test 1](https://www.flexiquiz.com/Create/Edit/931d8306-10b2-424d-a52c-39c54c63d07f)
+This quiz maps exactly to the CPUX-F (Foundation) / UXQB-F syllabus, covering all Foundation-level learning objectives:
+
+*Fundamentals & Human-Centred Design*
+– Concepts of usability, UX and ISO 9241-210 process steps (planning, context-of-use, requirements, design, evaluation) 
+uxqb.org
+
+- *Context of Use & User Analysis*
+– Describing users, goals, tasks, environments; personas; user groups; stakeholders; as-is scenarios 
+uxqb.org
+
+- *Requirements Engineering*
+– From user needs to qualitative and quantitative user requirements; human-centred quality objectives 
+tecnovy
+
+- *Information Architecture & Interaction Design*
+– Navigation structures, dialogue principles (ISO 9241-110), mental models, design patterns, prototypes (low-/high-fidelity), storyboards, card sorting 
+tecnovy
+
+- *Usability Evaluation Methods*
+– Usability testing (planning, moderation, pre-/post-session interviews), heuristic inspections, surveys, contextual interviews, focus groups, observations; reporting findings 
+tecnovy
+
+- *UX Professional Roles & Process Integration*
+– Responsibilities in planning and managing a human-centred design project; creating deliverables; iterative refinement through usability evaluation 
+uxqb.org
+
+In other words, every question in this 40-item exam is drawn either from the public CPUX-F question set or directly from the official CPUX-F Curriculum & Glossary document, exactly as prescribed for TDT4180’s UXQB-F/CPUX-F module.
+
+---
+
 ## Software Testing and Quality Series - TDT4242
 
 A series focused on core software testing concepts, methodologies, and best practices.
