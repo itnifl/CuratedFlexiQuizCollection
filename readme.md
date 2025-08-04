@@ -132,23 +132,154 @@ A deep dive into common web vulnerabilities and how to prevent them.
 
 TDT4120 - “Algorithms and Data Structures” is a 7.5‑ECTS intermediate course at NTNU that runs every autumn and equips students to design, analyse and implement efficient algorithms. Lectures and compulsory exercises take you from asymptotic efficiency analysis and divide‑and‑conquer recursion through classic ordering, searching, sorting and hashing techniques, on to dynamic‑programming and greedy paradigms, advanced graph structures, shortest‑path, matching, spanning‑tree and maximum‑flow algorithms, and the fundamentals of complexity theory. By the end, you’re expected to recognise a broad repertoire of established algorithms, evaluate their time‑ and space‑costs, and craft new solutions when none exist—competence that underpins later AI, cyber‑security and systems courses. Instruction is Norwegian‑language, the set text is Introduction to Algorithms (CLRS 4ᵗʰ ed.), and assessment is a four‑hour written school exam.
 
-- [Algorithms and Data Structures – Part 1](https://www.flexiquiz.com/SC/N/Algdat1)  
-  The 25‑page quiz is a concise tour of first‑semester algorithmic thinking: it opens with complexity theory, spotlighting NP‑completeness and the domino effect of an efficient solution to any NP‑complete problem; then it revisits classic combinatorial challenges such as the Traveling‑Salesperson and shortest‑path problems while contrasting scenarios that demand exact answers with those where near‑optimal suffices, and highlights the difference between offline and online algorithm settings. Practical correctness proofs follow, using loop invariants on a simple SUM‑ARRAY routine, before turning to selection sort’s invariant, loop bound, and Θ‑time analysis, plus linear search’s average and worst cases and a thought experiment on forcing a “good” best case for any sort. Divide‑and‑conquer appears through a fill‑in‑the‑blank Master‑Theorem template and a Θ(n log n) two‑sum algorithm, and the quiz closes with ranking common growth rates, simplifying asymptotic expressions, and converting polynomials to tight Θ‑notation—together forming a compact checklist of essential algorithm‑analysis skills.
+### > Algorithms and Data Structures – Part 1  
+---
+*Covers topics from Lecture 1 (problem modeling and complexity), Lecture 2 (loop invariants and sorting), Lecture 3 (divide and conquer), Lecture 10 (shortest paths), and Lecture 13 (NP-completeness).*
 
-- [Algorithms and Data Structures – Part 2](https://www.flexiquiz.com/SC/N/Algdat2)  
-  This quiz walks you through the entire “algorithms and data‑structures toolbox,” starting with the language of growth rates—matching expressions like lg n, √n, n log n, 2ⁿ, and n! to their names and interpreting Big‑O, Θ, Ω, o, and ω symbols—before testing your ability to classify real formulas and combine asymptotic bounds. It then shifts to practical algorithm analysis: you compare Insertion Sort, Merge Sort, and Quicksort across best, average, and worst cases; dig into how the Relax (u, v, w) operation underpins Dijkstra’s and how Bellman‑Ford differs; and review Kruskal’s role in building minimum‑spanning trees. Advanced sections probe a proposed New‑SSSP method, examine why simply proving the greedy‑choice property isn’t enough, and ask you to debate pseudopolynomial versus NP‑hard claims around Ford‑Fulkerson and hyperflows. The final question highlights how choosing the right pivot can make or break Quicksort’s performance, tying algorithm theory back to implementation details.
+Quiz: [Algorithms and Data Structures – Part 1](https://www.flexiquiz.com/SC/N/Algdat1)  
+
+|                                        |                                        |
+|----------------------------------------|----------------------------------------|
+| NP-completeness and implications       | Traveling Salesperson problem          |
+| Shortest-path challenges               | Exact vs near-optimal solutions        |
+| Offline vs online algorithms           | Loop invariants in SUM-ARRAY           |
+| Selection sort invariant and bounds    | Linear search cases                    |
+| Best-case sort thought experiment      | Master Theorem fill-in-the-blank       |
+| Θ(n log n) two-sum algorithm           | Ranking growth rates                   |
+| Simplifying asymptotic expressions     | Converting to tight Θ-notation         |
+| First-semester algorithm checklist     | Essential analysis skills              |
+
+---
+
+
+
+### > Algorithms and Data Structures – Part 2  
+
+*Links concepts from Lecture 1 (asymptotics), Lecture 3 (divide and conquer), Lecture 4 (non-comparison-based sorting), Lecture 7 (greedy algorithms), Lecture 9–10 (MST and shortest paths), Lecture 12 (max flow), and Lecture 13 (NP-hardness).*
+
+Quiz: [Algorithms and Data Structures – Part 2](https://www.flexiquiz.com/SC/N/Algdat2) 
+
+|                                       |                                        |
+|---------------------------------------|----------------------------------------|
+| Growth rate expressions               | Big-O, Θ, Ω, o, ω symbols              |
+| Classifying formulas                  | Combining asymptotic bounds            |
+| Insertion vs Merge vs Quicksort       | Best/avg/worst-case analysis           |
+| Relax(u, v, w) in Dijkstra            | Bellman-Ford differences               |
+| Kruskal and MST construction          | New-SSSP proposal                      |
+| Greedy-choice property limits         | Pseudopolynomial vs NP-hard            |
+| Ford-Fulkerson and hyperflows         | Pivot choice impact in Quicksort       |
+| Algorithm theory and implementation   | Full algorithm toolbox review          |
+
+---
+
+
+
+### > Algorithms and Data Structures – Part 3  
+*Connects to Lecture 2 (data structures), Lecture 3 (recursive strategies), Lecture 6 (dynamic programming), Lecture 7 (greedy methods), Lecture 9–10 (graph algorithms), Lecture 12 (network flow), and Lecture 13 (complexity theory).*
+
 
 - [Algorithms and Data Structures – Part 3](https://www.flexiquiz.com/SC/N/Algdat3)  
-  The third quiz surveys intermediate‑level algorithmic design and analysis: it starts with the greedy‑choice property and when greedy methods work, then moves into data‑structure trade‑offs—evaluating selection sort enhanced with a binary‑search tree, comparing heaps, binary trees and self‑adjusting splay trees. Next comes optimization technique: why naïve recursion explodes, how memoization/dynamic programming rescues it, and what structural properties enable that speed‑up. A block of questions contrasts classic and randomized algorithms (Quicksort versus Randomized Quicksort, Select versus Randomized Select, and what happens when Select drives Quicksort) and checks understanding of insertion, merge, quick, randomized quick and heap sort behaviors. Complexity theory follows: identifying classes such as NP and NP‑complete and their verification versus solution difficulty. The quiz then tackles graph algorithms—minimum‑spanning trees (Prim vs Kruskal), the Ford‑Fulkerson max‑flow method and why its run‑time depends on capacity size—before revisiting the Master Theorem and finishing with maximum, average and best‑case bounds for heap sort. Overall, it presses students to connect algorithmic paradigms, data‑structure choices, and asymptotic reasoning across a spectrum of classic problems.
 
-- [Algorithms and Data Structures – Part 4](https://www.flexiquiz.com/SC/N/Algdat4)  
-  This fourth installment drills deep into asymptotic reasoning: you extend the classic crossing argument to derive an Ω(n²) lower bound for insertion sort when the α n largest keys start up front, figure out the α that maximizes crossings, and refine the necessary constraints on α. You then prove and debunk common Big‑O claims—why max{f,g}=Θ(f+g), why “at least O(n²)” is meaningless, and why no function can lie in both o(g) and ω(g). Quick‑fire questions test your ability to manipulate α‑weighted sums, spot when factorials of logarithms outgrow polynomials, and solve k log k = Θ(n). The quiz finishes with a flurry of Master‑Theorem puzzles: parsing parameters, selecting the right case, and tying a generic divide‑and‑conquer template back to Merge Sort. Together the problems weave concrete algorithm examples with rigorous asymptotic definitions, sharpening both proof technique and recurrence‑cracking speed.
+|                                        |                                        |
+|----------------------------------------|----------------------------------------|
+| Greedy-choice property                 | When greedy algorithms work            |
+| Data structure trade-offs              | Selection sort with BST                |
+| Heaps vs binary vs splay trees         | Naïve recursion vs memoization         |
+| Dynamic programming speed-up           | Structural properties for DP           |
+| Classic vs randomized algorithms       | Quicksort vs Randomized Quicksort      |
+| Select vs Randomized Select            | Select in Quicksort                    |
+| Insertion/merge/quick/heap sort        | Sort behavior comparisons              |
+| NP and NP-complete classes             | Verification vs solution difficulty    |
+| Prim vs Kruskal                        | Ford-Fulkerson max-flow                |
+| Max-flow and capacity size             | Master Theorem revisited               |
+| Heap sort best/avg/worst cases         | Algorithm paradigms and asymptotics    |
 
-- [Algorithms and Data Structures – Part 5](https://www.flexiquiz.com/SC/N/Algdat5)  
-The Quiz 5 sequence surveys foundational concepts and techniques in algorithm analysis and sorting, including: comparing growth rates with Big-O, Θ and o notation; ranking common complexity classes from constant through super-exponential; identifying valid asymptotic relationships; combining Θ, O and Ω bounds into tight characterizations; recognizing which algorithms use divide-and-conquer; naming and understanding binary search; merge-sort’s divide-and-merge pattern; quick-sort’s partitioning routine; counting sort and its stable, key-counting approach; radix sort’s digit-by-digit bucket processing; bucket sort’s uniform-distribution strategy; bubble sort’s simple compare-and-swap loops; filling out best, average and worst-case tables for comparison-based sorts; pinpointing pivot choices that trigger worst-case Θ(n²) versus randomized or median-of-medians guarantees of Θ(n log n); understanding the practical benefit of median-of-three pivots and how pivot choice affects stability; selecting strategies that ensure good or bad partitions; and, finally, describing the left-child/right-sibling tree representation for arbitrary-arity rooted trees.
+---
 
-- [Algorithms and Data Structures – Part 6](https://www.flexiquiz.com/SC/N/Algdat6)  
-The quiz covers a range of core topics in algorithms and data structures, including: the extra information needed to turn a free tree into a rooted tree; the height of a complete binary tree; indexing children in a binary heap; the max-heap invariant and the running times of BUILD-MAX-HEAP and MAX-HEAPIFY; why a heap cannot satisfy the BST property; the expected height of a random BST versus data structures that guarantee logarithmic height; the cost of removing the maximum or retrieving the top-k elements from a heap; the left-child/right-sibling representation and its pointer overhead; conditions for achieving amortized O(1) updates and queries in bucket arrays; the time to print a BST in sorted order; why unbalanced BST operations can degrade to Θ(n) while heap operations remain Θ(log n); distinguishing the heap property from the heap invariant; the effect of one iteration of Heapsort on a given array; the trade-offs between building a heap via repeated inserts versus BUILD-HEAP in Prim’s algorithm; the fundamental difference between BST and heap ordering; definitions and algorithms for finding spanning trees; the pros and cons of replacing the selection-sort scan with a BST (tree-sort) versus using a heap (Heapsort); the relationship between repeated algorithmic steps, problem decomposition, design paradigms, induction proofs, and hardness reductions; and finally, the mechanics of performing HEAP-EXTRACT-MAX on an (invalid) heap array.
+
+
+### > Algorithms and Data Structures – Part 4  
+*Draws from Lecture 1 (asymptotic notation), and Lecture 3 (divide and conquer with recurrence analysis).*
+
+Quiz: [Algorithms and Data Structures – Part 4](https://www.flexiquiz.com/SC/N/Algdat4) 
+
+|                                       |                                         |
+|---------------------------------------|-----------------------------------------|
+| Ω(n²) bound for insertion sort        | Optimal α for maximum crossings         |
+| Refined α constraints                 | Debunking Big-O claims                  |
+| max{f,g} = Θ(f+g)                     | "At least O(n²)" critique               |
+| o(g) and ω(g) contradiction           | α-weighted sum manipulation             |
+| Factorial vs polynomial growth        | Solving k log k = Θ(n)                  |
+| Master Theorem cases                  | Merge Sort recurrence matching          |
+
+---
+
+
+
+### > Algorithms and Data Structures – Part 5  
+*Focuses on Lecture 3 (comparison-based sorting and partitioning) and Lecture 4 (linear-time sorting strategies and complexity).*
+
+Quiz: [Algorithms and Data Structures – Part 5](https://www.flexiquiz.com/SC/N/Algdat5)  
+
+|                                  |                                    |
+|----------------------------------|------------------------------------|
+| Big-O, Θ, o comparison           | Complexity class ranking           |
+| Asymptotic relationships         | Tight bound combinations           |
+| Divide-and-conquer algorithms    | Binary search                      |
+| Merge sort                       | Quick sort                         |
+| Counting sort                    | Radix sort                         |
+| Bucket sort                      | Bubble sort                        |
+| Sort case analysis               | Worst-case pivot choices           |
+| Randomized vs median-of-medians  | Pivot strategy and stability       |
+| Partition strategies             | Left-child/right-sibling trees     |
+
+---
+
+
+
+### > Algorithms and Data Structures – Part 6  
+*Reflects Lecture 2 (heap and tree structures), Lecture 4 (sorting performance), Lecture 5 (rooted trees), and Lecture 9 (spanning trees).*
+
+Quiz: [Algorithms and Data Structures – Part 6](https://www.flexiquiz.com/SC/N/Algdat6)  
+
+|                                          |                                          |
+|------------------------------------------|------------------------------------------|
+| Free tree to rooted tree                 | Height of complete binary tree           |
+| Binary heap child indexing               | Max-heap invariant                       |
+| BUILD-MAX-HEAP running time              | MAX-HEAPIFY running time                 |
+| Heap vs BST property                     | Expected height of random BST            |
+| Logarithmic height data structures       | Maximum removal cost in heap             |
+| Top-k retrieval from heap                | Left-child/right-sibling representation  |
+| Pointer overhead                         | Amortized O(1) in bucket arrays          |
+| BST sorted order printing                | Θ(n) unbalanced BST operations           |
+| Θ(log n) heap operations                 | Heap property vs heap invariant          |
+| Heapsort iteration effect                | BUILD-HEAP vs repeated inserts           |
+| BST ordering vs heap ordering            | Spanning tree definitions                |
+| Tree-sort vs Heapsort                    | Repeated steps and decomposition         |
+| Design paradigms and induction proofs    | Hardness reductions                      |
+| HEAP-EXTRACT-MAX mechanics               |                                          |
+
+---
+
+
+
+### > Algorithms and Data Structures – Part 7  
+*Dedicated to Lecture 6 (principles and applications of dynamic programming).*
+
+Quiz: [Algorithms and Data Structures – Part 7](https://www.flexiquiz.com/SC/N/Algdat7)  
+
+|                                                  |                                                         |
+|--------------------------------------------------|---------------------------------------------------------|
+| Divide-and-conquer                               | Required properties for dynamic programming             |
+| Optimal substructure                             | Overlapping subproblems                                 |
+| Design steps of a dynamic programming algorithm  | Subproblem graph: nodes and edges                       |
+| Time complexity of dynamic programming           | Rod-cutting problem: number of ways to cut              |
+| Running time of naive recursive Cut-Rod          | Time complexity of memoized Cut-Rod                     |
+| Array r[j] in Bottom-Up-Cut-Rod                  | Reconstruction array in Extended Bottom-Up-Cut-Rod      |
+
+Relevant to Lecture 6 – Dynamic Programming.
+
+---
 
 
 **TDT4120 - Resources:**
