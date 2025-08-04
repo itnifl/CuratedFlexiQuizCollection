@@ -133,8 +133,8 @@ A deep dive into common web vulnerabilities and how to prevent them.
 TDT4120 - “Algorithms and Data Structures” is a 7.5‑ECTS intermediate course at NTNU that runs every autumn and equips students to design, analyse and implement efficient algorithms. Lectures and compulsory exercises take you from asymptotic efficiency analysis and divide‑and‑conquer recursion through classic ordering, searching, sorting and hashing techniques, on to dynamic‑programming and greedy paradigms, advanced graph structures, shortest‑path, matching, spanning‑tree and maximum‑flow algorithms, and the fundamentals of complexity theory. By the end, you’re expected to recognise a broad repertoire of established algorithms, evaluate their time‑ and space‑costs, and craft new solutions when none exist—competence that underpins later AI, cyber‑security and systems courses. Instruction is Norwegian‑language, the set text is Introduction to Algorithms (CLRS 4ᵗʰ ed.), and assessment is a four‑hour written school exam.
 
 ### > Algorithms and Data Structures – Part 1  
----
-*Covers topics from Lecture 1 (problem modeling and complexity), Lecture 2 (loop invariants and sorting), Lecture 3 (divide and conquer), Lecture 10 (shortest paths), and Lecture 13 (NP-completeness).*
+---  
+*Covers topics from [Lecture 1 – Problems and Algorithms](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of1), [Lecture 2 – Data Structures](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of2), [Lecture 3 – Divide and Conquer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of3), [Lecture 10 – Single-Source Shortest Path](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of10), and [Lecture 13 – NP-Completeness](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of13).*
 
 Quiz: [Algorithms and Data Structures – Part 1](https://www.flexiquiz.com/SC/N/Algdat1)  
 
@@ -151,13 +151,11 @@ Quiz: [Algorithms and Data Structures – Part 1](https://www.flexiquiz.com/SC/N
 
 ---
 
-
-
 ### > Algorithms and Data Structures – Part 2  
+---  
+*Links concepts from [Lecture 1](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of1), [Lecture 3](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of3), [Lecture 4](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of4), [Lecture 7](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of7), [Lecture 9](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of9), [Lecture 10](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of10), [Lecture 12](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of12), and [Lecture 13](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of13).*
 
-*Links concepts from Lecture 1 (asymptotics), Lecture 3 (divide and conquer), Lecture 4 (non-comparison-based sorting), Lecture 7 (greedy algorithms), Lecture 9–10 (MST and shortest paths), Lecture 12 (max flow), and Lecture 13 (NP-hardness).*
-
-Quiz: [Algorithms and Data Structures – Part 2](https://www.flexiquiz.com/SC/N/Algdat2) 
+Quiz: [Algorithms and Data Structures – Part 2](https://www.flexiquiz.com/SC/N/Algdat2)  
 
 |                                       |                                        |
 |---------------------------------------|----------------------------------------|
@@ -172,13 +170,11 @@ Quiz: [Algorithms and Data Structures – Part 2](https://www.flexiquiz.com/SC/N
 
 ---
 
-
-
 ### > Algorithms and Data Structures – Part 3  
-*Connects to Lecture 2 (data structures), Lecture 3 (recursive strategies), Lecture 6 (dynamic programming), Lecture 7 (greedy methods), Lecture 9–10 (graph algorithms), Lecture 12 (network flow), and Lecture 13 (complexity theory).*
+---  
+*Connects to [Lecture 2](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of2), [Lecture 3](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of3), [Lecture 6](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of6), [Lecture 7](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of7), [Lecture 9](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of9), [Lecture 10](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of10), [Lecture 12](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of12), and [Lecture 13](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of13).*
 
-
-- [Algorithms and Data Structures – Part 3](https://www.flexiquiz.com/SC/N/Algdat3)  
+Quiz: [Algorithms and Data Structures – Part 3](https://www.flexiquiz.com/SC/N/Algdat3)  
 
 |                                        |                                        |
 |----------------------------------------|----------------------------------------|
@@ -196,12 +192,11 @@ Quiz: [Algorithms and Data Structures – Part 2](https://www.flexiquiz.com/SC/N
 
 ---
 
-
-
 ### > Algorithms and Data Structures – Part 4  
-*Draws from Lecture 1 (asymptotic notation), and Lecture 3 (divide and conquer with recurrence analysis).*
+---  
+*Draws from [Lecture 1](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of1) and [Lecture 3](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of3).*
 
-Quiz: [Algorithms and Data Structures – Part 4](https://www.flexiquiz.com/SC/N/Algdat4) 
+Quiz: [Algorithms and Data Structures – Part 4](https://www.flexiquiz.com/SC/N/Algdat4)  
 
 |                                       |                                         |
 |---------------------------------------|-----------------------------------------|
@@ -214,10 +209,9 @@ Quiz: [Algorithms and Data Structures – Part 4](https://www.flexiquiz.com/SC/N
 
 ---
 
-
-
 ### > Algorithms and Data Structures – Part 5  
-*Focuses on Lecture 3 (comparison-based sorting and partitioning) and Lecture 4 (linear-time sorting strategies and complexity).*
+---  
+*Focuses on [Lecture 3](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of3) and [Lecture 4](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of4).*
 
 Quiz: [Algorithms and Data Structures – Part 5](https://www.flexiquiz.com/SC/N/Algdat5)  
 
@@ -235,10 +229,9 @@ Quiz: [Algorithms and Data Structures – Part 5](https://www.flexiquiz.com/SC/N
 
 ---
 
-
-
 ### > Algorithms and Data Structures – Part 6  
-*Reflects Lecture 2 (heap and tree structures), Lecture 4 (sorting performance), Lecture 5 (rooted trees), and Lecture 9 (spanning trees).*
+---  
+*Reflects [Lecture 2](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of2), [Lecture 4](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of4), [Lecture 5](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of5), and [Lecture 9](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of9).*
 
 Quiz: [Algorithms and Data Structures – Part 6](https://www.flexiquiz.com/SC/N/Algdat6)  
 
@@ -261,10 +254,9 @@ Quiz: [Algorithms and Data Structures – Part 6](https://www.flexiquiz.com/SC/N
 
 ---
 
-
-
 ### > Algorithms and Data Structures – Part 7  
-*Dedicated to Lecture 6 (principles and applications of dynamic programming).*
+---  
+*Dedicated to [Lecture 6 – Dynamic Programming](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of6).*
 
 Quiz: [Algorithms and Data Structures – Part 7](https://www.flexiquiz.com/SC/N/Algdat7)  
 
@@ -276,8 +268,6 @@ Quiz: [Algorithms and Data Structures – Part 7](https://www.flexiquiz.com/SC/N
 | Time complexity of dynamic programming           | Rod-cutting problem: number of ways to cut              |
 | Running time of naive recursive Cut-Rod          | Time complexity of memoized Cut-Rod                     |
 | Array r[j] in Bottom-Up-Cut-Rod                  | Reconstruction array in Extended Bottom-Up-Cut-Rod      |
-
-Relevant to Lecture 6 – Dynamic Programming.
 
 ---
 
