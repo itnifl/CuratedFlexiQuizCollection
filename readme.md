@@ -114,17 +114,66 @@ A comprehensive series covering secure development practices and application-lev
 
 A deep dive into common web vulnerabilities and how to prevent them.
 
-- [Web Security – Part 1](https://www.flexiquiz.com/SC/N/WebSecPart1)  
-  Explains fundamentals of HTTP security, cookies, and sessions.
+### > Web Security – Part 1
+---  
+- Quiz: [Web Security – Part 1](https://www.flexiquiz.com/SC/N/WebSecPart1)  
 
-- [Web Security – Part 2](https://www.flexiquiz.com/SC/N/WebSecPart2)  
-  Focus on XSS (Cross-site Scripting) and injection attacks.
+|                                              |                                                     |
+|----------------------------------------------|-----------------------------------------------------|
+| Session hijacking techniques                 | Man-in-the-Middle (MITM) attack                     |
+| Cross-Site Request Forgery (CSRF)            | Cross-Site Scripting (XSS)                          |
+| XSS protection for session hijacking         | CSRF protection for session hijacking               |
+| CORS overview                                | CORS misconfiguration vulnerabilities               |
+| Server injection attack types                | SQL injection defense via parameterization          |
 
-- [Web Security – Part 3](https://www.flexiquiz.com/SC/N/WebSecPart3)  
-  Covers CSRF (Cross-site Request Forgery), CORS, and authentication flaws.
 
-- [Web Security – Part 4](https://www.flexiquiz.com/SC/N/WebSecPart4)  
-  Explores secure headers, TLS, and firewalls.
+### > Web Security – Part 2
+---  
+- Quiz: [Web Security – Part 2](https://www.flexiquiz.com/SC/N/WebSecPart2)  
+
+|                                      |                                                     |
+|--------------------------------------|-----------------------------------------------------|
+| File upload attacks                  | XSS mitigation techniques                           |
+| Real-world CSRF example (Twitter)    | CSRF mitigation strategies                          |
+| Session cookie protection methods    | Web server information leakage prevention           |
+| Risks of not using HTTPS             | Clickjacking prevention                             |
+| Email fraud prevention               | Cookie protection rationale                         |
+
+
+### > Web Security – Part 3
+---  
+- Quiz: [Web Security – Part 3](https://www.flexiquiz.com/SC/N/WebSecPart3)  
+
+|                                                  |                                                      |
+|--------------------------------------------------|------------------------------------------------------|
+| HTTP vs cookie-based authentication              | XSS, CSRF, and XSSI differences                      |
+| Stored XSS vs Reflected XSS                      | CSRF and Referer header limitations                  |
+| Action tokens in CSRF protection                 | Token and cookie combination defense                 |
+| XSS prevention methods                           | HTTP header vulnerability rationale                  |
+| HTTP header injection examples                   | Content-Type sniffing and XSS risks                  |
+| Reducing XSS impact                              | Recommended XSS mitigation practices                 |
+
+
+### > Web Security – Part 4
+---  
+- Quiz: [Web Security – Part 4](https://www.flexiquiz.com/SC/N/WebSecPart4)  
+ 
+|                                   |                                     |
+|-----------------------------------|-------------------------------------|
+| Web security best practices       | STRIDE threat model                 |
+| Environmental creep               | Access control models               |
+| Bell-LaPadula principles          | Bell-LaPadula rules                 |
+| SAML SSO components               | SAML use cases                      |
+| Stack overflow causes             | Call stack behavior                 |
+| Memory overflow types             | Memory safety across languages      |
+| Unsafe defaults in C/C++          | Safe defaults in C#                 |
+| Website copier tools              | HTTrack and VisualWget usage        |
+| Web debugging proxies             | Firefox Dev Tools and Fiddler       |
+| Security toolkits                 | Burp Suite, OWASP ZAP, Kali Linux   |
+| Google Dorking operators          | SSRF attack scenarios               |
+| Rainbow table protection          | Security by Design – goal           |
+| Least privilege principle         | Threat modeling importance          |
+
 
 ---
 
