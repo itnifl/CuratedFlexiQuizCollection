@@ -103,10 +103,32 @@ A comprehensive series covering secure development practices and application-lev
   Explores access control, privilege escalation, and logging.
 
 - [Software Security – Part 4](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart4)  
-  Focuses on secure SDLC, code reviews, and static/dynamic security testing.
+  
+  |                                                  |                                                       |
+  |--------------------------------------------------|-------------------------------------------------------|
+  | GDPR L-F-D-A-S-I-A fields                        | Business goals and business assets                    |
+  | Business risks and risk dimensions               | Misuse case diagram and threat agent ranking          |
+  | Attack tree for QR code misuse                   | Technical risks linked to business risks              |
+  | Security requirements for technical risks        | GDPR violation discussion in crisis contexts          |
+  | Machine learning use and misuse in identity      | GDPR principles (Art. 5)                              |
+  | GDPR key points and legal bases                  | GDPR breach notification requirements                 |
 
-- [Software Security - Part 5](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart5) \
-  Focuses on threat modeling, security models, and general cybersecurity.
+
+- [Software Security - Part 5](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart5) 
+
+  |                                       |                                                     |
+  |---------------------------------------|-----------------------------------------------------|
+  | STRIDE threat categories              | Rule-Set-Based Access Control (RSBAC)               |
+  | Organization-Based Access Control     | Lattice-Based Access Control (LBAC)                 |
+  | Graph-Based Access Control (GBAC)     | Context-Based Access Control (CBAC)                 |
+  | Bell-LaPadula model                   | Biba model                                          |
+  | Clark-Wilson model                    | Brewer-Nash (Cinderella) model                      |
+  | Password salting defenses             | Security by Design principles                       |
+  | Bell-LaPadula vs Biba differences     | Bell-LaPadula vs Biba similarities                  |
+  | Secure coding practices               | Security testing and code review                    |
+  | Principle of least privilege          | Patch management strategy                           |
+  | Access control mechanisms             | Common access control models                        |
+
 
 ---
 
@@ -118,61 +140,61 @@ A deep dive into common web vulnerabilities and how to prevent them.
 ---  
 - Quiz: [Web Security – Part 1](https://www.flexiquiz.com/SC/N/WebSecPart1)  
 
-|                                              |                                                     |
-|----------------------------------------------|-----------------------------------------------------|
-| Session hijacking techniques                 | Man-in-the-Middle (MITM) attack                     |
-| Cross-Site Request Forgery (CSRF)            | Cross-Site Scripting (XSS)                          |
-| XSS protection for session hijacking         | CSRF protection for session hijacking               |
-| CORS overview                                | CORS misconfiguration vulnerabilities               |
-| Server injection attack types                | SQL injection defense via parameterization          |
+  |                                              |                                                     |
+  |----------------------------------------------|-----------------------------------------------------|
+  | Session hijacking techniques                 | Man-in-the-Middle (MITM) attack                     |
+  | Cross-Site Request Forgery (CSRF)            | Cross-Site Scripting (XSS)                          |
+  | XSS protection for session hijacking         | CSRF protection for session hijacking               |
+  | CORS overview                                | CORS misconfiguration vulnerabilities               |
+  | Server injection attack types                | SQL injection defense via parameterization          |
 
 
 ### > Web Security – Part 2
 ---  
 - Quiz: [Web Security – Part 2](https://www.flexiquiz.com/SC/N/WebSecPart2)  
 
-|                                      |                                                     |
-|--------------------------------------|-----------------------------------------------------|
-| File upload attacks                  | XSS mitigation techniques                           |
-| Real-world CSRF example (Twitter)    | CSRF mitigation strategies                          |
-| Session cookie protection methods    | Web server information leakage prevention           |
-| Risks of not using HTTPS             | Clickjacking prevention                             |
-| Email fraud prevention               | Cookie protection rationale                         |
+  |                                      |                                                     |
+  |--------------------------------------|-----------------------------------------------------|
+  | File upload attacks                  | XSS mitigation techniques                           |
+  | Real-world CSRF example (Twitter)    | CSRF mitigation strategies                          |
+  | Session cookie protection methods    | Web server information leakage prevention           |
+  | Risks of not using HTTPS             | Clickjacking prevention                             |
+  | Email fraud prevention               | Cookie protection rationale                         |
 
 
 ### > Web Security – Part 3
 ---  
 - Quiz: [Web Security – Part 3](https://www.flexiquiz.com/SC/N/WebSecPart3)  
 
-|                                                  |                                                      |
-|--------------------------------------------------|------------------------------------------------------|
-| HTTP vs cookie-based authentication              | XSS, CSRF, and XSSI differences                      |
-| Stored XSS vs Reflected XSS                      | CSRF and Referer header limitations                  |
-| Action tokens in CSRF protection                 | Token and cookie combination defense                 |
-| XSS prevention methods                           | HTTP header vulnerability rationale                  |
-| HTTP header injection examples                   | Content-Type sniffing and XSS risks                  |
-| Reducing XSS impact                              | Recommended XSS mitigation practices                 |
+  |                                                  |                                                      |
+  |--------------------------------------------------|------------------------------------------------------|
+  | HTTP vs cookie-based authentication              | XSS, CSRF, and XSSI differences                      |
+  | Stored XSS vs Reflected XSS                      | CSRF and Referer header limitations                  |
+  | Action tokens in CSRF protection                 | Token and cookie combination defense                 |
+  | XSS prevention methods                           | HTTP header vulnerability rationale                  |
+  | HTTP header injection examples                   | Content-Type sniffing and XSS risks                  |
+  | Reducing XSS impact                              | Recommended XSS mitigation practices                 |
 
 
 ### > Web Security – Part 4
 ---  
 - Quiz: [Web Security – Part 4](https://www.flexiquiz.com/SC/N/WebSecPart4)  
  
-|                                   |                                     |
-|-----------------------------------|-------------------------------------|
-| Web security best practices       | STRIDE threat model                 |
-| Environmental creep               | Access control models               |
-| Bell-LaPadula principles          | Bell-LaPadula rules                 |
-| SAML SSO components               | SAML use cases                      |
-| Stack overflow causes             | Call stack behavior                 |
-| Memory overflow types             | Memory safety across languages      |
-| Unsafe defaults in C/C++          | Safe defaults in C#                 |
-| Website copier tools              | HTTrack and VisualWget usage        |
-| Web debugging proxies             | Firefox Dev Tools and Fiddler       |
-| Security toolkits                 | Burp Suite, OWASP ZAP, Kali Linux   |
-| Google Dorking operators          | SSRF attack scenarios               |
-| Rainbow table protection          | Security by Design – goal           |
-| Least privilege principle         | Threat modeling importance          |
+  |                                   |                                     |
+  |-----------------------------------|-------------------------------------|
+  | Web security best practices       | STRIDE threat model                 |
+  | Environmental creep               | Access control models               |
+  | Bell-LaPadula principles          | Bell-LaPadula rules                 |
+  | SAML SSO components               | SAML use cases                      |
+  | Stack overflow causes             | Call stack behavior                 |
+  | Memory overflow types             | Memory safety across languages      |
+  | Unsafe defaults in C/C++          | Safe defaults in C#                 |
+  | Website copier tools              | HTTrack and VisualWget usage        |
+  | Web debugging proxies             | Firefox Dev Tools and Fiddler       |
+  | Security toolkits                 | Burp Suite, OWASP ZAP, Kali Linux   |
+  | Google Dorking operators          | SSRF attack scenarios               |
+  | Rainbow table protection          | Security by Design – goal           |
+  | Least privilege principle         | Threat modeling importance          |
 
 
 ---
@@ -187,16 +209,16 @@ TDT4120 - “Algorithms and Data Structures” is a 7.5‑ECTS intermediate co
 
 Quiz: [Algorithms and Data Structures – Part 1](https://www.flexiquiz.com/SC/N/Algdat1)  
 
-|                                        |                                        |
-|----------------------------------------|----------------------------------------|
-| NP-completeness and implications       | Traveling Salesperson problem          |
-| Shortest-path challenges               | Exact vs near-optimal solutions        |
-| Offline vs online algorithms           | Loop invariants in SUM-ARRAY           |
-| Selection sort invariant and bounds    | Linear search cases                    |
-| Best-case sort thought experiment      | Master Theorem fill-in-the-blank       |
-| Θ(n log n) two-sum algorithm           | Ranking growth rates                   |
-| Simplifying asymptotic expressions     | Converting to tight Θ-notation         |
-| First-semester algorithm checklist     | Essential analysis skills              |
+  |                                        |                                        |
+  |----------------------------------------|----------------------------------------|
+  | NP-completeness and implications       | Traveling Salesperson problem          |
+  | Shortest-path challenges               | Exact vs near-optimal solutions        |
+  | Offline vs online algorithms           | Loop invariants in SUM-ARRAY           |
+  | Selection sort invariant and bounds    | Linear search cases                    |
+  | Best-case sort thought experiment      | Master Theorem fill-in-the-blank       |
+  | Θ(n log n) two-sum algorithm           | Ranking growth rates                   |
+  | Simplifying asymptotic expressions     | Converting to tight Θ-notation         |
+  | First-semester algorithm checklist     | Essential analysis skills              |
 
 ---
 
@@ -206,16 +228,16 @@ Quiz: [Algorithms and Data Structures – Part 1](https://www.flexiquiz.com/SC/N
 
 Quiz: [Algorithms and Data Structures – Part 2](https://www.flexiquiz.com/SC/N/Algdat2)  
 
-|                                       |                                        |
-|---------------------------------------|----------------------------------------|
-| Growth rate expressions               | Big-O, Θ, Ω, o, ω symbols              |
-| Classifying formulas                  | Combining asymptotic bounds            |
-| Insertion vs Merge vs Quicksort       | Best/avg/worst-case analysis           |
-| Relax(u, v, w) in Dijkstra            | Bellman-Ford differences               |
-| Kruskal and MST construction          | New-SSSP proposal                      |
-| Greedy-choice property limits         | Pseudopolynomial vs NP-hard            |
-| Ford-Fulkerson and hyperflows         | Pivot choice impact in Quicksort       |
-| Algorithm theory and implementation   | Full algorithm toolbox review          |
+  |                                       |                                        |
+  |---------------------------------------|----------------------------------------|
+  | Growth rate expressions               | Big-O, Θ, Ω, o, ω symbols              |
+  | Classifying formulas                  | Combining asymptotic bounds            |
+  | Insertion vs Merge vs Quicksort       | Best/avg/worst-case analysis           |
+  | Relax(u, v, w) in Dijkstra            | Bellman-Ford differences               |
+  | Kruskal and MST construction          | New-SSSP proposal                      |
+  | Greedy-choice property limits         | Pseudopolynomial vs NP-hard            |
+  | Ford-Fulkerson and hyperflows         | Pivot choice impact in Quicksort       |
+  | Algorithm theory and implementation   | Full algorithm toolbox review          |
 
 ---
 
@@ -225,19 +247,19 @@ Quiz: [Algorithms and Data Structures – Part 2](https://www.flexiquiz.com/SC/N
 
 Quiz: [Algorithms and Data Structures – Part 3](https://www.flexiquiz.com/SC/N/Algdat3)  
 
-|                                        |                                        |
-|----------------------------------------|----------------------------------------|
-| Greedy-choice property                 | When greedy algorithms work            |
-| Data structure trade-offs              | Selection sort with BST                |
-| Heaps vs binary vs splay trees         | Naïve recursion vs memoization         |
-| Dynamic programming speed-up           | Structural properties for DP           |
-| Classic vs randomized algorithms       | Quicksort vs Randomized Quicksort      |
-| Select vs Randomized Select            | Select in Quicksort                    |
-| Insertion/merge/quick/heap sort        | Sort behavior comparisons              |
-| NP and NP-complete classes             | Verification vs solution difficulty    |
-| Prim vs Kruskal                        | Ford-Fulkerson max-flow                |
-| Max-flow and capacity size             | Master Theorem revisited               |
-| Heap sort best/avg/worst cases         | Algorithm paradigms and asymptotics    |
+  |                                        |                                        |
+  |----------------------------------------|----------------------------------------|
+  | Greedy-choice property                 | When greedy algorithms work            |
+  | Data structure trade-offs              | Selection sort with BST                |
+  | Heaps vs binary vs splay trees         | Naïve recursion vs memoization         |
+  | Dynamic programming speed-up           | Structural properties for DP           |
+  | Classic vs randomized algorithms       | Quicksort vs Randomized Quicksort      |
+  | Select vs Randomized Select            | Select in Quicksort                    |
+  | Insertion/merge/quick/heap sort        | Sort behavior comparisons              |
+  | NP and NP-complete classes             | Verification vs solution difficulty    |
+  | Prim vs Kruskal                        | Ford-Fulkerson max-flow                |
+  | Max-flow and capacity size             | Master Theorem revisited               |
+  | Heap sort best/avg/worst cases         | Algorithm paradigms and asymptotics    |
 
 ---
 
@@ -247,14 +269,14 @@ Quiz: [Algorithms and Data Structures – Part 3](https://www.flexiquiz.com/SC/N
 
 Quiz: [Algorithms and Data Structures – Part 4](https://www.flexiquiz.com/SC/N/Algdat4)  
 
-|                                       |                                         |
-|---------------------------------------|-----------------------------------------|
-| Ω(n²) bound for insertion sort        | Optimal α for maximum crossings         |
-| Refined α constraints                 | Debunking Big-O claims                  |
-| max{f,g} = Θ(f+g)                     | "At least O(n²)" critique               |
-| o(g) and ω(g) contradiction           | α-weighted sum manipulation             |
-| Factorial vs polynomial growth        | Solving k log k = Θ(n)                  |
-| Master Theorem cases                  | Merge Sort recurrence matching          |
+  |                                       |                                         |
+  |---------------------------------------|-----------------------------------------|
+  | Ω(n²) bound for insertion sort        | Optimal α for maximum crossings         |
+  | Refined α constraints                 | Debunking Big-O claims                  |
+  | max{f,g} = Θ(f+g)                     | "At least O(n²)" critique               |
+  | o(g) and ω(g) contradiction           | α-weighted sum manipulation             |
+  | Factorial vs polynomial growth        | Solving k log k = Θ(n)                  |
+  | Master Theorem cases                  | Merge Sort recurrence matching          |
 
 ---
 
@@ -264,17 +286,17 @@ Quiz: [Algorithms and Data Structures – Part 4](https://www.flexiquiz.com/SC/N
 
 Quiz: [Algorithms and Data Structures – Part 5](https://www.flexiquiz.com/SC/N/Algdat5)  
 
-|                                  |                                    |
-|----------------------------------|------------------------------------|
-| Big-O, Θ, o comparison           | Complexity class ranking           |
-| Asymptotic relationships         | Tight bound combinations           |
-| Divide-and-conquer algorithms    | Binary search                      |
-| Merge sort                       | Quick sort                         |
-| Counting sort                    | Radix sort                         |
-| Bucket sort                      | Bubble sort                        |
-| Sort case analysis               | Worst-case pivot choices           |
-| Randomized vs median-of-medians  | Pivot strategy and stability       |
-| Partition strategies             | Left-child/right-sibling trees     |
+  |                                  |                                    |
+  |----------------------------------|------------------------------------|
+  | Big-O, Θ, o comparison           | Complexity class ranking           |
+  | Asymptotic relationships         | Tight bound combinations           |
+  | Divide-and-conquer algorithms    | Binary search                      |
+  | Merge sort                       | Quick sort                         |
+  | Counting sort                    | Radix sort                         |
+  | Bucket sort                      | Bubble sort                        |
+  | Sort case analysis               | Worst-case pivot choices           |
+  | Randomized vs median-of-medians  | Pivot strategy and stability       |
+  | Partition strategies             | Left-child/right-sibling trees     |
 
 ---
 
@@ -284,22 +306,22 @@ Quiz: [Algorithms and Data Structures – Part 5](https://www.flexiquiz.com/SC/N
 
 Quiz: [Algorithms and Data Structures – Part 6](https://www.flexiquiz.com/SC/N/Algdat6)  
 
-|                                          |                                          |
-|------------------------------------------|------------------------------------------|
-| Free tree to rooted tree                 | Height of complete binary tree           |
-| Binary heap child indexing               | Max-heap invariant                       |
-| BUILD-MAX-HEAP running time              | MAX-HEAPIFY running time                 |
-| Heap vs BST property                     | Expected height of random BST            |
-| Logarithmic height data structures       | Maximum removal cost in heap             |
-| Top-k retrieval from heap                | Left-child/right-sibling representation  |
-| Pointer overhead                         | Amortized O(1) in bucket arrays          |
-| BST sorted order printing                | Θ(n) unbalanced BST operations           |
-| Θ(log n) heap operations                 | Heap property vs heap invariant          |
-| Heapsort iteration effect                | BUILD-HEAP vs repeated inserts           |
-| BST ordering vs heap ordering            | Spanning tree definitions                |
-| Tree-sort vs Heapsort                    | Repeated steps and decomposition         |
-| Design paradigms and induction proofs    | Hardness reductions                      |
-| HEAP-EXTRACT-MAX mechanics               |                                          |
+  |                                          |                                          |
+  |------------------------------------------|------------------------------------------|
+  | Free tree to rooted tree                 | Height of complete binary tree           |
+  | Binary heap child indexing               | Max-heap invariant                       |
+  | BUILD-MAX-HEAP running time              | MAX-HEAPIFY running time                 |
+  | Heap vs BST property                     | Expected height of random BST            |
+  | Logarithmic height data structures       | Maximum removal cost in heap             |
+  | Top-k retrieval from heap                | Left-child/right-sibling representation  |
+  | Pointer overhead                         | Amortized O(1) in bucket arrays          |
+  | BST sorted order printing                | Θ(n) unbalanced BST operations           |
+  | Θ(log n) heap operations                 | Heap property vs heap invariant          |
+  | Heapsort iteration effect                | BUILD-HEAP vs repeated inserts           |
+  | BST ordering vs heap ordering            | Spanning tree definitions                |
+  | Tree-sort vs Heapsort                    | Repeated steps and decomposition         |
+  | Design paradigms and induction proofs    | Hardness reductions                      |
+  | HEAP-EXTRACT-MAX mechanics               |                                          |
 
 ---
 
@@ -309,14 +331,14 @@ Quiz: [Algorithms and Data Structures – Part 6](https://www.flexiquiz.com/SC/N
 
 Quiz: [Algorithms and Data Structures – Part 7](https://www.flexiquiz.com/SC/N/Algdat7)  
 
-|                                                  |                                                         |
-|--------------------------------------------------|---------------------------------------------------------|
-| Divide-and-conquer                               | Required properties for dynamic programming             |
-| Optimal substructure                             | Overlapping subproblems                                 |
-| Design steps of a dynamic programming algorithm  | Subproblem graph: nodes and edges                       |
-| Time complexity of dynamic programming           | Rod-cutting problem: number of ways to cut              |
-| Running time of naive recursive Cut-Rod          | Time complexity of memoized Cut-Rod                     |
-| Array r[j] in Bottom-Up-Cut-Rod                  | Reconstruction array in Extended Bottom-Up-Cut-Rod      |
+  |                                                  |                                                         |
+  |--------------------------------------------------|---------------------------------------------------------|
+  | Divide-and-conquer                               | Required properties for dynamic programming             |
+  | Optimal substructure                             | Overlapping subproblems                                 |
+  | Design steps of a dynamic programming algorithm  | Subproblem graph: nodes and edges                       |
+  | Time complexity of dynamic programming           | Rod-cutting problem: number of ways to cut              |
+  | Running time of naive recursive Cut-Rod          | Time complexity of memoized Cut-Rod                     |
+  | Array r[j] in Bottom-Up-Cut-Rod                  | Reconstruction array in Extended Bottom-Up-Cut-Rod      |
 
 ---
 
