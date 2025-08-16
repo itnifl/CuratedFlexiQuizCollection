@@ -73,8 +73,12 @@ In other words, every question in this 40-item exam is drawn either from the pub
 ## Software Testing and Quality Series - TDT4242
 
 A series focused on core software testing concepts, methodologies, and best practices.
-
-TDT4242 - “Advanced Software Engineering” is a 7.5‑ECTS spring‑semester course at NTNU that deepens your ability to engineer smart, safety‑critical and otherwise complex software‑intensive systems. Delivered in English, it is organised into four interconnected modules - (1) requirements specification, where you learn to transform stakeholder wishes into precise, high‑quality technical requirements; (2) testing management, which surveys modern test‑planning and test‑automation strategies; (3) code‑quality improvement, covering static analysis, peer review and systematic refactoring; and (4) verification & validation of large‑scale or AI‑assisted systems. Weekly lectures are paired with mandatory exercises and a group project in which you practise requirements engineering, design targeted test suites, and refactor real code bases. By the end you should be able to diagnose requirement flaws, select and apply suitable test and code‑review techniques, and critically assess emerging AI‑supported development tools. The course assumes prior experience in web development and Python/JavaScript (e.g., TDT4140) and is assessed by a four‑hour written school exam (letter grading), with approved coursework as a prerequisite for sitting the exam,
+ 
+**Advanced Software Engineering** focuses on methods for developing reliable and complex software systems, including safety-critical and AI-assisted applications.  
+**Requirements specification** – turning stakeholder needs into precise technical requirements.  
+**Testing management** – planning and automating modern test processes.  
+**Code quality** – using static analysis, peer review, and refactoring.  
+**Verification & validation** – evaluating large-scale and AI-driven systems.  
 
 - [Software Testing and Quality Quiz – Part 1](https://www.flexiquiz.com/SC/N/SoftwareTesting1) - TDT4242
   Covers basic testing terminology, unit testing, and manual testing fundamentals.
@@ -304,7 +308,19 @@ A deep dive into common web vulnerabilities and how to prevent them.
 
 ## Algorithms and Data Structures - TDT4120
 
-TDT4120 - “Algorithms and Data Structures” is a 7.5‑ECTS intermediate course at NTNU that runs every autumn and equips students to design, analyse and implement efficient algorithms. Lectures and compulsory exercises take you from asymptotic efficiency analysis and divide‑and‑conquer recursion through classic ordering, searching, sorting and hashing techniques, on to dynamic‑programming and greedy paradigms, advanced graph structures, shortest‑path, matching, spanning‑tree and maximum‑flow algorithms, and the fundamentals of complexity theory. By the end, you’re expected to recognise a broad repertoire of established algorithms, evaluate their time‑ and space‑costs, and craft new solutions when none exist—competence that underpins later AI, cyber‑security and systems courses. Instruction is Norwegian‑language, the set text is Introduction to Algorithms (CLRS 4ᵗʰ ed.), and assessment is a four‑hour written school exam.
+**Content:**  
+- Efficiency analysis, recursion, divide-and-conquer  
+- Ordering, searching, sorting, hashing  
+- Dynamic programming & greedy methods  
+- Graph algorithms: shortest path, matching, spanning tree, max flow  
+- Basics of complexity theory  
+
+**Learning outcome:**  
+- Recognise and apply a wide range of algorithms  
+- Analyse time/space costs  
+- Design new solutions when needed  
+- Foundation for later AI, cyber-security, and systems courses
+
 
 ### > Algorithms and Data Structures – Part 1 - TDT4120
 ---  
