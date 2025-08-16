@@ -8,7 +8,6 @@ Each quiz has been crafted to balance core theory with real-world application an
 
 ## CPU-X and the human centered design process - TDT4180 ##
 
-- [CPUX-F - Test 1](https://www.flexiquiz.com/Create/Edit/931d8306-10b2-424d-a52c-39c54c63d07f)
 This quiz maps exactly to the CPUX-F (Foundation) / UXQB-F syllabus, covering all Foundation-level learning objectives:
 
 *Fundamentals & Human-Centred Design*
@@ -37,6 +36,38 @@ uxqb.org
 
 In other words, every question in this 40-item exam is drawn either from the public CPUX-F question set or directly from the official CPUX-F Curriculum & Glossary document, exactly as prescribed for TDT4180’s UXQB-F/CPUX-F module.
 
+- [CPUX-F - Test 1](https://www.flexiquiz.com/SC/N/0a89b1d7-bdb1-4902-8909-ea31252500bb) - TDT4180
+
+  |                               |                                   |
+  |-------------------------------|-----------------------------------|
+  | Human-centred design process  | ISO 9241-210 activities           |
+  | Context of use                | Users, tasks, environments        |
+  | Personas                      | Scenarios & user journey maps     |
+  | User needs                    | User requirements (qual & quant)  |
+  | Information architecture      | Navigation structure              |
+  | Prototypes                    | Storyboards & design patterns     |
+  | Dialogue principles           | Mental models & guidelines        |
+  | Usability evaluation methods  | Tests, inspections, surveys       |
+  | UX vs. Usability              | Satisfaction & experience factors |
+  | Stakeholders                  | User groups & roles               |
+
+
+- [CPUX-F - Test 2](https://www.flexiquiz.com/SC/N/6984fb3e-074c-47dd-8e7c-262bb2d584b1) - TDT4180
+
+  |                              |                             |
+  |------------------------------|-----------------------------|
+  | Personas                     | Scenarios                   |
+  | Human-centred requirements   | Usability measures          |
+  | UX professional roles        | Design responsibilities     |
+  | Usability test planning      | Test objectives             |
+  | Context of use               | User requirements           |
+  | Usability evaluation methods | Inspections & surveys       |
+  | Human-centred design process | Activity order              |
+  | Usability vs. User Experience| Satisfaction & principles   |
+  | Storyboards                  | Master-apprentice principle |
+  | Error tolerance              | Dialogue principles         |
+
+
 ---
 
 ## Software Testing and Quality Series - TDT4242
@@ -45,29 +76,39 @@ A series focused on core software testing concepts, methodologies, and best prac
 
 TDT4242 - “Advanced Software Engineering” is a 7.5‑ECTS spring‑semester course at NTNU that deepens your ability to engineer smart, safety‑critical and otherwise complex software‑intensive systems. Delivered in English, it is organised into four interconnected modules - (1) requirements specification, where you learn to transform stakeholder wishes into precise, high‑quality technical requirements; (2) testing management, which surveys modern test‑planning and test‑automation strategies; (3) code‑quality improvement, covering static analysis, peer review and systematic refactoring; and (4) verification & validation of large‑scale or AI‑assisted systems. Weekly lectures are paired with mandatory exercises and a group project in which you practise requirements engineering, design targeted test suites, and refactor real code bases. By the end you should be able to diagnose requirement flaws, select and apply suitable test and code‑review techniques, and critically assess emerging AI‑supported development tools. The course assumes prior experience in web development and Python/JavaScript (e.g., TDT4140) and is assessed by a four‑hour written school exam (letter grading), with approved coursework as a prerequisite for sitting the exam,
 
-- [Software Testing and Quality Quiz – Part 1](https://www.flexiquiz.com/SC/N/SoftwareTesting1)  
+- [Software Testing and Quality Quiz – Part 1](https://www.flexiquiz.com/SC/N/SoftwareTesting1) - TDT4242
   Covers basic testing terminology, unit testing, and manual testing fundamentals.
 
-- [Software Testing and Quality Quiz – Part 2](https://www.flexiquiz.com/SC/N/SoftwareTesting2)  
+- [Software Testing and Quality Quiz – Part 2](https://www.flexiquiz.com/SC/N/SoftwareTesting2) - TDT4242
   Explores automated testing, integration testing, and test strategies.
 
-- [Software Testing and Quality Quiz – Part 3](https://www.flexiquiz.com/SC/N/SoftwareTesting3)  
+- [Software Testing and Quality Quiz – Part 3](https://www.flexiquiz.com/SC/N/SoftwareTesting3) - TDT4242
   Delves into testing methodologies.
 
-- [Software Testing and Quality Quiz – Part 4](https://www.flexiquiz.com/SC/N/SoftwareTesting4)  
+- [Software Testing and Quality Quiz – Part 4](https://www.flexiquiz.com/SC/N/SoftwareTesting4) - TDT4242
   Examines advanced topics like performance testing and test coverage metrics.
 
-- [Software Testing and Quality Quiz – Part 5](https://www.flexiquiz.com/SC/N/SoftwareTesting5) \
+- [Software Testing and Quality Quiz – Part 5](https://www.flexiquiz.com/SC/N/SoftwareTesting5) - TDT4242
   Explores requirements engineering and test setup.
 
-- [Software Testing and Quality Quiz – Part 6](https://www.flexiquiz.com/SC/N/SoftwareTesting6) \
+- [Software Testing and Quality Quiz – Part 6](https://www.flexiquiz.com/SC/N/SoftwareTesting6) - TDT4242
   Explores code smells, DU-coverage and Devops.
 
-- [Software Testing and Quality Quiz – Part 7](https://www.flexiquiz.com/SC/N/SoftwareTesting7) \
+- [Software Testing and Quality Quiz – Part 7](https://www.flexiquiz.com/SC/N/SoftwareTesting7) - TDT4242
   Explores domain testing, code smells, sustainability, all-pair combinatorial tests, and Devops terms
 
-- [Software Testing and Quality Quiz - Part 8](https://www.flexiquiz.com/SC/N/SoftwareTesting8) \
-  Explores code refactoring, testing concepts, requirements quality, requirements classification, sustainable software requirements, branch and statement coverage.
+- [Software Testing and Quality Quiz - Part 8](https://www.flexiquiz.com/SC/N/SoftwareTesting8) - TDT4242
+
+  |                       |                      |
+  |-----------------------|----------------------|
+  | Refactoring           | Testing techniques   |
+  | Test levels           | Quality attributes   |
+  | Non-functional reqs   | Sustainability       |
+  | Safety                | Test cases           |
+  | Requirements quality  | Traceability         |
+  | Coverage              | Random testing       |
+  | Statement vs branch   | Adaptive testing     |
+
 
 ---
 
@@ -76,7 +117,20 @@ TDT4242 - “Advanced Software Engineering” is a 7.5‑ECTS spring‑semester 
 A foundational Java quiz for programmers looking to evaluate their language knowledge.
 
 - [Java Programming Exam](https://www.flexiquiz.com/SC/N/JavaExam1)  
-  Tests key concepts such as OOP principles, control structures, collections, and exception handling.
+
+  |                        |                       |
+  |------------------------|-----------------------|
+  | Lambda expressions     | Collections           |
+  | Primitive types        | Default values        |
+  | Delegation             | Observer pattern      |
+  | Inheritance            | Polymorphism          |
+  | Design patterns        | Strategy & Factory    |
+  | Streams & Matching     | Functional interfaces |
+  | Encapsulation          | Object structure      |
+  | Interfaces             | Abstract classes      |
+  | Access modifiers       | Visibility            |
+  | Method overloading     | Method overriding     |
+
 
 ---
 
@@ -85,7 +139,18 @@ A foundational Java quiz for programmers looking to evaluate their language know
 A concise introduction to the world of secure communications and encryption techniques.
 
 - [Cryptography Basics Quiz](https://www.flexiquiz.com/SC/N/Cryptography1)  
-  Includes questions on symmetric/asymmetric encryption, hashing, and digital signatures.
+  
+  |                            |                           |
+  |----------------------------|---------------------------|
+  | Block ciphers              | Rounds in ciphers         |
+  | HMAC                       | Message authentication    |
+  | Elliptic Curve Cryptography| Public-key efficiency     |
+  | Certification Authorities  | Trust models              |
+  | Public keys                | Private keys              |
+  | Authentication             | Encryption                |
+  | Security models            | Cryptographic evaluation  |
+  | Cryptographic techniques   | Data protection           |
+
 
 ---
 
@@ -93,16 +158,54 @@ A concise introduction to the world of secure communications and encryption tech
 
 A comprehensive series covering secure development practices and application-level security.
 
-- [Software Security – Part 1](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart1)  
-  Intro to secure coding principles and threat modeling.
+- [Software Security – Part 1](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart1) - TDT4237
+  
+  |                                                |                                                          |
+  |------------------------------------------------|----------------------------------------------------------|
+  | Recommended secure coding practices            | Symmetric encryption use in secure transmission          |
+  | Asymmetric encryption (public/private keys)    | CVE vs CVSS purposes                                     |
+  | Good security requirements                     | CIA Triad (Confidentiality, Integrity, Availability)     |
+  | ROI of countermeasures after a data breach     | Defenses against session hijacking                       |
+  | Buffer overflow defenses                       | Symmetric vs asymmetric encryption disadvantages         |
+  | Django password validator implementation       | Weaknesses of password authentication & improvements     |
+  | Psychological factors in social engineering    | Malicious AI attacks on recognition systems              |
+  | Salt & pepper in cryptography (hashing)        | Conditions when salt fails                               |
 
-- [Software Security – Part 2](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart2)  
-  Covers input validation, authentication mechanisms, and secure session handling.
+- [Software Security – Part 2](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart2) - TDT4237
 
-- [Software Security – Part 3](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart3)  
-  Explores access control, privilege escalation, and logging.
+  |                                                  |                                                        |
+  |--------------------------------------------------|--------------------------------------------------------|
+  | Buffer overflow in C code                        | Secure coding practices (captchas, defenses)           |
+  | Command injection attack                         | False cryptography statements                          |
+  | Key generation best practices                    | Threat agent characteristics                           |
+  | String concatenation vulnerability               | XML external entity (XXE) risk                         |
+  | Storing passwords securely (hashing, salting)    | Other sensitive data exposure vulnerabilities          |
+  | CVSS scoring metrics (Heartbleed case)           | Token exploitation and protection                      |
+  | Insecure logging configuration                   | Secure logging and monitoring                          |
+  | One-Time Pad encryption & properties             | OTP key reuse vulnerabilities                          |
+  | Biba vs Bell-LaPadula models                     | Penetration testing and applications                   |
+  | PoisingGPT attack steps                          | DevOps software deployment attack steps                |
+  | Risk analysis threat dimensions                  | Zero-day exploit description                           |
 
-- [Software Security – Part 4](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart4)  
+
+- [Software Security – Part 3](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart3) - TDT4237
+
+  |                                                 |                                                    |
+  |-------------------------------------------------|----------------------------------------------------|
+  | SQL injection vulnerability in Django code      | Secure coding fix for raw SQL                      |
+  | Recommended secure practices                    | CIA triad violation                                |
+  | Password policy exceptions                      | Sensitive information exposure vulnerabilities     |
+  | Vulnerability prioritization (CVSS scoring)     | Common Vulnerability Scoring System (CVSS)         |
+  | Common Vulnerabilities and Exposures (CVE)      | Importance of updating NuGet packages              |
+  | Insecure web parameters (URL issues)            | CVE vs CVSS purposes                               |
+  | Asymmetric key usage                            | Backdoors in software                              |
+  | Countermeasure cost vs asset value              | Phishing/email scam defense                        |
+  | Taboo traps in machine learning                 | Lawful consent under GDPR                          |
+  | Logic bomb attack                               | Unicode sabotage in translation systems            |
+  | Password policy enforcement in Django           | Secure logging and monitoring configuration        |
+
+
+- [Software Security – Part 4](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart4) - TDT4237
   
   |                                                  |                                                       |
   |--------------------------------------------------|-------------------------------------------------------|
@@ -114,7 +217,7 @@ A comprehensive series covering secure development practices and application-lev
   | GDPR key points and legal bases                  | GDPR breach notification requirements                 |
 
 
-- [Software Security - Part 5](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart5) 
+- [Software Security - Part 5](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart5) - TDT4237
 
   |                                       |                                                     |
   |---------------------------------------|-----------------------------------------------------|
@@ -138,7 +241,7 @@ A deep dive into common web vulnerabilities and how to prevent them.
 
 ### > Web Security – Part 1
 ---  
-- Quiz: [Web Security – Part 1](https://www.flexiquiz.com/SC/N/WebSecPart1)  
+- Quiz: [Web Security – Part 1](https://www.flexiquiz.com/SC/N/WebSecPart1) - TDT4237
 
   |                                              |                                                     |
   |----------------------------------------------|-----------------------------------------------------|
@@ -151,7 +254,7 @@ A deep dive into common web vulnerabilities and how to prevent them.
 
 ### > Web Security – Part 2
 ---  
-- Quiz: [Web Security – Part 2](https://www.flexiquiz.com/SC/N/WebSecPart2)  
+- Quiz: [Web Security – Part 2](https://www.flexiquiz.com/SC/N/WebSecPart2) - TDT4237
 
   |                                      |                                                     |
   |--------------------------------------|-----------------------------------------------------|
@@ -164,7 +267,7 @@ A deep dive into common web vulnerabilities and how to prevent them.
 
 ### > Web Security – Part 3
 ---  
-- Quiz: [Web Security – Part 3](https://www.flexiquiz.com/SC/N/WebSecPart3)  
+- Quiz: [Web Security – Part 3](https://www.flexiquiz.com/SC/N/WebSecPart3) - TDT4237
 
   |                                                  |                                                      |
   |--------------------------------------------------|------------------------------------------------------|
@@ -178,7 +281,7 @@ A deep dive into common web vulnerabilities and how to prevent them.
 
 ### > Web Security – Part 4
 ---  
-- Quiz: [Web Security – Part 4](https://www.flexiquiz.com/SC/N/WebSecPart4)  
+- Quiz: [Web Security – Part 4](https://www.flexiquiz.com/SC/N/WebSecPart4) - TDT4237
  
   |                                   |                                     |
   |-----------------------------------|-------------------------------------|
@@ -203,7 +306,7 @@ A deep dive into common web vulnerabilities and how to prevent them.
 
 TDT4120 - “Algorithms and Data Structures” is a 7.5‑ECTS intermediate course at NTNU that runs every autumn and equips students to design, analyse and implement efficient algorithms. Lectures and compulsory exercises take you from asymptotic efficiency analysis and divide‑and‑conquer recursion through classic ordering, searching, sorting and hashing techniques, on to dynamic‑programming and greedy paradigms, advanced graph structures, shortest‑path, matching, spanning‑tree and maximum‑flow algorithms, and the fundamentals of complexity theory. By the end, you’re expected to recognise a broad repertoire of established algorithms, evaluate their time‑ and space‑costs, and craft new solutions when none exist—competence that underpins later AI, cyber‑security and systems courses. Instruction is Norwegian‑language, the set text is Introduction to Algorithms (CLRS 4ᵗʰ ed.), and assessment is a four‑hour written school exam.
 
-### > Algorithms and Data Structures – Part 1  
+### > Algorithms and Data Structures – Part 1 - TDT4120
 ---  
 *Covers topics from [Lecture 1 – Problems and Algorithms](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of1), [Lecture 2 – Data Structures](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of2), [Lecture 3 – Divide and Conquer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of3), [Lecture 10 – Single-Source Shortest Path](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of10), and [Lecture 13 – NP-Completeness](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of13).*
 
@@ -222,7 +325,7 @@ Quiz: [Algorithms and Data Structures – Part 1](https://www.flexiquiz.com/SC/N
 
 ---
 
-### > Algorithms and Data Structures – Part 2  
+### > Algorithms and Data Structures – Part 2 - TDT4120
 ---  
 *Links concepts from [Lecture 1](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of1), [Lecture 3](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of3), [Lecture 4](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of4), [Lecture 7](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of7), [Lecture 9](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of9), [Lecture 10](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of10), [Lecture 12](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of12), and [Lecture 13](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of13).*
 
@@ -241,7 +344,7 @@ Quiz: [Algorithms and Data Structures – Part 2](https://www.flexiquiz.com/SC/N
 
 ---
 
-### > Algorithms and Data Structures – Part 3  
+### > Algorithms and Data Structures – Part 3 - TDT4120
 ---  
 *Connects to [Lecture 2](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of2), [Lecture 3](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of3), [Lecture 6](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of6), [Lecture 7](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of7), [Lecture 9](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of9), [Lecture 10](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of10), [Lecture 12](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of12), and [Lecture 13](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of13).*
 
@@ -263,7 +366,7 @@ Quiz: [Algorithms and Data Structures – Part 3](https://www.flexiquiz.com/SC/N
 
 ---
 
-### > Algorithms and Data Structures – Part 4  
+### > Algorithms and Data Structures – Part 4 - TDT4120
 ---  
 *Draws from [Lecture 1](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of1) and [Lecture 3](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of3).*
 
@@ -280,7 +383,7 @@ Quiz: [Algorithms and Data Structures – Part 4](https://www.flexiquiz.com/SC/N
 
 ---
 
-### > Algorithms and Data Structures – Part 5  
+### > Algorithms and Data Structures – Part 5 - TDT4120
 ---  
 *Focuses on [Lecture 3](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of3) and [Lecture 4](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of4).*
 
@@ -300,7 +403,7 @@ Quiz: [Algorithms and Data Structures – Part 5](https://www.flexiquiz.com/SC/N
 
 ---
 
-### > Algorithms and Data Structures – Part 6  
+### > Algorithms and Data Structures – Part 6 - TDT4120
 ---  
 *Reflects [Lecture 2](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of2), [Lecture 4](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of4), [Lecture 5](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of5), and [Lecture 9](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of9).*
 
@@ -325,7 +428,7 @@ Quiz: [Algorithms and Data Structures – Part 6](https://www.flexiquiz.com/SC/N
 
 ---
 
-### > Algorithms and Data Structures – Part 7  
+### > Algorithms and Data Structures – Part 7 - TDT4120
 ---  
 *Dedicated to [Lecture 6 – Dynamic Programming](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of6).*
 
