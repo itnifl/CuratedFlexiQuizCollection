@@ -100,8 +100,22 @@ A series focused on core software testing concepts, methodologies, and best prac
 
 - [Software Testing and Quality Quiz – Part 7](https://www.flexiquiz.com/SC/N/SoftwareTesting7) - TDT4242
   Explores domain testing, code smells, sustainability, all-pair combinatorial tests, and Devops terms
+  |                          |                                     |
+  |--------------------------|-------------------------------------|
+  | DevOps Metrics           | Lead Time, Cycle Time, PCA          |
+  | Combinatorial Testing    | All-pairs test design               |
+  | Code Quality             | Code smells & refactoring           |
+  | Sustainable Applications | Efficiency, scalability, accessibility |
+  | Domain Testing           | Valid vs. invalid domains           |
+  | Equivalence Partitioning | Input classes for test coverage     |
+  | Boundary Value Analysis  | Edge cases of input ranges          |
+  | Interior vs Exterior     | Just inside/outside domain values   |
+  | Numeric Boundaries       | Age, salary, numeric ranges         |
+  | Non-numeric Boundaries   | Password length, registration dates |
+
 
 - [Software Testing and Quality Quiz - Part 8](https://www.flexiquiz.com/SC/N/SoftwareTesting8) - TDT4242
+  Explores code refactoring, testing concepts, requirements quality, requirements classification, sustainable software requirements, branch and statement coverage.
 
   |                       |                      |
   |-----------------------|----------------------|
