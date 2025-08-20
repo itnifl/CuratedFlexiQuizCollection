@@ -461,17 +461,27 @@ Quiz: [Algorithms and Data Structures – Part 6](https://www.flexiquiz.com/SC/N
 ### > Algorithms and Data Structures – Part 7 - TDT4120
 ---  
 *Dedicated to [Lecture 6 – Dynamic Programming](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of6).*
+*Reflects [Lecture 1](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of1), [Lecture 11](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of11), [Lecture 13](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of13).*
 
 Quiz: [Algorithms and Data Structures – Part 7](https://www.flexiquiz.com/SC/N/Algdat7)  
 
   |                                                  |                                                         |
   |--------------------------------------------------|---------------------------------------------------------|
-  | Divide-and-conquer                               | Required properties for dynamic programming             |
+  | Divide-and-conquer                               | Dynamic Programming Basics            |
   | Optimal substructure                             | Overlapping subproblems                                 |
   | Design steps of a dynamic programming algorithm  | Subproblem graph: nodes and edges                       |
   | Time complexity of dynamic programming           | Rod-cutting problem: number of ways to cut              |
   | Running time of naive recursive Cut-Rod          | Time complexity of memoized Cut-Rod                     |
   | Array r[j] in Bottom-Up-Cut-Rod                  | Reconstruction array in Extended Bottom-Up-Cut-Rod      |
+  | DP Design Process          | Subproblem graphs & recurrence relations |
+  | Cut-Rod Problem            | Naive recursion, memoization, bottom-up DP |
+  | LCS (Longest Common Subseq.) | Stable Matching Variants |
+  | 0/1 Knapsack               | Θ(nW) complexity & polynomial-time discussion |
+  | Playlist Problem           | Complexity Considerations |
+  | Graph Algorithms           | Odd cycles, shortest paths, transitive closure |
+  | Floyd–Warshall Variants    | Time analysis of DP algorithms |
+
+
 
 ---
 
