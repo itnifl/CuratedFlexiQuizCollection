@@ -497,3 +497,41 @@ Quiz: [Algorithms and Data Structures – Part 7](https://www.flexiquiz.com/SC/N
 
 
 ---
+
+## Model-Driven Software Engineering - TDT4250
+
+**Content:**  
+- Introduction to meta-programming and meta-modeling  
+- Domain-Specific Languages (DSLs), syntax and semantics  
+- Model-driven development of software: transformations, code generation  
+- Constraints and queries in models (e.g., OCL)  
+- Component-based development and architectures  
+- Software Product Lines: variability at design-time and run-time  
+- Deployment, frameworks, and continuous integration of modular systems  
+
+**Learning outcome:**  
+- **Knowledge:** Understand general methods for modeling, designing, and implementing modular software; principles of model-driven development  
+- **Skills:** Gain practical ability to model, design, and implement modular software using modern frameworks and model-based techniques  
+- **General competence:** Be able to select appropriate methods and techniques for developing modular and model-driven software systems
+
+
+### > Model-Driven Development – Part 1 - TDT4250
+---
+*Dedicated to [Lecture 1 – Introduction to MDE](https://www.flexiquiz.com/SC/N/ModelDrivenDev1).*  
+*Reflects [Schmidt 2006](https://ieeexplore.ieee.org/document/1610613) and [Whittle et al. 2014](https://ieeexplore.ieee.org/document/6824042).*  
+
+Quiz: [Model-Driven Development – Part 1](https://www.flexiquiz.com/SC/N/ModelDrivenDev1)  
+
+  |                                                  |                                                         |
+  |--------------------------------------------------|---------------------------------------------------------|
+  | Models + Transformations = Artifacts             | DSLs (SQL, HTML, Kubernetes YAML, Regex)                |
+  | CASE tools vs. MDE                               | Why CASE failed in the 80s                              |
+  | Metamodels: "model of models"                    | Legend/map analogy                                      |
+  | DSL vs GPL                                       | Examples and differences                                |
+  | Industrial use of MDE (Whittle 2014)             | Partial system generation, architecture documentation   |
+  | Benefits beyond code generation                  | Explicit architectures, separation of concerns           |
+  | Adoption strategies                              | Bottom-up (developer-led) vs. top-down mandates         |
+  | Models ≠ Reality                                 | Abstraction, assumptions, purpose                       |
+  | Correct-by-construction                          | Contrast with construct-by-correction                   |
+  | MDE in domain-focused companies                  | Automotive, printers, finance vs. consultancies         |
+
