@@ -535,3 +535,21 @@ Quiz: [Model-Driven Development – Part 1](https://www.flexiquiz.com/SC/N/Model
   | Correct-by-construction                          | Contrast with construct-by-correction                   |
   | MDE in domain-focused companies                  | Automotive, printers, finance vs. consultancies         |
 
+
+### > Software Product Lines – Part 2 - TDT4250
+---
+*Dedicated to [Lecture 2 – Software Product Lines](https://www.flexiquiz.com/SC/N/ModelDrivenDev2).*  
+*Reflects [Apel et al. 2013, *Feature-Oriented Software Product Lines*](https://link.springer.com/book/10.1007/978-3-642-37521-7).*  
+
+Quiz: [Software Product Lines – Part 2](https://www.flexiquiz.com/SC/N/ModelDrivenDev2)  
+
+  |                                                  |                                                                 |
+  |--------------------------------------------------|-----------------------------------------------------------------|
+  | Definition of SPL                                | Family of products sharing core assets + controlled variability |
+  | Features                                         | User-visible functionality, building blocks for variability      |
+  | Domain vs Application Engineering                | For reuse (platform) vs with reuse (products)                   |
+  | Adoption strategies                              | Proactive, Extractive, Reactive – pros/cons                     |
+  | Feature modeling basics                          | Mandatory, optional, OR, XOR groups                             |
+  | Constraints in feature models                    | Example: MST ⇒ Undirected ∧ Weighted                            |
+  | Benefits of SPL                                  | Reduced cost, faster time-to-market, improved quality            |
+
