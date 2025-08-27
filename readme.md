@@ -553,3 +553,24 @@ Quiz: [Software Product Lines – Part 2](https://www.flexiquiz.com/SC/N/ModelDr
   | Constraints in feature models                    | Example: MST ⇒ Undirected ∧ Weighted                            |
   | Benefits of SPL                                  | Reduced cost, faster time-to-market, improved quality            |
 
+
+### > Variability Implementation – Part 3 - TDT4250
+---
+*Dedicated to [Lecture 3 – Variability Implementation](https://www.flexiquiz.com/SC/N/ModelDrivenDev3).*  
+*Reflects [Apel et al. 2013, *Feature-Oriented Software Product Lines*](https://link.springer.com/book/10.1007/978-3-642-37521-7).*  
+
+Quiz: [Variability Implementation – Part 3](https://www.flexiquiz.com/SC/N/ModelDrivenDev3)  
+
+  |                                                  |                                                                 |
+  |--------------------------------------------------|-----------------------------------------------------------------|
+  | Binding times                                    | Compile-time, load-time, run-time                               |
+  | Language-based mechanisms                        | Parameters, design patterns, frameworks, components             |
+  | Tool-driven mechanisms                           | Version-control, build systems, preprocessors                   |
+  | Preprocessors                                    | Conditional compilation, disciplined vs undisciplined use        |
+  | Frameworks                                       | White-box (inheritance) vs black-box (plug-ins, hot spots)       |
+  | Components vs Plug-ins                           | Reuse beyond SPL vs tailored to framework                       |
+  | Aspect-Oriented Programming (AOP)                | Aspects, join points, pointcuts, advice, weaving                 |
+  | Virtual Separation of Concerns (VSOC)            | Views, tracing, visualization for feature separation             |
+  | Granularity                                      | Fine-grained (annotations) vs coarse-grained (composition)       |
+  | Evaluation criteria                              | Preplanning, traceability, separation, info hiding, uniformity   |
+
