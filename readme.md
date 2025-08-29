@@ -613,3 +613,31 @@ Quiz: [Information Systems – Part 1](https://www.flexiquiz.com/SC/N/infosystem
 | **Requirements engineering**                      | Elicitation, modeling, validation, prioritization, documentation                            |
 | **Ethics & security**                             | Privacy, access control, validation, governance, societal impact                            |
 
+
+### > Information Systems – Part 2 - TDT4175
+---
+*Dedicated to [Lecture 2 – Information Systems in Organizations](https://www.flexiquiz.com/SC/N/infosystems2).*  
+*Reflects core TDT4175 Lesson 2 topics: value chain, SCM/CRM, org structures, change & sourcing, BPR vs CI, diffusion/infusion, applications portfolio, alignment & strategy, evaluation & roles.*
+
+Quiz: [Information Systems – Part 2](https://www.flexiquiz.com/SC/N/infosystems2)
+
+|                                                  |                                                                                             |
+|--------------------------------------------------|---------------------------------------------------------------------------------------------|
+| **Why IS in organizations**                       | IS transforms office/knowledge work; embedded in daily operations across all functions      |
+| **IS role in processes**                          | Traditional: monitor/control; Contemporary: integral to input–transform–output             |
+| **Value chain**                                   | Upstream (inbound/storage) vs downstream (outbound/marketing/service); value-add focus     |
+| **SCM basics**                                    | Plan–source–make–deliver; e-marketplaces/B2B exchanges; scheduling, monitoring, control    |
+| **CRM basics**                                    | Manage encounters; data from sales/surveys/web; loyalty/retention and targeted offers      |
+| **Org structures**                                | Traditional→flat (empowerment); Project/Team; **Virtual** (geo/time distributed, ICT-driven)|
+| **Change types**                                  | Sustaining vs **disruptive**; address resistance via involvement and change champions       |
+| **Sourcing & capacity**                           | **Outsourcing** (focus core, contract risks); **On-demand**/utility computing; **Downsizing** |
+| **Org learning & improvement**                    | Continuous improvement (incremental) vs **BPR** (radical, cross-functional redesign)       |
+| **Diffusion vs infusion**                         | Diffusion = how wide across org; Infusion = how deep within a function; TAM: ease/usefulness |
+| **Applications portfolio**                        | **Support**, **Key operational**, **Strategic**, **Future strategic**; lifecycle from idea→standard |
+| **Alignment & success**                           | Tie IS to goals/processes; exec sponsorship; early user involvement; clear requirements; PM |
+| **Competitive advantage**                         | Outperform industry via quality/service/cost; smart IS investment, not just higher spend   |
+| **Porter’s five forces**                          | Rivalry, new entrants, substitutes, buyer power, supplier power                             |
+| **Strategy levers**                               | Cost leadership, differentiation, niche focus, alter industry, new offerings, improve lines |
+| **Evaluating IS**                                 | Productivity, ROI, earnings growth, market share, customer satisfaction, **TCO**            |
+| **Risk awareness**                                | Large projects (e.g., ERP/e-commerce) can fail; cost > benefit if mismanaged               |
+| **IS function & roles**                           | **CIO**; Operations (systems/LAN/web); Dev (analysts, programmers, agile); Support (DBA, training, helpdesk, web admin); Info service units |
