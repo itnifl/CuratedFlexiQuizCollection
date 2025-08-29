@@ -574,3 +574,42 @@ Quiz: [Variability Implementation – Part 3](https://www.flexiquiz.com/SC/N/Mod
   | Granularity                                      | Fine-grained (annotations) vs coarse-grained (composition)       |
   | Evaluation criteria                              | Preplanning, traceability, separation, info hiding, uniformity   |
 
+--
+
+## Information Systems – TDT4175
+
+**Content:**  
+- Taxonomies and types of information systems (e.g., TPS, MIS, DSS, ERP, CRM, SCM)  
+- ERP systems: functionality, selection, and introduction in organizations  
+- IS strategy, digitalization, and process improvement  
+- IS development methods: needs analysis, business-process modeling (as-is/to-be, e.g., BPMN), and quality evaluation of models/systems  
+- Requirements engineering: elicitation techniques, modeling, validation, and documentation  
+- Ethics and responsible use of information systems (privacy, security, societal impact)
+
+**Learning outcome:**  
+- **Knowledge:** Understand how business/organizational strategies relate to IS strategy; know major IS categories; grasp methods for IS deployment and improvement; understand requirements engineering approaches; recognize ethical issues in IS.  
+- **Skills:** Elicit and document requirements; model and analyze business processes with BPMN; assess and communicate improvements to IS and organizational processes.  
+- **General competence:** Relate IS choices to organizational goals and ethical considerations; argue for and present IS proposals grounded in stakeholder needs and process models.
+
+### > Information Systems – Part 1 - TDT4175
+---
+*Dedicated to [Lecture 1 – Introduction to Information Systems](https://www.flexiquiz.com/SC/N/infosystems1).*  
+*Reflects core TDT4175 topics: IS types, ERP, strategy & process improvement, requirements & BPMN, ethics.*
+
+Quiz: [Information Systems – Part 1](https://www.flexiquiz.com/SC/N/infosystems1)
+
+|                                                  |                                                                                             |
+|--------------------------------------------------|---------------------------------------------------------------------------------------------|
+| **System model**                                  | Input → Processing → Output ↺ Feedback; **efficiency** vs **effectiveness**; feedback as control |
+| **Data vs. information**                          | Quality traits: accurate, relevant, timely, complete, simple, secure, verifiable            |
+| **CBIS components**                               | Hardware, software, data/databases, telecommunications, people, procedures                  |
+| **IS taxonomy**                                   | TPS, MIS, DSS, ERP, CRM, SCM—when to use which                                              |
+| **ERP essentials**                                | Integration across functions; selection/intro strategies; change management                 |
+| **MIS vs. DSS**                                   | Routine reporting vs. model-driven what-if and ad-hoc analysis                              |
+| **Intranet vs. extranet**                         | Internal portal vs. controlled access for partners/suppliers                                |
+| **Process modeling (BPMN)**                       | As-is/to-be, bottlenecks, KPIs; grounding improvement proposals                             |
+| **Development lifecycle**                         | Investigation → Analysis (**what**) → Design (**how**) → Implementation → Maintenance       |
+| **Change approaches**                             | Continuous improvement (kaizen) vs. Business Process Reengineering (BPR)                    |
+| **Requirements engineering**                      | Elicitation, modeling, validation, prioritization, documentation                            |
+| **Ethics & security**                             | Privacy, access control, validation, governance, societal impact                            |
+
