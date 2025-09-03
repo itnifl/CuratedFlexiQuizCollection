@@ -574,6 +574,28 @@ Quiz: [Variability Implementation – Part 3](https://www.flexiquiz.com/SC/N/Mod
   | Granularity                                      | Fine-grained (annotations) vs coarse-grained (composition)       |
   | Evaluation criteria                              | Preplanning, traceability, separation, info hiding, uniformity   |
 
+
+### > Variability Implementation – Part 4 - TDT4250
+---
+*Dedicated to [Lecture 4 – Parameters](https://www.flexiquiz.com/SC/N/ModelDrivenDev4).*  
+*Reflects [Apel et al. 2013, *Feature-Oriented Software Product Lines*](https://link.springer.com/book/10.1007/978-3-642-37521-7).*  
+
+Quiz: [Variability Implementation – Part 4](https://www.flexiquiz.com/SC/N/ModelDrivenDev4)  
+
+  |                                                  |                                                                 |
+  |--------------------------------------------------|-----------------------------------------------------------------|
+  | Core idea                                        | Variability via `if` / `switch` guarded by configuration params |
+  | Sources of parameters                            | Command-line, config files, user prefs, hard-coded values, args |
+  | Mapping to features                              | Typically one Boolean parameter per feature                     |
+  | Pros                                             | Simple, widespread, flexible (can switch at runtime)            |
+  | Cons                                             | All code shipped, runtime overhead, weak compile-time guarantees|
+  | Security risk                                    | Disabled code still deployed, larger attack surface             |
+  | Code quality issues                              | Globals break modularity, long arg lists = code smell           |
+  | Best practice                                    | Use a **Parameter Object** to group options                     |
+  | Traceability                                     | Poor; feature code scattered and tangled                        |
+  | Relation to MDE                                  | Easy to adopt, but less disciplined than DSLs or composition    |
+
+
 --
 
 ## Information Systems – TDT4175
