@@ -575,7 +575,7 @@ Quiz: [Variability Implementation – Part 3](https://www.flexiquiz.com/SC/N/Mod
   | Evaluation criteria                              | Preplanning, traceability, separation, info hiding, uniformity   |
 
 
-### > Variability Implementation – Part 4 - TDT4250
+### > Variability with Parameters – Classic Language-Based Mechanism - Part 4 - TDT4250
 ---
 *Dedicated to [Lecture 4 – Parameters](https://www.flexiquiz.com/SC/N/ModelDrivenDev4).*  
 *Reflects [Apel et al. 2013, *Feature-Oriented Software Product Lines*](https://link.springer.com/book/10.1007/978-3-642-37521-7).*  
@@ -594,6 +594,27 @@ Quiz: [Variability Implementation – Part 4](https://www.flexiquiz.com/SC/N/Mod
   | Best practice                                    | Use a **Parameter Object** to group options                     |
   | Traceability                                     | Poor; feature code scattered and tangled                        |
   | Relation to MDE                                  | Easy to adopt, but less disciplined than DSLs or composition    |
+
+
+### > Domain-Specific Languages – Modeling and Metamodeling - Part 5 - TDT4250
+---
+*Dedicated to [Lecture 5 – Domain-Specific Languages](https://www.flexiquiz.com/SC/N/ModelDrivenDev5).*  
+*Reflects [Apel et al. 2013, *Feature-Oriented Software Product Lines*](https://link.springer.com/book/10.1007/978-3-642-37521-7).*  
+
+Quiz: [Variability Implementation – Part 5](https://www.flexiquiz.com/SC/N/ModelDrivenDev5)  
+
+  |                                                  |                                                                 |
+  |--------------------------------------------------|-----------------------------------------------------------------|
+  | Core idea                                        | DSLs provide domain-optimized abstractions, reducing the problem–solution gap |
+  | GPL vs DSL                                       | GPLs are Turing complete and general; DSLs are limited but simpler and domain-focused |
+  | Examples                                         | SQL, HTML, BPMN, VHDL, Simulink, Spreadsheets, Scratch          |
+  | Structure of a modeling language                 | Abstract syntax (concepts), Concrete syntax (notation), Semantics (meaning) |
+  | Domain analysis                                  | Identify key concepts, relations, and rules; foundation for metamodel |
+  | Language design & validation                     | Formalize concepts in a metamodel; check rules with stakeholders |
+  | Implementation                                   | Use frameworks like EMF/Ecore, Xtext, GMF, Sirius, Acceleo, QVT |
+  | Low-code vs MDD                                  | Low-code repackages MDD ideas, marketed for rapid business apps; clearer message but less | open, more vendor lock-in |
+  | Strengths                                        | Familiar notation for domain experts, concise and correct-by-construction models |
+  | Weaknesses                                       | Narrow scope, may require custom tooling, risk of lock-in with closed platforms |
 
 
 --
