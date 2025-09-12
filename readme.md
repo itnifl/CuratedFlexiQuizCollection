@@ -617,7 +617,7 @@ Quiz: [Variability Implementation – Part 5](https://www.flexiquiz.com/SC/N/Mod
   | Weaknesses                                       | Narrow scope, may require custom tooling, risk of lock-in with closed platforms |
 
 
---
+---
 
 ## Information Systems – TDT4175
 
@@ -684,3 +684,33 @@ Quiz: [Information Systems – Part 2](https://www.flexiquiz.com/SC/N/infosystem
 | **Evaluating IS**                                 | Productivity, ROI, earnings growth, market share, customer satisfaction, **TCO**            |
 | **Risk awareness**                                | Large projects (e.g., ERP/e-commerce) can fail; cost > benefit if mismanaged               |
 | **IS function & roles**                           | **CIO**; Operations (systems/LAN/web); Dev (analysts, programmers, agile); Support (DBA, training, helpdesk, web admin); Info service units |
+
+### > Information Systems – Part 3 - TDT4175
+---
+*Dedicated to [Lecture 3 – Business Process Modeling & Value Framework](https://www.flexiquiz.com/SC/N/infosystems3).*  
+*Reflects core TDT4175 Lesson 3 topics: process modeling goals, SEQUAL framework, quality dimensions, modeling languages/methods/tools, value framework, participatory techniques, BPMN evaluation, and big data perspectives.*
+
+Quiz: [Information Systems – Part 3](https://www.flexiquiz.com/SC/N/infosystems3)
+
+|                                                  |                                                                                             |
+|--------------------------------------------------|---------------------------------------------------------------------------------------------|
+| **Why process modeling**                         | Sense-making, communication, documentation, training, compliance, automation, improvement   |
+| **SEQUAL quality dimensions**                    | Physical, empirical, semantic, pragmatic, social, deontic; balance across stakeholders/goals|
+| **Modeling goals**                               | As-is vs to-be vs ought-to-be; strategic, operational, learning, standardization            |
+| **Modeling practices**                           | Choice of methods, languages, tools; formal vs informal; reuse & managing practices         |
+| **Knowledge maturing model**                     | Exploration → individuation → community → transformation → training/piloting → institutionalization |
+| **Managing modeling**                            | Separate roles: process owner, model manager, modeling facilitator                          |
+| **Challenges & solutions**                       | Updating models, merging across org units, unintended use, sustaining ownership             |
+| **Participatory techniques**                     | **STWT** (socio-technical walkthrough), **Modeling Conference** (search conference blend)   |
+| **BPMN strengths**                               | Widely adopted, high representational capability, tool support, cross-org communication     |
+| **BPMN weaknesses**                              | Weak resource modeling, gateway confusion, semantic perversity (e.g., data object symbol)   |
+| **Notation quality principles**                  | Semiotic clarity, discriminability, semantic transparency, complexity mgmt, cognitive fit   |
+| **Tool evaluation**                              | Signavio-Oryx (full palette), Bizagi, Camunda, ARIS, Visual Paradigm, Bonita – varied support |
+| **Process improvement modes**                    | Instance reuse, type-level generalization, simulation, interactive activation               |
+| **Reflection & learning**                        | Reflection in/on action; collaborative reflection; tools to capture/trigger reflections     |
+| **Big Data V’s**                                 | Volume, velocity, variety, veracity, visualization, value                                   |
+| **Big Data + SEQUAL**                            | Volume→physical, veracity→social/semantic, visualization→empirical, value→deontic           |
+| **Process mining**                               | Event logs → discovery, monitoring, improvement; link BPM lifecycle to real execution       |
+| **Future directions**                            | Multi-perspective modeling, top-down “Future Operating Model” vs bottom-up workflows, hybrid declarative/imperative |
+| **Key concerns in BPM (van der Aalst)**          | Modeling languages, enactment infrastructure, model analysis, mining, flexibility, reuse    |
+| **Enduring role of modeling**                    | Even with automation/mining, models remain vital for human communication & knowledge sharing|
