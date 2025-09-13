@@ -714,3 +714,49 @@ Quiz: [Information Systems – Part 3](https://www.flexiquiz.com/SC/N/infosystem
 | **Future directions**                            | Multi-perspective modeling, top-down “Future Operating Model” vs bottom-up workflows, hybrid declarative/imperative |
 | **Key concerns in BPM (van der Aalst)**          | Modeling languages, enactment infrastructure, model analysis, mining, flexibility, reuse    |
 | **Enduring role of modeling**                    | Even with automation/mining, models remain vital for human communication & knowledge sharing|
+
+---
+
+## Applied Data Science – TDT4259
+
+**Content:**  
+- Lifecycle of a data science project (CRISP-DM phases: business understanding, data understanding, preparation, modeling, evaluation, deployment, monitoring)  
+- Data analytics types: descriptive, diagnostic, predictive, prescriptive  
+- Data sources, quality issues, preparation, and feature engineering  
+- Business problem framing, value creation, and data-driven decision-making  
+- Documentation practices: one-pagers and design documents (Why–What–How)  
+- Tools and techniques for data collection, exploration, modeling, and visualization  
+- Group projects: solving real-world problems with open or provided datasets  
+- Individual assignments: design docs for proposed data-driven solutions  
+- Ethics and responsible data science (privacy, bias, fairness, societal impact)
+
+**Learning outcome:**  
+- **Knowledge:** Understand the phases of CRISP-DM; know the main types of data analytics and when to apply them; grasp principles of data preparation, quality assessment, and monitoring; recognize ethical issues in applied data science.  
+- **Skills:** Frame and structure business problems into data science tasks; collect, prepare, and analyze data; evaluate models against business objectives; document and communicate solutions via one-pagers, design docs, and visualizations.  
+- **General competence:** Apply data science methods to create value for organizations; work effectively in teams on real-world projects; reflect critically on ethical and societal impacts of data-driven decision-making.
+
+
+### > Applied Data Science – Part 3 - TDT4259
+---
+*Dedicated to [Lecture 3 – Lifecycle of a Data Science Project](https://www.flexiquiz.com/SC/N/applieddatascience3).*  
+*Reflects core TDT4259 Lesson 3 topics: CRISP-DM methodology, data analytics types, one-pagers & design docs, business understanding, data understanding, data preparation, Aneo grid loss case study, and monitoring & maintenance.*
+
+Quiz: [Applied Data Science – Part 3](https://www.flexiquiz.com/SC/N/applieddatascience3)
+
+|                                                  |                                                                                             |
+|--------------------------------------------------|---------------------------------------------------------------------------------------------|
+| **CRISP-DM framework**                           | Business understanding → Data understanding → Data preparation → Modeling → Evaluation → Deployment → Monitoring |
+| **Business understanding**                       | Clarify goals, scope, value, problem definition; often refine or reduce scope                |
+| **Data understanding**                           | Collect, describe, explore, verify data quality; domain insights; detect anomalies/outliers  |
+| **Data preparation**                             | Select, clean, construct, integrate, and format data for modeling                            |
+| **Modeling**                                     | Apply statistical/ML methods; compare baselines; validate with metrics                      |
+| **Evaluation**                                   | Check model results against business objectives; visualize insights                         |
+| **Deployment**                                   | Translate results into actionable recommendations; plan implementation                      |
+| **Monitoring & maintenance**                     | Track KPIs, retrain models, set alarms, dashboards, ensure business + technical health       |
+| **Types of analytics**                           | Descriptive (what happened), Diagnostic (why), Predictive (what might happen), Prescriptive (what should we do) |
+| **One-pagers**                                   | Summarize intent, desired outcome, deliverable, constraints                                 |
+| **Design documents**                             | Capture Why, What, How (+ risks, infra, monitoring, cost); expensive but cheap → avoid waste |
+| **Case study: Aneo grid loss**                   | Grid loss = produced – consumed electricity; data issues: missing/delayed values, small sets |
+| **Assignment (Group)**                           | Solve a business problem with data; report + 5-min presentation                             |
+| **Assignment (Individual)**                      | One-pager + ~10 page design doc; different dataset/company than group project               |
+
