@@ -617,6 +617,23 @@ Quiz: [Variability Implementation – Part 5](https://www.flexiquiz.com/SC/N/Mod
   | Weaknesses                                       | Narrow scope, may require custom tooling, risk of lock-in with closed platforms |
 
 
+### > MOF & Model-Driven Architecture (MDA) - Part 6 - TDT4250  
+---  
+*Dedicated to [Lecture 6 – MOF and the Model-Driven Architecture (MDA)](https://www.flexiquiz.com/SC/N/ModelDrivenDev6).*  
+*Reflects OMG MDA principles and the MOF/eMOF foundations.*  
+
+Quiz: [MOF & MDA – Part 6](https://www.flexiquiz.com/SC/N/ModelDrivenDev6)  
+
+  |                                                  |                                                                 |
+  |--------------------------------------------------|-----------------------------------------------------------------|
+  | **Core idea**                                    | Use models as first-class artefacts to increase portability, interoperability and automation. MDA organises specifications as models + transformations.  |
+  | **Primary motivations**                          | Interoperability (vendor/tool independence) and portability (platform independence). MDA is a guideline for applying MDE practices in the SDLC.   |
+  | **Key standards**                                | MOF (metamodeling / M3), UML (notation), XMI (XML interchange), QVT (model→model transformations).  |
+  | **MOF basics**                                   | MOF is an object-oriented metamodeling language (NamedElement, TypedElement, MultiplicityElement). eMOF vs cMOF; MOF is reflexive (MOF defined with MOF).  |
+  | **Layering (M3→M0)**                             | M3 = meta-metamodel (MOF), M2 = metamodel (e.g. UML/Ecore), M1 = model (domain model), M0 = runtime instances/data — models *conformTo* their metamodel.  |
+  | **PIM / PSM / CIM**                              | PIM = platform-independent model, PSM = platform-specific model, (CIM = computation-independent/business model). Transformations map PIM → PSM (parameterisable).  |
+  | **Model transformations**                        | Model→Model (QVT) and Model→Text (code generators). Transformations can be reused, tuned and audited (security, optimisation).   |
+
 ---
 
 ## Information Systems – TDT4175
