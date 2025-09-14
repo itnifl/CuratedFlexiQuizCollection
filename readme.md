@@ -1,4 +1,4 @@
-## 📚 My FlexiQuiz Learning Series 
+# 📚 My FlexiQuiz Learning Series 
 
 Welcome to my curated collection of quizzes hosted on [FlexiQuiz](https://www.flexiquiz.com). These assessments are designed to test and reinforce knowledge across a variety of technical domains including **the human centered design process**, **software testing**, **Java programming**, **cryptography**,  **software security**, and **algorithms + data structures**.
 
@@ -6,7 +6,7 @@ Each quiz has been crafted to balance core theory with real-world application an
 
 ---
 
-## CPU-X and the human centered design process - TDT4180 ##
+# * CPU-X and the human centered design process - TDT4180 #
 
 This quiz maps exactly to the CPUX-F (Foundation) / UXQB-F syllabus, covering all Foundation-level learning objectives:
 
@@ -70,7 +70,7 @@ In other words, every question in this 40-item exam is drawn either from the pub
 
 ---
 
-## Software Testing and Quality Series - TDT4242
+# * Software Testing and Quality Series - TDT4242
 
 A series focused on core software testing concepts, methodologies, and best practices.
  
@@ -130,7 +130,7 @@ A series focused on core software testing concepts, methodologies, and best prac
 
 ---
 
-## Java Programming - TDT4100
+# * Java Programming - TDT4100
 
 A foundational Java quiz for programmers looking to evaluate their language knowledge.
 
@@ -152,7 +152,7 @@ A foundational Java quiz for programmers looking to evaluate their language know
 
 ---
 
-## Cryptography Fundamentals - TDT4237
+# * Cryptography Fundamentals - TDT4237
 
 A concise introduction to the world of secure communications and encryption techniques.
 
@@ -172,7 +172,7 @@ A concise introduction to the world of secure communications and encryption tech
 
 ---
 
-## Software Security Series - TDT4237
+# * Software Security Series - TDT4237
 
 A comprehensive series covering secure development practices and application-level security.
 
@@ -253,7 +253,7 @@ A comprehensive series covering secure development practices and application-lev
 
 ---
 
-## Web Application Security Series - TDT4237
+# * Web Application Security Series - TDT4237
 
 A deep dive into common web vulnerabilities and how to prevent them.
 
@@ -320,7 +320,7 @@ A deep dive into common web vulnerabilities and how to prevent them.
 
 ---
 
-## Algorithms and Data Structures - TDT4120
+# * Algorithms and Data Structures - TDT4120
 
 **Content:**  
 - Efficiency analysis, recursion, divide-and-conquer  
@@ -498,7 +498,7 @@ Quiz: [Algorithms and Data Structures – Part 7](https://www.flexiquiz.com/SC/N
 
 ---
 
-## Model-Driven Software Engineering - TDT4250
+# * Model-Driven Software Engineering - TDT4250
 
 **Content:**  
 - Introduction to meta-programming and meta-modeling  
@@ -634,9 +634,28 @@ Quiz: [MOF & MDA – Part 6](https://www.flexiquiz.com/SC/N/ModelDrivenDev6)
   | **PIM / PSM / CIM**                              | PIM = platform-independent model, PSM = platform-specific model, (CIM = computation-independent/business model). Transformations map PIM → PSM (parameterisable).  |
   | **Model transformations**                        | Model→Model (QVT) and Model→Text (code generators). Transformations can be reused, tuned and audited (security, optimisation).   |
 
+
+### > Eclipse Modeling Framework (EMF) & Ecore - Part 7 - TDT4250  
+---  
+*Dedicated to [Lecture 7 – Eclipse Modeling Framework (EMF)](https://www.flexiquiz.com/SC/N/ModelDrivenDev7).*  
+*Based on the EMF/Ecore lecture material and examples.*  
+
+Quiz: [EMF & Ecore – Part 7](https://www.flexiquiz.com/SC/N/ModelDrivenDev7)  
+
+  |                                                  |                                                                 |
+  |--------------------------------------------------|-----------------------------------------------------------------|
+  | **Core idea**                                    | EMF provides a pragmatic bridge between modelling and Java: define an Ecore metamodel, then generate Java APIs, editors and XMI persistence. :contentReference[oaicite:0]{index=0} |
+  | **Ecore (role)**                                 | Ecore is Eclipse’s MOF-like metamodeling language (an EMF core metamodel). It implements MOF concepts (EClass, EAttribute, EReference, EPackage, EObject) for the Eclipse ecosystem. :contentReference[oaicite:1]{index=1} |
+  | **Key metamodel elements**                       | `EPackage`, `EClass`, `EAttribute` (EDataType), `EReference` (link to EClass), `EEnum`, `EDataType`, `EOperation`, `EFactory`, `EObject`. :contentReference[oaicite:2]{index=2} |
+  | **EAttribute vs EReference**                     | `EAttribute` = value-typed property (String, int, enum); `EReference` = reference to other `EObject` instances (links/associations). Multiplicity and containment are configurable. :contentReference[oaicite:3]{index=3} |
+  | **Containment / composition**                    | Containment is modelled with `EReference` where `containment=true`. Containment defines the model tree (persistence/ownership) and lifecycle (contained objects saved/deleted with container). :contentReference[oaicite:4]{index=4} |
+  | **Resources & ResourceSet**                      | `Resource` = unit of persistence (commonly an XMI file/URI). `ResourceSet` groups resources and resolves cross-resource references. Use `ResourceFactory` (e.g., `XMIResourceFactoryImpl`) to register serializers. :contentReference[oaicite:5]{index=5} |
+  | **Code generation & runtime**                    | EMF generates a Java `interface` + `*Impl` class per `EClass`, a `Package` with metadata constants, and a `Factory` to instantiate objects; generated code is annotated with `@generated`. :contentReference[oaicite:6]{index=6} |
+
+
 ---
 
-## Information Systems – TDT4175
+# * Information Systems – TDT4175
 
 **Content:**  
 - Taxonomies and types of information systems (e.g., TPS, MIS, DSS, ERP, CRM, SCM)  
@@ -734,7 +753,7 @@ Quiz: [Information Systems – Part 3](https://www.flexiquiz.com/SC/N/infosystem
 
 ---
 
-## Applied Data Science – TDT4259
+# * Applied Data Science – TDT4259
 
 **Content:**  
 - Lifecycle of a data science project (CRISP-DM phases: business understanding, data understanding, preparation, modeling, evaluation, deployment, monitoring)  
