@@ -760,3 +760,28 @@ Quiz: [Applied Data Science – Part 3](https://www.flexiquiz.com/SC/N/appliedda
 | **Assignment (Group)**                           | Solve a business problem with data; report + 5-min presentation                             |
 | **Assignment (Individual)**                      | One-pager + ~10 page design doc; different dataset/company than group project               |
 
+### > Applied Data Science – Part 4 - TDT4259
+---
+*Dedicated to [Lecture 4 – Data → Features → Algorithms](https://www.flexiquiz.com/SC/N/applieddatascience_4).*  
+*Reflects core TDT4259 Lesson 4 topics: variables → features, feature engineering, missingness & low-variance filters, scaling/normalization, PCA, supervised vs unsupervised, core algorithms (k-NN, SVM, trees, Naïve Bayes, neural nets), evaluation metrics, and a leakage-free pipeline.*
+
+Quiz: [Applied Data Science – Part 4](https://www.flexiquiz.com/SC/N/applieddatascience_4)
+
+|                                                  |                                                                                             |
+|--------------------------------------------------|---------------------------------------------------------------------------------------------|
+| **Variables → Features**                         | Variables = raw columns; **features = model-ready signals** (transformed/engineered variables). |
+| **Feature engineering examples**                  | `age` → buckets, z-score; `price` → `log1p(price)`; `signup_datetime` → hour/day/recency; text → TF-IDF / embeddings; image → CNN embedding |
+| **Missing Values Ratio**                         | Fraction of nulls in a column. Use it to decide drop vs impute; common thresholds: <10% simple impute, 10–30% smarter impute or flag, >30–50% drop or require justification |
+| **Low-variance filter**                          | Remove near-constant features (e.g., same value >95–99% rows). Scale-sensitive — check predictive power before dropping. |
+| **Scaling / Normalization**                      | Required for distance/dot-product/variance methods (kNN, SVM, PCA, many NN optimizers). Use StandardScaler by default; MinMax/Robust/MaxAbs depending on context. Always fit scalers inside CV pipeline. |
+| **PCA (Principal Component Analysis)**           | Linear dimensionality reduction: center (and usually scale) → compute covariance or SVD → keep top components by explained variance (e.g., 80–95%). Good for correlated numeric features; linear and less interpretable. |
+| **Supervised vs Unsupervised**                   | Supervised = X + y (classification/regression). Unsupervised = X only (clustering, PCA). |
+| **Core algorithms — short**                      | **Nearest Centroid**: mean of each class; simple baseline. **k-NN**: local, distance-based; scale required. **Decision Trees**: greedy splits by impurity (Gini/entropy); no scaling required. **Random Forests / Ensembles**: robust, strong baselines. **Naïve Bayes**: generative, assumes conditional independence (great for text). **SVM**: max-margin; kernel trick for nonlinear boundaries; scale mandatory. **Neural Nets**: neurons = weighted sum + activation; deep nets learn hierarchical features; need data + tuning. |
+| **Evaluation (regression)**                      | **MAE** (mean absolute error) — robust; **RMSE** — penalizes large errors more. |
+| **Evaluation (classification)**                  | **Confusion matrix** (TP/FP/FN/TN). **Precision** = TP/(TP+FP). **Recall** = TP/(TP+FN). **Accuracy** = (TP+TN)/total (can mislead on imbalance). Use ROC/PR curves and choose thresholds per business needs. |
+| **Likelihood vs Probability**                    | Probability: parameters fixed → probability of data (e.g., P(x|θ)). Likelihood: data fixed → how plausible parameters are given data (used for fitting models). |
+| **Practical pipeline (safe defaults)**           | 1) Train/val/test split or K-fold CV. 2) Build pipeline: impute → encode → scale → (optional PCA/feature selection) → model. 3) Tune hyperparameters inside CV. 4) Final evaluation on untouched test set. |
+| **Feature/leakage warning**                       | Never compute scalers/encoders/statistics on full dataset before CV—this leaks info. Create "missing" indicator flags when missingness may be informative. |
+| **When to prefer which method**                   | Text/sparse: Naïve Bayes, Linear models. Mixed types/interpretability: Trees/RandomForest. Smooth numeric boundaries: SVM. Complex high-D patterns (images/audio): Deep nets. k-NN for quick, small datasets / nonparametric baseline. |
+| **Quick sklearn pipeline example**                | See code block below for a leakage-free pipeline (impute + scale + PCA + SVM). |
+| **Practical tips**  
