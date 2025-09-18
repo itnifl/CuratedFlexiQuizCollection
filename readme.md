@@ -480,7 +480,30 @@ Quiz: [Algorithms and Data Structures – Part 7](https://www.flexiquiz.com/SC/N
   | Playlist Problem           | Complexity Considerations |
   | Graph Algorithms           | Odd cycles, shortest paths, transitive closure |
   | Floyd–Warshall Variants    | Time analysis of DP algorithms |
+  
+---
 
+### > Algorithms and Data Structures – Part 8 - TDT4120
+---
+*Asymptotics, comparisons, recurrences, sorting, reductions, and a small LP modeling case.*  
+*Reflects [Lecture 1](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of1), [Lecture 3](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of3), [Lecture 13](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of13).*
+
+Quiz: [Algorithms and Data Structures – Part 8](https://www.flexiquiz.com/SC/N/Algdat8)
+
+| Topic                                   | Key results & reminders                                                                                                                                                                                                                   |
+|-----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Order-of-growth ranking                 | Fast → slow: 1) Θ(1), 2) Θ(log log n), 3) Θ(log n), 4) Θ(√n), 5) Θ(n), 6) Θ(n log n), 7) Θ(n²), 8) Θ(n³), 9) Θ(nᵏ) (fixed k>1), 10) Θ(cⁿ), 11) Θ(n!), 12) Θ(nⁿ).                                                                          |
+| Asymptotic comparison (O/Ω/Θ/o/ω)       | Use limits/ratios. Example: f(n)=n²lg n + n + nlg n vs g(n)=n² ⇒ f/g = lg n + o(1) → ∞ ⇒ f ∈ Ω(g) and ω(g); not O/Θ. 2ⁿ vs 2^{n/2}: ratio 2^{n/2} → ∞ ⇒ 2ⁿ ∈ ω(2^{n/2}).                                                                |
+| Combining bounds                        | Ω(n)+Θ(n²lg n)+O(n³) ⇒ typical tight term Θ(n²lg n); best case within Ω(n)∩O(n²lg n); worst case within Ω(n²lg n)∩O(n³).                                                                                                                 |
+| Algebra with Θ/O/Ω                      | Θ(n²)+O(lg n) ⇒ Θ(n²). Θ(n)+O(n²)+Ω(n²) ⇒ Θ(n²). If f ∈ o(g) ⇒ f ∈ O(g). If f ∈ Θ(g) ⇒ f ∈ O(g) ∩ Ω(g). For any ε>0: n lg n ∈ o(n^{1+ε}); and n^a ∈ o(n^b) for a<b.                                                                    |
+| Sorting properties (CLRS variants)      | Merge-sort: stable, Θ(n log n) time, Θ(n) extra space. Quicksort: in-place, not stable; expected Θ(n log n), worst Θ(n²). PARTITION runs Θ(n), places pivot q with A[p..q−1] ≤ A[q] ≤ A[q+1..r].                                           |
+| K-LARGEST (size-k buffer)               | Init O(k); scan n items with ≤k bubble-steps ⇒ **O(nk)** time, **O(k)** space. (Min-heap variant: **O(n log k)**, **O(k)** space.)                                                                                                       |
+| Reductions (X ≤ₚ Y)                     | If Y ∈ P and X ≤ₚ Y ⇒ X ∈ P. If X is NP-hard and X ≤ₚ Y ⇒ Y is NP-hard. (X ≤ₚ Y alone doesn’t imply Y ≤ₚ X.)                                                                                                                             |
+| Linear program (hammers & nails)        | Maximize **3000x + 1000y** subject to **2x + y ≤ 100**, **x + 2y ≤ 80**, **x ≤ 40**, **x,y ≥ 0**; optimum **(x,y)=(40,20)** gives **140 000 NOK**.                                                                                       |
+| Master Theorem example                  | T(n)=32T(n/4)+3n³+7n ⇒ a=32, b=4, n^{log_b a}=n^{2.5}, f(n)=Θ(n³)=n^{2.5+0.5} ⇒ Case 3 (regularity) ⇒ **Θ(n³)**.                                                                                                                         |
+| Substitution (Ω-proofs)                 | T₁ ≥ c n³ − 5n² ✔; T₂ ≥ c n⁴ + 5n² ✔ (stronger); T₃ ≥ c n³ + n ✔; T₄ ≥ c n³ − 1 ✔ ⇒ all four satisfy Ω(n³) (assuming bases hold).                                                                                                        |
+| Recursion heights                       | T(n)=T(n/10)+T(n/5)+T(n/π)+n³: height by slowest shrink (/π) ⇒ **Θ(log_π n)**.   T(n)=4T(⌊√n⌋)+n³: n→√n each level ⇒ **Θ(log log n)**.                                                                                                   |
+| Mutual recursion cost                   | With C(n)=Θ(√n): A(n)=2A(n/3)+Θ(√n) ⇒ **Θ(n^{log_3 2})**; 36 calls on n/6 with Θ(n²) work ⇒ **Θ(n² log n)**.                                                                                                                             
 
 
 ---
@@ -753,6 +776,34 @@ Quiz: [Information Systems – Part 3](https://www.flexiquiz.com/SC/N/infosystem
 
 ---
 
+### > Information Systems – Part 4 - TDT4175
+---
+*Dedicated to [Lecture 4 – Business Process Modeling: Method & Style](https://www.flexiquiz.com/SC/N/infosystems4).*  
+*Reflects core TDT4175 Lesson 4 topics: Business Process Model and Notation (BPMN) Method and Style (Chapters 1–6 of Bruce Silver), Level-1 palette, top-down modeling method, style rules for clarity and traceability, message flows and pools, end states, and practical modelling exercises.*
+
+Quiz: [Information Systems – Part 4](https://www.flexiquiz.com/SC/N/infosystems4)
+
+|                                                  |                                                                                             |
+|--------------------------------------------------|---------------------------------------------------------------------------------------------|
+| **Why BPMN Method & Style**                      | Make BPMN diagrams useful and unambiguous: combine the standard notation with a prescriptive method and concrete style rules so business and IT can share and act on models. |
+| **Key standards & terms**                        | BPMN = Business Process Model and Notation; OMG = Object Management Group; XML = eXtensible Markup Language; BPMN-I = BPMN Interchange (constrained interchange rules). |
+| **Core modelling goal**                          | Produce readable, correct, complete, and consistent end-to-end models that fit on one page at the top level and expand hierarchically. |
+| **Level-1 palette (practical subset)**           | Start/End events, Activity / Task (VERB-NOUN labels), Subprocess / Call Activity, Sequence flow, Message flow, Pool / Lane, Gateways (Exclusive, Parallel), Data Object, Text annotation. |
+| **Top-down Method (practical steps)**            | 1) Define scope (instance, start, end states). 2) Create a high-level map of major subprocesses. 3) Draw a one-page top (end-to-end) diagram. 4) Expand each collapsed subprocess on child pages. 5) Add and replicate message flows and labels for traceability. |
+| **End states (practical concept)**               | Model distinct outcomes explicitly (for example “Order Complete”, “Order Rejected”) using separate labeled end events so downstream logic and gateways map cleanly across levels. |
+| **Message flows & pools**                        | Use black-box pools for external participants; show message flows for external interactions and replicate message names/counts in child diagrams where relevant. Do not attach message flows to gateways. |
+| **Naming & labeling (Style rules)**              | Activities use VERB-NOUN (for example “Approve Invoice”); gateways can be labelled as questions (for example “Approved?”) and gates should have labels or at most one unlabeled default to avoid ambiguity. |
+| **Traceability rules (practical)**               | Child diagram titles must match collapsed subprocess names; message flow labels and counts must match between parent and child; subprocess child diagrams must expose labeled end events that correspond to parent-level gateways. |
+| **Gateway best practice**                        | Use Exclusive (XOR) gateways for alternatives and label outgoing gates (or the gateway) to document decision conditions; use Parallel (AND) gateways for unconditional concurrency and ensure proper joins. |
+| **Level-1 modelling boundaries**                 | Keep the top diagram compact (rough guideline: ~5–10 major steps). Put details in child diagrams; avoid executable-only artifacts (for example Script tasks) at Level-1. |
+| **Tooling & validation**                         | Encode Style rules as tool validations where possible (flag unlabeled messages, unmatched message flows, gateways with all unlabeled gates, mismatched subprocess names) to improve consistency. |
+| **Common modelling mistakes to avoid**           | Putting external partner internals in black-box pools, unlabeled gates, implicit end states, message flows attached to gateways, mixing executable task types (script/manual) in descriptive diagrams. |
+| **Practical classroom exercises**                | • Workshop: convert sticky-note process to a one-page top diagram with 5–8 collapsed subprocesses; expand one subprocess and replicate message flows. • Demo: model a scheduled job with a Timer start event labeled “Mondays at 08:00” and a customer-driven process with a Message start event labelled “Receive Purchase Order”. |
+| **Learning outcomes for students**               | Be able to design a top-level end-to-end process map, apply the Level-1 palette correctly, name activities VERB-NOUN, create child expansions that preserve message and end-state traceability, and run basic style checks in modelling tools. |
+| **Assessment pointers**                          | Evaluate: correct use of start/end events, clarity of VERB-NOUN labels, replication of message flows across levels, explicit end states that map to gateways, and compactness/readability of the top diagram. |
+
+---
+
 # * Applied Data Science – TDT4259
 
 **Content:**  
@@ -820,4 +871,3 @@ Quiz: [Applied Data Science – Part 4](https://www.flexiquiz.com/SC/N/appliedda
 | **Feature/leakage warning**                       | Never compute scalers/encoders/statistics on full dataset before CV—this leaks info. Create "missing" indicator flags when missingness may be informative. |
 | **When to prefer which method**                   | Text/sparse: Naïve Bayes, Linear models. Mixed types/interpretability: Trees/RandomForest. Smooth numeric boundaries: SVM. Complex high-D patterns (images/audio): Deep nets. k-NN for quick, small datasets / nonparametric baseline. |
 | **Quick sklearn pipeline example**                | See code block below for a leakage-free pipeline (impute + scale + PCA + SVM). |
-| **Practical tips**  
