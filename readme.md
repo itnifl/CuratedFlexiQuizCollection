@@ -38,8 +38,6 @@ In other words, every question in this 40-item exam is drawn either from the pub
 
 - [CPUX-F - Test 1](https://www.flexiquiz.com/SC/N/0a89b1d7-bdb1-4902-8909-ea31252500bb) - TDT4180
 
-<details>
-<summary>Click to expand — short summary</summary>
   |                               |                                   |
   |-------------------------------|-----------------------------------|
   | Human-centred design process  | ISO 9241-210 activities           |
@@ -53,12 +51,9 @@ In other words, every question in this 40-item exam is drawn either from the pub
   | UX vs. Usability              | Satisfaction & experience factors |
   | Stakeholders                  | User groups & roles               |
 
-<details>
-<summary>Click to expand — short summary</summary>
 
 - [CPUX-F - Test 2](https://www.flexiquiz.com/SC/N/6984fb3e-074c-47dd-8e7c-262bb2d584b1) - TDT4180
-<details>
-<summary>Click to expand — short summary</summary>
+
   |                              |                             |
   |------------------------------|-----------------------------|
   | Personas                     | Scenarios                   |
@@ -71,8 +66,7 @@ In other words, every question in this 40-item exam is drawn either from the pub
   | Usability vs. User Experience| Satisfaction & principles   |
   | Storyboards                  | Master-apprentice principle |
   | Error tolerance              | Dialogue principles         |
-<details>
-<summary>Click to expand — short summary</summary>
+
 
 ---
 
@@ -486,7 +480,7 @@ Quiz: [Algorithms and Data Structures – Part 7](https://www.flexiquiz.com/SC/N
   | Playlist Problem           | Complexity Considerations |
   | Graph Algorithms           | Odd cycles, shortest paths, transitive closure |
   | Floyd–Warshall Variants    | Time analysis of DP algorithms |
-
+  
 ---
 
 ### > Algorithms and Data Structures – Part 8 - TDT4120
