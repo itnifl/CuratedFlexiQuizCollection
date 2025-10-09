@@ -506,6 +506,30 @@ Quiz: [Algorithms and Data Structures – Part 8](https://www.flexiquiz.com/SC/N
 | Mutual recursion cost                   | With C(n)=Θ(√n): A(n)=2A(n/3)+Θ(√n) ⇒ **Θ(n^{log_3 2})**; 36 calls on n/6 with Θ(n²) work ⇒ **Θ(n² log n)**.                                                                                                                             
 
 
+### > Algorithms and Data Structures – Part 9 - TDT4120
+---
+*Asymptotics, Master Theorem, dynamic programming (rod cutting & grid paths), DP suitability, DAG longest path, bounded knapsack.*  
+*Reflects [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120#forelesning-1---problem-og-algoritmer), [Lecture 3 – Splitt og hersk](https://github.com/henrhoi/Algdat-TDT4120#forelesning-3---splitt-og-hersk), [Lecture 6 – Dynamisk programmering](https://github.com/henrhoi/Algdat-TDT4120#forelesning-6---dynamisk-programmering), [Lecture 8 – Traversering av grafer](https://github.com/henrhoi/Algdat-TDT4120#forelesning-8---traversering-av-grafer), [Lecture 13 – NP-kompletthet](https://github.com/henrhoi/Algdat-TDT4120#forelesning-13---np-kompletthet).*
+
+Quiz: [Algorithms and Data Structures – Part 9](https://www.flexiquiz.com/SC/N/Algdat9)
+
+| Topic                               | Key results & reminders (condensed)                                                                                                   |
+|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
+| Invertible growth rates              | Solve \(f(n)\!\le\!T\) for **Θ(1), Θ(log n), Θ(n), Θ(nᵏ)** (fixed k), **Θ(cⁿ)**; not practical: **Θ(n log n)** (Lambert-W), **Θ(n!)**, **Θ(nⁿ)**. |
+| Θ-notation simplification            | \(n³/1000+100n²-100n+3 = Θ(n³)\). Keep highest-order term; drop constants.                                                            |
+| Master Theorem (shape)               | \(T(n)=a·T(n/b)+f(n)\). Know cases 1–3 + regularity.                                                                                  |
+| Complexity ranking                   | \(Θ(n!) \succ Θ(kⁿ)\ (k>1) \succ Θ(nᵏ)\ (k>1) \succ Θ(n log n) \succ Θ(n) \succ Θ(log n) \succ Θ(1)\).                               |
+| Tight notation                       | **Θ(·)** gives both upper and lower bounds (tight).                                                                                   |
+| Simplify mixed bounds                | Example: \(Θ(n²)+O(n⁴)+Ω(log n)=Θ(n²)\); \(Θ(n²)+O(n³)+Ω(n)=Θ(n²)\).                                                                  |
+| When to use DP                       | Needs **optimal substructure** + **overlapping subproblems** (manageable state space).                                                |
+| Optimal substructure (meaning)       | Optimal solution builds from optimal subsolutions (e.g., rod-cutting, shortest paths in DAG).                                         |
+| Rod cutting (p=⟨1,4,3,6,8,5,9⟩)      | Free cuts: \(r₇=13\) (e.g., 2+2+2+1). With cut cost \(k=2\): best \(r₇=10\) (e.g., 5+2 minus one cut).                              |
+| Grid paths (counting)                | No blocks: \(fᵢⱼ=\binom{(i-1)+(j-1)}{i-1}\) ⇒ \(f₂₃=3\), \(f₃₃=6\). With blocks: DP \(fᵢⱼ=f_{i-1,j}+f_{i,j-1}\) (blocked ⇒ 0).       |
+| Sequence segmentation DP             | Split \(A\) into contiguous segments with sums in \(B\): prefix-DP is natural (overlap + optimality).                                 |
+| Longest path                         | General graphs: NP-hard. **DAG**: topo-order DP in **Θ(V+E)**.                                                                        |
+| Bounded vs 0/1 knapsack              | Bounded (arbitrary k) subsumes 0/1 ⇒ no general algorithm asymptotically faster than best 0/1 for all k (use binary-splitting trick). |
+
+
 ---
 
 
