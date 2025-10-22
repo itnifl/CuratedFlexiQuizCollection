@@ -851,6 +851,30 @@ Lesson: **TDT4175 – Information Systems (Lesson 5)**
 
 ---
 
+### > TDT4175 Information Systems – Part 6
+---
+*Operational systems (TPS/ERP/SCM/CRM), digital channels, and decision-support layers (MIS/DSS/GSS/ESS).*  
+
+Quiz: [Information Systems – Part 6](https://www.flexiquiz.com/SC/N/infosystems6)
+
+Lesson: **TDT4175 – Information Systems (Lesson 6)**
+
+| Topic                 | Brief description |
+|-----------------------------------|-------------------|
+| Operational core systems          | How organizations record and run day-to-day activities using TPS and integrated suites. |
+| ERP integration                    | Enterprise-wide process and data integration across functions to reduce silos and improve data quality. |
+| Supply chain planning              | Coordinating sourcing-to-delivery; aligning demand and capacity; time-phased component planning. |
+| Customer relationship management  | Managing customer data and interactions across marketing, sales, and service. |
+| Digital channels                   | E-commerce, mobile, and social interactions tied to back-office processes and data. |
+| Public-sector digital services     | E-government interactions between citizens, businesses, and agencies. |
+| Decision support layers            | From routine managerial reporting (MIS) to exploratory/what-if analysis (DSS), team support (GSS), and executive overviews (ESS). |
+| KPIs and dashboards                | Periodic, structured performance views by function to monitor and steer operations. |
+| Data-to-decision flow              | Turning operational data into insights for tactical and strategic decision-making. |
+| Cross-cutting concerns             | Trust, privacy, security, payments, logistics/returns, and change management during adoption. |
+
+
+---
+
 
 # * Applied Data Science – TDT4259
 
