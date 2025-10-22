@@ -828,6 +828,30 @@ Quiz: [Information Systems – Part 4](https://www.flexiquiz.com/SC/N/infosystem
 
 ---
 
+### > TDT4175 Information Systems – Part 5
+---
+*SEQUAL (semiotic quality), Lean value-stream thinking, conceptual & meta-modeling, coordination choices, and the EA lens.*  
+
+Quiz: [Information Systems – Part 5](https://www.flexiquiz.com/SC/N/infosystems5)
+
+Lesson: **TDT4175 – Information Systems (Lesson 5)**
+
+| Topic (overordnet)            | Brief description |
+|-------------------------------|-------------------|
+| SEQUAL – semiotic quality     | The seven-layer view of model quality and the idea of fit-for-purpose across layers. |
+| Value orientation             | Modeling with stakeholder value in mind (outcomes over tasks). |
+| Lean value-stream thinking    | Flow, waste reduction, and continuous improvement via value-stream focus. |
+| Modeling goals & uses         | Why we model: understanding, communication, analysis, compliance, and deployment. |
+| Conceptual modeling           | Core domain modeling perspectives and relationships. |
+| Meta-modeling (M3→M0)         | Levels from meta-metamodel to runtime instances; language vs. model. |
+| Coordination styles           | Organizational patterns for aligning or differentiating processes. |
+| Value dimensions              | Time, quality, cost, flexibility, resource use, side effects, and compliance. |
+| Enterprise architecture (EA)  | Portfolio and layered viewpoints linking business, applications, and technology. |
+| Ways of working               | How agile/DevOps and architecture practices complement modeling and analysis. |
+
+---
+
+
 # * Applied Data Science – TDT4259
 
 **Content:**  
