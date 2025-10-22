@@ -859,7 +859,7 @@ Quiz: [Information Systems – Part 6](https://www.flexiquiz.com/SC/N/infosystem
 
 Lesson: **TDT4175 – Information Systems (Lesson 6)**
 
-| Topic                 | Brief description |
+| Topic                             | Brief description |
 |-----------------------------------|-------------------|
 | Operational core systems          | How organizations record and run day-to-day activities using TPS and integrated suites. |
 | ERP integration                    | Enterprise-wide process and data integration across functions to reduce silos and improve data quality. |
@@ -871,6 +871,29 @@ Lesson: **TDT4175 – Information Systems (Lesson 6)**
 | KPIs and dashboards                | Periodic, structured performance views by function to monitor and steer operations. |
 | Data-to-decision flow              | Turning operational data into insights for tactical and strategic decision-making. |
 | Cross-cutting concerns             | Trust, privacy, security, payments, logistics/returns, and change management during adoption. |
+
+
+---
+
+### > TDT4175 Information Systems – Part 7
+---
+*From integrated operations to managerial/executive decision support, knowledge management, and expert systems.*  
+
+Quiz: [Information Systems – Part 7](https://www.flexiquiz.com/SC/N/infosystems7)
+
+Lesson: **TDT4175 – Information Systems (Lesson 7)**
+
+| Topic                             | Brief description |
+|-----------------------------------|-------------------|
+| Enterprise integration (ERP)      | Unifies siloed operational data (sales, inventory, finance, HR, etc.) into a single, consistent platform for cross-functional insight. |
+| Programmed vs. non-programmed     | Distinguishes routine, rules-based choices from novel, uncertain decisions requiring judgment and exploration. |
+| Decision Support Systems (DSS)    | Tools for ad-hoc analysis: what-if, goal-seeking, sensitivity, simulation; supports semi-structured decisions. |
+| Management Information Systems    | Periodic dashboards and KPIs for monitoring, exception spotting, and operational control by middle management. |
+| Executive Support Systems (ESS)   | High-level, external-aware views with drill-down for strategy, uncertainty, and exception handling at the top level. |
+| Knowledge types & management      | Explicit vs. tacit knowledge; practices and systems to capture, store, share, and apply organizational know-how (KMS). |
+| Expert systems & rule engines     | Codify domain expertise (knowledge base + inference) to assist non-experts with recommendations/explanations. |
+| Data→Insight pipeline             | Flow from operational capture to integrated data, reporting, analysis, and executive insight for better decisions. |
+| Tool–decision fit                 | Match system to decision type: MIS (structured), DSS (semi-structured), ESS (strategic), KMS/ES (expertise leverage). |
 
 
 ---
