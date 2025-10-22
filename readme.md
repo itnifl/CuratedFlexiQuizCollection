@@ -898,6 +898,30 @@ Lesson: **TDT4175 – Information Systems (Lesson 7)**
 
 ---
 
+### > TDT4175 Information Systems – Part 8
+---
+*Knowledge management (KM), expert/specialized IS, pervasive/mobile computing, and computer-supported cooperative work (CSCW).*  
+
+Quiz: [Information Systems – Part 8](https://www.flexiquiz.com/SC/N/infosystems8)
+
+Lesson: **TDT4175 – Information Systems (Lesson 8)**
+
+| Topic (overordnet)                  | Brief description |
+|------------------------------------|-------------------|
+| Knowledge types                     | **Tacit** (experience, intuition) vs **Explicit** (documents, FAQs, DBs); convert and share to scale know-how. |
+| KM foundations                      | People–process–tech: organize **create → store → share → apply**; use portals, intranets, search, repositories. |
+| Knowledge maps/directories          | “Who knows what” and where to find it; speed up discovery and reuse. |
+| Expert systems (as specialized IS)  | Components: **knowledge base**, **inference engine** (forward/backward chaining), **explanation facility**, **acquisition tools**. |
+| Inference & explanation             | Engine applies rules to facts to derive conclusions; explanation shows **why/how** to build trust and learning. |
+| Handling uncertainty                | Techniques like fuzzy rules or confidence factors when knowledge is imprecise. |
+| Immersive tech (VR/AR)              | Training, simulation, visualization where “seeing/doing” transfers knowledge faster than reading. |
+| Pervasive/mobile computing          | Devices everywhere (phones, wearables, sensors) + always-on networks → real-time data capture and field enablement. |
+| Mobile workforce enablement         | Sync from the field; faster cycle times, fewer errors, better customer service at point-of-need. |
+| CSCW & remote collaboration         | Chat, shared docs, video stand-ups, task boards → richer coordination, transparency, and quicker decisions. |
+| Business impact                     | **Reach & speed**, **cost & accuracy**, **service & personalization** from embedded knowledge and connectivity. |
+| Risks & design considerations       | Security/privacy, device sprawl, data quality, human-factors for small screens/in-motion contexts. |
+
+---
 
 # * Applied Data Science – TDT4259
 
