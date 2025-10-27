@@ -516,14 +516,14 @@ Quiz: [Algorithms and Data Structures – Part 9](https://www.flexiquiz.com/SC/N
 
 | Topic | Key results & reminders (condensed) |
 |---|---|
-| **Asymptotic simplification** | Keep the highest-order term; drop constants and lower orders. Use **Θ(·)** when you can bound above and below tightly. When mixing bounds (Θ, O, Ω), the dominant order wins (e.g., Θ(n²)+O(n³)+Ω(n) ⇒ Θ(n²)). |
-| **Invertible growth rates (solve \(f(n)\le T\))** | Easy to invert for **Θ(1), Θ(\log n), Θ(n), Θ(n^k)** (fixed k), **Θ(c^n)**. Not nice in closed form for **Θ(n\log n)** (Lambert-W) or superfactorial types (**Θ(n!)**, **Θ(n^n)**); use approximations/lookup. |
-| **Master Theorem (shape)** | Recurrences \(T(n)=a\,T(n/b)+f(n)\): know the three main cases and the regularity condition; match \(f(n)\) to \(n^{\log_b a}\). |
-| **Growth ranking (fastest to slowest)** | \(Θ(n!)  Θ(k^n) (k>1)  Θ(n^k) (k>1)  Θ(n\log n)  Θ(n)  Θ(\log n)  Θ(1)\). |
-| **When to use Dynamic Programming** | Problem has **optimal substructure** (optimal solution builds from optimal subsolutions) **and** **overlapping subproblems** (reused states). Keep state space manageable. |
-| **DP patterns (common examples)** | **Cut/partition problems** (e.g., rod-cutting with/without cut costs): choose best split via recurrence. **Grid/path counting**: \(dp[i][j]=dp[i-1][j]+dp[i][j-1]\) (blocked cells ⇒ 0); closed forms exist without blocks via combinatorics. **Sequence segmentation**: prefix-based DP with cost/feasibility checks over previous cut positions. |
-| **Longest path vs DAGs** | Longest path is NP-hard in general graphs but is linear-time **Θ(V+E)** via DP on a **DAG** (topological order). |
-| **Knapsack variants** | **0/1 knapsack** is baseline. **Bounded knapsack** (limited copies) reduces to 0/1 via binary-splitting of item counts; asymptotically no general shortcut better than the best 0/1 approach across all k. |
+| **Asymptotic simplification** | Keep the highest-order term; drop constants and lower orders. Use **Θ(·)** when you can bound above and below tightly. When mixing bounds (Θ, O, Ω), the dominant order wins (e.g., Θ(n²) + O(n³) + Ω(n) ⇒ Θ(n²)). |
+| **Invertible growth rates (solve f(n) ≤ T)** | Easy to invert for **Θ(1), Θ(log n), Θ(n), Θ(n^k)** (fixed k), **Θ(c^n)**. Not nice in closed form for **Θ(n log n)** (Lambert-W) or superfactorial types (**Θ(n!)**, **Θ(n^n)**); use approximations/lookup. |
+| **Master Theorem (shape)** | Recurrences **T(n) = a·T(n/b) + f(n)**: know the three main cases and the regularity condition; match **f(n)** to **n^(log_b a)**. |
+| **Growth ranking (fastest → slowest)** | **Θ(1) ≺ Θ(log n) ≺ Θ(n) ≺ Θ(n log n) ≺ Θ(n^k)** (k>1) **≺ Θ(c^n) ≺ Θ(n!) ≺ Θ(n^n)**. |
+| **When to use Dynamic Programming** | Needs **optimal substructure** (build optimum from optimal subsolutions) **and** **overlapping subproblems** (reused states). Keep the state space manageable. |
+| **DP patterns (common examples)** | **Cut/partition (rod-cutting)** with/without cut costs: choose best split via a recurrence. **Grid/path counting:** `dp[i][j] = dp[i-1][j] + dp[i][j-1]` (blocked cells → 0); without blocks, combinatorial closed forms exist. **Sequence segmentation:** prefix-based DP with cost/feasibility checks over previous cut positions. |
+| **Longest path vs DAGs** | Longest path is NP-hard in general graphs, but linear-time **Θ(V+E)** via DP on a **DAG** (topological order). |
+| **Knapsack variants** | **0/1 knapsack** is baseline. **Bounded knapsack** (limited copies) reduces to 0/1 via binary-splitting of item counts; no general asymptotic shortcut beats the best 0/1 approach across all k. |
 
 
 ---
