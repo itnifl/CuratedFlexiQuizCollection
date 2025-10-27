@@ -592,6 +592,41 @@ Quiz: [Algorithms and Data Structures – Part 10](https://www.flexiquiz.com/SC/
 | **Array-as-heap view** | 1-based indexing: children at 2i and 2i+1. 0-based indexing: children at 2i+1 and 2i+2. Heapsort step: swap root with last, shrink heap, sift-down. |
 | **Heap vs. BST — central properties** | **Heap:** prioritization (fast find-max), not ordered for key search. **BST:** ordered for fast search and sorted traversal. |
 
+---
+
+### > Algorithms and Data Structures – Part 11 - TDT4120
+---
+*Asymptotic ranking, DP suitability, greedy methods (activity selection, Huffman), MST basics (Kruskal, safe edges), shortest paths, and optimal merging.*  
+
+Quiz: [Algorithms and Data Structures – Part 11](https://www.flexiquiz.com/SC/N/Algdat11)
+
+**Covers & focus**
+- [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
+- [Lecture 6 – Dynamisk programmering](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-6---dynamisk-programmering)
+- [Lecture 7 – Grådige algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-7---gr%C3%A5dige-algoritmer) ← **highest focus**
+- [Lecture 9 – Minimale spenntrær](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-9---minimale-spenntr%C3%A6r)
+- [Lecture 10 – Korteste vei fra én til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-10---korteste-vei-fra-%C3%A9n-til-alle)
+- [Lecture 11 – Korteste vei fra alle til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-11---korteste-vei-fra-alle-til-alle)
+
+| Topic (overordnet)                     | Key results & reminders (condensed) |
+|---------------------------------------|-------------------------------------|
+| Complexity ranking (desc.)            | Θ(n!) ≻ Θ(kⁿ) (k>1) ≻ Θ(nᵏ) (k>1) ≻ Θ(n log n) ≻ Θ(n) ≻ Θ(log n) ≻ Θ(1). |
+| DP suitability                         | Needs **optimal substructure** + **overlapping subproblems** and a manageable state space. |
+| Greedy-choice property                 | A globally optimal solution can be built by repeatedly making a **locally** optimal choice. |
+| Greedy-solvable examples               | Activity selection (by earliest finish), Huffman coding (merge two lightest), Kruskal (safe light edges across cuts). |
+| Weighted interval scheduling           | Requires DP; plain activity-selection greedy is **not** optimal with weights. |
+| Activity selection (second pick)       | Recursive/iterative CLRS variant: after picking the earliest finishing activity, always pick the next that **starts after** the last finish; ties broken by earliest finish. |
+| Huffman coding facts                   | Prefix-free, optimal among symbol-by-symbol prefix codes; total cost = Σ (freq × depth). |
+| Huffman length computation             | Build the tree (merge two minimum weights repeatedly); sum frequency × codeword length. |
+| Kruskal’s runtime                      | Sort edges O(E log E) + union-find almost-constant amortized ⇒ **O(E log E)**. |
+| Safe edge (Generic-MST)                | If A ⊆ some MST and (S, V−S) is a cut **that respects A**, the **lightest** edge crossing it is **safe** to add to A. |
+| Optimal merge of k lists               | Always merge the two **shortest** lists first (Huffman strategy) to minimize total work. |
+| Shortest paths: Dijkstra vs B-Ford     | Dijkstra (greedy) for non-negative weights; Bellman–Ford handles negatives and detects negative cycles. |
+| Huffman codeword lengths (bounds)      | For n ≥ 1 symbols: min length = 1 bit (if n=1, often 1 by convention), max length ≤ n−1 (in a chain). |
+
+
+---
+
 <br/>
 <br/>
 <br/>
