@@ -566,7 +566,13 @@ Quiz: [Algorithms and Data Structures – Part 9](https://www.flexiquiz.com/SC/N
 ### > Algorithms and Data Structures – Part 10 - TDT4120
 ---
 *Master Theorem form, complexity ranking, heaps vs. BSTs, heapsort, dictionary ADTs (BST/balanced BST/hash), and heap/BST properties.*  
-*Reflects [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer), [Lecture 5 – Rotfaste trestrukturer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-5---rotfaste-trestrukturer).*
+
+- [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
+- [Lecture 2 – Datastrukturer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-2---datastrukturer)
+- [Lecture 3 – Splitt og hersk](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-3---splitt-og-hersk)
+- [Lecture 5 – Rotfaste trestrukturer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-5---rotfaste-trestrukturer)
+
+**Highest focus:** Lecture 5 – Rotfaste trestrukturer
 
 Quiz: [Algorithms and Data Structures – Part 10](https://www.flexiquiz.com/SC/N/Algdat10)
 
