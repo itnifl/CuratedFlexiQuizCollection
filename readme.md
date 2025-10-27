@@ -490,20 +490,21 @@ Quiz: [Algorithms and Data Structures – Part 7](https://www.flexiquiz.com/SC/N
 
 Quiz: [Algorithms and Data Structures – Part 8](https://www.flexiquiz.com/SC/N/Algdat8)
 
-| Topic                                   | Key results & reminders                                                                                                                                                                                                                   |
-|-----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Order-of-growth ranking                 | Fast → slow: 1) Θ(1), 2) Θ(log log n), 3) Θ(log n), 4) Θ(√n), 5) Θ(n), 6) Θ(n log n), 7) Θ(n²), 8) Θ(n³), 9) Θ(nᵏ) (fixed k>1), 10) Θ(cⁿ), 11) Θ(n!), 12) Θ(nⁿ).                                                                          |
-| Asymptotic comparison (O/Ω/Θ/o/ω)       | Use limits/ratios. Example: f(n)=n²lg n + n + nlg n vs g(n)=n² ⇒ f/g = lg n + o(1) → ∞ ⇒ f ∈ Ω(g) and ω(g); not O/Θ. 2ⁿ vs 2^{n/2}: ratio 2^{n/2} → ∞ ⇒ 2ⁿ ∈ ω(2^{n/2}).                                                                |
-| Combining bounds                        | Ω(n)+Θ(n²lg n)+O(n³) ⇒ typical tight term Θ(n²lg n); best case within Ω(n)∩O(n²lg n); worst case within Ω(n²lg n)∩O(n³).                                                                                                                 |
-| Algebra with Θ/O/Ω                      | Θ(n²)+O(lg n) ⇒ Θ(n²). Θ(n)+O(n²)+Ω(n²) ⇒ Θ(n²). If f ∈ o(g) ⇒ f ∈ O(g). If f ∈ Θ(g) ⇒ f ∈ O(g) ∩ Ω(g). For any ε>0: n lg n ∈ o(n^{1+ε}); and n^a ∈ o(n^b) for a<b.                                                                    |
-| Sorting properties (CLRS variants)      | Merge-sort: stable, Θ(n log n) time, Θ(n) extra space. Quicksort: in-place, not stable; expected Θ(n log n), worst Θ(n²). PARTITION runs Θ(n), places pivot q with A[p..q−1] ≤ A[q] ≤ A[q+1..r].                                           |
-| K-LARGEST (size-k buffer)               | Init O(k); scan n items with ≤k bubble-steps ⇒ **O(nk)** time, **O(k)** space. (Min-heap variant: **O(n log k)**, **O(k)** space.)                                                                                                       |
-| Reductions (X ≤ₚ Y)                     | If Y ∈ P and X ≤ₚ Y ⇒ X ∈ P. If X is NP-hard and X ≤ₚ Y ⇒ Y is NP-hard. (X ≤ₚ Y alone doesn’t imply Y ≤ₚ X.)                                                                                                                             |
-| Linear program (hammers & nails)        | Maximize **3000x + 1000y** subject to **2x + y ≤ 100**, **x + 2y ≤ 80**, **x ≤ 40**, **x,y ≥ 0**; optimum **(x,y)=(40,20)** gives **140 000 NOK**.                                                                                       |
-| Master Theorem example                  | T(n)=32T(n/4)+3n³+7n ⇒ a=32, b=4, n^{log_b a}=n^{2.5}, f(n)=Θ(n³)=n^{2.5+0.5} ⇒ Case 3 (regularity) ⇒ **Θ(n³)**.                                                                                                                         |
-| Substitution (Ω-proofs)                 | T₁ ≥ c n³ − 5n² ✔; T₂ ≥ c n⁴ + 5n² ✔ (stronger); T₃ ≥ c n³ + n ✔; T₄ ≥ c n³ − 1 ✔ ⇒ all four satisfy Ω(n³) (assuming bases hold).                                                                                                        |
-| Recursion heights                       | T(n)=T(n/10)+T(n/5)+T(n/π)+n³: height by slowest shrink (/π) ⇒ **Θ(log_π n)**.   T(n)=4T(⌊√n⌋)+n³: n→√n each level ⇒ **Θ(log log n)**.                                                                                                   |
-| Mutual recursion cost                   | With C(n)=Θ(√n): A(n)=2A(n/3)+Θ(√n) ⇒ **Θ(n^{log_3 2})**; 36 calls on n/6 with Θ(n²) work ⇒ **Θ(n² log n)**.                                                                                                                             
+| Topic | Key results & reminders (condensed) |
+|---|---|
+| **Order-of-growth ranking** | From fastest to slowest growth: **Θ(1) ≺ Θ(log log n) ≺ Θ(log n) ≺ Θ(√n) ≺ Θ(n) ≺ Θ(n log n) ≺ Θ(n²) ≺ Θ(n³) ≺ Θ(nᵏ)** (fixed k>1) **≺ Θ(cⁿ) ≺ Θ(n!) ≺ Θ(nⁿ)**. |
+| **Asymptotic comparison (O/Ω/Θ/o/ω)** | Use limits/ratios to compare functions. If lim_{n→∞} f/g = 0 ⇒ f ∈ o(g); if = ∞ ⇒ f ∈ ω(g); if in (0,∞) ⇒ f ∈ Θ(g). Remember: Θ(g) = O(g) ∩ Ω(g). |
+| **Combining & algebra with bounds** | Mixed bounds collapse to the dominant order (e.g., Ω(·)+Θ(·)+O(·) ⇒ the Θ-term if it dominates). Rules: Θ(n²)+O(log n)=Θ(n²); if f ∈ Θ(g) then f ∈ O(g) ∩ Ω(g); for any ε>0: n log n ∈ o(n^{1+ε}) and n^a ∈ o(n^b) for a<b. |
+| **Sorting (core properties)** | **Mergesort:** stable, Θ(n log n) time, Θ(n) extra space. **Quicksort:** in-place, typically not stable; expected Θ(n log n), worst Θ(n²). **PARTITION:** linear-time, places pivot with all left ≤ pivot ≤ all right. |
+| **Selecting k largest (stream/buffer)** | Simple buffer: **O(nk)** time, **O(k)** space. Min-heap of size k: **O(n log k)** time, **O(k)** space. Choose by k relative to n and simplicity needs. |
+| **Reductions (polytime, ≤ₚ)** | If X ≤ₚ Y and Y ∈ P ⇒ X ∈ P. If X is NP-hard and X ≤ₚ Y ⇒ Y is NP-hard. (One-way reduction doesn’t imply equivalence.) |
+| **Linear programming (pattern)** | Max/Min linear objective subject to linear constraints and non-negativity. In 2D, optima occur at feasible corner points; generally solved via simplex or interior-point. Interpret constraints as resource limits; check binding constraints at optimum. |
+| **Master Theorem (how to use)** | For T(n)=a·T(n/b)+f(n): compare f(n) to n^{log_b a} to pick Case 1/2/3; verify the regularity condition when needed. Report Θ-bound accordingly. |
+| **Substitution method (lower bounds)** | Guess a bound (e.g., Ω(n^k)), plug into the recurrence, and prove by induction; ensure constants and base cases make the inequality hold for all large n. |
+| **Recursion height heuristics** | Height ≈ number of times n shrinks to base. Use the slowest-shrinking branch to upper-bound height. Transforms like n → √n yield heights Θ(log log n); constant-factor division yields Θ(log n). |
+| **Mutual/combined recurrences** | Analyze each recurrence’s contribution: compare branching factors and subproblem sizes; use master/recursion trees where applicable. If per-level work dominates, expect polynomial factors; repeated halvings add a log n factor. |
+
+                                                                                                                      
 
 
 ### > Algorithms and Data Structures – Part 9 - TDT4120
@@ -513,21 +514,16 @@ Quiz: [Algorithms and Data Structures – Part 8](https://www.flexiquiz.com/SC/N
 
 Quiz: [Algorithms and Data Structures – Part 9](https://www.flexiquiz.com/SC/N/Algdat9)
 
-| Topic                               | Key results & reminders (condensed)                                                                                                   |
-|-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|
-| Invertible growth rates              | Solve \(f(n)\!\le\!T\) for **Θ(1), Θ(log n), Θ(n), Θ(nᵏ)** (fixed k), **Θ(cⁿ)**; not practical: **Θ(n log n)** (Lambert-W), **Θ(n!)**, **Θ(nⁿ)**. |
-| Θ-notation simplification            | \(n³/1000+100n²-100n+3 = Θ(n³)\). Keep highest-order term; drop constants.                                                            |
-| Master Theorem (shape)               | \(T(n)=a·T(n/b)+f(n)\). Know cases 1–3 + regularity.                                                                                  |
-| Complexity ranking                   | \(Θ(n!) \succ Θ(kⁿ)\ (k>1) \succ Θ(nᵏ)\ (k>1) \succ Θ(n log n) \succ Θ(n) \succ Θ(log n) \succ Θ(1)\).                               |
-| Tight notation                       | **Θ(·)** gives both upper and lower bounds (tight).                                                                                   |
-| Simplify mixed bounds                | Example: \(Θ(n²)+O(n⁴)+Ω(log n)=Θ(n²)\); \(Θ(n²)+O(n³)+Ω(n)=Θ(n²)\).                                                                  |
-| When to use DP                       | Needs **optimal substructure** + **overlapping subproblems** (manageable state space).                                                |
-| Optimal substructure (meaning)       | Optimal solution builds from optimal subsolutions (e.g., rod-cutting, shortest paths in DAG).                                         |
-| Rod cutting (p=⟨1,4,3,6,8,5,9⟩)      | Free cuts: \(r₇=13\) (e.g., 2+2+2+1). With cut cost \(k=2\): best \(r₇=10\) (e.g., 5+2 minus one cut).                              |
-| Grid paths (counting)                | No blocks: \(fᵢⱼ=\binom{(i-1)+(j-1)}{i-1}\) ⇒ \(f₂₃=3\), \(f₃₃=6\). With blocks: DP \(fᵢⱼ=f_{i-1,j}+f_{i,j-1}\) (blocked ⇒ 0).       |
-| Sequence segmentation DP             | Split \(A\) into contiguous segments with sums in \(B\): prefix-DP is natural (overlap + optimality).                                 |
-| Longest path                         | General graphs: NP-hard. **DAG**: topo-order DP in **Θ(V+E)**.                                                                        |
-| Bounded vs 0/1 knapsack              | Bounded (arbitrary k) subsumes 0/1 ⇒ no general algorithm asymptotically faster than best 0/1 for all k (use binary-splitting trick). |
+| Topic | Key results & reminders (condensed) |
+|---|---|
+| **Asymptotic simplification** | Keep the highest-order term; drop constants and lower orders. Use **Θ(·)** when you can bound above and below tightly. When mixing bounds (Θ, O, Ω), the dominant order wins (e.g., Θ(n²)+O(n³)+Ω(n) ⇒ Θ(n²)). |
+| **Invertible growth rates (solve \(f(n)\le T\))** | Easy to invert for **Θ(1), Θ(\log n), Θ(n), Θ(n^k)** (fixed k), **Θ(c^n)**. Not nice in closed form for **Θ(n\log n)** (Lambert-W) or superfactorial types (**Θ(n!)**, **Θ(n^n)**); use approximations/lookup. |
+| **Master Theorem (shape)** | Recurrences \(T(n)=a\,T(n/b)+f(n)\): know the three main cases and the regularity condition; match \(f(n)\) to \(n^{\log_b a}\). |
+| **Growth ranking (fastest to slowest)** | \(Θ(n!)  Θ(k^n) (k>1)  Θ(n^k) (k>1)  Θ(n\log n)  Θ(n)  Θ(\log n)  Θ(1)\). |
+| **When to use Dynamic Programming** | Problem has **optimal substructure** (optimal solution builds from optimal subsolutions) **and** **overlapping subproblems** (reused states). Keep state space manageable. |
+| **DP patterns (common examples)** | **Cut/partition problems** (e.g., rod-cutting with/without cut costs): choose best split via recurrence. **Grid/path counting**: \(dp[i][j]=dp[i-1][j]+dp[i][j-1]\) (blocked cells ⇒ 0); closed forms exist without blocks via combinatorics. **Sequence segmentation**: prefix-based DP with cost/feasibility checks over previous cut positions. |
+| **Longest path vs DAGs** | Longest path is NP-hard in general graphs but is linear-time **Θ(V+E)** via DP on a **DAG** (topological order). |
+| **Knapsack variants** | **0/1 knapsack** is baseline. **Bounded knapsack** (limited copies) reduces to 0/1 via binary-splitting of item counts; asymptotically no general shortcut better than the best 0/1 approach across all k. |
 
 
 ---
