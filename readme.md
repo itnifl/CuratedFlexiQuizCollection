@@ -4,7 +4,12 @@ Welcome to my curated collection of quizzes hosted on [FlexiQuiz](https://www.fl
 
 Each quiz has been crafted to balance core theory with real-world application and critical thinking. Many of them are content from subjects at NTNU Trondheim, several of them are old exams questions from previous exams.
 
+<br/>
+<br/>
+<br/>
+
 ---
+
 
 # * CPU-X and the human centered design process - TDT4180 #
 
@@ -68,7 +73,12 @@ In other words, every question in this 40-item exam is drawn either from the pub
   | Error tolerance              | Dialogue principles         |
 
 
+<br/>
+<br/>
+<br/>
+
 ---
+
 
 # * Software Testing and Quality Series - TDT4242
 
@@ -128,7 +138,12 @@ A series focused on core software testing concepts, methodologies, and best prac
   | Statement vs branch   | Adaptive testing     |
 
 
+<br/>
+<br/>
+<br/>
+
 ---
+
 
 # * Java Programming - TDT4100
 
@@ -150,7 +165,12 @@ A foundational Java quiz for programmers looking to evaluate their language know
   | Method overloading     | Method overriding     |
 
 
+<br/>
+<br/>
+<br/>
+
 ---
+
 
 # * Cryptography Fundamentals - TDT4237
 
@@ -170,7 +190,12 @@ A concise introduction to the world of secure communications and encryption tech
   | Cryptographic techniques   | Data protection           |
 
 
+<br/>
+<br/>
+<br/>
+
 ---
+
 
 # * Software Security Series - TDT4237
 
@@ -251,7 +276,12 @@ A comprehensive series covering secure development practices and application-lev
   | Access control mechanisms             | Common access control models                        |
 
 
+<br/>
+<br/>
+<br/>
+
 ---
+
 
 # * Web Application Security Series - TDT4237
 
@@ -318,7 +348,12 @@ A deep dive into common web vulnerabilities and how to prevent them.
   | Least privilege principle         | Threat modeling importance          |
 
 
+<br/>
+<br/>
+<br/>
+
 ---
+
 
 # * Algorithms and Data Structures - TDT4120
 
@@ -505,7 +540,7 @@ Quiz: [Algorithms and Data Structures – Part 8](https://www.flexiquiz.com/SC/N
 | **Mutual/combined recurrences** | Analyze each recurrence’s contribution: compare branching factors and subproblem sizes; use master/recursion trees where applicable. If per-level work dominates, expect polynomial factors; repeated halvings add a log n factor. |
 
                                                                                                                       
-
+---
 
 ### > Algorithms and Data Structures – Part 9 - TDT4120
 ---
@@ -528,6 +563,34 @@ Quiz: [Algorithms and Data Structures – Part 9](https://www.flexiquiz.com/SC/N
 
 ---
 
+### > Algorithms and Data Structures – Part 10 - TDT4120
+---
+*Master Theorem form, complexity ranking, heaps vs. BSTs, heapsort, dictionary ADTs (BST/balanced BST/hash), and heap/BST properties.*  
+*Reflects [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer), [Lecture 5 – Rotfaste trestrukturer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-5---rotfaste-trestrukturer).*
+
+Quiz: [Algorithms and Data Structures – Part 10](https://www.flexiquiz.com/SC/N/Algdat10)
+
+| Topic  | Key results & reminders (condensed) |
+|---|---|
+| **Master Theorem — template & cases** | Form: T(n) = a·T(n/b) + f(n). Know cases 1–3 + regularity; compare f(n) to n^(log_b a). |
+| **Complexity ranking (descending)** | Θ(n!) ≻ Θ(k^n) (k>1) ≻ Θ(n^k) (k>1) ≻ Θ(n log n) ≻ Θ(n) ≻ Θ(log n) ≻ Θ(1). |
+| **Heaps vs. Binary Search Trees (BST)** | **Heap:** nearly complete shape; parent ≥ children (max-heap). **BST:** in-order yields sorted keys; left < root < right. |
+| **Heapsort — properties** | In-place, Θ(n log n) worst-case time, not stable; build-heap then repeat extract-max + sift-down. |
+| **BST insertion order & shape** | Input order affects height: best Θ(log n) (balanced), worst Θ(n) (chain); impacts tree-sort runtime. |
+| **Tree-sort via BST (insert + inorder)** | Best Θ(n log n), average Θ(n log n), worst Θ(n²) (degenerate BST). |
+| **BST height bounds** | For n nodes: between Ω(log n) (balanced) and O(n) (path). Without balancing, only this range is safe. |
+| **Dictionary ADTs (lookup/insert/delete)** | **Hash table:** expected Θ(1) ops (uniform hashing), worst Θ(n). **Balanced BST:** Θ(log n) worst-case. **Unbalanced BST:** order-dependent. **Array:** unsorted Θ(n) find/delete; sorted has Θ(log n) find but Θ(n) insert/delete. |
+| **Heap order & relations** | In a max-heap, for node x with children y, z: key(x) ≥ key(y) and key(x) ≥ key(z). |
+| **BST minimum** | Follow left child from root until null; last visited node is the minimum. |
+| **Stack via max-heap trick** | Use increasing timestamp as heap key. push: insert (ts, value). pop: extract-max. |
+| **Array-as-heap view** | 1-based indexing: children at 2i and 2i+1. 0-based indexing: children at 2i+1 and 2i+2. Heapsort step: swap root with last, shrink heap, sift-down. |
+| **Heap vs. BST — central properties** | **Heap:** prioritization (fast find-max), not ordered for key search. **BST:** ordered for fast search and sorted traversal. |
+
+<br/>
+<br/>
+<br/>
+
+---
 
 **TDT4120 - Resources:**
 
@@ -539,7 +602,12 @@ Quiz: [Algorithms and Data Structures – Part 9](https://www.flexiquiz.com/SC/N
 - [CP-Algorithms — Algorithms for Competitive Programming](https://cp-algorithms.com/).
 
 
+<br/>
+<br/>
+<br/>
+
 ---
+
 
 # * Model-Driven Software Engineering - TDT4250
 
@@ -696,7 +764,12 @@ Quiz: [EMF & Ecore – Part 7](https://www.flexiquiz.com/SC/N/ModelDrivenDev7)
   | **Code generation & runtime**                    | EMF generates a Java `interface` + `*Impl` class per `EClass`, a `Package` with metadata constants, and a `Factory` to instantiate objects; generated code is annotated with `@generated`. :contentReference[oaicite:6]{index=6} |
 
 
+<br/>
+<br/>
+<br/>
+
 ---
+
 
 # * Information Systems – TDT4175
 
@@ -832,7 +905,7 @@ Quiz: [Information Systems – Part 5](https://www.flexiquiz.com/SC/N/infosystem
 
 Lesson: **TDT4175 – Information Systems (Lesson 5)**
 
-| Topic (overordnet)            | Brief description |
+| Topic             | Brief description |
 |-------------------------------|-------------------|
 | SEQUAL – semiotic quality     | The seven-layer view of model quality and the idea of fit-for-purpose across layers. |
 | Value orientation             | Modeling with stakeholder value in mind (outcomes over tasks). |
@@ -902,7 +975,7 @@ Quiz: [Information Systems – Part 8](https://www.flexiquiz.com/SC/N/infosystem
 
 Lesson: **TDT4175 – Information Systems (Lesson 8)**
 
-| Topic (overordnet)                  | Brief description |
+| Topic                   | Brief description |
 |------------------------------------|-------------------|
 | Knowledge types                     | **Tacit** (experience, intuition) vs **Explicit** (documents, FAQs, DBs); convert and share to scale know-how. |
 | KM foundations                      | People–process–tech: organize **create → store → share → apply**; use portals, intranets, search, repositories. |
@@ -916,6 +989,11 @@ Lesson: **TDT4175 – Information Systems (Lesson 8)**
 | CSCW & remote collaboration         | Chat, shared docs, video stand-ups, task boards → richer coordination, transparency, and quicker decisions. |
 | Business impact                     | **Reach & speed**, **cost & accuracy**, **service & personalization** from embedded knowledge and connectivity. |
 | Risks & design considerations       | Security/privacy, device sprawl, data quality, human-factors for small screens/in-motion contexts. |
+
+
+<br/>
+<br/>
+<br/>
 
 ---
 
