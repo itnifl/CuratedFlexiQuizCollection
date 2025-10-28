@@ -544,21 +544,34 @@ Quiz: [Algorithms and Data Structures – Part 8](https://www.flexiquiz.com/SC/N
 
 ### > Algorithms and Data Structures – Part 9 - TDT4120
 ---
-*Asymptotics, Master Theorem, dynamic programming (rod cutting & grid paths), DP suitability, DAG longest path, bounded knapsack.*  
-*Reflects [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120#forelesning-1---problem-og-algoritmer), [Lecture 3 – Splitt og hersk](https://github.com/henrhoi/Algdat-TDT4120#forelesning-3---splitt-og-hersk), [Lecture 6 – Dynamisk programmering](https://github.com/henrhoi/Algdat-TDT4120#forelesning-6---dynamisk-programmering), [Lecture 8 – Traversering av grafer](https://github.com/henrhoi/Algdat-TDT4120#forelesning-8---traversering-av-grafer), [Lecture 13 – NP-kompletthet](https://github.com/henrhoi/Algdat-TDT4120#forelesning-13---np-kompletthet).*
+*Asymptotics, Master Theorem, dynamic programming (rod cutting & grid paths), DP suitability, DAG longest path, and bounded knapsack.*
 
 Quiz: [Algorithms and Data Structures – Part 9](https://www.flexiquiz.com/SC/N/Algdat9)
 
-| Topic | Key results & reminders (condensed) |
-|---|---|
-| **Asymptotic simplification** | Keep the highest-order term; drop constants and lower orders. Use **Θ(·)** when you can bound above and below tightly. When mixing bounds (Θ, O, Ω), the dominant order wins (e.g., Θ(n²) + O(n³) + Ω(n) ⇒ Θ(n²)). |
-| **Invertible growth rates (solve f(n) ≤ T)** | Easy to invert for **Θ(1), Θ(log n), Θ(n), Θ(n^k)** (fixed k), **Θ(c^n)**. Not nice in closed form for **Θ(n log n)** (Lambert-W) or superfactorial types (**Θ(n!)**, **Θ(n^n)**); use approximations/lookup. |
-| **Master Theorem (shape)** | Recurrences **T(n) = a·T(n/b) + f(n)**: know the three main cases and the regularity condition; match **f(n)** to **n^(log_b a)**. |
-| **Growth ranking (fastest → slowest)** | **Θ(1) ≺ Θ(log n) ≺ Θ(n) ≺ Θ(n log n) ≺ Θ(n^k)** (k>1) **≺ Θ(c^n) ≺ Θ(n!) ≺ Θ(n^n)**. |
-| **When to use Dynamic Programming** | Needs **optimal substructure** (build optimum from optimal subsolutions) **and** **overlapping subproblems** (reused states). Keep the state space manageable. |
-| **DP patterns (common examples)** | **Cut/partition (rod-cutting)** with/without cut costs: choose best split via a recurrence. **Grid/path counting:** `dp[i][j] = dp[i-1][j] + dp[i][j-1]` (blocked cells → 0); without blocks, combinatorial closed forms exist. **Sequence segmentation:** prefix-based DP with cost/feasibility checks over previous cut positions. |
-| **Longest path vs DAGs** | Longest path is NP-hard in general graphs, but linear-time **Θ(V+E)** via DP on a **DAG** (topological order). |
-| **Knapsack variants** | **0/1 knapsack** is baseline. **Bounded knapsack** (limited copies) reduces to 0/1 via binary-splitting of item counts; no general asymptotic shortcut beats the best 0/1 approach across all k. |
+**Covers & focus**
+- [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
+- [Lecture 3 – Splitt og hersk](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-3---splitt-og-hersk)
+- [Lecture 6 – Dynamisk programmering](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-6---dynamisk-programmering) ← **høyest fokus**
+- [Lecture 8 – Traversering av grafer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-8---traversering-av-grafer)
+- [Lecture 13 – NP-kompletthet](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-13---np-kompletthet)
+
+| Topic (overordnet)                 | Key results & reminders (condensed) |
+|-----------------------------------|-------------------------------------|
+| Invertible growth rates           | Solve f(n) ≤ T for Θ(1), Θ(log n), Θ(n), Θ(nᵏ) (fast k). Θ(cⁿ) via n ≈ log_c T. Not practical: Θ(n log n) (Lambert-W), Θ(n!), Θ(nⁿ). |
+| Θ-notation simplification         | n³/1000 + 100n² − 100n + 3 = Θ(n³). Keep highest order; drop constants. |
+| Master Theorem (form)             | T(n) = a·T(n/b) + f(n). Know cases 1–3 + regularity; compare f(n) with n^{log_b a}. |
+| Complexity ranking (desc.)        | Θ(n!) ≻ Θ(kⁿ) (k>1) ≻ Θ(nᵏ) (k>1) ≻ Θ(n log n) ≻ Θ(n) ≻ Θ(log n) ≻ Θ(1). |
+| Tight notation                    | Θ(·) gives both upper and lower bounds (tight). |
+| Simplify mixed bounds             | Θ(n²)+O(n⁴)+Ω(log n) → Θ(n²).  Θ(n²)+O(n³)+Ω(n) → Θ(n²). |
+| When to use DP                    | Optimal substructure + overlapping subproblems + håndterbar tilstandsrom. |
+| Optimal substructure              | Optimal helhet bygges av optimale del-løsninger (rod cutting, korteste vei i DAG). |
+| Rod cutting r₇ (p = ⟨1,4,3,6,8,5,9⟩) | Gratis kutt: r₇ = 13.  Med kuttekost k=2: r₇ = 10. |
+| Grid paths (uten/med blokker)     | Uten blokker: fᵢⱼ = C((i−1)+(j−1), i−1); f₂,₃ = 3.  Med blokker: fᵢⱼ = fᵢ₋₁,ⱼ + fᵢ,ⱼ₋₁; blokker → 0; base f₁,₁ = 1. |
+| Segmentering av sekvens (DP)      | Del A i sammenhengende segmenter med summer i B → naturlig prefiks-DP (overlap + optimalitet). |
+| Lengste vei                       | Generell graf: lengste enkle vei er NP-hard.  I DAG: topo-rekkefølge + DP → Θ(V+E). |
+| Memo vs bottom-up (DP)            | Memo (top-down) beregner kun nådde tilstander og passer sparsomme rom; kan gi stack-overflow. Bottom-up stabil, lett å plass-optimalisere. |
+| Top-down vs bottom-up (nåbarhet)  | Beregner kun nåbare: **memo (top-down)**.  Mer stack-sårbar: **memo (top-down)**.  Ved ~5 % nåbare: **memo** er ofte mest effektiv. |
+| Bounded vs 0/1 knapsack           | Bounded (vilkårlig k) subsumerer 0/1 → ingen generell algoritme som er asymptotisk raskere enn beste 0/1 for alle k. Reduksjon via binær-splitting. |
 
 
 ---
