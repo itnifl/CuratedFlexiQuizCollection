@@ -520,24 +520,27 @@ Quiz: [Algorithms and Data Structures – Part 7](https://www.flexiquiz.com/SC/N
 
 ### > Algorithms and Data Structures – Part 8 - TDT4120
 ---
-*Asymptotics, comparisons, recurrences, sorting, reductions, and a small LP modeling case.*  
-*Reflects [Lecture 1](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of1), [Lecture 3](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of3), [Lecture 13](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of13).*
+*Asymptotics, comparisons, master theorem, comparison-based sorting, reductions, and a small LP case.*
 
 Quiz: [Algorithms and Data Structures – Part 8](https://www.flexiquiz.com/SC/N/Algdat8)
 
-| Topic | Key results & reminders (condensed) |
-|---|---|
-| **Order-of-growth ranking** | From fastest to slowest growth: **Θ(1) ≺ Θ(log log n) ≺ Θ(log n) ≺ Θ(√n) ≺ Θ(n) ≺ Θ(n log n) ≺ Θ(n²) ≺ Θ(n³) ≺ Θ(nᵏ)** (fixed k>1) **≺ Θ(cⁿ) ≺ Θ(n!) ≺ Θ(nⁿ)**. |
-| **Asymptotic comparison (O/Ω/Θ/o/ω)** | Use limits/ratios to compare functions. If lim_{n→∞} f/g = 0 ⇒ f ∈ o(g); if = ∞ ⇒ f ∈ ω(g); if in (0,∞) ⇒ f ∈ Θ(g). Remember: Θ(g) = O(g) ∩ Ω(g). |
-| **Combining & algebra with bounds** | Mixed bounds collapse to the dominant order (e.g., Ω(·)+Θ(·)+O(·) ⇒ the Θ-term if it dominates). Rules: Θ(n²)+O(log n)=Θ(n²); if f ∈ Θ(g) then f ∈ O(g) ∩ Ω(g); for any ε>0: n log n ∈ o(n^{1+ε}) and n^a ∈ o(n^b) for a<b. |
-| **Sorting (core properties)** | **Mergesort:** stable, Θ(n log n) time, Θ(n) extra space. **Quicksort:** in-place, typically not stable; expected Θ(n log n), worst Θ(n²). **PARTITION:** linear-time, places pivot with all left ≤ pivot ≤ all right. |
-| **Selecting k largest (stream/buffer)** | Simple buffer: **O(nk)** time, **O(k)** space. Min-heap of size k: **O(n log k)** time, **O(k)** space. Choose by k relative to n and simplicity needs. |
-| **Reductions (polytime, ≤ₚ)** | If X ≤ₚ Y and Y ∈ P ⇒ X ∈ P. If X is NP-hard and X ≤ₚ Y ⇒ Y is NP-hard. (One-way reduction doesn’t imply equivalence.) |
-| **Linear programming (pattern)** | Max/Min linear objective subject to linear constraints and non-negativity. In 2D, optima occur at feasible corner points; generally solved via simplex or interior-point. Interpret constraints as resource limits; check binding constraints at optimum. |
-| **Master Theorem (how to use)** | For T(n)=a·T(n/b)+f(n): compare f(n) to n^{log_b a} to pick Case 1/2/3; verify the regularity condition when needed. Report Θ-bound accordingly. |
-| **Substitution method (lower bounds)** | Guess a bound (e.g., Ω(n^k)), plug into the recurrence, and prove by induction; ensure constants and base cases make the inequality hold for all large n. |
-| **Recursion height heuristics** | Height ≈ number of times n shrinks to base. Use the slowest-shrinking branch to upper-bound height. Transforms like n → √n yield heights Θ(log log n); constant-factor division yields Θ(log n). |
-| **Mutual/combined recurrences** | Analyze each recurrence’s contribution: compare branching factors and subproblem sizes; use master/recursion trees where applicable. If per-level work dominates, expect polynomial factors; repeated halvings add a log n factor. |
+**Covers & focus**
+- [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
+- [Lecture 3 – Splitt og hersk](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-3---splitt-og-hersk) ← **highest focus**
+- [Lecture 4 – Rangering i lineær tid](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-4---rangering-i-line%C3%A6r-tid)
+- [Lecture 13 – NP-kompletthet](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-13---np-kompletthet)
+
+| Topic                             | Brief description |
+|------------------------------------|-------------------|
+| Order-of-growth ranking            | Place Θ(1)…Θ(nⁿ) from fastest to slowest; compare by dominant term. |
+| Asymptotic comparison              | Use O/Ω/Θ and little-o/ω to relate two functions via limits/ratios. |
+| Master theorem (template)          | Recurrences of the form T(n) = a·T(n/b) + f(n); know the three main cases. |
+| Combining bounds                   | Read best/worst from mixed Ω/Θ/O expressions; identify the tight term. |
+| Algebra on asymptotics             | Simplify sums like Θ(n²) + O(log n) to a single tight bound. |
+| Sorting (comparison-based)         | Quicksort vs mergesort: properties, “sorting work,” PARTITION and MERGE roles. |
+| K-Largest runtime idea             | Keep top-k while scanning; understand O(n·k) buffer vs O(n log k) heap. |
+| Reductions (X ≤ₚ Y)                | Basics of polynomial-time reductions and what they imply. |
+| Linear programming mini-case       | Objective and constraints formulation; interpret a small 2-variable LP. |
 
                                                                                                                       
 ---
@@ -551,11 +554,11 @@ Quiz: [Algorithms and Data Structures – Part 9](https://www.flexiquiz.com/SC/N
 **Covers & focus**
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
 - [Lecture 3 – Splitt og hersk](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-3---splitt-og-hersk)
-- [Lecture 6 – Dynamisk programmering](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-6---dynamisk-programmering) ← **høyest fokus**
+- [Lecture 6 – Dynamisk programmering](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-6---dynamisk-programmering) ← **highest focus**
 - [Lecture 8 – Traversering av grafer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-8---traversering-av-grafer)
 - [Lecture 13 – NP-kompletthet](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-13---np-kompletthet)
 
-| Topic (overordnet)                 | Key results & reminders (condensed) |
+| Topic                            | Key results & reminders (condensed) |
 |-----------------------------------|-------------------------------------|
 | Invertible growth rates           | Solve f(n) ≤ T for Θ(1), Θ(log n), Θ(n), Θ(nᵏ) (fast k). Θ(cⁿ) via n ≈ log_c T. Not practical: Θ(n log n) (Lambert-W), Θ(n!), Θ(nⁿ). |
 | Θ-notation simplification         | n³/1000 + 100n² − 100n + 3 = Θ(n³). Keep highest order; drop constants. |
