@@ -372,149 +372,211 @@ A deep dive into common web vulnerabilities and how to prevent them.
 
 
 ### > Algorithms and Data Structures – Part 1 - TDT4120
----  
-*Covers topics from [Lecture 1 – Problems and Algorithms](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of1), [Lecture 2 – Data Structures](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of2), [Lecture 3 – Divide and Conquer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of3), [Lecture 10 – Single-Source Shortest Path](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of10), and [Lecture 13 – NP-Completeness](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of13).*
+---
+*NP basics, loop invariants & correctness, simple algorithms (selection/linear search), Master Theorem template, and order-of-growth ranking.*
 
-Quiz: [Algorithms and Data Structures – Part 1](https://www.flexiquiz.com/SC/N/Algdat1)  
+Quiz: [Algorithms and Data Structures – Part 1](https://www.flexiquiz.com/SC/N/Algdat1)
 
-  |                                        |                                        |
-  |----------------------------------------|----------------------------------------|
-  | NP-completeness and implications       | Traveling Salesperson problem          |
-  | Shortest-path challenges               | Exact vs near-optimal solutions        |
-  | Offline vs online algorithms           | Loop invariants in SUM-ARRAY           |
-  | Selection sort invariant and bounds    | Linear search cases                    |
-  | Best-case sort thought experiment      | Master Theorem fill-in-the-blank       |
-  | Θ(n log n) two-sum algorithm           | Ranking growth rates                   |
-  | Simplifying asymptotic expressions     | Converting to tight Θ-notation         |
-  | First-semester algorithm checklist     | Essential analysis skills              |
+**Covers & focus**
+- [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer) ← **høyest fokus**
+- [Lecture 3 – Splitt og hersk](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-3---splitt-og-hersk)
+- [Lecture 13 – NP-kompletthet](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-13---np-kompletthet)
+
+| Topic (overordnet)                         | Brief description |
+|-------------------------------------------|-------------------|
+| Why NP-complete matters                    | If any NP-complete problem has a poly-time algorithm, all problems in NP do (poly-time reductions). |
+| TSP vs shortest path                       | Both are path problems; shortest path is poly-time; TSP is NP-hard/NP-complete (decision). |
+| Exact vs approximate                       | When optimality is required vs “good enough” (approximation/heuristics). |
+| Offline vs online                          | Entire input known up-front vs arrives over time (online algorithms, competitiveness). |
+| Loop invariants (init/maint/term)          | Specify invariant, prove initialization, maintenance, termination (SUM-ARRAY, selection sort). |
+| Selection sort facts                       | Maintains: A[1..i−1] sorted and ≤ remaining; runs i=1..n−1; Θ(n²) worst/avg; best is also Θ(n²). |
+| Linear search                              | Average Θ(n), worst Θ(n); simple invariant over scanned prefix. |
+| Master Theorem form                        | T(n) = a·T(n/b) + f(n); know the template and how to fill the blanks. |
+| Two-sum in Θ(n log n)                      | Sort + two-pointer scan; outline steps and correctness idea. |
+| Complexity ranking & simplification        | Rank common classes; combine Θ/O/Ω terms to a single tight order. |
 
 ---
 
 ### > Algorithms and Data Structures – Part 2 - TDT4120
----  
-*Links concepts from [Lecture 1](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of1), [Lecture 3](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of3), [Lecture 4](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of4), [Lecture 7](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of7), [Lecture 9](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of9), [Lecture 10](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of10), [Lecture 12](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of12), and [Lecture 13](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of13).*
+---
+*Asymptotic notation, sorting runtimes, greedy property, SSSP (Dijkstra vs Bellman–Ford), MST (Kruskal), and flow basics.*
 
-Quiz: [Algorithms and Data Structures – Part 2](https://www.flexiquiz.com/SC/N/Algdat2)  
+Quiz: [Algorithms and Data Structures – Part 2](https://www.flexiquiz.com/SC/N/Algdat2)
 
-  |                                       |                                        |
-  |---------------------------------------|----------------------------------------|
-  | Growth rate expressions               | Big-O, Θ, Ω, o, ω symbols              |
-  | Classifying formulas                  | Combining asymptotic bounds            |
-  | Insertion vs Merge vs Quicksort       | Best/avg/worst-case analysis           |
-  | Relax(u, v, w) in Dijkstra            | Bellman-Ford differences               |
-  | Kruskal and MST construction          | New-SSSP proposal                      |
-  | Greedy-choice property limits         | Pseudopolynomial vs NP-hard            |
-  | Ford-Fulkerson and hyperflows         | Pivot choice impact in Quicksort       |
-  | Algorithm theory and implementation   | Full algorithm toolbox review          |
+**Covers & focus**
+- [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
+- [Lecture 3 – Splitt og hersk](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-3---splitt-og-hersk)
+- [Lecture 7 – Grådige algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-7---gr%C3%A5dige-algoritmer)
+- [Lecture 9 – Minimale spenntrær](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-9---minimale-spenntr%C3%A6r)
+- [Lecture 10 – Korteste vei fra én til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-10---korteste-vei-fra-%C3%A9n-til-alle) ← **høyest fokus**
+
+| Topic (overordnet)                         | Brief description |
+|-------------------------------------------|-------------------|
+| Asymptotic notation                       | Θ (tight), O (upper), Ω (lower), o (strictly smaller), ω (strictly larger). Match common forms to names. |
+| Combine bounds                            | O(nᵃ) + Ω(nᵇ) + Θ(nᶜ) → dominated by the largest-order term among the three. |
+| Compare functions                         | Given f and g (e.g., f = n² log n + …, g = n²), decide O/Ω/Θ via limits/ratios and dominant terms. |
+| Sorting runtimes                          | Insertion: best n, avg n², worst n². Merge: best/avg/worst n log n. Quick: best/avg n log n, worst n². |
+| Relax(u, v, w)                            | If dist[v] > dist[u] + w(u,v), set dist[v] ← dist[u] + w and parent[v] ← u. Core of SSSP updates. |
+| Dijkstra vs Bellman–Ford                  | Dijkstra (greedy) for non-negative edges; Bellman–Ford handles negatives and detects negative cycles. |
+| Greedy-choice property                    | A locally optimal step can be extended to a global optimum; still need proof via cut/exchange arguments. |
+| Kruskal and MST                           | MST: spanning tree with minimum total weight. Kruskal: sort edges, add safe light edges using union-find. |
+| Pivot selection in Quicksort              | Pivot choice shapes balance: random keeps expected n log n; bad fixed pivots on sorted data risk n². |
+| Flow vs complexity (Ford–Fulkerson)       | Pseudopolynomial due to capacity magnitudes, not NP-hardness of max-flow (max-flow is polynomial-time). |
+
 
 ---
 
 ### > Algorithms and Data Structures – Part 3 - TDT4120
----  
-*Connects to [Lecture 2](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of2), [Lecture 3](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of3), [Lecture 6](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of6), [Lecture 7](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of7), [Lecture 9](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of9), [Lecture 10](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of10), [Lecture 12](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of12), and [Lecture 13](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of13).*
+---
+*Greedy algorithms, sorting family (QS/Rand-QS/Select/Heap/Merge/Insertion), data structures (heaps vs BSTs, splay), asymptotics & NP, MST/flow basics, and the Master Theorem.*
 
-Quiz: [Algorithms and Data Structures – Part 3](https://www.flexiquiz.com/SC/N/Algdat3)  
+Quiz: [Algorithms and Data Structures – Part 3](https://www.flexiquiz.com/SC/N/Algdat3)
 
-  |                                        |                                        |
-  |----------------------------------------|----------------------------------------|
-  | Greedy-choice property                 | When greedy algorithms work            |
-  | Data structure trade-offs              | Selection sort with BST                |
-  | Heaps vs binary vs splay trees         | Naïve recursion vs memoization         |
-  | Dynamic programming speed-up           | Structural properties for DP           |
-  | Classic vs randomized algorithms       | Quicksort vs Randomized Quicksort      |
-  | Select vs Randomized Select            | Select in Quicksort                    |
-  | Insertion/merge/quick/heap sort        | Sort behavior comparisons              |
-  | NP and NP-complete classes             | Verification vs solution difficulty    |
-  | Prim vs Kruskal                        | Ford-Fulkerson max-flow                |
-  | Max-flow and capacity size             | Master Theorem revisited               |
-  | Heap sort best/avg/worst cases         | Algorithm paradigms and asymptotics    |
+**Covers & focus**
+- [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
+- [Lecture 3 – Splitt og hersk](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-3---splitt-og-hersk)
+- [Lecture 4 – Rangering i lineær tid](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-4---rangering-i-line%C3%A6r-tid)
+- [Lecture 5 – Rotfaste trestrukturer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-5---rotfaste-trestrukturer)
+- [Lecture 7 – Grådige algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-7---gr%C3%A5dige-algoritmer) ← **høyest fokus**
+- [Lecture 9 – Minimale spenntrær](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-9---minimale-spenntr%C3%A6r)
+- [Lecture 12 – Maksimal flyt](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-12---maksimal-flyt)
+- [Lecture 13 – NP-kompletthet](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-13---np-kompletthet)
+
+| Topic (overordnet)                 | Brief description |
+|-----------------------------------|-------------------|
+| Greedy choice property            | Locally optimal step extends to a global optimum; classic examples: activity selection, Huffman, Kruskal. |
+| Heaps vs binary trees             | When heaps beat BSTs for priority access; array layout vs pointer-based trees; max-heap vs BST order. |
+| Splay trees                       | Self-adjusting BSTs that move accessed nodes near the root by rotations; good amortized performance. |
+| Naive recursion → improvement     | Exponential naive D&C improved by **memoization/tabulation** when optimal substructure + overlap hold. |
+| Sorting family contrasts          | Quick vs Randomized-Quick; Select vs Randomized-Select; effects of using Select inside Quick. |
+| Sorting facts (per algorithm)     | Best/avg/worst, stability, space for Insertion, Merge, Quick, Rand-Quick, Heap. |
+| Complexity classes                | P, NP, NP-complete: verification vs search; reductions to show hardness. |
+| MST basics                        | What an MST is; Prim vs Kruskal (PQ vs sort + union-find); cut and cycle properties. |
+| Max-flow (Ford–Fulkerson)        | Augmenting paths, residual graphs; pseudo-polynomial due to capacity magnitude. |
+| Master Theorem                    | Template T(n)=a·T(n/b)+f(n); identify case via n^{log_b a} and compare with f(n). |
+
 
 ---
 
 ### > Algorithms and Data Structures – Part 4 - TDT4120
----  
-*Draws from [Lecture 1](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of1) and [Lecture 3](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of3).*
+---
+*Asymptotic notation & properties, lower bounds via crossings, little-o/ω, Master Theorem basics, and merge-sort recurrence.*
 
-Quiz: [Algorithms and Data Structures – Part 4](https://www.flexiquiz.com/SC/N/Algdat4)  
+Quiz: [Algorithms and Data Structures – Part 4](https://www.flexiquiz.com/SC/N/Algdat4)
 
-  |                                       |                                         |
-  |---------------------------------------|-----------------------------------------|
-  | Ω(n²) bound for insertion sort        | Optimal α for maximum crossings         |
-  | Refined α constraints                 | Debunking Big-O claims                  |
-  | max{f,g} = Θ(f+g)                     | "At least O(n²)" critique               |
-  | o(g) and ω(g) contradiction           | α-weighted sum manipulation             |
-  | Factorial vs polynomial growth        | Solving k log k = Θ(n)                  |
-  | Master Theorem cases                  | Merge Sort recurrence matching          |
+**Covers & focus**
+- [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
+- [Lecture 3 – Splitt og hersk](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-3---splitt-og-hersk) ← **høyest fokus**
+
+| Topic (overordnet)                             | Brief description |
+|-----------------------------------------------|-------------------|
+| Insertion-sort lower bound via crossings      | Pack αn largest at front → many inversions; sum of squared block sizes = Θ(n²) ⇒ worst-case time is Ω(n²). |
+| Max{f,g} vs f+g                               | For nonnegative functions: max{f,g} = Θ(f+g); both upper/lower bound each other within constants. |
+| Meaning of O/Ω/Θ/o/ω                          | “At least O(n²)” is meaningless; use Ω for lower bounds, O for upper, Θ for tight, little-o/ω for strict. |
+| Exponential comparisons                        | Check limits/ratios: 2ⁿ⁺¹ = Θ(2ⁿ); 2²ⁿ is ω(2ⁿ). |
+| Set relations o(g) and ω(g)                   | Disjoint by definition; no function can be both o(g) and ω(g). |
+| Multivariate Θ(g(n,m))                        | Tight bound up to constant on both n and m simultaneously. |
+| Simple asymptotic algebra                     | αn + (1−α)n = n; if f(n) ∈ o(n) then n+f(n) = n·(1+o(1)). |
+| Log preserves Θ (additive constants)          | log(n+c) = Θ(log n); additive constants don’t change order. |
+| Factorials of logs (poly-bounded?)            | ⌈log n⌉! is **not** poly-bounded; ⌈log log n⌉! **is** poly-bounded (grows subpolynomially). |
+| Master Theorem parameters                     | Example: T(n)=4T(n/2)+Θ(n²): a=4, b=2, n^{log_b a}=n² ⇒ Case 2. |
+| Merge-sort recurrence                          | T(n)=2T(n/2)+n; critical exponent d=log_b a=log₂2=1. |
+| D&C template                                  | DnC: split → recurse → combine; Master form T(n)=a·T(n/b)+f(n). |
+
 
 ---
 
 ### > Algorithms and Data Structures – Part 5 - TDT4120
----  
-*Focuses on [Lecture 3](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of3) and [Lecture 4](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of4).*
+---
+*Asymptotics and relations, divide-and-conquer sorting, linear-time sorting, pivot strategies, and rooted-tree representations.*
 
-Quiz: [Algorithms and Data Structures – Part 5](https://www.flexiquiz.com/SC/N/Algdat5)  
+Quiz: [Algorithms and Data Structures – Part 5](https://www.flexiquiz.com/SC/N/Algdat5)
 
-  |                                  |                                    |
-  |----------------------------------|------------------------------------|
-  | Big-O, Θ, o comparison           | Complexity class ranking           |
-  | Asymptotic relationships         | Tight bound combinations           |
-  | Divide-and-conquer algorithms    | Binary search                      |
-  | Merge sort                       | Quick sort                         |
-  | Counting sort                    | Radix sort                         |
-  | Bucket sort                      | Bubble sort                        |
-  | Sort case analysis               | Worst-case pivot choices           |
-  | Randomized vs median-of-medians  | Pivot strategy and stability       |
-  | Partition strategies             | Left-child/right-sibling trees     |
+**Covers & focus**
+- [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
+- [Lecture 3 – Splitt og hersk](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-3---splitt-og-hersk) ← **highest focus**
+- [Lecture 4 – Rangering i lineær tid](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-4---rangering-i-line%C3%A6r-tid)
+- [Lecture 5 – Rotfaste trestrukturer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-5---rotfaste-trestrukturer)
+
+| Topic (overordnet)                    | Brief description |
+|--------------------------------------|-------------------|
+| Asymptotic relations                 | Use O/Ω/Θ and little-o/ω via limits/ratios (e.g., 2ⁿ vs 2^{n/2} ⇒ ω). Rank Θ(1)…Θ(nⁿ) fastest→slowest. |
+| Tight bounds from mixes              | Combine Θ/O/Ω/o terms; keep the dominant order: e.g., Θ(n⁴)+O(n³log n)+o(n⁴) ⇒ Θ(n⁴); Θ(n)+O(n²)+Ω(n²) ⇒ Θ(n²). |
+| Divide-and-conquer sorting           | Identify binary search, merge sort, quicksort from code; master idea: split → solve → combine. |
+| Linear-time sorting                  | Counting, radix, bucket: when keys are bounded/base-k digits or uniform in [0,1). Stability where relevant. |
+| Quicksort pivots & effects           | First/last can hit Θ(n²) on sorted data; randomized and median-of-three keep expected Θ(n log n); median-of-medians gives deterministic linear-time selection and balanced partitions. |
+| Sorting properties table             | Fill best/avg/worst/memory for merge/quick/bubble/insertion/selection; recall stability and space needs. |
+| Heaps vs BST (contrast touchpoint)   | Heaps not ordered for search; BST inorder gives sorted order. |
+| Rooted-tree representations          | Left-child/right-sibling (LCRS) uses two pointers (left, right-sib) to encode arbitrary-arity trees. |
+
 
 ---
 
 ### > Algorithms and Data Structures – Part 6 - TDT4120
----  
-*Reflects [Lecture 2](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of2), [Lecture 4](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of4), [Lecture 5](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of5), and [Lecture 9](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of9).*
+---
+*Rooted trees, heaps, BSTs, heapsort, priority queues in Prim, and spanning trees.*
 
-Quiz: [Algorithms and Data Structures – Part 6](https://www.flexiquiz.com/SC/N/Algdat6)  
+Quiz: [Algorithms and Data Structures – Part 6](https://www.flexiquiz.com/SC/N/Algdat6)
 
-  |                                          |                                          |
-  |------------------------------------------|------------------------------------------|
-  | Free tree to rooted tree                 | Height of complete binary tree           |
-  | Binary heap child indexing               | Max-heap invariant                       |
-  | BUILD-MAX-HEAP running time              | MAX-HEAPIFY running time                 |
-  | Heap vs BST property                     | Expected height of random BST            |
-  | Logarithmic height data structures       | Maximum removal cost in heap             |
-  | Top-k retrieval from heap                | Left-child/right-sibling representation  |
-  | Pointer overhead                         | Amortized O(1) in bucket arrays          |
-  | BST sorted order printing                | Θ(n) unbalanced BST operations           |
-  | Θ(log n) heap operations                 | Heap property vs heap invariant          |
-  | Heapsort iteration effect                | BUILD-HEAP vs repeated inserts           |
-  | BST ordering vs heap ordering            | Spanning tree definitions                |
-  | Tree-sort vs Heapsort                    | Repeated steps and decomposition         |
-  | Design paradigms and induction proofs    | Hardness reductions                      |
-  | HEAP-EXTRACT-MAX mechanics               |                                          |
+**Covers & focus**
+- [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
+- [Lecture 5 – Rotfaste trestrukturer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-5---rotfaste-trestrukturer) ← **highest focus**
+- [Lecture 9 – Minimale spenntrær](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-9---minimale-spenntr%C3%A6r)
+
+| Topic (overordnet)                 | Brief description |
+|-----------------------------------|-------------------|
+| Free trees → rooted trees         | Add a designated root; defines parent/child, depth, height, subtrees. |
+| Complete binary trees             | Height ≈ ⌊log₂ n⌋; nearly filled levels enable array representation. |
+| Array representation of heaps     | Parent/children indices; sift-up / sift-down mechanics. |
+| Max-heap invariant vs property    | Invariant: parent key ≥ children; property: structure is complete. |
+| BUILD-MAX-HEAP & MAX-HEAPIFY      | Linear-time build; heapify runs in O(log n) worst case. |
+| Heaps vs BSTs                     | Heap supports fast **find-max**; BST supports fast **search by key** and sorted traversal. |
+| Random BST height & balanced BSTs | Expected height for random inserts ~ O(log n); self-balancing families guarantee Θ(log n). |
+| Heap operations & top-k           | INSERT / EXTRACT-MAX are Θ(log n); k-largest via heap in O(k log n) (ignoring output listing). |
+| Left-child/right-sibling (LCRS)   | Tree encoding with two pointers per node to represent general trees. |
+| Buckets & O(1) queries/updates    | Constant-size key universe (or bounded range) enables O(1) updates and “top-k” by scans. |
+| Inorder on BST                    | Prints keys in sorted order in Θ(n). |
+| Heapsort (first iteration idea)   | Swap root with last, shrink heap, sift-down to restore heap order. |
+| Prim’s PQ initialization          | BUILD-MIN-HEAP (linear) vs repeated inserts (O(n log n)); overall Prim is O(E log V). |
+| Spanning trees (overview)         | Definitions, how to find them (MST by Kruskal/Prim); relation to graph connectivity. |
+| Algorithmic decomposition         | Steps vs subproblems: divide-and-conquer, dynamic programming, greedy; role of induction and reductions in proofs. |
+| Selection-sort with BST?          | Pros/cons of replacing scans with structures; better: use heap or proven sorting algorithms. |
 
 ---
 
 ### > Algorithms and Data Structures – Part 7 - TDT4120
----  
-*Dedicated to [Lecture 6 – Dynamic Programming](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of6).*
-*Reflects [Lecture 1](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of1), [Lecture 11](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of11), [Lecture 13](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#of13).*
+---
+*Dynamic programming: ideas, design steps, rod cutting, LCS, 0/1 knapsack; graph add-ons (odd cycles, Floyd–Warshall tweaks); hardness via reductions.*
 
-Quiz: [Algorithms and Data Structures – Part 7](https://www.flexiquiz.com/SC/N/Algdat7)  
+Quiz: [Algorithms and Data Structures – Part 7](https://www.flexiquiz.com/SC/N/Algdat7)
 
-  |                                                  |                                                         |
-  |--------------------------------------------------|---------------------------------------------------------|
-  | Divide-and-conquer                               | Dynamic Programming Basics            |
-  | Optimal substructure                             | Overlapping subproblems                                 |
-  | Design steps of a dynamic programming algorithm  | Subproblem graph: nodes and edges                       |
-  | Time complexity of dynamic programming           | Rod-cutting problem: number of ways to cut              |
-  | Running time of naive recursive Cut-Rod          | Time complexity of memoized Cut-Rod                     |
-  | Array r[j] in Bottom-Up-Cut-Rod                  | Reconstruction array in Extended Bottom-Up-Cut-Rod      |
-  | DP Design Process          | Subproblem graphs & recurrence relations |
-  | Cut-Rod Problem            | Naive recursion, memoization, bottom-up DP |
-  | LCS (Longest Common Subseq.) | Stable Matching Variants |
-  | 0/1 Knapsack               | Θ(nW) complexity & polynomial-time discussion |
-  | Playlist Problem           | Complexity Considerations |
-  | Graph Algorithms           | Odd cycles, shortest paths, transitive closure |
-  | Floyd–Warshall Variants    | Time analysis of DP algorithms |
+**Covers & focus**
+- [Lecture 6 – Dynamisk programmering](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-6---dynamisk-programmering) ← **highest focus**
+- [Lecture 8 – Traversering av grafer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-8---traversering-av-grafer)
+- [Lecture 11 – Korteste vei fra alle til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-11---korteste-vei-fra-alle-til-alle)
+- [Lecture 13 – NP-kompletthet](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-13---np-kompletthet)
+
+| Topic (overordnet)                    | Brief description |
+|--------------------------------------|-------------------|
+| Why DP beats plain D&C               | Reuses overlapping subproblems to avoid exponential recomputation. |
+| DP prerequisites                     | Optimal substructure + overlapping subproblems; bounded state space. |
+| Optimal substructure                 | An optimal whole can be built from optimal subsolutions. |
+| Overlapping subproblems              | Many subinstances repeat; memo/tabulation pays off. |
+| DP design order                      | 1) Define state  2) Write recurrence  3) Choose top-down or bottom-up  4) Init base cases  5) Reconstruct solution (if needed). |
+| Subproblem graph                     | Nodes = states; edges = dependencies used by the recurrence. |
+| DP time drivers                      | Roughly (#states) × (work per transition). |
+| Rod-cutting basics                   | Count of ways grows exponentially; naive recursion is exponential; memoized or bottom-up runs in near n². |
+| Memoized vs bottom-up Cut-Rod       | Top-down with cache vs tabulation; both polynomial; bottom-up eases space tweaks; top-down explores only reachable states. |
+| Reconstruction arrays                | Keep choice array (e.g., first cut) to recover the actual solution. |
+| LCS state & recurrence               | State (i,j); if xᵢ = yⱼ then 1 + LCS(i−1,j−1), else max(LCS(i−1,j), LCS(i,j−1)). |
+| 0/1 Knapsack DP                     | Time Θ(n·W); pseudo-polynomial (not poly in input length). |
+| Playlist exact-t (hardness)          | Reduce from subset-sum/partition to argue NP-hardness. |
+| Playlist exact-t (solutions)         | DP over time (reachability), or bitset convolution; also backtrack with pruning for small n. |
+| Odd cycle in directed/undirected     | Use BFS levels (undirected) or parity tracking/DFS to detect odd cycles; or reduce to bipartite test. |
+| Floyd–Warshall variants              | m-shortest lengths: keep m candidates per (i,j). Transitive closure counts: replace boolean OR/AND with integer sum/product. |
+| Output recovery is “not trivial”     | Requires storing choices/parents; without it you only get the score. |
+| Shortest path with most edges        | Layer DAG of equal-distance edges from s; within shortest-path DAG maximize edges via DP. |
+
   
 ---
 
