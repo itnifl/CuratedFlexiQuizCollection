@@ -752,6 +752,31 @@ Quiz: [Algorithms and Data Structures – Part 11](https://www.flexiquiz.com/SC/
 | Kruskal runtime                              | Sort edges: \(O(E \log E)\). Union–find ops: \(O(E\,α(V))\). Net: **\(O(E \log E)\)**. |
 | Edge classification & SCC (context)          | (For reference) Trees vs DAGs influence edge types; MST questions rely on cuts/cycles, not SCCs. |
 
+---
+
+### > Algorithms and Data Structures – Part 14 - TDT4120
+---
+*Single-source shortest paths: DAG-SP, Dijkstra, relax/parent logic, queues & heaps (binary vs Fibonacci), and SSSP workflow details.*
+
+Quiz: [Algorithms and Data Structures – Part 14](https://www.flexiquiz.com/SC/N/Algdat14)
+
+**Covers & focus**
+- [Lecture 10 – Korteste vei fra én til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-10---korteste-vei-fra-%C3%A9n-til-alle) ← **Highest focus**
+- [Lecture 11 – Korteste vei fra alle til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-11---korteste-vei-fra-alle-til-alle)
+
+| Topic (overordnet)                         | Key results & reminders (condensed) |
+|-------------------------------------------|-------------------------------------|
+| SSSP basics                               | Distances init: \(d[s]=0\), others \(∞\). Relax updates \(d[v]\) and \(π[v]\). |
+| Relax operation                           | If \(d[v] > d[u] + w(u,v)\) then set \(d[v] ← d[u]+w(u,v)\), \(π[v] ← u\). |
+| Path optimality subpaths                  | Any subpath of a shortest path is itself shortest. |
+| DAG-Shortest-Paths                        | Topologisk rekkefølge; works with negative edges if no cycles; time \(Θ(V+E)\). |
+| Dijkstra                                  | Non-negative edges; with binary heap \(Θ((V+E)\log V)\); with Fibonacci heap \(Θ(E + V\log V)\). |
+| Fibonacci-heap advantage                  | **Decrease-key** amortized \(O(1)\) (vs \(Θ(\log n)\) in binary heap). |
+| Queue discipline (BFS vs PQ)              | BFS uses **FIFO** (layered order in unweighted graphs). Dijkstra uses **min-PQ** by current distance. |
+| Entering the queue/PQ                     | Standard SSSP pushes node when first discovered; further relaxations may **decrease-key**. |
+| Negative edges & cycles                   | Dijkstra invalid with negative edges; New-SSSP must match Bellman–Ford guarantees. Negative cycles ⇒ “no finite shortest path.” |
+| Prim init aside (tie-in)                  | Building PQ: **BUILD-HEAP** is linear; repeated inserts \(Θ(V\log V)\). |
+
 
 ---
 
