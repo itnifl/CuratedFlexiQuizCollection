@@ -729,6 +729,29 @@ Quiz: [Algorithms and Data Structures – Part 11](https://www.flexiquiz.com/SC/
 | SCC counts bounds                       | In a directed graph: min 1 (if strongly connected), max n (if no edges or acyclic singletons). With m ≥ n and arbitrary digraphs, still between 1 and n. |
 | Edge classification                      | Tree edges from DFS tree; in DAGs: tree, forward, cross (no back edges); in trees: only tree edges. |
 
+---
+
+### > Algorithms and Data Structures – Part 13 - TDT4120
+---
+*Disjoint-set forests (union–find), MST cut/cycle properties, Kruskal/Prim runtimes, and “safe edge” reasoning.*
+
+**Covers & focus**
+- [Lecture 9 – Minimale spenntrær](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-9---minimale-spenntr%C3%A6r) ← *highest focus*
+
+| Topic (overordnet)                           | Key results & reminders (condensed) |
+|---------------------------------------------|-------------------------------------|
+| Disjoint-set forests (union–find)           | `MAKE-SET`, `FIND-SET`, `UNION`. With **path compression** + **union by rank/size** ⇒ near-constant amortized time \(α(n)\). Trees are conceptual; parent pointers form shallow forests. |
+| All edges equal weight                       | **Any** spanning tree is minimum. #MSTs = #spanning trees of the graph (can be many). |
+| Unique lightest edge                         | If an edge is **strictly** lighter than all others, it is in **every** MST (cut property). |
+| Unique heaviest edge                         | Not necessarily excluded. If it lies on **any cycle**, the **cycle property** forbids it; if it’s a **bridge** (cut edge), it **must** be in the MST despite being heaviest. |
+| Remove one MST edge                          | An MST minus one edge splits into two components; the remaining edges are **MSTs** for their respective vertex sets (with original weights). |
+| “Prim with max-priority queue”               | Plainly flipping to a **max-heap** yields a **maximum** spanning tree only if the update rule mirrors Prim’s (choose heaviest safe edge). Otherwise, it’s not guaranteed minimal. |
+| Wrong D&C idea for MST                       | “MST of left + MST of right + lightest cross edge” is **not** always optimal; local MSTs don’t compose across cuts. |
+| Safe edge via cut property                   | If set \(A\) is a subset of some MST and a cut \((S, V\!\setminus\!S)\) **respects \(A\)** (no edges of \(A\) cross it), then the **lightest** edge crossing that cut is **safe** to add to \(A\). |
+| “Respects A” (extra requirement)             | The chosen cut must **not** be crossed by any edge already in \(A\); otherwise the cut property doesn’t apply. |
+| Kruskal runtime                              | Sort edges: \(O(E \log E)\). Union–find ops: \(O(E\,α(V))\). Net: **\(O(E \log E)\)**. |
+| Edge classification & SCC (context)          | (For reference) Trees vs DAGs influence edge types; MST questions rely on cuts/cycles, not SCCs. |
+
 
 ---
 
