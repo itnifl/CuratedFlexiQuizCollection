@@ -702,6 +702,33 @@ Quiz: [Algorithms and Data Structures – Part 11](https://www.flexiquiz.com/SC/
 | Shortest paths: Dijkstra vs B-Ford     | Dijkstra (greedy) for non-negative weights; Bellman–Ford handles negatives and detects negative cycles. |
 | Huffman codeword lengths (bounds)      | For n ≥ 1 symbols: min length = 1 bit (if n=1, often 1 by convention), max length ≤ n−1 (in a chain). |
 
+---
+
+### > Algorithms and Data Structures – Part 12 - TDT4120
+---
+*Graph representations, BFS/DFS, topological sort, shortest paths on unweighted puzzles, and strongly connected components.*
+
+**Covers & focus**
+- [Lecture 8 – Traversering av grafer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-8---traversering-av-grafer) ← *highest focus*
+
+| Topic (overordnet)                       | Brief description |
+|-----------------------------------------|-------------------|
+| Adjacency list vs matrix                | Space: lists Θ(n+m), matrix Θ(n²). Edge-exists check: list Θ(deg(u)), matrix Θ(1). |
+| Reading adjacency lists                 | Map lists to edges; be careful with direction and duplicates/self-loops. |
+| Neighbor matrix (adjacency matrix)      | Build n×n matrix M with M[i,j]=1 if edge i→j else 0. |
+| BFS mechanics                           | Uses a **queue**; discovers in layers; shortest paths in unweighted graphs; time Θ(n+m). |
+| DFS mechanics                           | Uses a **stack** (implicit recursion/explicit stack); timestamps, parent forest; time Θ(n+m). |
+| “BFS with a stack?”                     | Switching to a stack turns it into **DFS** (changes order and layer guarantees). |
+| Topological sorting                     | For DAGs only; via DFS postorder (reverse finish time) or Kahn’s algorithm (in-degree queue). |
+| Sliding-tile puzzle (fewest moves)      | Unweighted moves ⇒ **BFS** yields fewest moves; for large spaces use A* with admissible heuristic. |
+| Course prerequisites ordering           | Model as DAG; produce order via **topological sort**. |
+| O(1) ancestor queries in a tree         | Do one **DFS**; store entry/exit times (Euler/in-out). A is ancestor of B iff tin[A] ≤ tin[B] ≤ tout[A]. Build Θ(n), space Θ(n). |
+| BFS facts                               | Layered discovery, computes shortest-path tree from source, queue discipline, colors/levels/parents. |
+| DFS facts                               | Discovery/finish times, tree/forward/back/cross edges; cycle detection; topo order from finish times. |
+| Strongly connected components (SCC)     | Use **Kosaraju/Sharir** (DFS order + transpose) or **Tarjan** (lowlink). |
+| SCC counts bounds                       | In a directed graph: min 1 (if strongly connected), max n (if no edges or acyclic singletons). With m ≥ n and arbitrary digraphs, still between 1 and n. |
+| Edge classification                      | Tree edges from DFS tree; in DAGs: tree, forward, cross (no back edges); in trees: only tree edges. |
+
 
 ---
 
