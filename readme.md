@@ -285,6 +285,9 @@ A comprehensive series covering secure development practices and application-lev
 
 # * Web Application Security Series - TDT4237
 
+<details>
+  <summary>Click to expand</summary>
+
 A deep dive into common web vulnerabilities and how to prevent them.
 
 ### > Web Security – Part 1
@@ -347,6 +350,7 @@ A deep dive into common web vulnerabilities and how to prevent them.
   | Rainbow table protection          | Security by Design – goal           |
   | Least privilege principle         | Threat modeling importance          |
 
+</details>
 
 <br/>
 <br/>
@@ -849,7 +853,6 @@ Quiz: [Algorithms and Data Structures – Part 16](https://www.flexiquiz.com/SC/
 
 - [NTNU TDT4120 — Algorithms and Data Structures (official course page)](https://www.ntnu.edu/studies/courses/TDT4120). 
 - [CP-Algorithms — Algorithms for Competitive Programming](https://cp-algorithms.com/).
-
 
 <br/>
 <br/>
