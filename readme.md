@@ -13,78 +13,6 @@ These quizzes cover broad topics such as human-centered design, software testing
 
 ---
 
-#  CPU-X and the human centered design process - TDT4180 #
-
-<details>
-  <summary>Click to expand</summary>
-
-This quiz maps exactly to the CPUX-F (Foundation) / UXQB-F syllabus, covering all Foundation-level learning objectives:
-
-*Fundamentals & Human-Centred Design*
-– Concepts of usability, UX and ISO 9241-210 process steps (planning, context-of-use, requirements, design, evaluation) 
-uxqb.org
-
-- *Context of Use & User Analysis*
-– Describing users, goals, tasks, environments; personas; user groups; stakeholders; as-is scenarios 
-uxqb.org
-
-- *Requirements Engineering*
-– From user needs to qualitative and quantitative user requirements; human-centred quality objectives 
-tecnovy
-
-- *Information Architecture & Interaction Design*
-– Navigation structures, dialogue principles (ISO 9241-110), mental models, design patterns, prototypes (low-/high-fidelity), storyboards, card sorting 
-tecnovy
-
-- *Usability Evaluation Methods*
-– Usability testing (planning, moderation, pre-/post-session interviews), heuristic inspections, surveys, contextual interviews, focus groups, observations; reporting findings 
-tecnovy
-
-- *UX Professional Roles & Process Integration*
-– Responsibilities in planning and managing a human-centred design project; creating deliverables; iterative refinement through usability evaluation 
-uxqb.org
-
-In other words, every question in this 40-item exam is drawn either from the public CPUX-F question set or directly from the official CPUX-F Curriculum & Glossary document, exactly as prescribed for TDT4180’s UXQB-F/CPUX-F module.
-
-- [CPUX-F - Test 1](https://www.flexiquiz.com/SC/N/0a89b1d7-bdb1-4902-8909-ea31252500bb) - TDT4180
-
-  |                               |                                   |
-  |-------------------------------|-----------------------------------|
-  | Human-centred design process  | ISO 9241-210 activities           |
-  | Context of use                | Users, tasks, environments        |
-  | Personas                      | Scenarios & user journey maps     |
-  | User needs                    | User requirements (qual & quant)  |
-  | Information architecture      | Navigation structure              |
-  | Prototypes                    | Storyboards & design patterns     |
-  | Dialogue principles           | Mental models & guidelines        |
-  | Usability evaluation methods  | Tests, inspections, surveys       |
-  | UX vs. Usability              | Satisfaction & experience factors |
-  | Stakeholders                  | User groups & roles               |
-
-
-- [CPUX-F - Test 2](https://www.flexiquiz.com/SC/N/6984fb3e-074c-47dd-8e7c-262bb2d584b1) - TDT4180
-
-  |                              |                             |
-  |------------------------------|-----------------------------|
-  | Personas                     | Scenarios                   |
-  | Human-centred requirements   | Usability measures          |
-  | UX professional roles        | Design responsibilities     |
-  | Usability test planning      | Test objectives             |
-  | Context of use               | User requirements           |
-  | Usability evaluation methods | Inspections & surveys       |
-  | Human-centred design process | Activity order              |
-  | Usability vs. User Experience| Satisfaction & principles   |
-  | Storyboards                  | Master-apprentice principle |
-  | Error tolerance              | Dialogue principles         |
-
-</details>
-
-<br/>
-<br/>
-<br/>
-
----
-
 
 #  Software Testing and Quality Series - TDT4242
 
@@ -1354,3 +1282,81 @@ Quiz: [Applied Data Science – Part 4](https://www.flexiquiz.com/SC/N/appliedda
 | **Quick sklearn pipeline example**                | See code block below for a leakage-free pipeline (impute + scale + PCA + SVM). |
 
 </details>
+
+<br/>
+<br/>
+<br/>
+
+---
+
+#  CPU-X and the human centered design process - TDT4180 #
+
+<details>
+  <summary>Click to expand</summary>
+
+This quiz maps exactly to the CPUX-F (Foundation) / UXQB-F syllabus, covering all Foundation-level learning objectives:
+
+*Fundamentals & Human-Centred Design*
+– Concepts of usability, UX and ISO 9241-210 process steps (planning, context-of-use, requirements, design, evaluation) 
+uxqb.org
+
+- *Context of Use & User Analysis*
+– Describing users, goals, tasks, environments; personas; user groups; stakeholders; as-is scenarios 
+uxqb.org
+
+- *Requirements Engineering*
+– From user needs to qualitative and quantitative user requirements; human-centred quality objectives 
+tecnovy
+
+- *Information Architecture & Interaction Design*
+– Navigation structures, dialogue principles (ISO 9241-110), mental models, design patterns, prototypes (low-/high-fidelity), storyboards, card sorting 
+tecnovy
+
+- *Usability Evaluation Methods*
+– Usability testing (planning, moderation, pre-/post-session interviews), heuristic inspections, surveys, contextual interviews, focus groups, observations; reporting findings 
+tecnovy
+
+- *UX Professional Roles & Process Integration*
+– Responsibilities in planning and managing a human-centred design project; creating deliverables; iterative refinement through usability evaluation 
+uxqb.org
+
+In other words, every question in this 40-item exam is drawn either from the public CPUX-F question set or directly from the official CPUX-F Curriculum & Glossary document, exactly as prescribed for TDT4180’s UXQB-F/CPUX-F module.
+
+- [CPUX-F - Test 1](https://www.flexiquiz.com/SC/N/0a89b1d7-bdb1-4902-8909-ea31252500bb) - TDT4180
+
+  |                               |                                   |
+  |-------------------------------|-----------------------------------|
+  | Human-centred design process  | ISO 9241-210 activities           |
+  | Context of use                | Users, tasks, environments        |
+  | Personas                      | Scenarios & user journey maps     |
+  | User needs                    | User requirements (qual & quant)  |
+  | Information architecture      | Navigation structure              |
+  | Prototypes                    | Storyboards & design patterns     |
+  | Dialogue principles           | Mental models & guidelines        |
+  | Usability evaluation methods  | Tests, inspections, surveys       |
+  | UX vs. Usability              | Satisfaction & experience factors |
+  | Stakeholders                  | User groups & roles               |
+
+
+- [CPUX-F - Test 2](https://www.flexiquiz.com/SC/N/6984fb3e-074c-47dd-8e7c-262bb2d584b1) - TDT4180
+
+  |                              |                             |
+  |------------------------------|-----------------------------|
+  | Personas                     | Scenarios                   |
+  | Human-centred requirements   | Usability measures          |
+  | UX professional roles        | Design responsibilities     |
+  | Usability test planning      | Test objectives             |
+  | Context of use               | User requirements           |
+  | Usability evaluation methods | Inspections & surveys       |
+  | Human-centred design process | Activity order              |
+  | Usability vs. User Experience| Satisfaction & principles   |
+  | Storyboards                  | Master-apprentice principle |
+  | Error tolerance              | Dialogue principles         |
+
+</details>
+
+<br/>
+<br/>
+<br/>
+
+---
