@@ -662,7 +662,7 @@ Quiz: [Algorithms and Data Structures – Part 11](https://www.flexiquiz.com/SC/
 *Graph representations, BFS/DFS, topological sort, shortest paths on unweighted puzzles, and strongly connected components.*
 
 **Covers & focus**
-- [Lecture 8 – Traversering av grafer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-8---traversering-av-grafer) ← *highest focus*
+- [Lecture 8 – Traversering av grafer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-8---traversering-av-grafer) ← **highest focus**
 
 | Topic                        | Brief description |
 |-----------------------------------------|-------------------|
@@ -689,7 +689,7 @@ Quiz: [Algorithms and Data Structures – Part 11](https://www.flexiquiz.com/SC/
 *Disjoint-set forests (union–find), MST cut/cycle properties, Kruskal/Prim runtimes, and “safe edge” reasoning.*
 
 **Covers & focus**
-- [Lecture 9 – Minimale spenntrær](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-9---minimale-spenntr%C3%A6r) ← *highest focus*
+- [Lecture 9 – Minimale spenntrær](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-9---minimale-spenntr%C3%A6r) ← **highest focus**
 
 | Topic                            | Key results & reminders (condensed) |
 |---------------------------------------------|-------------------------------------|
@@ -740,7 +740,7 @@ Quiz: [Algorithms and Data Structures – Part 15](https://www.flexiquiz.com/SC/
 
 **Covers & focus**
 - [Lecture 10 – Korteste vei fra én til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-10---korteste-vei-fra-%C3%A9n-til-alle)
-- [Lecture 11 – Korteste vei fra alle til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-11---korteste-vei-fra-alle-til-alle) ← *highest focus*
+- [Lecture 11 – Korteste vei fra alle til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-11---korteste-vei-fra-alle-til-alle) ← **highest focus**
 - [Lecture 9 – Minimale spenntrær](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-9---minimale-spenntr%C3%A6r)
 
 | Topic                                | Key results & reminders (condensed) |
@@ -766,7 +766,7 @@ Quiz: [Algorithms and Data Structures – Part 15](https://www.flexiquiz.com/SC/
 Quiz: [Algorithms and Data Structures – Part 16](https://www.flexiquiz.com/SC/N/Algdat16)
 
 **Covers & focus**
-- [Lecture 12 – Maksimal flyt](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-12---maksimal-flyt) ← **highest focus**
+- [Lecture 12 – Maksimal flyt](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-12---maksimal-flyt) ← **Highest focus**
 - [Lecture 11 – Korteste vei fra alle til alle / Transitiv lukning (Warshall)](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-11---korteste-vei-fra-alle-til-alle)
 
 | Topic                                            | Key results & reminders (condensed) |
