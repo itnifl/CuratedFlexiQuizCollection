@@ -149,7 +149,7 @@ A series focused on core software testing concepts, methodologies, and best prac
 
 A foundational Java quiz for programmers looking to evaluate their language knowledge.
 
-- [Java Programming Exam](https://www.flexiquiz.com/SC/N/JavaExam1)  
+- [Java Programming Exam Questions](https://www.flexiquiz.com/SC/N/JavaExam1)  
 
   |                        |                       |
   |------------------------|-----------------------|
@@ -378,7 +378,7 @@ A deep dive into common web vulnerabilities and how to prevent them.
 Quiz: [Algorithms and Data Structures – Part 1](https://www.flexiquiz.com/SC/N/Algdat1)
 
 **Covers & focus**
-- [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer) ← **høyest fokus**
+- [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer) ← **highest focus**
 - [Lecture 3 – Splitt og hersk](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-3---splitt-og-hersk)
 - [Lecture 13 – NP-kompletthet](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-13---np-kompletthet)
 
@@ -408,7 +408,7 @@ Quiz: [Algorithms and Data Structures – Part 2](https://www.flexiquiz.com/SC/N
 - [Lecture 3 – Splitt og hersk](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-3---splitt-og-hersk)
 - [Lecture 7 – Grådige algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-7---gr%C3%A5dige-algoritmer)
 - [Lecture 9 – Minimale spenntrær](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-9---minimale-spenntr%C3%A6r)
-- [Lecture 10 – Korteste vei fra én til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-10---korteste-vei-fra-%C3%A9n-til-alle) ← **høyest fokus**
+- [Lecture 10 – Korteste vei fra én til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-10---korteste-vei-fra-%C3%A9n-til-alle) ← **highest focus**
 
 | Topic                          | Brief description |
 |-------------------------------------------|-------------------|
@@ -437,7 +437,7 @@ Quiz: [Algorithms and Data Structures – Part 3](https://www.flexiquiz.com/SC/N
 - [Lecture 3 – Splitt og hersk](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-3---splitt-og-hersk)
 - [Lecture 4 – Rangering i lineær tid](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-4---rangering-i-line%C3%A6r-tid)
 - [Lecture 5 – Rotfaste trestrukturer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-5---rotfaste-trestrukturer)
-- [Lecture 7 – Grådige algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-7---gr%C3%A5dige-algoritmer) ← **høyest fokus**
+- [Lecture 7 – Grådige algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-7---gr%C3%A5dige-algoritmer) ← **highest focus**
 - [Lecture 9 – Minimale spenntrær](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-9---minimale-spenntr%C3%A6r)
 - [Lecture 12 – Maksimal flyt](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-12---maksimal-flyt)
 - [Lecture 13 – NP-kompletthet](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-13---np-kompletthet)
@@ -466,7 +466,7 @@ Quiz: [Algorithms and Data Structures – Part 4](https://www.flexiquiz.com/SC/N
 
 **Covers & focus**
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
-- [Lecture 3 – Splitt og hersk](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-3---splitt-og-hersk) ← **høyest fokus**
+- [Lecture 3 – Splitt og hersk](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-3---splitt-og-hersk) ← **highest focus**
 
 | Topic                              | Brief description |
 |-----------------------------------------------|-------------------|
