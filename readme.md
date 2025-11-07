@@ -8,8 +8,6 @@ Almost all of the quizes are content from subjects at NTNU Trondheim, several of
 These quizzes cover broad topics such as human-centered design, software testing, data science, model driven development, Java programming, cryptography, software security, web security, and algorithms and data structures. They are grouped into simple series that move from basics to more advanced ideas for easy study and review
 
 <br/>
-<br/>
-<br/>
 
 ---
 
