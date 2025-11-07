@@ -1287,7 +1287,7 @@ Quiz: [Applied Data Science – Part 4](https://www.flexiquiz.com/SC/N/appliedda
 
 ---
 
-#  CPU-X and the human centered design process - TDT4180 #
+#  The human centered design process - TDT4180 #
 
 <details>
   <summary>Click to expand</summary>
