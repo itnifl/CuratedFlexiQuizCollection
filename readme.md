@@ -1051,6 +1051,7 @@ Quiz: [EMF & Ecore – Part 7](https://www.flexiquiz.com/SC/N/ModelDrivenDev7)
 #  Information Systems – TDT4175
 <details>
   <summary>Click to expand</summary>
+  
 **Content:**  
 - Taxonomies and types of information systems (e.g., TPS, MIS, DSS, ERP, CRM, SCM)  
 - ERP systems: functionality, selection, and introduction in organizations  
@@ -1282,6 +1283,7 @@ Lesson: **TDT4175 – Information Systems (Lesson 8)**
 #  Applied Data Science – TDT4259
 <details>
   <summary>Click to expand</summary>
+
 **Content:**  
 - Lifecycle of a data science project (CRISP-DM phases: business understanding, data understanding, preparation, modeling, evaluation, deployment, monitoring)  
 - Data analytics types: descriptive, diagnostic, predictive, prescriptive  
