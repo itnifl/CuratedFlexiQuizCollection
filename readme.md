@@ -860,6 +860,9 @@ Quiz: [Algorithms and Data Structures – Part 16](https://www.flexiquiz.com/SC/
 
 # * Model-Driven Software Engineering - TDT4250
 
+<details>
+  <summary>Click to expand</summary>
+
 **Content:**  
 - Introduction to meta-programming and meta-modeling  
 - Domain-Specific Languages (DSLs), syntax and semantics  
@@ -1012,6 +1015,8 @@ Quiz: [EMF & Ecore – Part 7](https://www.flexiquiz.com/SC/N/ModelDrivenDev7)
   | **Resources & ResourceSet**                      | `Resource` = unit of persistence (commonly an XMI file/URI). `ResourceSet` groups resources and resolves cross-resource references. Use `ResourceFactory` (e.g., `XMIResourceFactoryImpl`) to register serializers. :contentReference[oaicite:5]{index=5} |
   | **Code generation & runtime**                    | EMF generates a Java `interface` + `*Impl` class per `EClass`, a `Package` with metadata constants, and a `Factory` to instantiate objects; generated code is annotated with `@generated`. :contentReference[oaicite:6]{index=6} |
 
+
+</details>
 
 <br/>
 <br/>
@@ -1241,11 +1246,15 @@ Lesson: **TDT4175 – Information Systems (Lesson 8)**
 | Risks & design considerations       | Security/privacy, device sprawl, data quality, human-factors for small screens/in-motion contexts. |
 
 
-<br/>
-<br/>
-<br/>
 </details>
+
+<br/>
+<br/>
+<br/>
+
+
 ---
+
 
 # * Applied Data Science – TDT4259
 <details>
