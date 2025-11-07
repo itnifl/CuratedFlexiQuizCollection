@@ -1,4 +1,4 @@
-# 📚 My FlexiQuiz Learning Series 
+# 🎓 FlexiQuiz Learning Series 
 
 Welcome to my curated collection of quizzes hosted on [FlexiQuiz](https://www.flexiquiz.com). 
 
