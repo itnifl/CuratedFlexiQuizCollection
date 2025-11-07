@@ -10,8 +10,10 @@ Each quiz has been crafted to balance core theory with real-world application an
 
 ---
 
-
 # * CPU-X and the human centered design process - TDT4180 #
+
+<details>
+  <summary>Click to expand</summary>
 
 This quiz maps exactly to the CPUX-F (Foundation) / UXQB-F syllabus, covering all Foundation-level learning objectives:
 
@@ -72,6 +74,7 @@ In other words, every question in this 40-item exam is drawn either from the pub
   | Storyboards                  | Master-apprentice principle |
   | Error tolerance              | Dialogue principles         |
 
+</details>
 
 <br/>
 <br/>
@@ -81,6 +84,9 @@ In other words, every question in this 40-item exam is drawn either from the pub
 
 
 # * Software Testing and Quality Series - TDT4242
+
+<details>
+  <summary>Click to expand</summary>
 
 A series focused on core software testing concepts, methodologies, and best practices.
  
@@ -137,6 +143,7 @@ A series focused on core software testing concepts, methodologies, and best prac
   | Coverage              | Random testing       |
   | Statement vs branch   | Adaptive testing     |
 
+</details>
 
 <br/>
 <br/>
@@ -146,6 +153,9 @@ A series focused on core software testing concepts, methodologies, and best prac
 
 
 # * Java Programming - TDT4100
+
+<details>
+  <summary>Click to expand</summary>
 
 A foundational Java quiz for programmers looking to evaluate their language knowledge.
 
@@ -164,6 +174,7 @@ A foundational Java quiz for programmers looking to evaluate their language know
   | Access modifiers       | Visibility            |
   | Method overloading     | Method overriding     |
 
+</details>
 
 <br/>
 <br/>
@@ -173,6 +184,9 @@ A foundational Java quiz for programmers looking to evaluate their language know
 
 
 # * Cryptography Fundamentals - TDT4237
+
+<details>
+  <summary>Click to expand</summary>
 
 A concise introduction to the world of secure communications and encryption techniques.
 
@@ -189,6 +203,7 @@ A concise introduction to the world of secure communications and encryption tech
   | Security models            | Cryptographic evaluation  |
   | Cryptographic techniques   | Data protection           |
 
+</details>
 
 <br/>
 <br/>
@@ -198,6 +213,9 @@ A concise introduction to the world of secure communications and encryption tech
 
 
 # * Software Security Series - TDT4237
+
+<details>
+  <summary>Click to expand</summary>
 
 A comprehensive series covering secure development practices and application-level security.
 
@@ -275,6 +293,8 @@ A comprehensive series covering secure development practices and application-lev
   | Principle of least privilege          | Patch management strategy                           |
   | Access control mechanisms             | Common access control models                        |
 
+
+</details>
 
 <br/>
 <br/>
