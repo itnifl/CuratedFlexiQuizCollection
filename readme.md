@@ -804,6 +804,33 @@ Quiz: [Algorithms and Data Structures – Part 15](https://www.flexiquiz.com/SC/
 | All-pairs correctness notes                      | Subpaths of shortest paths are shortest; negative cycles ⇒ no finite APSP; FW reveals this on diagonal. |
 | Schulze method (pairwise paths)                  | Treats candidates as a weighted directed graph and computes strongest paths; conceptually similar to APSP but with max-min path strengths instead of sums. |
 
+---
+
+### > Algorithms and Data Structures – Part 16 - TDT4120
+---
+*Max-flow & min-cut, residual networks, Edmonds–Karp, modeling tricks (production, matching, assignments), circulations with lower bounds, and a Warshall step for transitive closure.*
+
+Quiz: [Algorithms and Data Structures – Part 16](https://www.flexiquiz.com/SC/N/Algdat16)
+
+**Covers & focus**
+- [Lecture 12 – Maksimal flyt](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-12---maksimal-flyt) ← **highest focus**
+- [Lecture 11 – Korteste vei fra alle til alle / Transitiv lukning (Warshall)](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-11---korteste-vei-fra-alle-til-alle)
+
+| Topic                                            | Key results & reminders (condensed) |
+|--------------------------------------------------|-------------------------------------|
+| Augmenting paths & residual networks             | Use **BFS** (Edmonds–Karp) to find shortest (by edges) augmenting path in the **residual graph**; augment by the path bottleneck. |
+| Residual capacity & edge labels                  | Residual \(c^f(u,v)=c(u,v)-f(u,v)\); reverse edge has capacity \(f(u,v)\). Label “\(a/b\)” means flow \(a\) of capacity \(b\) on \(u\!\to\!v\). |
+| Ford–Fulkerson vs Edmonds–Karp                   | F–F is **pseudo-polynomial** (depends on capacities); E–K picks BFS paths ⇒ **\(O(VE^2)\)** worst-case and guarantees polynomial time. |
+| Max-flow value & min s–t cut                     | Flow value equals capacity of some **minimum cut** (Max-Flow Min-Cut). Identify min cut by reachable set after final residual BFS. |
+| Modeling with super source/sink                  | To handle multiple sources/sinks or per-node supply limits: add **super-source** with edges to sources (cap=production), **super-sink** from sinks (cap=demand). |
+| Matchings & unit capacities                      | In unit-capacity digraphs, max \(s\!\to\!t\) flow equals max number of **edge-disjoint paths**; bipartite matching reduces to max-flow. |
+| Filename shortening without collisions           | Build bipartite graph: files ↔ candidate abbreviations; edges if abbreviation is valid/meaningful; find **maximum matching** for unique names. |
+| Parity facts                                     | All capacities even ⇒ any max-flow value is **even**. With odd capacities, max-flow can be **odd or even** (no parity guarantee). |
+| Edmonds–Karp proof idea                          | Each augmentation increases some shortest-path distance; edges become “saturated forward/unsaturated back” only \(O(EV)\) times ⇒ \(O(VE^2)\). |
+| Specialized constructions                        | “Researcher→task→project” with node/edge capacities models multi-capacity assignment; feasibility via max-flow equals required totals. |
+| Circulation with lower bounds                    | Reduce to max-flow: set residual capacities to \(c'(u,v)=c(u,v)-b(u,v)\), compute node **demands** \(d(v)=\sum b(in)-\sum b(out)\), connect super-source to \(v\) with \(d(v)>0\) and \(v\) to super-sink for \(d(v)<0\); feasible iff max-flow saturates all demand edges. |
+| Warshall / Transitiv lukning                     | Boolean DP: \(T^{(k)}_{ij}=T^{(k-1)}_{ij}\ \lor\ (T^{(k-1)}_{ik}\land T^{(k-1)}_{kj})\). “Apply step for vertex 4” = add edges implied via node 4 as intermediate. |
+
 
 ---
 
