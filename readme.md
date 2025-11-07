@@ -2,10 +2,10 @@
 
 Welcome to my curated collection of quizzes hosted on [FlexiQuiz](https://www.flexiquiz.com). 
 
-These quizes cover broad topics like human-centered design, BPMN, software testing, Java programming, cryptography, software security, web security, and algorithms & data structures. Each quiz is made to help you learn, practice, and check what you know.
+These quizes cover broad topics like human-centered design, BPMN, software testing, Java programming, cryptography, software security, web security, and algorithms & data structures. All quizes come with question explanations as help.
 
-Many of them are content from subjects at NTNU Trondheim, several of them are old exams questions from previous exams.
-These quizzes cover broad topics such as human-centered design, software testing, Java programming, cryptography, software security, web security, and algorithms and data structures. They are grouped into simple series that move from basics to more advanced ideas for easy study and review
+Almost all of the quizes are content from subjects at NTNU Trondheim, several of them are old exams questions from previous exams.
+These quizzes cover broad topics such as human-centered design, software testing, data science, model driven development, Java programming, cryptography, software security, web security, and algorithms and data structures. They are grouped into simple series that move from basics to more advanced ideas for easy study and review
 
 <br/>
 <br/>
