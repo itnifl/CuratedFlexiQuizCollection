@@ -1,8 +1,11 @@
 # 📚 My FlexiQuiz Learning Series 
 
-Welcome to my curated collection of quizzes hosted on [FlexiQuiz](https://www.flexiquiz.com). These assessments are designed to test and reinforce knowledge across a variety of technical domains including **the human centered design process**, **software testing**, **Java programming**, **cryptography**,  **software security**, and **algorithms + data structures**.
+Welcome to my curated collection of quizzes hosted on [FlexiQuiz](https://www.flexiquiz.com). 
 
-Each quiz has been crafted to balance core theory with real-world application and critical thinking. Many of them are content from subjects at NTNU Trondheim, several of them are old exams questions from previous exams.
+These quizes cover broad topics like human-centered design, BPMN, software testing, Java programming, cryptography, software security, web security, and algorithms & data structures. Each quiz is made to help you learn, practice, and check what you know.
+
+Many of them are content from subjects at NTNU Trondheim, several of them are old exams questions from previous exams.
+These quizzes cover broad topics such as human-centered design, software testing, Java programming, cryptography, software security, web security, and algorithms and data structures. They are grouped into simple series that move from basics to more advanced ideas for easy study and review
 
 <br/>
 <br/>
@@ -157,7 +160,7 @@ A series focused on core software testing concepts, methodologies, and best prac
 <details>
   <summary>Click to expand</summary>
 
-A foundational Java quiz for programmers looking to evaluate their language knowledge.
+Based onm exam questions in the subject TDT4100 at NTNU Trondheim.
 
 - [Java Programming Exam Questions](https://www.flexiquiz.com/SC/N/JavaExam1)  
 
@@ -1051,7 +1054,7 @@ Quiz: [EMF & Ecore – Part 7](https://www.flexiquiz.com/SC/N/ModelDrivenDev7)
 #  Information Systems – TDT4175
 <details>
   <summary>Click to expand</summary>
-  
+
 **Content:**  
 - Taxonomies and types of information systems (e.g., TPS, MIS, DSS, ERP, CRM, SCM)  
 - ERP systems: functionality, selection, and introduction in organizations  
