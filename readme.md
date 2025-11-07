@@ -10,7 +10,7 @@ Each quiz has been crafted to balance core theory with real-world application an
 
 ---
 
-# * CPU-X and the human centered design process - TDT4180 #
+#  CPU-X and the human centered design process - TDT4180 #
 
 <details>
   <summary>Click to expand</summary>
@@ -83,7 +83,7 @@ In other words, every question in this 40-item exam is drawn either from the pub
 ---
 
 
-# * Software Testing and Quality Series - TDT4242
+#  Software Testing and Quality Series - TDT4242
 
 <details>
   <summary>Click to expand</summary>
@@ -152,7 +152,7 @@ A series focused on core software testing concepts, methodologies, and best prac
 ---
 
 
-# * Java Programming - TDT4100
+#  Java Programming - TDT4100
 
 <details>
   <summary>Click to expand</summary>
@@ -183,7 +183,7 @@ A foundational Java quiz for programmers looking to evaluate their language know
 ---
 
 
-# * Cryptography Fundamentals - TDT4237
+#  Cryptography Fundamentals - TDT4237
 
 <details>
   <summary>Click to expand</summary>
@@ -212,7 +212,7 @@ A concise introduction to the world of secure communications and encryption tech
 ---
 
 
-# * Software Security Series - TDT4237
+#  Software Security Series - TDT4237
 
 <details>
   <summary>Click to expand</summary>
@@ -303,7 +303,7 @@ A comprehensive series covering secure development practices and application-lev
 ---
 
 
-# * Web Application Security Series - TDT4237
+#  Web Application Security Series - TDT4237
 
 <details>
   <summary>Click to expand</summary>
@@ -377,7 +377,7 @@ A deep dive into common web vulnerabilities and how to prevent them.
 <br/>
 
 ---
-# * Algorithms and Data Structures - TDT4120
+#  Algorithms and Data Structures - TDT4120
 <details>
   <summary>Click to expand</summary>
 
@@ -881,7 +881,7 @@ Quiz: [Algorithms and Data Structures – Part 16](https://www.flexiquiz.com/SC/
 ---
 
 
-# * Model-Driven Software Engineering - TDT4250
+#  Model-Driven Software Engineering - TDT4250
 
 <details>
   <summary>Click to expand</summary>
@@ -1048,7 +1048,7 @@ Quiz: [EMF & Ecore – Part 7](https://www.flexiquiz.com/SC/N/ModelDrivenDev7)
 ---
 
 
-# * Information Systems – TDT4175
+#  Information Systems – TDT4175
 <details>
   <summary>Click to expand</summary>
 **Content:**  
@@ -1279,7 +1279,7 @@ Lesson: **TDT4175 – Information Systems (Lesson 8)**
 ---
 
 
-# * Applied Data Science – TDT4259
+#  Applied Data Science – TDT4259
 <details>
   <summary>Click to expand</summary>
 **Content:**  
