@@ -382,7 +382,7 @@ Quiz: [Algorithms and Data Structures – Part 1](https://www.flexiquiz.com/SC/N
 - [Lecture 3 – Splitt og hersk](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-3---splitt-og-hersk)
 - [Lecture 13 – NP-kompletthet](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-13---np-kompletthet)
 
-| Topic (overordnet)                         | Brief description |
+| Topic                          | Brief description |
 |-------------------------------------------|-------------------|
 | Why NP-complete matters                    | If any NP-complete problem has a poly-time algorithm, all problems in NP do (poly-time reductions). |
 | TSP vs shortest path                       | Both are path problems; shortest path is poly-time; TSP is NP-hard/NP-complete (decision). |
@@ -410,7 +410,7 @@ Quiz: [Algorithms and Data Structures – Part 2](https://www.flexiquiz.com/SC/N
 - [Lecture 9 – Minimale spenntrær](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-9---minimale-spenntr%C3%A6r)
 - [Lecture 10 – Korteste vei fra én til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-10---korteste-vei-fra-%C3%A9n-til-alle) ← **høyest fokus**
 
-| Topic (overordnet)                         | Brief description |
+| Topic                          | Brief description |
 |-------------------------------------------|-------------------|
 | Asymptotic notation                       | Θ (tight), O (upper), Ω (lower), o (strictly smaller), ω (strictly larger). Match common forms to names. |
 | Combine bounds                            | O(nᵃ) + Ω(nᵇ) + Θ(nᶜ) → dominated by the largest-order term among the three. |
@@ -442,7 +442,7 @@ Quiz: [Algorithms and Data Structures – Part 3](https://www.flexiquiz.com/SC/N
 - [Lecture 12 – Maksimal flyt](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-12---maksimal-flyt)
 - [Lecture 13 – NP-kompletthet](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-13---np-kompletthet)
 
-| Topic (overordnet)                 | Brief description |
+| Topic                  | Brief description |
 |-----------------------------------|-------------------|
 | Greedy choice property            | Locally optimal step extends to a global optimum; classic examples: activity selection, Huffman, Kruskal. |
 | Heaps vs binary trees             | When heaps beat BSTs for priority access; array layout vs pointer-based trees; max-heap vs BST order. |
@@ -468,7 +468,7 @@ Quiz: [Algorithms and Data Structures – Part 4](https://www.flexiquiz.com/SC/N
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
 - [Lecture 3 – Splitt og hersk](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-3---splitt-og-hersk) ← **høyest fokus**
 
-| Topic (overordnet)                             | Brief description |
+| Topic                              | Brief description |
 |-----------------------------------------------|-------------------|
 | Insertion-sort lower bound via crossings      | Pack αn largest at front → many inversions; sum of squared block sizes = Θ(n²) ⇒ worst-case time is Ω(n²). |
 | Max{f,g} vs f+g                               | For nonnegative functions: max{f,g} = Θ(f+g); both upper/lower bound each other within constants. |
@@ -498,7 +498,7 @@ Quiz: [Algorithms and Data Structures – Part 5](https://www.flexiquiz.com/SC/N
 - [Lecture 4 – Rangering i lineær tid](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-4---rangering-i-line%C3%A6r-tid)
 - [Lecture 5 – Rotfaste trestrukturer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-5---rotfaste-trestrukturer)
 
-| Topic (overordnet)                    | Brief description |
+| Topic                     | Brief description |
 |--------------------------------------|-------------------|
 | Asymptotic relations                 | Use O/Ω/Θ and little-o/ω via limits/ratios (e.g., 2ⁿ vs 2^{n/2} ⇒ ω). Rank Θ(1)…Θ(nⁿ) fastest→slowest. |
 | Tight bounds from mixes              | Combine Θ/O/Ω/o terms; keep the dominant order: e.g., Θ(n⁴)+O(n³log n)+o(n⁴) ⇒ Θ(n⁴); Θ(n)+O(n²)+Ω(n²) ⇒ Θ(n²). |
@@ -523,7 +523,7 @@ Quiz: [Algorithms and Data Structures – Part 6](https://www.flexiquiz.com/SC/N
 - [Lecture 5 – Rotfaste trestrukturer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-5---rotfaste-trestrukturer) ← **highest focus**
 - [Lecture 9 – Minimale spenntrær](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-9---minimale-spenntr%C3%A6r)
 
-| Topic (overordnet)                 | Brief description |
+| Topic                  | Brief description |
 |-----------------------------------|-------------------|
 | Free trees → rooted trees         | Add a designated root; defines parent/child, depth, height, subtrees. |
 | Complete binary trees             | Height ≈ ⌊log₂ n⌋; nearly filled levels enable array representation. |
@@ -556,7 +556,7 @@ Quiz: [Algorithms and Data Structures – Part 7](https://www.flexiquiz.com/SC/N
 - [Lecture 11 – Korteste vei fra alle til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-11---korteste-vei-fra-alle-til-alle)
 - [Lecture 13 – NP-kompletthet](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-13---np-kompletthet)
 
-| Topic (overordnet)                    | Brief description |
+| Topic                     | Brief description |
 |--------------------------------------|-------------------|
 | Why DP beats plain D&C               | Reuses overlapping subproblems to avoid exponential recomputation. |
 | DP prerequisites                     | Optimal substructure + overlapping subproblems; bounded state space. |
@@ -686,7 +686,7 @@ Quiz: [Algorithms and Data Structures – Part 11](https://www.flexiquiz.com/SC/
 - [Lecture 10 – Korteste vei fra én til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-10---korteste-vei-fra-%C3%A9n-til-alle)
 - [Lecture 11 – Korteste vei fra alle til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-11---korteste-vei-fra-alle-til-alle)
 
-| Topic (overordnet)                     | Key results & reminders (condensed) |
+| Topic                      | Key results & reminders (condensed) |
 |---------------------------------------|-------------------------------------|
 | Complexity ranking (desc.)            | Θ(n!) ≻ Θ(kⁿ) (k>1) ≻ Θ(nᵏ) (k>1) ≻ Θ(n log n) ≻ Θ(n) ≻ Θ(log n) ≻ Θ(1). |
 | DP suitability                         | Needs **optimal substructure** + **overlapping subproblems** and a manageable state space. |
@@ -711,7 +711,7 @@ Quiz: [Algorithms and Data Structures – Part 11](https://www.flexiquiz.com/SC/
 **Covers & focus**
 - [Lecture 8 – Traversering av grafer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-8---traversering-av-grafer) ← *highest focus*
 
-| Topic (overordnet)                       | Brief description |
+| Topic                        | Brief description |
 |-----------------------------------------|-------------------|
 | Adjacency list vs matrix                | Space: lists Θ(n+m), matrix Θ(n²). Edge-exists check: list Θ(deg(u)), matrix Θ(1). |
 | Reading adjacency lists                 | Map lists to edges; be careful with direction and duplicates/self-loops. |
@@ -738,7 +738,7 @@ Quiz: [Algorithms and Data Structures – Part 11](https://www.flexiquiz.com/SC/
 **Covers & focus**
 - [Lecture 9 – Minimale spenntrær](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-9---minimale-spenntr%C3%A6r) ← *highest focus*
 
-| Topic (overordnet)                           | Key results & reminders (condensed) |
+| Topic                            | Key results & reminders (condensed) |
 |---------------------------------------------|-------------------------------------|
 | Disjoint-set forests (union–find)           | `MAKE-SET`, `FIND-SET`, `UNION`. With **path compression** + **union by rank/size** ⇒ near-constant amortized time \(α(n)\). Trees are conceptual; parent pointers form shallow forests. |
 | All edges equal weight                       | **Any** spanning tree is minimum. #MSTs = #spanning trees of the graph (can be many). |
@@ -764,7 +764,7 @@ Quiz: [Algorithms and Data Structures – Part 14](https://www.flexiquiz.com/SC/
 - [Lecture 10 – Korteste vei fra én til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-10---korteste-vei-fra-%C3%A9n-til-alle) ← **Highest focus**
 - [Lecture 11 – Korteste vei fra alle til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-11---korteste-vei-fra-alle-til-alle)
 
-| Topic (overordnet)                         | Key results & reminders (condensed) |
+| Topic                          | Key results & reminders (condensed) |
 |-------------------------------------------|-------------------------------------|
 | SSSP basics                               | Distances init: \(d[s]=0\), others \(∞\). Relax updates \(d[v]\) and \(π[v]\). |
 | Relax operation                           | If \(d[v] > d[u] + w(u,v)\) then set \(d[v] ← d[u]+w(u,v)\), \(π[v] ← u\). |
@@ -776,6 +776,33 @@ Quiz: [Algorithms and Data Structures – Part 14](https://www.flexiquiz.com/SC/
 | Entering the queue/PQ                     | Standard SSSP pushes node when first discovered; further relaxations may **decrease-key**. |
 | Negative edges & cycles                   | Dijkstra invalid with negative edges; New-SSSP must match Bellman–Ford guarantees. Negative cycles ⇒ “no finite shortest path.” |
 | Prim init aside (tie-in)                  | Building PQ: **BUILD-HEAP** is linear; repeated inserts \(Θ(V\log V)\). |
+
+---
+
+### > Algorithms and Data Structures – Part 15 - TDT4120
+---
+*All-pairs shortest paths (APSP): repeated Dijkstra vs Floyd–Warshall, predecessor matrices, transitive closure, shortest-path trees vs MSTs, and one voting-graph detour (Schulze).*
+
+Quiz: [Algorithms and Data Structures – Part 15](https://www.flexiquiz.com/SC/N/Algdat15)
+
+**Covers & focus**
+- [Lecture 10 – Korteste vei fra én til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-10---korteste-vei-fra-%C3%A9n-til-alle)
+- [Lecture 11 – Korteste vei fra alle til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-11---korteste-vei-fra-alle-til-alle) ← *highest focus*
+- [Lecture 9 – Minimale spenntrær](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-9---minimale-spenntr%C3%A6r)
+
+| Topic                                | Key results & reminders (condensed) |
+|--------------------------------------------------|-------------------------------------|
+| APSP via repeated single-source runs             | Run Dijkstra from every node when all weights ≥ 0. With binary heap: Θ(V·(E log V)). With Fibonacci heap: Θ(V·E + V² log V). |
+| APSP pick-one fastest                            | On sparse graphs with non-negative weights, repeated Dijkstra is typically faster; on dense graphs, Floyd–Warshall Θ(V³) wins. |
+| Floyd–Warshall (FW)                              | Dynamic programming over intermediate vertices. Time Θ(V³), space Θ(V²). Handles negative edges; detects negative cycles (Dᵢᵢ < 0). |
+| Predecessor matrix π                             | πᵢⱼ stores the predecessor of j on a shortest i→j path (NIL means no path or i=j with no predecessor). Reconstruct by walking predecessors. |
+| FW space-lean variant                            | Store only distance matrix (optionally a compact π or “next” matrix). Practical version often uses O(V²) space. |
+| Transitive closure (reachability)                | Boolean FW: Tᵏᵢⱼ = Tᵏ⁻¹ᵢⱼ ∨ (Tᵏ⁻¹ᵢᵏ ∧ Tᵏ⁻¹ᵏⱼ). Replace min/+ with OR/AND. |
+| Kruskal runtime refresher                        | Sort edges O(E log E) + union-find ≈ O(E α(V)) ⇒ O(E log E). |
+| Shortest-path tree vs MST                        | To minimize ∑ᵤ dist_T(v, u) from root v, build the **shortest-path tree** (run Dijkstra from v). An MST minimizes sum of edge weights, not distances from v. |
+| Dijkstra’s selection rule                        | Always extract the unseen node with **minimum tentative distance**. Decrease-key on relaxations. |
+| All-pairs correctness notes                      | Subpaths of shortest paths are shortest; negative cycles ⇒ no finite APSP; FW reveals this on diagonal. |
+| Schulze method (pairwise paths)                  | Treats candidates as a weighted directed graph and computes strongest paths; conceptually similar to APSP but with max-min path strengths instead of sums. |
 
 
 ---
