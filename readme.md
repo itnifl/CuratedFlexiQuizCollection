@@ -353,9 +353,9 @@ A deep dive into common web vulnerabilities and how to prevent them.
 <br/>
 
 ---
-
-
 # * Algorithms and Data Structures - TDT4120
+<details>
+  <summary>▶️ Click to expand</summary>
 
 **Content:**  
 - Efficiency analysis, recursion, divide-and-conquer  
@@ -833,6 +833,7 @@ Quiz: [Algorithms and Data Structures – Part 16](https://www.flexiquiz.com/SC/
 
 
 ---
+</details>
 
 <br/>
 <br/>
