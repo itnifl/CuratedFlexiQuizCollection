@@ -355,7 +355,7 @@ A deep dive into common web vulnerabilities and how to prevent them.
 ---
 # * Algorithms and Data Structures - TDT4120
 <details>
-  <summary>▶️ Click to expand</summary>
+  <summary>Click to expand</summary>
 
 **Content:**  
 - Efficiency analysis, recursion, divide-and-conquer  
@@ -1021,7 +1021,8 @@ Quiz: [EMF & Ecore – Part 7](https://www.flexiquiz.com/SC/N/ModelDrivenDev7)
 
 
 # * Information Systems – TDT4175
-
+<details>
+  <summary>Click to expand</summary>
 **Content:**  
 - Taxonomies and types of information systems (e.g., TPS, MIS, DSS, ERP, CRM, SCM)  
 - ERP systems: functionality, selection, and introduction in organizations  
@@ -1243,11 +1244,12 @@ Lesson: **TDT4175 – Information Systems (Lesson 8)**
 <br/>
 <br/>
 <br/>
-
+</details>
 ---
 
 # * Applied Data Science – TDT4259
-
+<details>
+  <summary>Click to expand</summary>
 **Content:**  
 - Lifecycle of a data science project (CRISP-DM phases: business understanding, data understanding, preparation, modeling, evaluation, deployment, monitoring)  
 - Data analytics types: descriptive, diagnostic, predictive, prescriptive  
@@ -1313,3 +1315,5 @@ Quiz: [Applied Data Science – Part 4](https://www.flexiquiz.com/SC/N/appliedda
 | **Feature/leakage warning**                       | Never compute scalers/encoders/statistics on full dataset before CV—this leaks info. Create "missing" indicator flags when missingness may be informative. |
 | **When to prefer which method**                   | Text/sparse: Naïve Bayes, Linear models. Mixed types/interpretability: Trees/RandomForest. Smooth numeric boundaries: SVM. Complex high-D patterns (images/audio): Deep nets. k-NN for quick, small datasets / nonparametric baseline. |
 | **Quick sklearn pipeline example**                | See code block below for a leakage-free pipeline (impute + scale + PCA + SVM). |
+
+</details>
