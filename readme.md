@@ -690,6 +690,7 @@ Quiz: [Algorithms and Data Structures – Part 11](https://www.flexiquiz.com/SC/
 
 **Covers & focus**
 - [Lecture 9 – Minimale spenntrær](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-9---minimale-spenntr%C3%A6r) ← **highest focus**
+- [Lecture 10 – Korteste vei fra én til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-10---korteste-vei-fra-%C3%A9n-til-alle)
 
 | Topic                            | Key results & reminders (condensed) |
 |---------------------------------------------|-------------------------------------|
