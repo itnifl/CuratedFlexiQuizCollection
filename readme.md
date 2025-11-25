@@ -1212,7 +1212,7 @@ Quiz: [TDT4175 Information Systems – Exam 2024](https://www.flexiquiz.com/SC/N
 - Lesson 6 — Operational systems (TPS/ERP/SCM/CRM), digital channels, MIS/DSS/ESS
 - Lesson 7 — From operations to decisions (ERP→MIS/DSS/ESS), knowledge systems
 - Lesson 8 — KM, expert systems, pervasive/mobile & collaboration tools  
-**Høyest fokus:** Lessons 6–7 (systems landscape and decision support around the Amazon flow)
+**Highest focus:** Lessons 6–7 (systems landscape and decision support around the Amazon flow)
 
 | Topic (overordnet) | Key results & reminders (condensed) |
 |---|---|
