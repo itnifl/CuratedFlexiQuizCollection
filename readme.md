@@ -1199,6 +1199,37 @@ Lesson: **TDT4175 – Information Systems (Lesson 8)**
 | Business impact                     | **Reach & speed**, **cost & accuracy**, **service & personalization** from embedded knowledge and connectivity. |
 | Risks & design considerations       | Security/privacy, device sprawl, data quality, human-factors for small screens/in-motion contexts. |
 
+---
+
+### > TDT4175 Information Systems – Exam 2024 (Amazon case)
+---
+*BPMN modeling quality (pools/lanes, syntax vs semantics), mapping roles to information systems, data–information–knowledge, information quality, analytics/monitoring, and change & innovation (BPR, e-commerce types).*
+
+Quiz: [TDT4175 Information Systems – Exam 2024](https://www.flexiquiz.com/SC/N/tdt4175-2024exam)
+
+**Covers & focus**
+- Lesson 5 — SEQUAL, modeling goals/means, BPMN quality, Lean value stream mapping
+- Lesson 6 — Operational systems (TPS/ERP/SCM/CRM), digital channels, MIS/DSS/ESS
+- Lesson 7 — From operations to decisions (ERP→MIS/DSS/ESS), knowledge systems
+- Lesson 8 — KM, expert systems, pervasive/mobile & collaboration tools  
+**Høyest fokus:** Lessons 6–7 (systems landscape and decision support around the Amazon flow)
+
+| Topic (overordnet) | Key results & reminders (condensed) |
+|---|---|
+| BPMN participants (pools) vs roles (lanes) | Pools = external participants/organizations (Amazon, Credit Card Company, Carrier, Customer). Lanes = roles inside a pool (e.g., Amazon: Picker, Packager, Warehouse Ops, Payment Service). Avoid mixing external actors as lanes inside another pool. |
+| Syntactic vs semantic mistakes in BPMN | **Syntactic:** invalid connectors, missing start/end, message flow within a pool, sequence flow crossing pools, wrong gateway/event types. **Semantic:** wrong responsibility (task in wrong pool), impossible path logic, missing decisions (e.g., approved/declined), misordered steps vs real process. |
+| Appropriate lanes in Amazon pool | Examples: Web/App Frontend, Payment Service (Amazon side), Warehouse (Picking, Packing), Shipping Desk, Customer Service. Customer, Card Company, Carrier should be separate pools. |
+| Credit-card participant systems | Payment gateway/processor, authorization & clearing, **Fraud Detection System (FDS)**, risk scoring, settlement/GL interfaces, PCI-DSS compliant TPS. |
+| Amazon fulfillment systems | **WMS** (picking/binning/packing), **ERP** (orders/inventory/finance), barcode/RFID, **TMS** handoff, label & carrier integration. |
+| Carrier systems | **TMS**, route planning/telematics, scan events (pickup, in-transit, delivered), EDI/API with Amazon. |
+| Fraud Detection System placement | Primarily Credit Card Company (card-not-present risk), also useful on Amazon checkout to pre-screen transactions; goal is reduce chargebacks and false positives with minimal friction. |
+| Data → information → knowledge | Data: raw events (timestamp, SKU, auth code). Information: order status “Authorized/Declined,” pick list. Knowledge: fraud patterns, pick-path optimizations, exception handling rules. |
+| Information-quality dimensions | Accuracy, completeness, timeliness, consistency, integrity, reliability, security/privacy, traceability. Payments emphasize accuracy, timeliness, integrity, confidentiality. |
+| Real-time monitoring/reporting | From TPS/ERP/WMS streams into **BI/MIS dashboards**, streaming ETL, event hubs, alerts; DSS for ad-hoc drilldown; ESS for exec summaries. |
+| Nature of changes & innovation type | Warehouse robots/drone delivery = **process** and **technology** innovations; likely **radical** (discontinuous) → needs **business process re-engineering (BPR)** rather than small Kaizen tweaks. |
+| Why re-engineering here | New capabilities change flow, roles, metrics, and constraints end-to-end (layout, safety, SLAs, IT integrations). Incremental tweaks won’t realize benefits or address systemic coupling. |
+| E-commerce types (examples) | **B2B** (Amazon Business), **B2C** (amazon.com retail), **C2C** (Marketplace peer sellers), **C2B** (influencer/affiliate programs), **B2G** (selling to public sector), **G2C/G2B** (for public services, by analogy). |
+
 
 </details>
 
