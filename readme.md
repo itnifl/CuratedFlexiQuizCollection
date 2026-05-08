@@ -15,6 +15,111 @@ These quizzes cover broad topics such as human-centered design, software testing
 
 <br/>
 
+**Tech stack & topics covered:**
+
+*Languages*
+
+[![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)](https://en.wikipedia.org/wiki/Java_(programming_language))
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://en.wikipedia.org/wiki/Python_(programming_language))
+[![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)](https://en.wikipedia.org/wiki/C_(programming_language))
+[![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)](https://en.wikipedia.org/wiki/C%2B%2B)
+[![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://en.wikipedia.org/wiki/JavaScript)
+[![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)](https://en.wikipedia.org/wiki/SQL)
+[![XML](https://img.shields.io/badge/XML-005FAD?style=for-the-badge&logo=xmlrpc&logoColor=white)](https://en.wikipedia.org/wiki/XML)
+
+*Frameworks & libraries*
+
+[![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)](https://en.wikipedia.org/wiki/Django_(web_framework))
+[![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)](https://en.wikipedia.org/wiki/Scikit-learn)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://en.wikipedia.org/wiki/NumPy)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://en.wikipedia.org/wiki/Pandas_(software))
+[![Eclipse EMF](https://img.shields.io/badge/Eclipse%20EMF-2C2255?style=for-the-badge&logo=eclipseide&logoColor=white)](https://en.wikipedia.org/wiki/Eclipse_Modeling_Framework)
+
+*Modeling & architecture*
+
+[![BPMN](https://img.shields.io/badge/BPMN-FF6F00?style=for-the-badge&logo=diagramsdotnet&logoColor=white)](https://en.wikipedia.org/wiki/Business_Process_Model_and_Notation)
+[![UML](https://img.shields.io/badge/UML-FBB034?style=for-the-badge&logo=uml&logoColor=black)](https://en.wikipedia.org/wiki/Unified_Modeling_Language)
+[![Camunda](https://img.shields.io/badge/Camunda-FC5D0D?style=for-the-badge&logo=camunda&logoColor=white)](https://en.wikipedia.org/wiki/Camunda)
+[![Signavio](https://img.shields.io/badge/Signavio-1A237E?style=for-the-badge&logo=sap&logoColor=white)](https://en.wikipedia.org/wiki/Signavio)
+[![Bizagi](https://img.shields.io/badge/Bizagi-00A8E1?style=for-the-badge&logo=bizagi&logoColor=white)](https://en.wikipedia.org/wiki/Bizagi)
+[![ARIS](https://img.shields.io/badge/ARIS-005CA9?style=for-the-badge&logo=softwareag&logoColor=white)](https://en.wikipedia.org/wiki/Architecture_of_Integrated_Information_Systems)
+[![Visual Paradigm](https://img.shields.io/badge/Visual%20Paradigm-1F6FEB?style=for-the-badge&logo=visualstudio&logoColor=white)](https://en.wikipedia.org/wiki/Visual_Paradigm)
+[![ATAM](https://img.shields.io/badge/ATAM-555555?style=for-the-badge&logo=archlinux&logoColor=white)](https://en.wikipedia.org/wiki/Architecture_tradeoff_analysis_method)
+[![CBAM](https://img.shields.io/badge/CBAM-444444?style=for-the-badge&logo=archlinux&logoColor=white)](https://www.ntnu.edu/studies/courses/TDT4240)
+[![ISO%2042010](https://img.shields.io/badge/ISO%2F42010-006699?style=for-the-badge&logo=iso&logoColor=white)](https://en.wikipedia.org/wiki/ISO/IEC/IEEE_42010)
+[![CRISP--DM](https://img.shields.io/badge/CRISP--DM-2E7D32?style=for-the-badge&logo=databricks&logoColor=white)](https://en.wikipedia.org/wiki/Cross-industry_standard_process_for_data_mining)
+[![ISO%209241--210](https://img.shields.io/badge/ISO%209241--210-0A6E91?style=for-the-badge&logo=iso&logoColor=white)](https://en.wikipedia.org/wiki/ISO_9241)
+[![CPUX-F](https://img.shields.io/badge/CPUX--F-6A1B9A?style=for-the-badge&logo=accessibility&logoColor=white)](https://uxqb.org/en/cpux-f/)
+
+*Cloud & infrastructure*
+
+[![AWS EC2](https://img.shields.io/badge/AWS%20EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white)](https://en.wikipedia.org/wiki/Amazon_Elastic_Compute_Cloud)
+[![Azure VM](https://img.shields.io/badge/Azure%20VM-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)](https://en.wikipedia.org/wiki/Microsoft_Azure)
+[![Heroku](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white)](https://en.wikipedia.org/wiki/Heroku)
+[![Salesforce](https://img.shields.io/badge/Salesforce-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white)](https://en.wikipedia.org/wiki/Salesforce)
+[![Gmail (SaaS)](https://img.shields.io/badge/Gmail%20(SaaS)-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](https://en.wikipedia.org/wiki/Gmail)
+[![Hypervisor](https://img.shields.io/badge/Hypervisor-1F1F1F?style=for-the-badge&logo=vmware&logoColor=white)](https://en.wikipedia.org/wiki/Hypervisor)
+
+*Security & quality*
+
+[![OWASP](https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white)](https://en.wikipedia.org/wiki/OWASP)
+[![CVE](https://img.shields.io/badge/CVE-BE1E2D?style=for-the-badge&logo=cve&logoColor=white)](https://en.wikipedia.org/wiki/Common_Vulnerabilities_and_Exposures)
+[![CVSS](https://img.shields.io/badge/CVSS-8B0000?style=for-the-badge&logo=cve&logoColor=white)](https://en.wikipedia.org/wiki/Common_Vulnerability_Scoring_System)
+[![GDPR](https://img.shields.io/badge/GDPR-003399?style=for-the-badge&logo=europeanunion&logoColor=white)](https://en.wikipedia.org/wiki/General_Data_Protection_Regulation)
+[![STRIDE](https://img.shields.io/badge/STRIDE-2F4F4F?style=for-the-badge&logo=tryhackme&logoColor=white)](https://en.wikipedia.org/wiki/STRIDE_(security))
+[![Burp Suite](https://img.shields.io/badge/Burp%20Suite-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white)](https://en.wikipedia.org/wiki/Burp_Suite)
+[![OWASP ZAP](https://img.shields.io/badge/OWASP%20ZAP-009688?style=for-the-badge&logo=owasp&logoColor=white)](https://en.wikipedia.org/wiki/OWASP_ZAP)
+[![Kali Linux](https://img.shields.io/badge/Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)](https://en.wikipedia.org/wiki/Kali_Linux)
+[![HMAC](https://img.shields.io/badge/HMAC-2D3748?style=for-the-badge&logo=letsencrypt&logoColor=white)](https://en.wikipedia.org/wiki/HMAC)
+[![ECC](https://img.shields.io/badge/Elliptic%20Curve-1B5E20?style=for-the-badge&logo=hackthebox&logoColor=white)](https://en.wikipedia.org/wiki/Elliptic-curve_cryptography)
+[![SAML SSO](https://img.shields.io/badge/SAML%20SSO-0052CC?style=for-the-badge&logo=auth0&logoColor=white)](https://en.wikipedia.org/wiki/Security_Assertion_Markup_Language)
+[![HTTPS](https://img.shields.io/badge/HTTPS-2E8B57?style=for-the-badge&logo=letsencrypt&logoColor=white)](https://en.wikipedia.org/wiki/HTTPS)
+
+*Data & ML*
+
+[![CRISP-DM](https://img.shields.io/badge/Data%20Science-512BD4?style=for-the-badge&logo=jupyter&logoColor=white)](https://www.ntnu.edu/studies/courses/TDT4259)
+[![PCA](https://img.shields.io/badge/PCA-EF6C00?style=for-the-badge&logo=scipy&logoColor=white)](https://en.wikipedia.org/wiki/Principal_component_analysis)
+[![SVM](https://img.shields.io/badge/SVM-1976D2?style=for-the-badge&logo=scikitlearn&logoColor=white)](https://en.wikipedia.org/wiki/Support_vector_machine)
+[![k-NN](https://img.shields.io/badge/k--NN-455A64?style=for-the-badge&logo=scikitlearn&logoColor=white)](https://en.wikipedia.org/wiki/K-nearest_neighbors_algorithm)
+[![Random Forest](https://img.shields.io/badge/Random%20Forest-2E7D32?style=for-the-badge&logo=tree&logoColor=white)](https://en.wikipedia.org/wiki/Random_forest)
+[![Neural Nets](https://img.shields.io/badge/Neural%20Nets-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://en.wikipedia.org/wiki/Artificial_neural_network)
+[![Big Data](https://img.shields.io/badge/Big%20Data-F80000?style=for-the-badge&logo=apachespark&logoColor=white)](https://en.wikipedia.org/wiki/Big_data)
+[![Process Mining](https://img.shields.io/badge/Process%20Mining-005EB8?style=for-the-badge&logo=elastic&logoColor=white)](https://en.wikipedia.org/wiki/Process_mining)
+
+*DevOps & methodology*
+
+[![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)](https://en.wikipedia.org/wiki/Git)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://en.wikipedia.org/wiki/GitHub)
+[![DevOps](https://img.shields.io/badge/DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white)](https://en.wikipedia.org/wiki/DevOps)
+[![CI/CD](https://img.shields.io/badge/CI%2FCD-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)](https://en.wikipedia.org/wiki/CI/CD)
+[![Agile](https://img.shields.io/badge/Agile-009FDA?style=for-the-badge&logo=jirasoftware&logoColor=white)](https://en.wikipedia.org/wiki/Agile_software_development)
+[![Scrum](https://img.shields.io/badge/Scrum-6DB33F?style=for-the-badge&logo=scrumalliance&logoColor=white)](https://en.wikipedia.org/wiki/Scrum_(software_development))
+[![Kanban](https://img.shields.io/badge/Kanban-0089D6?style=for-the-badge&logo=trello&logoColor=white)](https://en.wikipedia.org/wiki/Kanban_(development))
+[![Lean](https://img.shields.io/badge/Lean-FFB81C?style=for-the-badge&logo=leanpub&logoColor=black)](https://en.wikipedia.org/wiki/Lean_software_development)
+[![BPR](https://img.shields.io/badge/BPR-263238?style=for-the-badge&logo=processwire&logoColor=white)](https://en.wikipedia.org/wiki/Business_process_re-engineering)
+
+*Topics* (NTNU course pages where applicable)
+
+[![Algorithms](https://img.shields.io/badge/Algorithms-007ACC?style=for-the-badge&logo=leetcode&logoColor=white)](https://www.ntnu.edu/studies/courses/TDT4120)
+[![Data Structures](https://img.shields.io/badge/Data%20Structures-FF6F00?style=for-the-badge&logo=tree&logoColor=white)](https://www.ntnu.edu/studies/courses/TDT4120)
+[![Dynamic Programming](https://img.shields.io/badge/Dynamic%20Programming-3F51B5?style=for-the-badge&logo=codeforces&logoColor=white)](https://en.wikipedia.org/wiki/Dynamic_programming)
+[![Graph Algorithms](https://img.shields.io/badge/Graph%20Algorithms-7E57C2?style=for-the-badge&logo=graphql&logoColor=white)](https://en.wikipedia.org/wiki/Graph_theory)
+[![NP-completeness](https://img.shields.io/badge/NP--completeness-B71C1C?style=for-the-badge&logo=mathworks&logoColor=white)](https://en.wikipedia.org/wiki/NP-completeness)
+[![Software Architecture](https://img.shields.io/badge/Software%20Architecture-37474F?style=for-the-badge&logo=blueprint&logoColor=white)](https://www.ntnu.edu/studies/courses/TDT4240)
+[![Software Testing](https://img.shields.io/badge/Software%20Testing-25A162?style=for-the-badge&logo=testinglibrary&logoColor=white)](https://www.ntnu.edu/studies/courses/TDT4242)
+[![Cryptography](https://img.shields.io/badge/Cryptography-1B5E20?style=for-the-badge&logo=letsencrypt&logoColor=white)](https://www.ntnu.edu/studies/courses/TDT4237)
+[![Web Security](https://img.shields.io/badge/Web%20Security-CC0000?style=for-the-badge&logo=cloudflare&logoColor=white)](https://www.ntnu.edu/studies/courses/TDT4237)
+[![Information Systems](https://img.shields.io/badge/Information%20Systems-0072C6?style=for-the-badge&logo=microsoft&logoColor=white)](https://www.ntnu.edu/studies/courses/TDT4175)
+[![ERP](https://img.shields.io/badge/ERP-0F9D58?style=for-the-badge&logo=sap&logoColor=white)](https://en.wikipedia.org/wiki/Enterprise_resource_planning)
+[![CRM](https://img.shields.io/badge/CRM-00A1E0?style=for-the-badge&logo=salesforce&logoColor=white)](https://en.wikipedia.org/wiki/Customer_relationship_management)
+[![SCM](https://img.shields.io/badge/SCM-795548?style=for-the-badge&logo=oracle&logoColor=white)](https://en.wikipedia.org/wiki/Supply_chain_management)
+[![Software Product Lines](https://img.shields.io/badge/Software%20Product%20Lines-9C27B0?style=for-the-badge&logo=feathub&logoColor=white)](https://en.wikipedia.org/wiki/Software_product_line)
+[![Model-Driven Development](https://img.shields.io/badge/MDD%2FMDA-455A64?style=for-the-badge&logo=eclipseide&logoColor=white)](https://www.ntnu.edu/studies/courses/TDT4250)
+[![UX / HCI](https://img.shields.io/badge/UX%20%2F%20HCI-FF4081?style=for-the-badge&logo=figma&logoColor=white)](https://www.ntnu.edu/studies/courses/TDT4180)
+
+<br/>
+
 ---
 
 
