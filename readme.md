@@ -9,10 +9,10 @@ These quizzes cover broad topics such as human-centered design, software testing
 
 **Connect & profiles:**
 
-[![Codewars](https://www.codewars.com/users/itnifl/badges/large)](https://www.codewars.com/users/itnifl)
+[![Codewars](https://www.codewars.com/users/itnifl/badges/large)](https://www.codewars.com/users/itnifl)<br/>
+[![LeetCode Stats](https://leetcard.jacoblin.cool/itnifl?theme=dark&font=Karma&ext=heatmap)](https://leetcode.com/u/itnifl/)<br/>
 [![LeetCode](https://img.shields.io/badge/LeetCode-itnifl-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)](https://leetcode.com/u/itnifl/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Atle%20Holm-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atle-holm-85518861/)
-[![LeetCode Stats](https://leetcard.jacoblin.cool/itnifl?theme=dark&font=Karma&ext=heatmap)](https://leetcode.com/u/itnifl/)
 
 <br/>
 
