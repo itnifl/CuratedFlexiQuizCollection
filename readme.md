@@ -11,7 +11,7 @@ These quizzes cover broad topics such as human-centered design, software testing
 
 [![Codewars](https://www.codewars.com/users/itnifl/badges/large)](https://www.codewars.com/users/itnifl)
 
-[LinkedIn – Atle Holm](https://www.linkedin.com/in/atle-holm-85518861/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Atle%20Holm-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/atle-holm-85518861/)
 
 <br/>
 
