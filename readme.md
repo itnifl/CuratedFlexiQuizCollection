@@ -7,6 +7,12 @@ These quizes cover broad topics like human-centered design, BPMN, software testi
 Almost all of the quizes are content from subjects at NTNU Trondheim, several of them are old exams questions from previous exams.
 These quizzes cover broad topics such as human-centered design, software testing, data science, model driven development, Java programming, cryptography, software security, web security, and algorithms and data structures. They are grouped into simple series that move from basics to more advanced ideas for easy study and review
 
+**Connect & profiles:**
+
+[![Codewars](https://www.codewars.com/users/itnifl/badges/large)](https://www.codewars.com/users/itnifl)
+
+[LinkedIn – Atle Holm](https://www.linkedin.com/in/atle-holm-85518861/)
+
 <br/>
 
 ---
@@ -1382,6 +1388,77 @@ In other words, every question in this 40-item exam is drawn either from the pub
   | Usability vs. User Experience| Satisfaction & principles   |
   | Storyboards                  | Master-apprentice principle |
   | Error tolerance              | Dialogue principles         |
+
+</details>
+
+<br/>
+<br/>
+<br/>
+
+---
+
+
+#  Software Architecture - TDT4240
+
+<details>
+  <summary>Click to expand</summary>
+
+Based on previous exam questions in the subject [TDT4240 – Software Architecture](https://www.ntnu.edu/studies/courses/TDT4240) at NTNU Trondheim. Companion compendium: [Wikipendium – TDT4240 Software Architecture](https://www.wikipendium.no/TDT4240_Software_Architecture).
+
+**Content:**
+- Definitions, importance and influence cycle of software architecture (Bass, Clements & Kazman)
+- Architectural views: Module, Component-and-Connector, Allocation
+- Quality attributes, scenarios and response measures (incl. usability, performance, security)
+- Architectural patterns vs. design patterns vs. idioms; patterns for games, pipelines, layering, brokers
+- Attribute-Driven Design (ADD), software architecture reconstruction
+- Evaluation methods: ATAM and CBAM, IEEE 1471 / ISO/IEC/IEEE 42010
+- Software product lines and scope
+- Game architecture (decoupled game loop), ecosystem/Metropolis structures
+- Cloud computing: SaaS / PaaS / IaaS, economic justifications, hypervisors
+
+**Learning outcome:**
+- Recognise and apply core architectural concepts, patterns and tactics
+- Analyse and evaluate architectures using quality attribute scenarios, ATAM and CBAM
+- Document architectures using the three views and standard notations
+- Reason about cloud-based deployments and virtualization at an architectural level
+
+
+### > Software Architecture Exam – Part 1 (2018) - TDT4240
+---
+*Reflects the 2018 Software Architecture exam, Part 1 (Problems 1–3, first 28 questions). Exam paper and solution paper are hosted on NTNU Blackboard ([exam](https://ntnu.blackboard.com/bbcswebdav/pid-2980895-dt-content-rid-89339566_1/xid-89339566_1), [solutions](https://ntnu.blackboard.com/bbcswebdav/pid-2980895-dt-content-rid-89339567_1/xid-89339567_1) – NTNU login required).*
+
+Quiz: [Software Architecture Exam 2018 – Part 1](https://www.flexiquiz.com/SC/N/TDT4240_1)
+
+|                                                  |                                                                                             |
+|--------------------------------------------------|---------------------------------------------------------------------------------------------|
+| **Definition of Software Architecture**          | Bass, Clements & Kazman: structures of the system, comprising software elements, externally visible properties and relationships among them |
+| **Decoupled game loop**                          | Sketch and principle: separate update from render, fixed-timestep simulation independent of frame rate |
+| **Software product line scope**                  | Problems with too narrow vs. too broad scope: limits reuse vs. dilutes commonality          |
+| **Quality attribute scenarios**                  | Six parts: Source, Stimulus, Artifact, Environment, Response, Response Measure              |
+| **Usability response measures**                  | Two typical examples (e.g. task time, error rate, learning time, user satisfaction)         |
+| **Importance of software architecture**          | Verbatim list of reasons; identify which statement is **NOT** one of them                   |
+| **Architecture influence cycle**                 | Sketch with stakeholders, requirements, architect, system, environment and feedback loops   |
+| **The three views**                              | Module (units of implementation), Component-and-Connector (runtime), Allocation (mapping to environment); typical UML notations |
+| **Security tactics**                             | Four main groups: Detect, Resist (prevent), React, Recover from attacks                     |
+| **ATAM outputs**                                 | Verbatim list of ATAM outputs (utility tree, scenarios, risks, non-risks, sensitivity & tradeoff points, etc.) |
+| **Analytic models for performance**              | Models specifically used for performance (e.g. queuing theory, scheduling theory)           |
+| **Attribute-Driven Design (ADD)**                | Recursive method: choose element to decompose → choose drivers → choose patterns/tactics → instantiate & allocate → define interfaces → verify → recurse |
+| **Software architecture reconstruction process** | Four steps: Information extraction → Database construction → View fusion → Reconstruction (one verbatim sentence per step) |
+| **Why reconstruct an architecture**              | Three reasons (e.g. lost/outdated documentation, conformance checking, evolution & reengineering) |
+| **ATAM vs. CBAM**                                | ATAM = trade-off / risk analysis of quality attributes; CBAM = adds cost-benefit economics on top |
+| **Metropolis structure (ecosystem-dominant)**    | Sketch of major roles: core, contributors, periphery, end users in an edge/ecosystem-dominant system |
+| **IEEE 1471 / ISO/IEC/IEEE 42010**               | Standard for architectural description: stakeholders, concerns, viewpoints and views        |
+| **Code–architecture consistency**                | Four techniques to keep code and architecture consistent (e.g. reflexion models, layered enforcement, code reviews, generated/embedded architecture) |
+| **Observer pattern**                             | Purpose and conditions of use: one-to-many notification, decouples subject from observers   |
+| **Architectural patterns vs. design patterns vs. idioms** | Differences in scope/granularity: system structure vs. recurring design solutions vs. language-specific implementation tricks |
+| **Pattern: distributed system (db, logic, web, client)** | Tiers connected by communication media, optimised per server environment → **Client–Server / N-tier (Tiered)** pattern |
+| **Pattern: seismic data transformation in stages** | Raw input transformed through successive stages → **Pipe-and-Filter** pattern              |
+| **Pattern: AI strategy with multiple levels of complexity** | Atomic actions up to strategic plans → **Layered (Hierarchical) / Blackboard** pattern |
+| **Pattern: game engine with high/medium/low-level APIs** | Tiered API surface for richer functionality on demand → **Layered** pattern             |
+| **Pattern: online stores using external payment services** | Hide service location/provider details → **Broker / Service Locator** pattern         |
+| **SaaS / PaaS / IaaS**                           | SaaS: ready-to-use applications (e.g. Gmail, Salesforce); PaaS: dev/runtime platform (e.g. App Engine, Heroku); IaaS: virtualized infrastructure (e.g. AWS EC2, Azure VMs). Two examples each. |
+| **Economic justification for cloud**             | Three drivers: pay-per-use / no large up-front capex, elasticity to match demand, economies of scale from large providers (verbatim from solution paper) |
+| **Hypervisor**                                   | Software layer that virtualises hardware, enabling multiple guest OS instances on one host; sketch shows hardware → hypervisor → guest VMs |
 
 </details>
 
