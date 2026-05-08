@@ -4,15 +4,16 @@
 
 1. [Software Testing and Quality Series – TDT4242](#--software-testing-and-quality-series---tdt4242)
 2. [Java Programming – TDT4100](#--java-programming---tdt4100)
-3. [Cryptography Fundamentals – TDT4237](#--cryptography-fundamentals---tdt4237)
-4. [Software Security Series – TDT4237](#--software-security-series---tdt4237)
-5. [Web Application Security Series – TDT4237](#--web-application-security-series---tdt4237)
-6. [Algorithms and Data Structures – TDT4120](#--algorithms-and-data-structures---tdt4120)
-7. [Model-Driven Software Engineering – TDT4250](#--model-driven-software-engineering---tdt4250)
-8. [Information Systems – TDT4175](#--information-systems--tdt4175)
-9. [Applied Data Science – TDT4259](#--applied-data-science--tdt4259)
-10. [The human centered design process – TDT4180](#--the-human-centered-design-process---tdt4180-)
-11. [Software Architecture – TDT4240](#--software-architecture---tdt4240)
+3. [C# and Web API Programming](#--c-and-web-api-programming)
+4. [Cryptography Fundamentals – TDT4237](#--cryptography-fundamentals---tdt4237)
+5. [Software Security Series – TDT4237](#--software-security-series---tdt4237)
+6. [Web Application Security Series – TDT4237](#--web-application-security-series---tdt4237)
+7. [Algorithms and Data Structures – TDT4120](#--algorithms-and-data-structures---tdt4120)
+8. [Model-Driven Software Engineering – TDT4250](#--model-driven-software-engineering---tdt4250)
+9. [Information Systems – TDT4175](#--information-systems--tdt4175)
+10. [Applied Data Science – TDT4259](#--applied-data-science--tdt4259)
+11. [The human centered design process – TDT4180](#--the-human-centered-design-process---tdt4180-)
+12. [Software Architecture – TDT4240](#--software-architecture---tdt4240)
 
 <br/>
 
@@ -212,6 +213,52 @@ Based onm exam questions in the subject TDT4100 at NTNU Trondheim.
 </details>
 
 [![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)](https://en.wikipedia.org/wiki/Java_(programming_language))
+
+<br/>
+<br/>
+<br/>
+
+---
+
+
+#  C# and Web API Programming
+
+<details>
+  <summary>Click to expand</summary>
+
+A general-purpose quiz on core C# language features and ASP.NET Core Web API development. Each question presents a short code snippet that you must read carefully to choose the correct answer.
+
+- [C# and Web API Quiz – Part 1](https://www.flexiquiz.com/SC/N/CSharp-Quiz-1)
+  Covers C# language fundamentals (value vs reference types, `const` vs `readonly`, records, `using`, nullable types, pattern matching, `yield`, LINQ, `IEnumerable` vs `IQueryable`, equality and `GetHashCode`, generic constraints, extension methods, `ConfigureAwait`) and ASP.NET Core Web API essentials (controllers, routing, `[From*]` model binding, request/response headers, `[ApiController]` model validation, `[Authorize]` / `[AllowAnonymous]`, dependency-injection lifetimes, middleware ordering, CORS, `IOptions` configuration, `ILogger` structured logging, `IHttpClientFactory`, `CancellationToken`, `System.Text.Json` defaults, idempotent verbs and REST conventions).
+
+  |                              |                                       |
+  |------------------------------|---------------------------------------|
+  | Value vs reference types     | Nullable types & `default(T)`         |
+  | `const` vs `static readonly` | DLL hot-swap inlining considerations  |
+  | Records & immutability       | Pattern matching & switch expressions |
+  | `using` / `IDisposable`      | `yield` & deferred execution          |
+  | LINQ operators               | `IEnumerable<T>` vs `IQueryable<T>`   |
+  | `Equals` & `GetHashCode`     | Generic constraints                   |
+  | Extension methods            | `ConfigureAwait(false)` in libraries  |
+  | `[ApiController]` & routing  | `[FromRoute]` / `[FromQuery]` / `[FromHeader]` / `[FromBody]` |
+  | Reading request headers      | Model validation & ProblemDetails     |
+  | `[Authorize]` / roles        | DI lifetimes (Scoped/Transient/Singleton) |
+  | Middleware ordering          | CORS configuration                    |
+  | `IOptions` / `IOptionsSnapshot` | `ILogger` structured templates     |
+  | `IHttpClientFactory`         | `CancellationToken` & `RequestAborted` |
+  | `System.Text.Json` defaults  | REST conventions & idempotent verbs   |
+  | HTTP status codes            | `IActionResult` / `ActionResult<T>`   |
+
+</details>
+
+[![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
+[![ASP.NET Core](https://img.shields.io/badge/ASP.NET%20Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://en.wikipedia.org/wiki/ASP.NET_Core)
+[![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://en.wikipedia.org/wiki/.NET)
+[![LINQ](https://img.shields.io/badge/LINQ-68217A?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/Language_Integrated_Query)
+[![Entity Framework](https://img.shields.io/badge/Entity%20Framework-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://en.wikipedia.org/wiki/Entity_Framework)
+[![REST API](https://img.shields.io/badge/REST%20API-25A162?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/REST)
+[![HTTP](https://img.shields.io/badge/HTTP-005C9C?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/HTTP)
+[![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)](https://en.wikipedia.org/wiki/JSON)
 
 <br/>
 <br/>
