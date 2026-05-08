@@ -94,6 +94,22 @@ These quizzes cover broad topics such as human-centered design, software testing
 
 <br/>
 
+**Index – quiz sections:**
+
+1. [Software Testing and Quality Series – TDT4242](#--software-testing-and-quality-series---tdt4242)
+2. [Java Programming – TDT4100](#--java-programming---tdt4100)
+3. [Cryptography Fundamentals – TDT4237](#--cryptography-fundamentals---tdt4237)
+4. [Software Security Series – TDT4237](#--software-security-series---tdt4237)
+5. [Web Application Security Series – TDT4237](#--web-application-security-series---tdt4237)
+6. [Algorithms and Data Structures – TDT4120](#--algorithms-and-data-structures---tdt4120)
+7. [Model-Driven Software Engineering – TDT4250](#--model-driven-software-engineering---tdt4250)
+8. [Information Systems – TDT4175](#--information-systems--tdt4175)
+9. [Applied Data Science – TDT4259](#--applied-data-science--tdt4259)
+10. [The human centered design process – TDT4180](#--the-human-centered-design-process---tdt4180-)
+11. [Software Architecture – TDT4240](#--software-architecture---tdt4240)
+
+<br/>
+
 ---
 
 
