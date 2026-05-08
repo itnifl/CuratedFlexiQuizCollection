@@ -1429,36 +1429,56 @@ Based on previous exam questions in the subject [TDT4240 – Software Architectu
 
 Quiz: [Software Architecture Exam 2018 – Part 1](https://www.flexiquiz.com/SC/N/TDT4240_1)
 
-|                                                  |                                                                                             |
-|--------------------------------------------------|---------------------------------------------------------------------------------------------|
-| **Definition of Software Architecture**          | Bass, Clements & Kazman: structures of the system, comprising software elements, externally visible properties and relationships among them |
-| **Decoupled game loop**                          | Sketch and principle: separate update from render, fixed-timestep simulation independent of frame rate |
-| **Software product line scope**                  | Problems with too narrow vs. too broad scope: limits reuse vs. dilutes commonality          |
-| **Quality attribute scenarios**                  | Six parts: Source, Stimulus, Artifact, Environment, Response, Response Measure              |
-| **Usability response measures**                  | Two typical examples (e.g. task time, error rate, learning time, user satisfaction)         |
-| **Importance of software architecture**          | Verbatim list of reasons; identify which statement is **NOT** one of them                   |
-| **Architecture influence cycle**                 | Sketch with stakeholders, requirements, architect, system, environment and feedback loops   |
-| **The three views**                              | Module (units of implementation), Component-and-Connector (runtime), Allocation (mapping to environment); typical UML notations |
-| **Security tactics**                             | Four main groups: Detect, Resist (prevent), React, Recover from attacks                     |
-| **ATAM outputs**                                 | Verbatim list of ATAM outputs (utility tree, scenarios, risks, non-risks, sensitivity & tradeoff points, etc.) |
-| **Analytic models for performance**              | Models specifically used for performance (e.g. queuing theory, scheduling theory)           |
-| **Attribute-Driven Design (ADD)**                | Recursive method: choose element to decompose → choose drivers → choose patterns/tactics → instantiate & allocate → define interfaces → verify → recurse |
-| **Software architecture reconstruction process** | Four steps: Information extraction → Database construction → View fusion → Reconstruction (one verbatim sentence per step) |
-| **Why reconstruct an architecture**              | Three reasons (e.g. lost/outdated documentation, conformance checking, evolution & reengineering) |
-| **ATAM vs. CBAM**                                | ATAM = trade-off / risk analysis of quality attributes; CBAM = adds cost-benefit economics on top |
-| **Metropolis structure (ecosystem-dominant)**    | Sketch of major roles: core, contributors, periphery, end users in an edge/ecosystem-dominant system |
-| **IEEE 1471 / ISO/IEC/IEEE 42010**               | Standard for architectural description: stakeholders, concerns, viewpoints and views        |
-| **Code–architecture consistency**                | Four techniques to keep code and architecture consistent (e.g. reflexion models, layered enforcement, code reviews, generated/embedded architecture) |
-| **Observer pattern**                             | Purpose and conditions of use: one-to-many notification, decouples subject from observers   |
-| **Architectural patterns vs. design patterns vs. idioms** | Differences in scope/granularity: system structure vs. recurring design solutions vs. language-specific implementation tricks |
-| **Pattern: distributed system (db, logic, web, client)** | Tiers connected by communication media, optimised per server environment → **Client–Server / N-tier (Tiered)** pattern |
-| **Pattern: seismic data transformation in stages** | Raw input transformed through successive stages → **Pipe-and-Filter** pattern              |
-| **Pattern: AI strategy with multiple levels of complexity** | Atomic actions up to strategic plans → **Layered (Hierarchical) / Blackboard** pattern |
-| **Pattern: game engine with high/medium/low-level APIs** | Tiered API surface for richer functionality on demand → **Layered** pattern             |
-| **Pattern: online stores using external payment services** | Hide service location/provider details → **Broker / Service Locator** pattern         |
-| **SaaS / PaaS / IaaS**                           | SaaS: ready-to-use applications (e.g. Gmail, Salesforce); PaaS: dev/runtime platform (e.g. App Engine, Heroku); IaaS: virtualized infrastructure (e.g. AWS EC2, Azure VMs). Two examples each. |
-| **Economic justification for cloud**             | Three drivers: pay-per-use / no large up-front capex, elasticity to match demand, economies of scale from large providers (verbatim from solution paper) |
-| **Hypervisor**                                   | Software layer that virtualises hardware, enabling multiple guest OS instances on one host; sketch shows hardware → hypervisor → guest VMs |
+|                                       |                                                                                 |
+|---------------------------------------|---------------------------------------------------------------------------------|
+| **SA definition (Bass/Clements/Kazman)** | System structures: elements, externally visible properties, relationships     |
+| **Decoupled game loop**               | Separate update from render; fixed-timestep simulation independent of FPS       |
+| **SPL scope**                         | Too narrow → limits reuse; too broad → dilutes commonality                      |
+| **QA scenarios (6 parts)**            | Source, Stimulus, Artifact, Environment, Response, Response Measure             |
+| **Usability response measures**       | E.g. task time, error rate, learning time, satisfaction                         |
+| **Importance of architecture**        | Identify which reason is **NOT** in the textbook list                           |
+| **Architecture influence cycle**      | Stakeholders ↔ requirements ↔ architect ↔ system ↔ environment (feedback)       |
+| **Three views**                       | Module / Component-and-Connector / Allocation + typical UML notations           |
+| **Security tactics (4 groups)**       | Detect, Resist, React, Recover                                                  |
+| **ATAM outputs**                      | Utility tree, scenarios, risks, non-risks, sensitivity & tradeoff points        |
+| **Performance analytic models**       | Queuing theory, scheduling theory                                               |
+| **ADD steps**                         | Choose element → drivers → patterns/tactics → instantiate → interfaces → verify → recurse |
+| **Reconstruction process (4 steps)**  | Information extraction → DB construction → View fusion → Reconstruction         |
+| **Why reconstruct**                   | Lost/outdated docs, conformance checking, evolution & reengineering             |
+| **ATAM vs CBAM**                      | ATAM = quality-attribute tradeoff/risk; CBAM = adds cost-benefit economics      |
+| **Metropolis (ecosystem-dominant)**   | Core, contributors, periphery, end users                                        |
+| **IEEE 1471 / ISO 42010**             | Standard: stakeholders, concerns, viewpoints, views                             |
+| **Code↔architecture consistency**     | Reflexion models, layer enforcement, reviews, generated/embedded architecture   |
+| **Observer pattern**                  | One-to-many notification; decouples subject from observers                      |
+| **Patterns vs design patterns vs idioms** | System structure vs recurring designs vs language-specific tricks           |
+| **Pattern picks (Problem 2)**         | Tiered system → **Client-Server/N-tier**; seismic stages → **Pipe-and-Filter**; AI strategy levels → **Layered/Blackboard**; engine multi-API → **Layered**; payment integration → **Broker** |
+| **SaaS / PaaS / IaaS**                | Apps (Gmail, Salesforce) / platform (App Engine, Heroku) / infra (EC2, Azure VM) |
+| **Cloud economics**                   | Pay-per-use, elasticity, economies of scale                                     |
+| **Hypervisor**                        | Virtualises hardware → multiple guest OSes per host (hardware → hypervisor → VMs) |
+
+</details>
+
+
+### > Software Architecture Exam – Part 2 (2019) - TDT4240
+---
+*12 questions from the 2019 NTNU exam, Part 1.*
+
+Quiz: [Software Architecture Exam 2019 – Part 1](https://www.flexiquiz.com/SC/N/TDT4240_2)
+
+|                                       |                                                                                 |
+|---------------------------------------|---------------------------------------------------------------------------------|
+| **QA scenario (6 parts)**             | Source, Stimulus, Environment, Artifact, Response, Response Measure             |
+| **Three views**                       | Allocation = mapping to env. structures; C&C = runtime behaviour & interactions; Module = static implementation units |
+| **Utility tree (ATAM)**               | Prioritises QA scenarios (importance × difficulty); drives ATAM analysis        |
+| **Pattern by view type**              | Module → layered; C&C → client-server (or pipe-and-filter); Allocation → multi-tier (deployment) |
+| **Why architecture matters (5)**      | Enables/constrains QAs; locks in early decisions; mirrors org structure; supports estimation/planning; aids communication & onboarding |
+| **Four contexts**                     | Technical (QAs, tech stack); Project life cycle (process model); Business (goals, time-to-market); Professional (architect skills/knowledge) |
+| **Availability tactics**              | Fault detection (ping/echo, monitor, voting); Recovery–preparation (redundancy, spare, exceptions); Recovery–reintroduction (shadow, resync, escalating restart); Prevention (removal, transactions, predictive model) |
+| **Interoperability**                  | Degree to which two or more systems can usefully exchange information           |
+| **Abstract Factory**                  | Family of related classes with different implementation details; client uses abstract interface, unaware of variant |
+| **Performance model inputs**          | Arrival rate, service time (also: queue size, priority, scheduling policy)      |
+| **Architectural pattern**             | Recurring design decisions; package of solutions for system construction; defines element types and their relationships |
+| **Availability analytic models**      | Stochastic / probabilistic models (e.g. Markov) and reliability models          |
 
 </details>
 
