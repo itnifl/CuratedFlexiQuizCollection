@@ -1456,8 +1456,6 @@ Quiz: [Software Architecture Exam 2018 – Part 1](https://www.flexiquiz.com/SC/
 | **Cloud economics**                   | Pay-per-use, elasticity, economies of scale                                     |
 | **Hypervisor**                        | Virtualises hardware → multiple guest OSes per host (hardware → hypervisor → VMs) |
 
-</details>
-
 
 ### > Software Architecture Exam – Part 2 (2019) - TDT4240
 ---
@@ -1480,7 +1478,6 @@ Quiz: [Software Architecture Exam 2019 – Part 1](https://www.flexiquiz.com/SC/
 | **Architectural pattern**             | Recurring design decisions; package of solutions for system construction; defines element types and their relationships |
 | **Availability analytic models**      | Stochastic / probabilistic models (e.g. Markov) and reliability models          |
 
-</details>
 
 
 ### > Software Architecture Exam – Part 3 (2019) - TDT4240
