@@ -1482,6 +1482,28 @@ Quiz: [Software Architecture Exam 2019 – Part 1](https://www.flexiquiz.com/SC/
 
 </details>
 
+
+### > Software Architecture Exam – Part 3 (2019) - TDT4240
+---
+*Tail of Part 1, plus Problem 2 (pattern selection), Problem 3 (QA scenarios for the Norwegian health portal), and two bonus questions on the "Big 7" QAs.*
+
+Quiz: [Software Architecture Exam 2019 – Part 2](https://www.flexiquiz.com/SC/N/TDT4240_3)
+
+|                                       |                                                                                 |
+|---------------------------------------|---------------------------------------------------------------------------------|
+| **ATAM tradeoff point**               | Decision affecting **two or more quality attributes** at once (positive and negative) |
+| **Cloud service models**              | SaaS = consumer apps on cloud; PaaS = dev/deploy platform; IaaS = VM for dev/sysadmin |
+| **Multi-tenancy**                     | Same **infrastructure / application instance** shared by many consumers          |
+| **Hypervisor**                        | Software (VMM) that creates and manages virtual machines                        |
+| **Pattern picks (Problem 2)**         | 1. DB/logic/UI/client tiers → **multi-tier**; 2. seismic stages → **pipe-and-filter**; 3. AI strategy levels → **layered**; 4. shared compute/storage with load balancing → **peer-to-peer**; 5. external payment integration → **broker** |
+| **QA scenario – usability (health portal)** | E.g. *Source:* user; *Stimulus:* wants to view test results; *Environment:* runtime/normal; *Artifact:* portal UI; *Response:* user finds & opens results; *Measure:* ≤ 3 clicks / ≤ 30 s |
+| **QA scenario – availability**        | E.g. *Source:* server/network; *Stimulus:* component fails; *Environment:* normal operation; *Artifact:* portal service; *Response:* failover, log, notify; *Measure:* ≥ 99.9% uptime / recover < 1 min |
+| **QA scenario – security**            | E.g. *Source:* unauthorised user; *Stimulus:* attempts to access health data; *Environment:* online; *Artifact:* data store / auth service; *Response:* deny, log, alert; *Measure:* 0 unauthorised reads, alert < 1 min |
+| **Big 7 quality attributes**          | Availability, Interoperability, Modifiability, Performance, Security, Testability, Usability |
+| **6 parts of a QA scenario**          | source, stimulus, artifact, environment, response, response measure              |
+
+</details>
+
 <br/>
 <br/>
 <br/>
