@@ -256,6 +256,20 @@ A general-purpose quiz on core C# language features and ASP.NET Core Web API dev
   | `System.Text.Json` defaults  | REST conventions & idempotent verbs   |
   | HTTP status codes            | `IActionResult` / `ActionResult<T>`   |
 
+- [C# and Web API Quiz – Part 2](https://www.flexiquiz.com/SC/N/CSharp-Quiz-2)
+  Focuses on `ValueTask<T>` allocation semantics and correct consumption patterns, and an in-depth look at C# record types including positional records, `record struct`, `readonly record struct`, `with`-expressions, compiler-generated members, and equality behavior.
+
+  |                                          |                                                   |
+  |------------------------------------------|---------------------------------------------------|
+  | `ValueTask<T>` vs `Task<T>`              | Appropriate uses of `ValueTask<T>`                |
+  | Consuming `ValueTask` correctly          | Awaiting twice / `.AsTask()` pitfalls             |
+  | `ValueTask<T>` allocation behavior       | Sync hot path vs async fallback                   |
+  | Positional record class                  | Compiler-generated members for records            |
+  | Record value equality (`==` / `Equals`)  | `ReferenceEquals` & `GetHashCode` on records      |
+  | `record struct` (mutable)                | `readonly record struct` (init-only)              |
+  | `with`-expressions on records            | `with` on `record struct` vs `record class`       |
+  | `record class` vs `record struct`        | Inheritance & extending positional records        |
+
 </details>
 
 [![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
