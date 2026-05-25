@@ -1674,6 +1674,12 @@ Based on previous exam questions in the subject [TDT4240 – Software Architectu
 - Document architectures using the three views and standard notations
 - Reason about cloud-based deployments and virtualization at an architectural level
 
+<p align="center">
+  <a href="./ArchitecturalDesignFlow.jpg"><img src="./ArchitecturalDesignFlow.jpg" alt="Architectural Design Flow" width="32%" /></a>
+  <a href="./ArchitecturalViewNaming.jpg"><img src="./ArchitecturalViewNaming.jpg" alt="Architectural View Naming" width="32%" /></a>
+  <a href="./Kruchten.jpg"><img src="./Kruchten.jpg" alt="Kruchten 4 plus 1" width="32%" /></a>
+</p>
+
 
 ### > Software Architecture Exam – Part 1 (2018) - TDT4240
 ---
@@ -1757,12 +1763,6 @@ Quiz: [Software Architecture Exam 2019 – Part 2](https://www.flexiquiz.com/SC/
 *Full rehearsal of the 2020 NTNU exam. Problem 1 walks through designing the Distributed Board Game Platform (DBGP) end-to-end (ASRs, patterns, tactics, logical view, process view, rationale). Problem 2 covers Architecture for the Edge.*
 
 Quiz: [Software Architecture Exam 2020 – Part 4](https://www.flexiquiz.com/SC/N/TDT4240_4)
-
-<p align="center">
-  <a href="./ArchitecturalDesignFlow.jpg"><img src="./ArchitecturalDesignFlow.jpg" alt="Architectural Design Flow" width="32%" /></a>
-  <a href="./ArchitecturalViewNaming.jpg"><img src="./ArchitecturalViewNaming.jpg" alt="Architectural View Naming" width="32%" /></a>
-  <a href="./Kruchten.jpg"><img src="./Kruchten.jpg" alt="Kruchten 4 plus 1" width="32%" /></a>
-</p>
 
 |                                                        |                                                                                                      |
 |--------------------------------------------------------|------------------------------------------------------------------------------------------------------|
