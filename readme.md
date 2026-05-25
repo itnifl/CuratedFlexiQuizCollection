@@ -1452,7 +1452,7 @@ Quiz: [TDT4175 Information Systems – Exam 2024](https://www.flexiquiz.com/SC/N
 | Data → information → knowledge | Data: raw events (timestamp, SKU, auth code). Information: order status “Authorized/Declined,” pick list. Knowledge: fraud patterns, pick-path optimizations, exception handling rules. |
 | Information-quality dimensions | Accuracy, completeness, timeliness, consistency, integrity, reliability, security/privacy, traceability. Payments emphasize accuracy, timeliness, integrity, confidentiality. |
 | Real-time monitoring/reporting | From TPS/ERP/WMS streams into **BI/MIS dashboards**, streaming ETL, event hubs, alerts; DSS for ad-hoc drilldown; ESS for exec summaries. |
-| Nature of changes & innovation type | Warehouse robots/drone delivery = **process** and **technology** innovations; likely **radical** (discontinuous) → needs **business process re-engineering (BPR)** rather than small Kaizen tweaks. |
+| Nature of changes & innovation type | Warehouse robots/autonomous delivery = **process** and **technology** innovations; likely **radical** (discontinuous) → needs **business process re-engineering (BPR)** rather than small Kaizen tweaks. |
 | Why re-engineering here | New capabilities change flow, roles, metrics, and constraints end-to-end (layout, safety, SLAs, IT integrations). Incremental tweaks won’t realize benefits or address systemic coupling. |
 | E-commerce types (examples) | **B2B** (Amazon Business), **B2C** (amazon.com retail), **C2C** (Marketplace peer sellers), **C2B** (influencer/affiliate programs), **B2G** (selling to public sector), **G2C/G2B** (for public services, by analogy). |
 
@@ -1813,31 +1813,30 @@ Quiz: [Software Architecture Exam 2025 – Part 5](https://www.flexiquiz.com/SC/
 
 |                                                        |                                                                                                      |
 |--------------------------------------------------------|------------------------------------------------------------------------------------------------------|
-| **System case overview**                               | Autonomous drone delivery platform; customers order via app/web; a central hub coordinates assignments, routing, weather, and airspace; drones navigate autonomously and report status over 4G/5G |
-| **Three primary quality attributes**                   | Safety (drone collisions, obstacle avoidance), Availability (real-time hub and drone connectivity), Performance (route optimisation, low-latency control) |
-| **Why Safety is architecturally significant**          | Drones fly over populated urban/suburban areas; collision or crash endangers people and property; regulatory approval depends on demonstrated safety |
-| **Why Availability is architecturally significant**    | Continuous status reporting from all drones to the hub is required; hub downtime or communication loss can strand drones mid-flight |
+| **Three primary quality attributes**                   | Safety (collision avoidance), Availability (real-time hub and mobile unit connectivity), Performance (route optimisation, low-latency control) |
+| **Why Safety is architecturally significant**          | Autonomous systems operate in populated urban/suburban areas; collision or crash endangers people and property; regulatory approval depends on demonstrated safety |
+| **Why Availability is architecturally significant**    | Continuous status reporting from all mobile units to the hub is required; hub downtime or communication loss can interrupt active operations |
 | **Quality attribute**                                  | Modifiability (important but not among the top three given the safety-critical, real-time nature of the system) |
 | **6 parts of a QA scenario**                           | Source of stimulus, Stimulus, Environment, Artifact, Response, Response Measure |
-| **Safety scenario – stimulus**                         | Drone detects an obstacle or another drone on collision course during flight |
-| **Safety scenario – valid measurable response**        | Drone executes evasive manoeuvre and no collision occurs within 200 ms of detection |
+| **Safety scenario – stimulus**                         | A mobile unit detects an obstacle or another unit on collision course during operation |
+| **Safety scenario – valid measurable response**        | The unit executes evasive manoeuvre and no collision occurs within 200 ms of detection |
 | **Availability scenario – response measure**           | Quantified recovery time and/or percentage uptime (e.g., hub recovers within 5 s; 99.99% uptime) |
 | **Performance scenario – artifact**                    | Hub route-optimisation service (or the onboard Flight Manager) |
-| **Representative ASRs**                                | Real-time obstacle avoidance; continuous hub–drone communication; dynamic rerouting on weather/technical faults; drone assignment based on battery/weight/location; regulatory airspace coordination; secure authentication of drones and users; scalable multi-city deployment from a single shared hub |
+| **Representative ASRs**                                | Real-time obstacle avoidance; continuous hub to unit communication; dynamic rerouting on weather/technical faults; unit assignment based on battery/weight/location; regulatory coordination; secure authentication of units and users; scalable multi-city deployment from a single shared hub |
 | **Security tactic (primary)**                          | Authenticate Actors (prevent unauthorised access to backend services) |
-| **Availability tactics**                               | Heartbeat (monitor drone and hub liveness), Active Redundancy (hot-spare hub), Exception Handling, Transactions |
+| **Availability tactics**                               | Heartbeat (monitor unit and hub liveness), Active Redundancy (hot-spare hub), Exception Handling, Transactions |
 | **Modifiability tactic**                               | Use an Intermediary / Abstract Interface (reduce coupling between modules so individual components can be replaced independently) |
 | **Performance tactics**                                | Limit Event Response (rate-limit low-priority telemetry), Increase Resources (scale hub compute for peak load), Schedule Resources (prioritise safety-critical messages) |
 | **Security tactic: Limit Access**                      | Primarily promotes Security (restricts what authenticated actors can do once inside the system) |
 | **Kruchten 4+1 views**                                 | Logical (components and their responsibilities), Development/Implementation (code packages), Process (runtime threads and interactions), Physical (deployment to hardware nodes), Use-Case (+1, drives the others) |
 | **4+1 view for runtime processes and threads**         | Process view |
-| **4+1 view for deployment across drones, mobiles and servers** | Physical view |
-| **Top-level logical components**                       | App/Web client, Hub (order management, routing, weather, airspace), Drone onboard system |
-| **Runtime components on the drone**                    | Flight Manager, Sensor Manager, Communication Module, Obstacle Detection Module, Package Delivery Controller |
+| **4+1 view for deployment across mobile units, clients and servers** | Physical view |
+| **Top-level logical components**                       | App/Web client, Hub (order management, routing, weather, airspace), onboard unit system |
+| **Runtime components on the unit**                     | Flight Manager, Sensor Manager, Communication Module, Obstacle Detection Module, Package Delivery Controller |
 | **Flight Manager – Sensor Manager interaction style**  | Procedure call / synchronous request-reply (the flight controller polls sensor data on each control cycle to make immediate navigation decisions) |
-| **Pattern for incident response flow (app, drone, backend)** | Publish-Subscribe (each party subscribes to incident events; the hub publishes alerts; drones and the app react independently) |
+| **Pattern for incident response flow (app, unit, backend)** | Publish-Subscribe (each party subscribes to incident events; the hub publishes alerts; units and the app react independently) |
 | **Modularisation rule for Modifiability**              | High cohesion within modules, loose coupling between modules; encapsulate variability behind stable interfaces (Abstract Interfaces tactic) |
-| **Drawback of Publish-Subscribe for real-time drone control** | Non-deterministic delivery latency; a broker adds a hop and cannot guarantee message delivery within a hard deadline required for safety-critical control loops |
+| **Drawback of Publish-Subscribe for real-time control** | Non-deterministic delivery latency; a broker adds a hop and cannot guarantee message delivery within a hard deadline required for safety-critical control loops |
 | **Message broker properties (Pub-Sub)**                | Decouples producers from consumers; supports topic-based routing; provides buffering / persistence; enables fan-out to multiple subscribers |
 | **Benefit of well-defined API contracts**              | Components can evolve independently; teams can develop in parallel; integration testing is simplified; contract violations are caught early |
 | **Pattern for mobile app to backend requests**         | Client-Server (the app sends requests; the hub responds); optionally a REST/HTTP API gateway in front of the hub services |
