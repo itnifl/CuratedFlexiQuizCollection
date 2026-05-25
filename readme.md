@@ -1749,6 +1749,53 @@ Quiz: [Software Architecture Exam 2019 – Part 2](https://www.flexiquiz.com/SC/
 | **Big 7 quality attributes**          | Availability, Interoperability, Modifiability, Performance, Security, Testability, Usability |
 | **6 parts of a QA scenario**          | source, stimulus, artifact, environment, response, response measure              |
 
+
+### > Software Architecture Exam – Part 4 (2020) - TDT4240
+---
+*Full rehearsal of the 2020 NTNU exam. Problem 1 walks through designing the Distributed Board Game Platform (DBGP) end-to-end (ASRs, patterns, tactics, logical view, process view, rationale). Problem 2 covers Architecture for the Edge.*
+
+Quiz: [Software Architecture Exam 2020 – Part 4](https://www.flexiquiz.com/SC/N/TDT4240_4)
+
+|                                                        |                                                                                                      |
+|--------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| **DBGP case overview**                                 | Centralized node hosts rules, assets, game state, auth, notification; player and bot clients connect over the Internet |
+| **Primary focus of architectural design**              | Deciding system structures (elements, relationships, properties) to satisfy quality requirements |
+| **"Motivate choices / state assumptions"**             | Explain *why* each structural decision was made; document any constraints assumed from the problem text |
+| **Input: ASRs (Architecturally Significant Requirements)** | Requirements with the biggest structural impact; for DBGP: High Availability, Extreme Flexibility (runtime updates and new games), Centralized Communication |
+| **Input: Quality Attributes**                          | Formal QAs derived from the text: Availability and Modifiability; Performance is explicitly *not* prioritized |
+| **Input: Stakeholders**                                | Human Players (easy gameplay), Bot Developers (configuration and standard APIs), System Administrators (zero-downtime updates) |
+| **Structural decisions: patterns**                     | Client-Server (overall), Publish-Subscribe (notification service), Broker (routing game messages), Blackboard (shared centralized state) |
+| **Structural decisions: views**                        | Viewpoint = rules for drawing; View = actual diagram; C&C view shows runtime communication between DBGP Server, Database, Player App, and Bot PC |
+| **Consistency among views**                            | Every element in one view (e.g., Notification Event Bus in C&C) must appear in all other views that show it (e.g., Module view code package) |
+| **Quality tactics: Availability**                      | Heartbeat (detect server liveness), Active Redundancy / hot-spare (failover with no downtime) |
+| **Quality tactics: Modifiability**                     | Semantic Coherence (all game rules in one module), Abstract Interfaces (uniform API for player apps and bots), Defer Binding (runtime updates without node restart) |
+| **Quality tactics: Security**                          | Authenticate Actors (username/password before centralized node access) |
+| **Quality tactics: Testability**                       | Record / Playback (capture and replay game sessions to locate faults) |
+| **Quality tactics: Usability**                         | Maintain User Model (personalize UI and adapt game experience per player) |
+| **Why Blackboard for DBGP**                            | Centralized node acts as shared data repository; multiple independent knowledge sources (player apps, bot apps, game engine) read and write state; matches the case's centralized-communication ASR |
+| **Blackboard drawbacks**                               | Single point of failure; potential bottleneck; complex to synchronize competing writers; hard to test in isolation |
+| **Big 10 quality attributes**                          | Availability, Interoperability, Modifiability, Performance, Security, Testability, Usability, Safety, Energy Efficiency, Deployability |
+| **QAS – Usability (DBGP)**                             | *Source:* first-time user; *Stimulus:* wants to log in, choose and play a game without help; *Environment:* runtime/normal; *Artifact:* Player client UI; *Response:* user completes all steps unaided; *Measure:* task completed within a defined time with no errors |
+| **QAS – Availability (DBGP)**                          | *Source:* hardware fault; *Stimulus:* hard drive on centralized node crashes; *Environment:* normal operation; *Artifact:* centralized node; *Response:* hot-spare takes over automatically; *Measure:* zero perceived downtime for players and bots |
+| **QAS – Modifiability (DBGP)**                         | *Source:* developer; *Stimulus:* wants to add a new board game (rules, assets, data already prepared); *Environment:* runtime; *Artifact:* centralized node; *Response:* new game deployed without restarting the node; *Measure:* node stays online; new game available within defined deployment window |
+| **ASRs for DBGP (Problem 1b)**                         | High Availability of centralized node; transaction support for data consistency; authentication of users and bots; runtime updates and new-game deployment without node changes; concurrent sessions and notification service; distributed nature requires testability/fault localization |
+| **ASR-to-QA mapping**                                  | Always-on node → Availability; transaction support → Integrity (Availability); authentication → Security; runtime updates / new games → Modifiability; concurrent sessions and notifications → Availability; distributed fault isolation → Testability |
+| **MVC placement in DBGP**                              | Model lives on the centralized node (game state, rules, assets); View lives on the client (Player UI); Controller lives on the client (processes user input and calls server API) |
+| **Logical view – patterns and tactics**                | Blackboard (main), Publish-Subscribe / Observer (notifications), Broker (routing), Abstract Interfaces, Defer Binding, MVC |
+| **Observer in DBGP**                                   | Centralized node (subject) notifies registered Player and Bot clients (observers) whenever game state changes |
+| **Centralized-node services**                          | Authentication Service (verify identity); Notification Service (push updates to clients); Session Management (track ongoing game sessions); Database / Transaction Service (consistent read/write with ACID); Game Engine Service (apply rules, update game state) |
+| **Process view: fail-over trigger**                    | Heartbeat monitor on a separate node detects missed heartbeats from the primary centralized node and promotes the hot-spare |
+| **Heartbeat listener on separate node**                | Avoids single point of failure; an observer on the same failing node could not reliably detect or act on its own crash |
+| **Player client states**                               | Login, Create User, Select Game, Play Game |
+| **Bot client states**                                  | Login, Configure AI, Select Game, Play Game |
+| **Rationale: Availability mechanisms**                 | Active Redundancy (hot-spare node), Heartbeat (liveness detection), Transactions (data consistency across failover) |
+| **Rationale: Modifiability mechanisms**                | Defer Binding (runtime plugin / dynamic loading), Abstract Interfaces (stable API contract), Semantic Coherence (game rules isolated in one deployable module) |
+| **Edge computing (Problem 2) – key concerns**          | Constrained resources, intermittent connectivity, physical security, heterogeneous hardware, remote deployment/update |
+| **Edge tactics by QA**                                 | Heartbeat → Availability; Active Redundancy → Availability; Defer Binding → Modifiability; Authenticate Actors → Security; Detect Intrusion → Security; Record / Playback → Testability; Limit Event Response → Performance; Increase Resources → Performance |
+| **Edge architectural patterns**                        | Client-Server, Publish-Subscribe, Pipe-and-Filter, Broker, Layered |
+| **Edge design patterns**                               | Observer, Singleton, Proxy, Template Method |
+| **Not an architectural diagram or pattern**            | Class diagram (a design / documentation artefact, not an architectural pattern or view type) |
+
 </details>
 
 [![Software Architecture](https://img.shields.io/badge/Software%20Architecture-37474F?style=for-the-badge&logoColor=white)](https://www.ntnu.edu/studies/courses/TDT4240)
