@@ -1796,6 +1796,48 @@ Quiz: [Software Architecture Exam 2020 – Part 4](https://www.flexiquiz.com/SC/
 | **Edge design patterns**                               | Observer, Singleton, Proxy, Template Method |
 | **Not an architectural diagram or pattern**            | Class diagram (a design / documentation artefact, not an architectural pattern or view type) |
 
+
+### > Software Architecture Exam – Part 5 (2025) - TDT4240
+---
+*Full rehearsal of the 2025 NTNU exam. All 30 questions are based on the Drone-Based Parcel Delivery System (AEROWING) case. Covers QA scenario construction, ASR identification, tactics and patterns, Kruchten 4+1 views (physical and logical), and architectural rationale.*
+
+Quiz: [Software Architecture Exam 2025 – Part 5](https://www.flexiquiz.com/SC/N/TDT4240_5)
+
+|                                                        |                                                                                                      |
+|--------------------------------------------------------|------------------------------------------------------------------------------------------------------|
+| **AEROWING case overview**                             | Autonomous drone delivery platform; customers order via app/web; AEROWING HUB coordinates assignments, routing, weather, airspace; drones navigate autonomously and report status over 4G/5G |
+| **Three primary QAs for AEROWING**                     | Safety (drone collisions, obstacle avoidance), Availability (real-time hub and drone connectivity), Performance (route optimisation, low-latency control) |
+| **Why Safety is architecturally significant**          | Drones fly over populated urban/suburban areas; collision or crash endangers people and property; regulatory approval depends on demonstrated safety |
+| **Why Availability is architecturally significant**    | Continuous status reporting from all drones to the hub is required; hub downtime or communication loss can strand drones mid-flight |
+| **Quality attribute NOT primary for AEROWING**         | Modifiability (important but not among the top three given the safety-critical, real-time nature of the system) |
+| **6 parts of a QA scenario**                           | Source of stimulus, Stimulus, Environment, Artifact, Response, Response Measure |
+| **Safety scenario – stimulus**                         | Drone detects an obstacle or another drone on collision course during flight |
+| **Safety scenario – valid measurable response**        | Drone executes evasive manoeuvre and no collision occurs within 200 ms of detection |
+| **Availability scenario – response measure**           | Quantified recovery time and/or percentage uptime (e.g., hub recovers within 5 s; 99.99% uptime) |
+| **Performance scenario – artifact**                    | AEROWING HUB route-optimisation service (or the onboard Flight Manager) |
+| **ASRs for AEROWING**                                  | Real-time obstacle avoidance; continuous hub–drone communication; dynamic rerouting on weather/technical faults; drone assignment based on battery/weight/location; regulatory airspace coordination; secure authentication of drones and users; scalable multi-city deployment from a single shared hub |
+| **Security tactic (primary)**                          | Authenticate Actors (prevent unauthorised access to the AEROWING backend) |
+| **Availability tactics**                               | Heartbeat (monitor drone and hub liveness), Active Redundancy (hot-spare hub), Exception Handling, Transactions |
+| **Modifiability tactic**                               | Use an Intermediary / Abstract Interface (reduce coupling between modules so individual components can be replaced independently) |
+| **Performance tactics**                                | Limit Event Response (rate-limit low-priority telemetry), Increase Resources (scale hub compute for peak load), Schedule Resources (prioritise safety-critical messages) |
+| **Security tactic: Limit Access**                      | Primarily promotes Security (restricts what authenticated actors can do once inside the system) |
+| **Kruchten 4+1 views**                                 | Logical (components and their responsibilities), Development/Implementation (code packages), Process (runtime threads and interactions), Physical (deployment to hardware nodes), Use-Case (+1, drives the others) |
+| **4+1 view for runtime processes and threads**         | Process view |
+| **4+1 view for deployment across drones, mobiles and servers** | Physical view |
+| **Top-level logical components for AEROWING**          | AEROWING App/Web, AEROWING HUB (order management, routing, weather, airspace), AEROWING Drone onboard system |
+| **Runtime components on the drone**                    | Flight Manager, Sensor Manager, Communication Module, Obstacle Detection Module, Package Delivery Controller |
+| **Flight Manager – Sensor Manager interaction style**  | Procedure call / synchronous request-reply (the flight controller polls sensor data on each control cycle to make immediate navigation decisions) |
+| **Pattern for incident response flow (app, drone, backend)** | Publish-Subscribe (each party subscribes to incident events; the hub publishes alerts; drones and the app react independently) |
+| **Modularisation rule for Modifiability**              | High cohesion within modules, loose coupling between modules; encapsulate variability behind stable interfaces (Abstract Interfaces tactic) |
+| **Drawback of Publish-Subscribe for real-time drone control** | Non-deterministic delivery latency; a broker adds a hop and cannot guarantee message delivery within a hard deadline required for safety-critical control loops |
+| **Message broker properties (Pub-Sub)**                | Decouples producers from consumers; supports topic-based routing; provides buffering / persistence; enables fan-out to multiple subscribers |
+| **Benefit of well-defined API contracts**              | Components can evolve independently; teams can develop in parallel; integration testing is simplified; contract violations are caught early |
+| **Pattern for mobile app to backend requests**         | Client-Server (the app sends requests; the hub responds); optionally a REST/HTTP API gateway in front of the hub services |
+| **Practices for high cohesion and loose coupling**     | Single-responsibility modules; dependency injection; interface-based programming; event-driven communication for non-time-critical paths |
+| **Key architectural trade-off in AEROWING**            | Performance vs Safety: aggressive low-latency optimisations (e.g., skipping confirmations) can compromise the safety checks required for autonomous flight |
+| **Artefacts in the AEROWING architecture document**    | QA scenarios, ASR list, architectural views (logical, process, physical), tactical decisions with rationale, pattern selections with justification |
+| **Decision-to-QA mapping**                            | Heartbeat → Availability; Authenticate Actors → Security; Abstract Interface / Limit Access → Modifiability; Limit Event Response → Performance; Obstacle detection with evasive manoeuvre → Safety |
+
 </details>
 
 [![Software Architecture](https://img.shields.io/badge/Software%20Architecture-37474F?style=for-the-badge&logoColor=white)](https://www.ntnu.edu/studies/courses/TDT4240)
