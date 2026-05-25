@@ -280,6 +280,8 @@ A general-purpose quiz on core C# language features and ASP.NET Core Web API dev
 [![REST API](https://img.shields.io/badge/REST%20API-25A162?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/REST)
 [![HTTP](https://img.shields.io/badge/HTTP-005C9C?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/HTTP)
 [![JSON](https://img.shields.io/badge/JSON-000000?style=for-the-badge&logo=json&logoColor=white)](https://en.wikipedia.org/wiki/JSON)
+[![Async / Await](https://img.shields.io/badge/Async%20%2F%20Await-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://en.wikipedia.org/wiki/Async/await)
+[![C# Records](https://img.shields.io/badge/C%23%20Records-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
 
 <br/>
 <br/>
@@ -1846,6 +1848,9 @@ Quiz: [Software Architecture Exam 2025 – Part 5](https://www.flexiquiz.com/SC/
 [![ISO 42010](https://img.shields.io/badge/ISO%2F42010-006699?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/ISO/IEC/IEEE_42010)
 [![SaaS / PaaS / IaaS](https://img.shields.io/badge/SaaS%20%2F%20PaaS%20%2F%20IaaS-4285F4?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/As_a_service)
 [![Hypervisor](https://img.shields.io/badge/Hypervisor-1F1F1F?style=for-the-badge&logo=vmware&logoColor=white)](https://en.wikipedia.org/wiki/Hypervisor)
+[![Publish-Subscribe](https://img.shields.io/badge/Publish--Subscribe-FF6F00?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/Publish%E2%80%93subscribe_pattern)
+[![MVC](https://img.shields.io/badge/MVC-0078D7?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller)
+[![Kruchten 4+1](https://img.shields.io/badge/Kruchten%204%2B1-37474F?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/4%2B1_architectural_view_model)
 
 <br/>
 <br/>
