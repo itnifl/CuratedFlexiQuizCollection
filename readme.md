@@ -17,12 +17,15 @@
 
 <br/>
 
-Welcome to my curated collection of quizzes hosted on [FlexiQuiz](https://www.flexiquiz.com). 
+Welcome to my curated collection of quizzes. 
 
 These quizes cover broad topics like human-centered design, BPMN, software testing, Java programming, cryptography, software security, web security, and algorithms & data structures. All quizes come with question explanations as help.
 
 Almost all of the quizes are content from subjects at NTNU Trondheim, several of them are old exams questions from previous exams.
 These quizzes cover broad topics such as human-centered design, software testing, data science, model driven development, Java programming, cryptography, software security, web security, and algorithms and data structures. They are grouped into simple series that move from basics to more advanced ideas for easy study and review
+
+FlexiQuix based quizes are available depending of if I have decided to pay for the subscription or not =)
+QuizMachine based quizes are always available, but the initial request to the site might take more time.
 
 **Connect & profiles:**
 
@@ -1431,7 +1434,7 @@ Lesson: **TDT4175 – Information Systems (Lesson 8)**
 ---
 *BPMN modeling quality (pools/lanes, syntax vs semantics), mapping roles to information systems, data–information–knowledge, information quality, analytics/monitoring, and change & innovation (BPR, e-commerce types).*
 
-Quiz: [TDT4175 Information Systems – Exam 2024](https://www.flexiquiz.com/SC/N/tdt4175-2024exam)
+Quiz: [TDT4175 Information Systems – Exam 2024](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175exam2024quizversion)
 
 **Covers & focus**
 - Lesson 5 — SEQUAL, modeling goals/means, BPMN quality, Lean value stream mapping
@@ -1455,6 +1458,120 @@ Quiz: [TDT4175 Information Systems – Exam 2024](https://www.flexiquiz.com/SC/N
 | Nature of changes & innovation type | Warehouse robots/autonomous delivery = **process** and **technology** innovations; likely **radical** (discontinuous) → needs **business process re-engineering (BPR)** rather than small Kaizen tweaks. |
 | Why re-engineering here | New capabilities change flow, roles, metrics, and constraints end-to-end (layout, safety, SLAs, IT integrations). Incremental tweaks won’t realize benefits or address systemic coupling. |
 | E-commerce types (examples) | **B2B** (Amazon Business), **B2C** (amazon.com retail), **C2C** (Marketplace peer sellers), **C2B** (influencer/affiliate programs), **B2G** (selling to public sector), **G2C/G2B** (for public services, by analogy). |
+
+### > TDT4175 Information Systems – Exam 2025 (Autumn, surgical-department case)
+---
+*Hospital surgical-department case covering BPMN scope and model quality, operational and decision-support systems, data–information–knowledge, process mining, knowledge management, sustainability, and what-if analysis.*
+
+Quiz: [TDT4175 Information Systems – Exam 2025 (Autumn)](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175exam2025autumn)
+
+**Covers & focus**
+
+- Business-process modelling — scope, process instances, and empirical, syntactic, and semantic quality
+- Operational and managerial information systems — clinical records, planning, reporting, and decision support
+- Data, information, knowledge, process mining, knowledge management, and SUSAF sustainability analysis
+
+**Highest focus:** Connecting the surgical workflow to the appropriate information-system type and using reliable process data to improve capacity and patient safety.
+
+| Topic (overordnet) | Key results & reminders (condensed) |
+|---|---|
+| Process instance and scope | One instance represents one patient's surgical case/pathway: evaluation and planning through to an operation starting or being cancelled. Scope defines the start, end, and included work. |
+| BPMN model-quality categories | **Syntactic** errors violate BPMN rules (for example, invalid flow direction, event, or gateway use). **Semantic** errors misrepresent the real process (missing scheduling or exception paths). **Empirical** quality concerns whether the model is practically readable and usable. |
+| Typical surgical-process omissions | Model the patient-scheduling interaction and the outcomes where staff, equipment, operating-room capacity, or time is unavailable; make join/completion conditions and cancellation paths explicit. |
+| P-REC classification | An electronic patient-record system is primarily a clinical **TPS**: it records and retrieves routine patient and treatment transactions for clinical and administrative staff. It may also provide CRM-like patient-information functions. |
+| OP-PLANNER classification | A scheduling and re-scheduling system supports semi-structured resource-allocation decisions, so it is chiefly a **DSS**; its live operating-room view also supplies operational status information. |
+| Finding causes of waiting lists and unused rooms | Use **MIS/BI reporting** that integrates P-REC and OP-PLANNER data into KPIs and exception reports (wait time, cancellations, room utilisation, bottlenecks). Drill-down analysis can identify contributing patterns. |
+| Data → information → knowledge | **Data:** patient details, room/equipment records, timestamps. **Information:** an available room or a patient's current evaluation/schedule. **Knowledge:** applying these facts and clinical rules to plan a safe operation or improve the workflow. |
+| Process-mining event-log requirements | Events need a stable **case ID** (such as an operation number) to group each instance and complete **timestamps** including date and time to order events reliably. Process discovery uses such logs to reveal the executed process. |
+| Knowledge Management System (KMS) | A KMS supports creating/capturing, storing, organising, retrieving, and sharing organisational knowledge—especially converting valuable tacit experience into explicit, reusable guidance. |
+| KMS for surgical standardisation | Capture proven practices from teams; maintain approved protocols and guidelines; make them easy to retrieve at the point of care; and share controlled updates to reduce unsafe variation while preserving justified exceptions. |
+| SUSAF priorities | Consider individual and social effects first (patient safety, privacy, staff wellbeing and equitable care), plus technical reliability, economic capacity/cost effects, and environmental consequences of resource use. |
+| Evaluating proposed solutions | A **DSS** supports what-if analysis, simulation, and comparison of extra rooms, additional staff, or referral of selected surgeries. An executive system can present the resulting strategic summaries. |
+
+### > TDT4175 Information Systems – Various Knowledge #1
+---
+*Cross-topic practice on data–information–knowledge, BPMN model quality and gateways, SUSAF, information-system types, enterprise architecture, and knowledge management.*
+
+Quiz: [TDT4175 Information Systems – Various Knowledge #1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175variousknowledge1)
+
+**Covers & focus**
+
+- BPMN basics — notation, syntactic/semantic/empirical quality, and XOR decision flow
+- Sustainability and IS types — SUSAF, TPS, MIS, DSS, ESS, and KMS
+- Enterprise Architecture and knowledge-management applications
+
+**Highest focus:** Be able to distinguish closely related concepts, then apply them to a practical hospital, recruitment, or service-process case.
+
+| Topic (overordnet) | Key results & reminders (condensed) |
+|---|---|
+| Data → information → knowledge | **Data** is raw, isolated fact (patient ID, diagnosis code, age). **Information** is organised data with context and meaning (a surgery schedule). **Knowledge** is applied understanding used to decide or act (clinical judgement about preparation or duration). |
+| BPMN-error categories | **Syntactic:** notation-rule violations, such as invalid symbols/connections or missing start/end events. **Semantic:** faulty workflow meaning/logic, such as missing activities, decisions, or valid paths. **Empirical:** the model does not adequately represent the real case, including omitted actors, constraints, or real-world work. |
+| SUSAF dimensions | **Individual:** physical and mental wellbeing. **Social:** communities, relationships, and social structures. **Environmental:** resource use and ecological footprint. **Economic:** financial viability and resource efficiency. **Technical:** long-term viability, maintainability, interoperability, and data preservation. |
+| TPS | **Transaction Processing System** — captures and updates daily operational transactions in real time, e.g. patient registration, diagnoses, medication, and test results. |
+| MIS | **Management Information System** — turns TPS data into regular, structured reports and KPIs for operational/middle managers, e.g. waiting-list and operating-room-utilisation reports. |
+| DSS | **Decision Support System** — interactive data, models, and simulations for semi-structured decisions, e.g. scheduling and re-scheduling operations using real-time room status. |
+| ESS | **Executive Support System** — high-level dashboards and strategic analysis for senior management; useful for comparing long-term scenarios such as capacity expansion, staffing, or outsourcing. |
+| KMS | **Knowledge Management System** — supports creation/capture, storage, organisation, retrieval, and sharing of organisational knowledge; it helps turn tacit expertise into explicit protocols. |
+| Pizza-order BPMN flow | Start: customer places order → kitchen checks inventory → **XOR** ingredients available? → Yes: prepare and bake → deliver → end. No: notify customer → cancel order → end. The XOR gateway is critical because exactly one outcome/path may be selected. |
+| Enterprise Architecture (EA) | A continuous, model-driven practice for aligning strategy, business processes, information systems, and technology infrastructure; it helps understand the organisation, guide change, and bridge business and IT. |
+| EA for digital recruitment | Map the current and target recruitment process, stakeholders, information/data flows, applications, integrations, and technology; use the models to identify gaps, sequence changes, and govern the transition. Benefits include alignment with recruitment goals, less duplication and better interoperability, clearer change impact/risk, and a shared basis for decisions. |
+| Google Scholar as a KMS | It supports knowledge discovery, retrieval, and sharing of explicit scholarly knowledge, so it can be described as a broad/public KMS. It is not a full organisation-specific KMS for capturing and managing an organisation’s internal tacit practices. |
+
+### > TDT4175 Information Systems – Various Knowledge #2
+---
+*Practice on BPMN quality and black-box pools, computer-based information systems, the TPS–MIS–DSS–EIS hierarchy, and supply-chain systems in the wider enterprise landscape.*
+
+Quiz: [TDT4175 Information Systems – Various Knowledge #2](http://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175variousknowledge2)
+
+**Covers & focus**
+
+- BPMN syntax, semantics, participants, and black-box abstraction
+- CBIS components and organisational information-system hierarchy/data flow
+- Supply Chain Management Systems and their integration with ERP, CRM, and TPS
+
+**Highest focus:** Explain system roles and data flow from operational transactions to managerial, analytical, and executive decisions.
+
+| Topic (overordnet) | Key results & reminders (condensed) |
+|---|---|
+| BPMN syntactical mistakes | Violations of BPMN notation rules: for example missing/invalid start or end events, incorrect sequence/message-flow use, invalid connections, or inappropriate gateway/event symbols. Identify at least three that are visible in the supplied model. |
+| BPMN semantical mistakes | A diagram can be syntactically valid but wrong in meaning: activities may be in the wrong participant/lane, steps may be missing or in the wrong order, or decision outcomes and exception paths may not reflect the real process. Identify at least two from the model. |
+| CBIS definition | A **Computer-Based Information System** is an integrated set of hardware, software, databases, telecommunications/networks, people, and procedures that collects, manipulates, stores, and processes data into information. |
+| CBIS and other IS types | CBIS is the umbrella concept. **TPS** captures operational transactions; **MIS** aggregates TPS data into routine management reports; **DSS** combines data with models for analysis of semi-structured decisions; **EIS/ESS** presents high-level internal and external information for strategic decisions. |
+| Typical hierarchy and data flow | Operational events enter **TPS** → integrated/aggregated data supports **MIS** reports and feeds **DSS** analysis → selected KPIs, trends, forecasts, and exceptions feed **EIS/ESS**. DSS can also draw directly on TPS/ERP data for current analysis. |
+| MIS definition and role | A **Management Information System** processes largely TPS-derived data into structured, periodic reports for middle managers, supporting tactical control, monitoring, and structured decisions. It is not merely a transaction recorder or an executive-only planning tool. |
+| Black-box pool in BPMN | A pool with no visible internal flow, used for an external participant whose process is unknown or out of scope. Only its boundary and message flows to/from it are shown. |
+| Black-box abstraction | In BPMN and system design, a black box exposes relevant inputs, outputs, and interfaces while hiding internal implementation. This reduces complexity, preserves boundaries/responsibility, and lets a process interact with an external TPS, MIS, CBIS, or organisation without modelling its internals. |
+| SCMS definition | A **Supply Chain Management System** manages the flow of goods, data, and finances across suppliers, manufacturing, distribution, and the end customer. |
+| SCMS with ERP, CRM, and TPS | **TPS** records operational events such as orders, receipts, shipments, and inventory movements. **ERP** integrates enterprise-wide finance, inventory, procurement, and order data. **SCMS** coordinates planning and execution across organisational boundaries using that data. **CRM** contributes customer demand, orders, service expectations, and delivery feedback. Together they form interoperating parts of the broader CBIS landscape. |
+
+### > TDT4175 Information Systems – Various Knowledge #3
+---
+*Practice on BPMN process design, PLM and ERP, CBIS hierarchy, organisational strategy and change, information quality, e-commerce, and cloud service models.*
+
+Quiz: [TDT4175 Information Systems – Various Knowledge #3](http://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175variousknowledge3)
+
+**Covers & focus**
+
+- BPMN modelling and transactional support for an expense-reimbursement workflow
+- Enterprise systems, product lifecycle management, organisational strategy, and change
+- Information quality, e-commerce types, and SaaS/PaaS/IaaS
+
+**Highest focus:** Select and motivate the system that best supports an end-to-end organisational process, and distinguish concepts that have overlapping roles.
+
+| Topic (overordnet) | Key results & reminders (condensed) |
+|---|---|
+| Expense-reimbursement BPMN | Use at least Employee and Finance/Accounts-Payable participants/lanes. Typical flow: employee submits claim and receipts → finance checks completeness/policy → **XOR** valid/approved? → No: notify employee and request correction/reject → end; Yes: approve → record liability/process payment → notify employee → end. Model message flows across separate pools and exception paths explicitly. |
+| System for expense reimbursement | A financial **TPS**, commonly an expense-management or **ERP financial module** with workflow/approval support, records claims, validates them, routes approvals, updates accounts payable, and produces the payment/audit trail. |
+| PLM system components | **Product data management** stores product documents/specifications; **CAD/engineering integration** manages designs; **BOM and configuration management** controls product structures and variants; **change/workflow management** governs revisions and approvals; **project/collaboration** coordinates teams and suppliers; **quality/compliance and lifecycle/service data** support traceability from concept through retirement. |
+| CBIS hierarchy and data flow | **CBIS** is the umbrella of people, procedures, hardware, software, networks, and data. **TPS** records operational events → **MIS** produces routine aggregated reports → **DSS** applies data/models to semi-structured analysis → **EIS/ESS** presents strategic dashboards and trends. DSS and EIS/ESS may also draw on integrated ERP/data-warehouse sources. |
+| Lewin’s Change Model | **Unfreeze:** create readiness, explain why change is needed, and reduce resistance. **Change/Move:** introduce new processes, technology, skills, and behaviours with support and communication. **Refreeze:** embed the new way through policies, training, rewards, measurement, and ongoing reinforcement. |
+| Miles and Snow typology | **Prospector, Defender, Analyzer, Reactor.** Google best fits a **Prospector**: it continually seeks innovation, new products/markets, experimentation, and growth. Defenders emphasise stable existing markets; Analyzers balance stability with selective innovation; Reactors lack a consistent strategy. |
+| Information-quality characteristics | **Accessible** (available to authorised users), **accurate** (error-free), **complete** (all material facts), **economical** (benefit exceeds cost), **flexible** (usable for multiple purposes), **relevant** (matters to the decision), **reliable** (trustworthy source/collection), **secure** (protected from unauthorised access), **simple** (avoids overload), **timely** (available when needed), **verifiable** (can be checked). |
+| E-commerce types | **B2C, B2B, C2C, G2B,** and **G2C** are common participant-based classifications. **O2O** (online-to-offline) is also a recognised digital-commerce model; **F2F** is not an e-commerce type. |
+| Manufacturing-company digitalisation | An integrated **ERP** system is the core choice because it links inventory/materials, purchasing, production, finance, and sales. Integrate **CRM** capabilities for customer, sales, and marketing processes so the organisation gets shared data and end-to-end visibility. |
+| SaaS | **Software as a Service:** provider operates the full application and underlying platform/infrastructure; customer configures and uses it. Example: Microsoft 365 or Salesforce. |
+| PaaS | **Platform as a Service:** provider manages infrastructure, operating system, runtime, and platform services; customer deploys and manages its applications and data. Example: Azure App Service or Google App Engine. |
+| IaaS | **Infrastructure as a Service:** provider manages physical infrastructure and virtualisation; customer manages OS, runtime, applications, and data. Example: Azure Virtual Machines or Amazon EC2. |
 
 
 </details>
