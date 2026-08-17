@@ -541,6 +541,11 @@ A deep dive into common web vulnerabilities and how to prevent them.
 - Foundation for later AI, cyber-security, and systems courses
 
 
+[TDT4120 - Lecture 1 – Problems og algorithms](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson1)
+
+**Covers & focus**
+- [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
+
 ### > Algorithms and Data Structures – Part 1 - TDT4120
 ---
 *NP basics, loop invariants & correctness, simple algorithms (selection/linear search), Master Theorem template, and order-of-growth ranking.*
