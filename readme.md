@@ -205,7 +205,7 @@ A series focused on core software testing concepts, methodologies, and best prac
 
 Based onm exam questions in the subject TDT4100 at NTNU Trondheim.
 
-- [Java Programming Exam Questions](https://www.flexiquiz.com/SC/N/JavaExam1)  
+- [Java Programming Exam Questions](https://dev-quizmachine.covecode.net/Quiz/Take/javaexam1)  
 
   |                        |                       |
   |------------------------|-----------------------|
