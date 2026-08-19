@@ -554,7 +554,7 @@ A deep dive into common web vulnerabilities and how to prevent them.
 ---
 *NP basics, loop invariants & correctness, simple algorithms (selection/linear search), Master Theorem template, and order-of-growth ranking.*
 
-Quiz: [Algorithms and Data Structures – Part 1](https://www.flexiquiz.com/SC/N/Algdat1)
+Quiz: [Algorithms and Data Structures – Part 1](https://dev-quizmachine.covecode.net/Quiz/Take/algdat1)
 
 **Covers & focus**
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer) ← **highest focus**
