@@ -544,6 +544,9 @@ A deep dive into common web vulnerabilities and how to prevent them.
 --
 - [TDT4120 - Lecture 1 – Problems og algorithms](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson1)
 - [TDT4120 - Lecture 2 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson2)
+- [TDT4120 - Lecture 3-1 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson3part1)
+- [TDT4120 - Lecture 3-2 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson3part2)
+
 
 **Covers & focus:**
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
