@@ -9,11 +9,12 @@
 5. [Software Security Series – TDT4237](#software-security-series---tdt4237)
 6. [Web Application Security Series – TDT4237](#web-application-security-series---tdt4237)
 7. [Algorithms and Data Structures – TDT4120](#algorithms-and-data-structures---tdt4120)
-8. [Model-Driven Software Engineering – TDT4250](#model-driven-software-engineering---tdt4250)
-9. [Information Systems – TDT4175](#information-systems--tdt4175)
-10. [Applied Data Science – TDT4259](#applied-data-science--tdt4259)
-11. [The human centered design process – TDT4180](#the-human-centered-design-process---tdt4180-)
-12. [Software Architecture – TDT4240](#software-architecture---tdt4240)
+8. [Introduction to Artificial Intelligence – TDT4136](#introduction-to-artificial-intelligence---tdt4136)
+9. [Model-Driven Software Engineering – TDT4250](#model-driven-software-engineering---tdt4250)
+10. [Information Systems – TDT4175](#information-systems--tdt4175)
+11. [Applied Data Science – TDT4259](#applied-data-science--tdt4259)
+12. [The human centered design process – TDT4180](#the-human-centered-design-process---tdt4180-)
+13. [Software Architecture – TDT4240](#software-architecture---tdt4240)
 
 <br/>
 
@@ -548,11 +549,6 @@ A deep dive into common web vulnerabilities and how to prevent them.
 - [TDT4120 - Lecture 3-2 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson3part2)
 
 
-**Covers & focus:**
-- [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
-- [Lecture 2 – Datastrukturer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-2---datastrukturer)
-
-
 ### > Algorithms and Data Structures – Part 1 - TDT4120
 ---
 *NP basics, loop invariants & correctness, simple algorithms (selection/linear search), Master Theorem template, and order-of-growth ranking.*
@@ -1038,6 +1034,65 @@ Quiz: [Algorithms and Data Structures – Part 16](https://www.flexiquiz.com/SC/
 
 - [NTNU TDT4120 — Algorithms and Data Structures (official course page)](https://www.ntnu.edu/studies/courses/TDT4120). 
 - [CP-Algorithms — Algorithms for Competitive Programming](https://cp-algorithms.com/).
+
+<br/>
+<br/>
+<br/>
+
+---
+
+
+#  Introduction to Artificial Intelligence - TDT4136
+<details>
+  <summary>Click to expand</summary>
+
+**Directly assignment related short quizes:**
+--
+- [TDT4136 - Assignment 1 Learning – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136assignment1learningpart1) — Setup & uninformed search (BFS, DFS, UCS)
+- [TDT4136 - Assignment 1 Learning – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136assignment1learningpart2) — Informed search (Greedy Best-First, A*)
+- [TDT4136 - Assignment 1 Learning – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136assignment1learningpart3) — A*, admissibility and consistency
+
+**Assignment 1 – Search Algorithms:**  
+A hand-computation exercise set on the search algorithms from the lectures. The problem is a
+"speedrunning route" through an abstract map of Doom's *E1M8: Phobos Anomaly* (states A–I,
+start A, goal F): every edge costs 1, obstacles add cost (stairs +1, lift +2), and each state
+carries a heuristic value h(n) (h(A) = 25, h(I) = 22, h(F) = 0). Eight tasks across three parts;
+successors are generated in alphabetical order and ties are broken alphabetically. Pseudocode
+references are to *Artificial Intelligence: A Modern Approach* — Breadth-First-Search
+(Fig. 3.9, p. 95) and Best-First-Search (Fig. 3.7, p. 91).
+
+**Learning outcome:**  
+- Trace BFS, DFS, UCS, Greedy Best-First and A* by hand and produce the expansion order, path, and path cost  
+- Compare informed vs uninformed strategies on the same graph  
+- Explain why A* can miss the optimal solution when the heuristic is not consistent  
+- State and prove/disprove admissibility and consistency for a given heuristic  
+- Relate the choice of frontier data structure and tie-breaking to search behaviour  
+
+
+</details>
+
+[![Artificial Intelligence](https://img.shields.io/badge/Artificial%20Intelligence-5C2D91?style=for-the-badge&logoColor=white)](https://www.ntnu.edu/studies/courses/TDT4136)
+[![Search Algorithms](https://img.shields.io/badge/Search%20Algorithms-007ACC?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/Search_algorithm)
+[![Breadth-First Search](https://img.shields.io/badge/Breadth--First%20Search-1976D2?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/Breadth-first_search)
+[![Depth-First Search](https://img.shields.io/badge/Depth--First%20Search-455A64?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/Depth-first_search)
+[![Uniform-Cost Search](https://img.shields.io/badge/Uniform--Cost%20Search-00838F?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/Dijkstra%27s_algorithm)
+[![Greedy Best-First](https://img.shields.io/badge/Greedy%20Best--First-6A1B9A?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/Best-first_search)
+[![A* Search](https://img.shields.io/badge/A*%20Search-2E7D32?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/A*_search_algorithm)
+[![Admissible Heuristic](https://img.shields.io/badge/Admissible%20Heuristic-37474F?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/Admissible_heuristic)
+[![Consistent Heuristic](https://img.shields.io/badge/Consistent%20Heuristic-546E7A?style=for-the-badge&logoColor=white)](https://en.wikipedia.org/wiki/Consistent_heuristic)
+
+<br/>
+<br/>
+<br/>
+
+---
+
+**TDT4136 - Resources:**
+
+- [AIMA — Russell & Norvig, *Artificial Intelligence: A Modern Approach*](https://aima.cs.berkeley.edu/)
+- [aimacode — reference implementations (GitHub)](https://github.com/aimacode)
+- [PathFinding.js — interactive search/pathfinding visualiser](https://qiao.github.io/PathFinding.js/visual/)
+- [NTNU TDT4136 — Introduction to Artificial Intelligence (official course page)](https://www.ntnu.edu/studies/courses/TDT4136)
 
 <br/>
 <br/>
