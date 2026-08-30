@@ -579,7 +579,7 @@ Quiz: [Algorithms and Data Structures – Part 1](https://dev-quizmachine.coveco
 ---
 *Asymptotic notation, sorting runtimes, greedy property, SSSP (Dijkstra vs Bellman–Ford), MST (Kruskal), and flow basics.*
 
-Quiz: [Algorithms and Data Structures – Part 2](https://www.flexiquiz.com/SC/N/Algdat2)
+Quiz: [Algorithms and Data Structures – Part 2](https://dev-quizmachine.covecode.net/Quiz/Take/algdat2)
 
 **Covers & focus**
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
