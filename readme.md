@@ -545,6 +545,7 @@ A deep dive into common web vulnerabilities and how to prevent them.
 --
 - [TDT4120 - Lecture 1 – Problems og algorithms](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson1)
 - [TDT4120 - Lecture 2 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson2)
+- [TDT4120 - Lesson 2 - Extra 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson2extra1))
 - [TDT4120 - Lecture 3-1 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson3part1)
 - [TDT4120 - Lecture 3-2 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson3part2)
 
@@ -553,7 +554,7 @@ A deep dive into common web vulnerabilities and how to prevent them.
 ---
 *NP basics, loop invariants & correctness, simple algorithms (selection/linear search), Master Theorem template, and order-of-growth ranking.*
 
-Quiz: [Algorithms and Data Structures – Part 1](https://dev-quizmachine.covecode.net/Quiz/Take/algdat1)
+Quiz: [Algorithms and Data Structures – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat1)
 
 **Covers & focus**
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer) ← **highest focus**
@@ -579,7 +580,7 @@ Quiz: [Algorithms and Data Structures – Part 1](https://dev-quizmachine.coveco
 ---
 *Asymptotic notation, sorting runtimes, greedy property, SSSP (Dijkstra vs Bellman–Ford), MST (Kruskal), and flow basics.*
 
-Quiz: [Algorithms and Data Structures – Part 2](https://dev-quizmachine.covecode.net/Quiz/Take/algdat2)
+Quiz: [Algorithms and Data Structures – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat2)
 
 **Covers & focus**
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
