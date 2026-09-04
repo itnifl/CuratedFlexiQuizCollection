@@ -669,7 +669,7 @@ Quiz: [Algorithms and Data Structures – Part 4](https://dev-quizmachine.itauto
 ---
 *Asymptotics and relations, divide-and-conquer sorting, linear-time sorting, pivot strategies, and rooted-tree representations.*
 
-Quiz: [Algorithms and Data Structures – Part 5](https://www.flexiquiz.com/SC/N/Algdat5)
+Quiz: [Algorithms and Data Structures – Part 5](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat5)
 
 **Covers & focus**
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
