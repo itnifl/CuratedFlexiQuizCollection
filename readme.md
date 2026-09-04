@@ -609,7 +609,7 @@ Quiz: [Algorithms and Data Structures – Part 2](https://dev-quizmachine.itauto
 ---
 *Greedy algorithms, sorting family (QS/Rand-QS/Select/Heap/Merge/Insertion), data structures (heaps vs BSTs, splay), asymptotics & NP, MST/flow basics, and the Master Theorem.*
 
-Quiz: [Algorithms and Data Structures – Part 3](https://www.flexiquiz.com/SC/N/Algdat3)
+Quiz: [Algorithms and Data Structures – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat3)
 
 **Covers & focus**
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
