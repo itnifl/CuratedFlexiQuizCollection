@@ -641,7 +641,7 @@ Quiz: [Algorithms and Data Structures – Part 3](https://dev-quizmachine.itauto
 ---
 *Asymptotic notation & properties, lower bounds via crossings, little-o/ω, Master Theorem basics, and merge-sort recurrence.*
 
-Quiz: [Algorithms and Data Structures – Part 4](https://www.flexiquiz.com/SC/N/Algdat4)
+Quiz: [Algorithms and Data Structures – Part 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat4)
 
 **Covers & focus**
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
