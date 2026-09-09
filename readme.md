@@ -239,7 +239,7 @@ Based onm exam questions in the subject TDT4100 at NTNU Trondheim.
 
 A general-purpose quiz on core C# language features and ASP.NET Core Web API development. Each question presents a short code snippet that you must read carefully to choose the correct answer.
 
-- [C# and Web API Quiz – Part 1](https://www.flexiquiz.com/SC/N/CSharp-Quiz-1)
+- [C# and Web API Quiz – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/CSharp-Quiz-1)
   Covers C# language fundamentals (value vs reference types, `const` vs `readonly`, records, `using`, nullable types, pattern matching, `yield`, LINQ, `IEnumerable` vs `IQueryable`, equality and `GetHashCode`, generic constraints, extension methods, `ConfigureAwait`) and ASP.NET Core Web API essentials (controllers, routing, `[From*]` model binding, request/response headers, `[ApiController]` model validation, `[Authorize]` / `[AllowAnonymous]`, dependency-injection lifetimes, middleware ordering, CORS, `IOptions` configuration, `ILogger` structured logging, `IHttpClientFactory`, `CancellationToken`, `System.Text.Json` defaults, idempotent verbs and REST conventions).
 
   |                              |                                       |
@@ -260,7 +260,7 @@ A general-purpose quiz on core C# language features and ASP.NET Core Web API dev
   | `System.Text.Json` defaults  | REST conventions & idempotent verbs   |
   | HTTP status codes            | `IActionResult` / `ActionResult<T>`   |
 
-- [C# and Web API Quiz – Part 2](https://www.flexiquiz.com/SC/N/CSharp-Quiz-2)
+- [C# and Web API Quiz – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/CSharp-Quiz-2)
   Focuses on `ValueTask<T>` allocation semantics and correct consumption patterns, and an in-depth look at C# record types including positional records, `record struct`, `readonly record struct`, `with`-expressions, compiler-generated members, and equality behavior.
 
   |                                          |                                                   |
@@ -301,7 +301,7 @@ A general-purpose quiz on core C# language features and ASP.NET Core Web API dev
 
 A concise introduction to the world of secure communications and encryption techniques.
 
-- [Cryptography Basics Quiz](https://www.flexiquiz.com/SC/N/Cryptography1)  
+- [Cryptography Basics Quiz](https://dev-quizmachine.itautomasjon.no/Quiz/Take/Cryptography1)  
   
   |                            |                           |
   |----------------------------|---------------------------|
