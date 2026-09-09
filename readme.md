@@ -695,7 +695,7 @@ Quiz: [Algorithms and Data Structures – Part 5](https://dev-quizmachine.itauto
 ---
 *Rooted trees, heaps, BSTs, heapsort, priority queues in Prim, and spanning trees.*
 
-Quiz: [Algorithms and Data Structures – Part 6](https://www.flexiquiz.com/SC/N/Algdat6)
+Quiz: [Algorithms and Data Structures – Part 6](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat6)
 
 **Covers & focus**
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
@@ -727,7 +727,7 @@ Quiz: [Algorithms and Data Structures – Part 6](https://www.flexiquiz.com/SC/N
 ---
 *Dynamic programming: ideas, design steps, rod cutting, LCS, 0/1 knapsack; graph add-ons (odd cycles, Floyd–Warshall tweaks); hardness via reductions.*
 
-Quiz: [Algorithms and Data Structures – Part 7](https://www.flexiquiz.com/SC/N/Algdat7)
+Quiz: [Algorithms and Data Structures – Part 7](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat7)
 
 **Covers & focus**
 - [Lecture 6 – Dynamisk programmering](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-6---dynamisk-programmering) ← **highest focus**
@@ -763,7 +763,7 @@ Quiz: [Algorithms and Data Structures – Part 7](https://www.flexiquiz.com/SC/N
 ---
 *Asymptotics, comparisons, master theorem, comparison-based sorting, reductions, and a small LP case.*
 
-Quiz: [Algorithms and Data Structures – Part 8](https://www.flexiquiz.com/SC/N/Algdat8)
+Quiz: [Algorithms and Data Structures – Part 8](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat8)
 
 **Covers & focus**
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
@@ -790,7 +790,7 @@ Quiz: [Algorithms and Data Structures – Part 8](https://www.flexiquiz.com/SC/N
 ---
 *Asymptotics, Master Theorem, dynamic programming (rod cutting & grid paths), DP suitability, DAG longest path, and bounded knapsack.*
 
-Quiz: [Algorithms and Data Structures – Part 9](https://www.flexiquiz.com/SC/N/Algdat9)
+Quiz: [Algorithms and Data Structures – Part 9](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat9)
 
 **Covers & focus**
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
@@ -831,7 +831,7 @@ Quiz: [Algorithms and Data Structures – Part 9](https://www.flexiquiz.com/SC/N
 
 **Highest focus:** Lecture 5 – Rotfaste trestrukturer
 
-Quiz: [Algorithms and Data Structures – Part 10](https://www.flexiquiz.com/SC/N/Algdat10)
+Quiz: [Algorithms and Data Structures – Part 10](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat10)
 
 | Topic  | Key results & reminders (condensed) |
 |---|---|
@@ -855,7 +855,7 @@ Quiz: [Algorithms and Data Structures – Part 10](https://www.flexiquiz.com/SC/
 ---
 *Asymptotic ranking, DP suitability, greedy methods (activity selection, Huffman), MST basics (Kruskal, safe edges), shortest paths, and optimal merging.*  
 
-Quiz: [Algorithms and Data Structures – Part 11](https://www.flexiquiz.com/SC/N/Algdat11)
+Quiz: [Algorithms and Data Structures – Part 11](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat11)
 
 **Covers & focus**
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
@@ -887,6 +887,8 @@ Quiz: [Algorithms and Data Structures – Part 11](https://www.flexiquiz.com/SC/
 ---
 *Graph representations, BFS/DFS, topological sort, shortest paths on unweighted puzzles, and strongly connected components.*
 
+Quiz: [Algorithms and Data Structures – Part 12](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat12)
+
 **Covers & focus**
 - [Lecture 8 – Traversering av grafer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-8---traversering-av-grafer) ← **highest focus**
 
@@ -914,6 +916,8 @@ Quiz: [Algorithms and Data Structures – Part 11](https://www.flexiquiz.com/SC/
 ---
 *Disjoint-set forests (union–find), MST cut/cycle properties, Kruskal/Prim runtimes, and “safe edge” reasoning.*
 
+Quiz: [Algorithms and Data Structures – Part 13](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat13)
+
 **Covers & focus**
 - [Lecture 9 – Minimale spenntrær](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-9---minimale-spenntr%C3%A6r) ← **highest focus**
 - [Lecture 10 – Korteste vei fra én til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-10---korteste-vei-fra-%C3%A9n-til-alle)
@@ -938,7 +942,7 @@ Quiz: [Algorithms and Data Structures – Part 11](https://www.flexiquiz.com/SC/
 ---
 *Single-source shortest paths: DAG-SP, Dijkstra, relax/parent logic, queues & heaps (binary vs Fibonacci), and SSSP workflow details.*
 
-Quiz: [Algorithms and Data Structures – Part 14](https://www.flexiquiz.com/SC/N/Algdat14)
+Quiz: [Algorithms and Data Structures – Part 14](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat14)
 
 **Covers & focus**
 - [Lecture 10 – Korteste vei fra én til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-10---korteste-vei-fra-%C3%A9n-til-alle) ← **Highest focus**
@@ -963,7 +967,7 @@ Quiz: [Algorithms and Data Structures – Part 14](https://www.flexiquiz.com/SC/
 ---
 *All-pairs shortest paths (APSP): repeated Dijkstra vs Floyd–Warshall, predecessor matrices, transitive closure, shortest-path trees vs MSTs, and one voting-graph detour (Schulze).*
 
-Quiz: [Algorithms and Data Structures – Part 15](https://www.flexiquiz.com/SC/N/Algdat15)
+Quiz: [Algorithms and Data Structures – Part 15](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat15)
 
 **Covers & focus**
 - [Lecture 10 – Korteste vei fra én til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-10---korteste-vei-fra-%C3%A9n-til-alle)
@@ -990,7 +994,7 @@ Quiz: [Algorithms and Data Structures – Part 15](https://www.flexiquiz.com/SC/
 ---
 *Max-flow & min-cut, residual networks, Edmonds–Karp, modeling tricks (production, matching, assignments), circulations with lower bounds, and a Warshall step for transitive closure.*
 
-Quiz: [Algorithms and Data Structures – Part 16](https://www.flexiquiz.com/SC/N/Algdat16)
+Quiz: [Algorithms and Data Structures – Part 16](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat16)
 
 **Covers & focus**
 - [Lecture 12 – Maksimal flyt](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-12---maksimal-flyt) ← **Highest focus**
