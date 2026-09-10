@@ -13,7 +13,7 @@
 9. [Model-Driven Software Engineering – TDT4250](#model-driven-software-engineering---tdt4250)
 10. [Information Systems – TDT4175](#information-systems--tdt4175)
 11. [Applied Data Science – TDT4259](#applied-data-science--tdt4259)
-12. [The human centered design process – TDT4180](#the-human-centered-design-process---tdt4180-)
+12. [The human centered design process – TDT4180](#the-human-centered-design-process---tdt4180)
 13. [Software Architecture – TDT4240](#software-architecture---tdt4240)
 
 <br/>
@@ -545,7 +545,7 @@ A deep dive into common web vulnerabilities and how to prevent them.
 --
 - [TDT4120 - Lecture 1 – Problems og algorithms](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson1)
 - [TDT4120 - Lecture 2 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson2)
-- [TDT4120 - Lesson 2 - Extra 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson2extra1))
+- [TDT4120 - Lesson 2 - Extra 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson2extra1)
 - [TDT4120 - Lecture 3-1 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson3part1)
 - [TDT4120 - Lecture 3-2 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson3part2)
 
@@ -1762,7 +1762,7 @@ Quiz: [Applied Data Science – Part 4](https://www.flexiquiz.com/SC/N/appliedda
 
 ---
 
-#  The human centered design process - TDT4180 #
+#  The human centered design process - TDT4180
 
 <details>
   <summary>Click to expand</summary>
@@ -1795,7 +1795,7 @@ uxqb.org
 
 In other words, every question in this 40-item exam is drawn either from the public CPUX-F question set or directly from the official CPUX-F Curriculum & Glossary document, exactly as prescribed for TDT4180’s UXQB-F/CPUX-F module.
 
-- [CPUX-F - Test 1](https://www.flexiquiz.com/SC/N/0a89b1d7-bdb1-4902-8909-ea31252500bb) - TDT4180
+- [CPUX-F - Test 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/cpux-f-test1) - TDT4180
 
   |                               |                                   |
   |-------------------------------|-----------------------------------|
@@ -1811,7 +1811,7 @@ In other words, every question in this 40-item exam is drawn either from the pub
   | Stakeholders                  | User groups & roles               |
 
 
-- [CPUX-F - Test 2](https://www.flexiquiz.com/SC/N/6984fb3e-074c-47dd-8e7c-262bb2d584b1) - TDT4180
+- [CPUX-F - Test 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/cpux-f-test2) - TDT4180
 
   |                              |                             |
   |------------------------------|-----------------------------|
@@ -1825,6 +1825,10 @@ In other words, every question in this 40-item exam is drawn either from the pub
   | Usability vs. User Experience| Satisfaction & principles   |
   | Storyboards                  | Master-apprentice principle |
   | Error tolerance              | Dialogue principles         |
+
+- [CPUX-F - Test 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/cpux-f-test3) - TDT4180
+- [CPUX-F - Test 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/cpux-f-test4) - TDT4180
+- [CPUX-F - Test 5](https://dev-quizmachine.itautomasjon.no/Quiz/Take/cpux-f-test5) - TDT4180
 
 </details>
 
