@@ -1056,6 +1056,7 @@ Quiz: [Algorithms and Data Structures – Part 16](https://dev-quizmachine.itaut
 - [TDT4136 - Assignment 1 Learning – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136assignment1learningpart1) — Setup & uninformed search (BFS, DFS, UCS)
 - [TDT4136 - Assignment 1 Learning – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136assignment1learningpart2) — Informed search (Greedy Best-First, A*)
 - [TDT4136 - Assignment 1 Learning – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136assignment1learningpart3) — A*, admissibility and consistency
+- [TDT4136 - Assignment 2 Learning](https://dev-quizmachine.itautomasjon.no/p/tdt4136assignment2learning) - Constraint Satisfaction Problems
 
 **Assignment 1 – Search Algorithms:**  
 A hand-computation exercise set on the search algorithms from the lectures. The problem is a
