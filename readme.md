@@ -139,25 +139,25 @@ A series focused on core software testing concepts, methodologies, and best prac
 **Code quality** – using static analysis, peer review, and refactoring.  
 **Verification & validation** – evaluating large-scale and AI-driven systems.  
 
-- [Software Testing and Quality Quiz – Part 1](https://dev-quizmachine.covecode.net/Quiz/Take/softwaretesting1) ✅ Open - TDT4242
+- [Software Testing and Quality Quiz – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting1) ✅ Open - TDT4242
   Covers basic testing terminology, unit testing, and manual testing fundamentals.
 
-- [Software Testing and Quality Quiz – Part 2](https://dev-quizmachine.covecode.net/Quiz/Take/softwaretesting2) ✅ Open - TDT4242
+- [Software Testing and Quality Quiz – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting2) ✅ Open - TDT4242
   Explores automated testing, integration testing, and test strategies.
 
-- [Software Testing and Quality Quiz – Part 3](https://dev-quizmachine.covecode.net/Quiz/Take/softwaretesting3) ✅ Open - TDT4242
+- [Software Testing and Quality Quiz – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting3) ✅ Open - TDT4242
   Delves into testing methodologies.
 
-- [Software Testing and Quality Quiz – Part 4](https://dev-quizmachine.covecode.net/Quiz/Take/softwaretesting4) ✅ Open - TDT4242
+- [Software Testing and Quality Quiz – Part 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting4) ✅ Open - TDT4242
   Examines advanced topics like performance testing and test coverage metrics.
 
-- [Software Testing and Quality Quiz – Part 5](https://dev-quizmachine.covecode.net/Quiz/Take/softwaretesting5) ✅ Open - TDT4242
+- [Software Testing and Quality Quiz – Part 5](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting5) ✅ Open - TDT4242
   Explores requirements engineering and test setup.
 
-- [Software Testing and Quality Quiz – Part 6](https://dev-quizmachine.covecode.net/Quiz/Take/softwaretesting6) ✅ Open - TDT4242
+- [Software Testing and Quality Quiz – Part 6](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting6) ✅ Open - TDT4242
   Explores code smells, DU-coverage and Devops.
 
-- [Software Testing and Quality Quiz – Part 7](https://dev-quizmachine.covecode.net/Quiz/Take/softwaretesting7) ✅ Open - TDT4242
+- [Software Testing and Quality Quiz – Part 7](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting7) ✅ Open - TDT4242
   Explores domain testing, code smells, sustainability, all-pair combinatorial tests, and Devops terms
   |                          |                                     |
   |--------------------------|-------------------------------------|
@@ -173,7 +173,7 @@ A series focused on core software testing concepts, methodologies, and best prac
   | Non-numeric Boundaries   | Password length, registration dates |
 
 
-- [Software Testing and Quality Quiz - Part 8](https://www.flexiquiz.com/SC/N/SoftwareTesting8) ❌ Closed - TDT4242
+- [Software Testing and Quality Quiz - Part 8](https://dev-quizmachine.itautomasjon.no/Quiz/Take/softwaretesting8) ✅ Open - TDT4242
   Explores code refactoring, testing concepts, requirements quality, requirements classification, sustainable software requirements, branch and statement coverage.
 
   |                       |                      |
@@ -239,7 +239,7 @@ Based onm exam questions in the subject TDT4100 at NTNU Trondheim.
 
 A general-purpose quiz on core C# language features and ASP.NET Core Web API development. Each question presents a short code snippet that you must read carefully to choose the correct answer.
 
-- [C# and Web API Quiz – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/CSharp-Quiz-1) ✅ Open
+- [C# and Web API Quiz – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/CSharp-Quiz-1) ✅ Open - 
   Covers C# language fundamentals (value vs reference types, `const` vs `readonly`, records, `using`, nullable types, pattern matching, `yield`, LINQ, `IEnumerable` vs `IQueryable`, equality and `GetHashCode`, generic constraints, extension methods, `ConfigureAwait`) and ASP.NET Core Web API essentials (controllers, routing, `[From*]` model binding, request/response headers, `[ApiController]` model validation, `[Authorize]` / `[AllowAnonymous]`, dependency-injection lifetimes, middleware ordering, CORS, `IOptions` configuration, `ILogger` structured logging, `IHttpClientFactory`, `CancellationToken`, `System.Text.Json` defaults, idempotent verbs and REST conventions).
 
   |                              |                                       |
@@ -260,7 +260,7 @@ A general-purpose quiz on core C# language features and ASP.NET Core Web API dev
   | `System.Text.Json` defaults  | REST conventions & idempotent verbs   |
   | HTTP status codes            | `IActionResult` / `ActionResult<T>`   |
 
-- [C# and Web API Quiz – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/CSharp-Quiz-2) ✅ Open
+- [C# and Web API Quiz – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/CSharp-Quiz-2) ✅ Open - 
   Focuses on `ValueTask<T>` allocation semantics and correct consumption patterns, and an in-depth look at C# record types including positional records, `record struct`, `readonly record struct`, `with`-expressions, compiler-generated members, and equality behavior.
 
   |                                          |                                                   |
@@ -301,7 +301,7 @@ A general-purpose quiz on core C# language features and ASP.NET Core Web API dev
 
 A concise introduction to the world of secure communications and encryption techniques.
 
-- [Cryptography Basics Quiz](https://dev-quizmachine.itautomasjon.no/Quiz/Take/Cryptography1) ✅ Open  
+- [Cryptography Basics Quiz](https://dev-quizmachine.itautomasjon.no/Quiz/Take/Cryptography1) ✅ Open -
   
   |                            |                           |
   |----------------------------|---------------------------|
