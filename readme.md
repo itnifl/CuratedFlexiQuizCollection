@@ -1883,7 +1883,7 @@ Based on previous exam questions in the subject [TDT4240 – Software Architectu
 ---
 *Reflects the 2018 Software Architecture exam, Part 1 (Problems 1–3, first 28 questions). Exam paper and solution paper are hosted on NTNU Blackboard ([exam](https://ntnu.blackboard.com/bbcswebdav/pid-2980895-dt-content-rid-89339566_1/xid-89339566_1), [solutions](https://ntnu.blackboard.com/bbcswebdav/pid-2980895-dt-content-rid-89339567_1/xid-89339567_1) – NTNU login required).*
 
-Quiz: [Software Architecture Exam 2018 – Part 1](https://www.flexiquiz.com/SC/N/TDT4240_1) ❌ Closed
+Quiz: [Software Architecture Exam 2018 – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4240-1) ✅ Open
 
 |                                       |                                                                                 |
 |---------------------------------------|---------------------------------------------------------------------------------|
@@ -1917,7 +1917,7 @@ Quiz: [Software Architecture Exam 2018 – Part 1](https://www.flexiquiz.com/SC/
 ---
 *12 questions from the 2019 NTNU exam, Part 1.*
 
-Quiz: [Software Architecture Exam 2019 – Part 1](https://www.flexiquiz.com/SC/N/TDT4240_2) ❌ Closed
+Quiz: [Software Architecture Exam 2019 – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4240-2) ✅ Open
 
 |                                       |                                                                                 |
 |---------------------------------------|---------------------------------------------------------------------------------|
@@ -1936,11 +1936,11 @@ Quiz: [Software Architecture Exam 2019 – Part 1](https://www.flexiquiz.com/SC/
 
 
 
-### > Software Architecture Exam – Part 3 (2019) - TDT4240
+### > Software Architecture Exam – Part 2 (2019) - TDT4240
 ---
 *Tail of Part 1, plus Problem 2 (pattern selection), Problem 3 (QA scenarios for the Norwegian health portal), and two bonus questions on the "Big 7" QAs.*
 
-Quiz: [Software Architecture Exam 2019 – Part 2](https://www.flexiquiz.com/SC/N/TDT4240_3) ❌ Closed
+Quiz: [Software Architecture Exam 2019 – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/TDT4240-3) ✅ Open
 
 |                                       |                                                                                 |
 |---------------------------------------|---------------------------------------------------------------------------------|
@@ -1960,7 +1960,7 @@ Quiz: [Software Architecture Exam 2019 – Part 2](https://www.flexiquiz.com/SC/
 ---
 *Full rehearsal of the 2020 NTNU exam. Problem 1 walks through designing the Distributed Board Game Platform (DBGP) end-to-end (ASRs, patterns, tactics, logical view, process view, rationale). Problem 2 covers Architecture for the Edge.*
 
-Quiz: [Software Architecture Exam 2020 – Part 4](https://www.flexiquiz.com/SC/N/TDT4240_4) ❌ Closed
+Quiz: [Software Architecture Exam 2020 – Part 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4240-4) ✅ Open
 
 |                                                        |                                                                                                      |
 |--------------------------------------------------------|------------------------------------------------------------------------------------------------------|
@@ -2007,7 +2007,7 @@ Quiz: [Software Architecture Exam 2020 – Part 4](https://www.flexiquiz.com/SC/
 ---
 *Full rehearsal of the 2025 NTNU exam. Focuses on curriculum topics in TDT4240, including QA scenario construction, ASR identification, tactics and patterns, Kruchten 4+1 views (physical and logical), and architectural rationale.*
 
-Quiz: [Software Architecture Exam 2025 – Part 5](https://www.flexiquiz.com/SC/N/TDT4240_5) ❌ Closed
+Quiz: [Software Architecture Exam 2025 – Part 5](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4240-5) ✅ Open
 
 |                                                        |                                                                                                      |
 |--------------------------------------------------------|------------------------------------------------------------------------------------------------------|
