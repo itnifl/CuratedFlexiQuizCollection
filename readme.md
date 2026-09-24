@@ -301,7 +301,7 @@ A general-purpose quiz on core C# language features and ASP.NET Core Web API dev
 
 A concise introduction to the world of secure communications and encryption techniques.
 
-- [Cryptography Basics Quiz](https://dev-quizmachine.itautomasjon.no/Quiz/Take/Cryptography1) ✅ Open -
+- [Cryptography Basics Quiz](https://dev-quizmachine.itautomasjon.no/Quiz/Take/Cryptography1) ✅ Open
   
   |                            |                           |
   |----------------------------|---------------------------|
@@ -334,7 +334,7 @@ A concise introduction to the world of secure communications and encryption tech
 
 A comprehensive series covering secure development practices and application-level security.
 
-- [Software Security – Part 1](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart1) ❌ Closed - TDT4237
+- [Software Security – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/SoftwareSecurityPart1) ✅ Open - TDT4237
   
   |                                                |                                                          |
   |------------------------------------------------|----------------------------------------------------------|
@@ -347,7 +347,7 @@ A comprehensive series covering secure development practices and application-lev
   | Psychological factors in social engineering    | Malicious AI attacks on recognition systems              |
   | Salt & pepper in cryptography (hashing)        | Conditions when salt fails                               |
 
-- [Software Security – Part 2](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart2) ❌ Closed - TDT4237
+- [Software Security – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/SoftwareSecurityPart2) ✅ Open - TDT4237
 
   |                                                  |                                                        |
   |--------------------------------------------------|--------------------------------------------------------|
@@ -364,7 +364,7 @@ A comprehensive series covering secure development practices and application-lev
   | Risk analysis threat dimensions                  | Zero-day exploit description                           |
 
 
-- [Software Security – Part 3](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart3) ❌ Closed - TDT4237
+- [Software Security – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/SoftwareSecurityPart3) ✅ Open - TDT4237
 
   |                                                 |                                                    |
   |-------------------------------------------------|----------------------------------------------------|
@@ -381,7 +381,7 @@ A comprehensive series covering secure development practices and application-lev
   | Password policy enforcement in Django           | Secure logging and monitoring configuration        |
 
 
-- [Software Security – Part 4](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart4) ❌ Closed - TDT4237
+- [Software Security – Part 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/SoftwareSecurityPart4) ✅ Open - TDT4237
   
   |                                                  |                                                       |
   |--------------------------------------------------|-------------------------------------------------------|
@@ -393,7 +393,7 @@ A comprehensive series covering secure development practices and application-lev
   | GDPR key points and legal bases                  | GDPR breach notification requirements                 |
 
 
-- [Software Security - Part 5](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart5) ❌ Closed - TDT4237
+- [Software Security - Part 5](https://dev-quizmachine.itautomasjon.no/Quiz/Take/SoftwareSecurityPart5) ✅ Open - TDT4237
 
   |                                       |                                                     |
   |---------------------------------------|-----------------------------------------------------|
