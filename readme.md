@@ -139,25 +139,25 @@ A series focused on core software testing concepts, methodologies, and best prac
 **Code quality** – using static analysis, peer review, and refactoring.  
 **Verification & validation** – evaluating large-scale and AI-driven systems.  
 
-- [Software Testing and Quality Quiz – Part 1](https://www.flexiquiz.com/SC/N/SoftwareTesting1) - TDT4242
+- [Software Testing and Quality Quiz – Part 1](https://dev-quizmachine.covecode.net/Quiz/Take/softwaretesting1) - TDT4242
   Covers basic testing terminology, unit testing, and manual testing fundamentals.
 
-- [Software Testing and Quality Quiz – Part 2](https://www.flexiquiz.com/SC/N/SoftwareTesting2) - TDT4242
+- [Software Testing and Quality Quiz – Part 2](https://www.flexiquiz.com/SC/N/SoftwareTesting2) ❌ Closed - TDT4242
   Explores automated testing, integration testing, and test strategies.
 
-- [Software Testing and Quality Quiz – Part 3](https://www.flexiquiz.com/SC/N/SoftwareTesting3) - TDT4242
+- [Software Testing and Quality Quiz – Part 3](https://www.flexiquiz.com/SC/N/SoftwareTesting3) ❌ Closed - TDT4242
   Delves into testing methodologies.
 
-- [Software Testing and Quality Quiz – Part 4](https://www.flexiquiz.com/SC/N/SoftwareTesting4) - TDT4242
+- [Software Testing and Quality Quiz – Part 4](https://www.flexiquiz.com/SC/N/SoftwareTesting4) ❌ Closed - TDT4242
   Examines advanced topics like performance testing and test coverage metrics.
 
-- [Software Testing and Quality Quiz – Part 5](https://www.flexiquiz.com/SC/N/SoftwareTesting5) - TDT4242
+- [Software Testing and Quality Quiz – Part 5](https://www.flexiquiz.com/SC/N/SoftwareTesting5) ❌ Closed - TDT4242
   Explores requirements engineering and test setup.
 
-- [Software Testing and Quality Quiz – Part 6](https://www.flexiquiz.com/SC/N/SoftwareTesting6) - TDT4242
+- [Software Testing and Quality Quiz – Part 6](https://www.flexiquiz.com/SC/N/SoftwareTesting6) ❌ Closed - TDT4242
   Explores code smells, DU-coverage and Devops.
 
-- [Software Testing and Quality Quiz – Part 7](https://www.flexiquiz.com/SC/N/SoftwareTesting7) - TDT4242
+- [Software Testing and Quality Quiz – Part 7](https://www.flexiquiz.com/SC/N/SoftwareTesting7) ❌ Closed - TDT4242
   Explores domain testing, code smells, sustainability, all-pair combinatorial tests, and Devops terms
   |                          |                                     |
   |--------------------------|-------------------------------------|
@@ -173,7 +173,7 @@ A series focused on core software testing concepts, methodologies, and best prac
   | Non-numeric Boundaries   | Password length, registration dates |
 
 
-- [Software Testing and Quality Quiz - Part 8](https://www.flexiquiz.com/SC/N/SoftwareTesting8) - TDT4242
+- [Software Testing and Quality Quiz - Part 8](https://www.flexiquiz.com/SC/N/SoftwareTesting8) ❌ Closed - TDT4242
   Explores code refactoring, testing concepts, requirements quality, requirements classification, sustainable software requirements, branch and statement coverage.
 
   |                       |                      |
@@ -239,7 +239,7 @@ Based onm exam questions in the subject TDT4100 at NTNU Trondheim.
 
 A general-purpose quiz on core C# language features and ASP.NET Core Web API development. Each question presents a short code snippet that you must read carefully to choose the correct answer.
 
-- [C# and Web API Quiz – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/CSharp-Quiz-1)
+- [C# and Web API Quiz – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/CSharp-Quiz-1) ✅ Open
   Covers C# language fundamentals (value vs reference types, `const` vs `readonly`, records, `using`, nullable types, pattern matching, `yield`, LINQ, `IEnumerable` vs `IQueryable`, equality and `GetHashCode`, generic constraints, extension methods, `ConfigureAwait`) and ASP.NET Core Web API essentials (controllers, routing, `[From*]` model binding, request/response headers, `[ApiController]` model validation, `[Authorize]` / `[AllowAnonymous]`, dependency-injection lifetimes, middleware ordering, CORS, `IOptions` configuration, `ILogger` structured logging, `IHttpClientFactory`, `CancellationToken`, `System.Text.Json` defaults, idempotent verbs and REST conventions).
 
   |                              |                                       |
@@ -260,7 +260,7 @@ A general-purpose quiz on core C# language features and ASP.NET Core Web API dev
   | `System.Text.Json` defaults  | REST conventions & idempotent verbs   |
   | HTTP status codes            | `IActionResult` / `ActionResult<T>`   |
 
-- [C# and Web API Quiz – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/CSharp-Quiz-2)
+- [C# and Web API Quiz – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/CSharp-Quiz-2) ✅ Open
   Focuses on `ValueTask<T>` allocation semantics and correct consumption patterns, and an in-depth look at C# record types including positional records, `record struct`, `readonly record struct`, `with`-expressions, compiler-generated members, and equality behavior.
 
   |                                          |                                                   |
@@ -301,7 +301,7 @@ A general-purpose quiz on core C# language features and ASP.NET Core Web API dev
 
 A concise introduction to the world of secure communications and encryption techniques.
 
-- [Cryptography Basics Quiz](https://dev-quizmachine.itautomasjon.no/Quiz/Take/Cryptography1)  
+- [Cryptography Basics Quiz](https://dev-quizmachine.itautomasjon.no/Quiz/Take/Cryptography1) ✅ Open  
   
   |                            |                           |
   |----------------------------|---------------------------|
@@ -334,7 +334,7 @@ A concise introduction to the world of secure communications and encryption tech
 
 A comprehensive series covering secure development practices and application-level security.
 
-- [Software Security – Part 1](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart1) - TDT4237
+- [Software Security – Part 1](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart1) ❌ Closed - TDT4237
   
   |                                                |                                                          |
   |------------------------------------------------|----------------------------------------------------------|
@@ -347,7 +347,7 @@ A comprehensive series covering secure development practices and application-lev
   | Psychological factors in social engineering    | Malicious AI attacks on recognition systems              |
   | Salt & pepper in cryptography (hashing)        | Conditions when salt fails                               |
 
-- [Software Security – Part 2](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart2) - TDT4237
+- [Software Security – Part 2](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart2) ❌ Closed - TDT4237
 
   |                                                  |                                                        |
   |--------------------------------------------------|--------------------------------------------------------|
@@ -364,7 +364,7 @@ A comprehensive series covering secure development practices and application-lev
   | Risk analysis threat dimensions                  | Zero-day exploit description                           |
 
 
-- [Software Security – Part 3](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart3) - TDT4237
+- [Software Security – Part 3](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart3) ❌ Closed - TDT4237
 
   |                                                 |                                                    |
   |-------------------------------------------------|----------------------------------------------------|
@@ -381,7 +381,7 @@ A comprehensive series covering secure development practices and application-lev
   | Password policy enforcement in Django           | Secure logging and monitoring configuration        |
 
 
-- [Software Security – Part 4](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart4) - TDT4237
+- [Software Security – Part 4](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart4) ❌ Closed - TDT4237
   
   |                                                  |                                                       |
   |--------------------------------------------------|-------------------------------------------------------|
@@ -393,7 +393,7 @@ A comprehensive series covering secure development practices and application-lev
   | GDPR key points and legal bases                  | GDPR breach notification requirements                 |
 
 
-- [Software Security - Part 5](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart5) - TDT4237
+- [Software Security - Part 5](https://www.flexiquiz.com/SC/N/SoftwareSecurityPart5) ❌ Closed - TDT4237
 
   |                                       |                                                     |
   |---------------------------------------|-----------------------------------------------------|
@@ -443,7 +443,7 @@ A deep dive into common web vulnerabilities and how to prevent them.
 
 ### > Web Security – Part 1
 ---  
-- Quiz: [Web Security – Part 1](https://www.flexiquiz.com/SC/N/WebSecPart1) - TDT4237
+- Quiz: [Web Security – Part 1](https://www.flexiquiz.com/SC/N/WebSecPart1) ✅ Open - TDT4237
 
   |                                              |                                                     |
   |----------------------------------------------|-----------------------------------------------------|
@@ -456,7 +456,7 @@ A deep dive into common web vulnerabilities and how to prevent them.
 
 ### > Web Security – Part 2
 ---  
-- Quiz: [Web Security – Part 2](https://www.flexiquiz.com/SC/N/WebSecPart2) - TDT4237
+- Quiz: [Web Security – Part 2](https://www.flexiquiz.com/SC/N/WebSecPart2) ✅ Open - TDT4237
 
   |                                      |                                                     |
   |--------------------------------------|-----------------------------------------------------|
@@ -469,7 +469,7 @@ A deep dive into common web vulnerabilities and how to prevent them.
 
 ### > Web Security – Part 3
 ---  
-- Quiz: [Web Security – Part 3](https://www.flexiquiz.com/SC/N/WebSecPart3) - TDT4237
+- Quiz: [Web Security – Part 3](https://www.flexiquiz.com/SC/N/WebSecPart3) ❌ Closed - TDT4237
 
   |                                                  |                                                      |
   |--------------------------------------------------|------------------------------------------------------|
@@ -483,7 +483,7 @@ A deep dive into common web vulnerabilities and how to prevent them.
 
 ### > Web Security – Part 4
 ---  
-- Quiz: [Web Security – Part 4](https://www.flexiquiz.com/SC/N/WebSecPart4) - TDT4237
+- Quiz: [Web Security – Part 4](https://www.flexiquiz.com/SC/N/WebSecPart4) ❌ Closed - TDT4237
  
   |                                   |                                     |
   |-----------------------------------|-------------------------------------|
@@ -543,18 +543,18 @@ A deep dive into common web vulnerabilities and how to prevent them.
 
 **Directly lecture related short quizes:**
 --
-- [TDT4120 - Lecture 1 – Problems og algorithms](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson1)
-- [TDT4120 - Lecture 2 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson2)
-- [TDT4120 - Lesson 2 - Extra 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson2extra1)
-- [TDT4120 - Lecture 3-1 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson3part1)
-- [TDT4120 - Lecture 3-2 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson3part2)
+- [TDT4120 - Lecture 1 – Problems og algorithms](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson1) ✅ Open
+- [TDT4120 - Lecture 2 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson2) ✅ Open
+- [TDT4120 - Lesson 2 - Extra 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson2extra1) ✅ Open
+- [TDT4120 - Lecture 3-1 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson3part1) ✅ Open
+- [TDT4120 - Lecture 3-2 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson3part2) ✅ Open
 
 
 ### > Algorithms and Data Structures – Part 1 - TDT4120
 ---
 *NP basics, loop invariants & correctness, simple algorithms (selection/linear search), Master Theorem template, and order-of-growth ranking.*
 
-Quiz: [Algorithms and Data Structures – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat1)
+Quiz: [Algorithms and Data Structures – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat1) ✅ Open
 
 **Covers & focus**
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer) ← **highest focus**
@@ -580,7 +580,7 @@ Quiz: [Algorithms and Data Structures – Part 1](https://dev-quizmachine.itauto
 ---
 *Asymptotic notation, sorting runtimes, greedy property, SSSP (Dijkstra vs Bellman–Ford), MST (Kruskal), and flow basics.*
 
-Quiz: [Algorithms and Data Structures – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat2)
+Quiz: [Algorithms and Data Structures – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat2) ✅ Open
 
 **Covers & focus**
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
@@ -609,7 +609,7 @@ Quiz: [Algorithms and Data Structures – Part 2](https://dev-quizmachine.itauto
 ---
 *Greedy algorithms, sorting family (QS/Rand-QS/Select/Heap/Merge/Insertion), data structures (heaps vs BSTs, splay), asymptotics & NP, MST/flow basics, and the Master Theorem.*
 
-Quiz: [Algorithms and Data Structures – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat3)
+Quiz: [Algorithms and Data Structures – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat3) ✅ Open
 
 **Covers & focus**
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
@@ -641,7 +641,7 @@ Quiz: [Algorithms and Data Structures – Part 3](https://dev-quizmachine.itauto
 ---
 *Asymptotic notation & properties, lower bounds via crossings, little-o/ω, Master Theorem basics, and merge-sort recurrence.*
 
-Quiz: [Algorithms and Data Structures – Part 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat4)
+Quiz: [Algorithms and Data Structures – Part 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat4) ✅ Open
 
 **Covers & focus**
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
@@ -669,7 +669,7 @@ Quiz: [Algorithms and Data Structures – Part 4](https://dev-quizmachine.itauto
 ---
 *Asymptotics and relations, divide-and-conquer sorting, linear-time sorting, pivot strategies, and rooted-tree representations.*
 
-Quiz: [Algorithms and Data Structures – Part 5](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat5)
+Quiz: [Algorithms and Data Structures – Part 5](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat5) ✅ Open
 
 **Covers & focus**
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
@@ -695,7 +695,7 @@ Quiz: [Algorithms and Data Structures – Part 5](https://dev-quizmachine.itauto
 ---
 *Rooted trees, heaps, BSTs, heapsort, priority queues in Prim, and spanning trees.*
 
-Quiz: [Algorithms and Data Structures – Part 6](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat6)
+Quiz: [Algorithms and Data Structures – Part 6](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat6) ✅ Open
 
 **Covers & focus**
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
@@ -727,7 +727,7 @@ Quiz: [Algorithms and Data Structures – Part 6](https://dev-quizmachine.itauto
 ---
 *Dynamic programming: ideas, design steps, rod cutting, LCS, 0/1 knapsack; graph add-ons (odd cycles, Floyd–Warshall tweaks); hardness via reductions.*
 
-Quiz: [Algorithms and Data Structures – Part 7](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat7)
+Quiz: [Algorithms and Data Structures – Part 7](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat7) ✅ Open
 
 **Covers & focus**
 - [Lecture 6 – Dynamisk programmering](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-6---dynamisk-programmering) ← **highest focus**
@@ -763,7 +763,7 @@ Quiz: [Algorithms and Data Structures – Part 7](https://dev-quizmachine.itauto
 ---
 *Asymptotics, comparisons, master theorem, comparison-based sorting, reductions, and a small LP case.*
 
-Quiz: [Algorithms and Data Structures – Part 8](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat8)
+Quiz: [Algorithms and Data Structures – Part 8](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat8) ✅ Open
 
 **Covers & focus**
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
@@ -790,7 +790,7 @@ Quiz: [Algorithms and Data Structures – Part 8](https://dev-quizmachine.itauto
 ---
 *Asymptotics, Master Theorem, dynamic programming (rod cutting & grid paths), DP suitability, DAG longest path, and bounded knapsack.*
 
-Quiz: [Algorithms and Data Structures – Part 9](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat9)
+Quiz: [Algorithms and Data Structures – Part 9](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat9) ✅ Open
 
 **Covers & focus**
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
@@ -831,7 +831,7 @@ Quiz: [Algorithms and Data Structures – Part 9](https://dev-quizmachine.itauto
 
 **Highest focus:** Lecture 5 – Rotfaste trestrukturer
 
-Quiz: [Algorithms and Data Structures – Part 10](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat10)
+Quiz: [Algorithms and Data Structures – Part 10](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat10) ✅ Open
 
 | Topic  | Key results & reminders (condensed) |
 |---|---|
@@ -855,7 +855,7 @@ Quiz: [Algorithms and Data Structures – Part 10](https://dev-quizmachine.itaut
 ---
 *Asymptotic ranking, DP suitability, greedy methods (activity selection, Huffman), MST basics (Kruskal, safe edges), shortest paths, and optimal merging.*  
 
-Quiz: [Algorithms and Data Structures – Part 11](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat11)
+Quiz: [Algorithms and Data Structures – Part 11](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat11) ✅ Open
 
 **Covers & focus**
 - [Lecture 1 – Problem og algoritmer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-1---problem-og-algoritmer)
@@ -887,7 +887,7 @@ Quiz: [Algorithms and Data Structures – Part 11](https://dev-quizmachine.itaut
 ---
 *Graph representations, BFS/DFS, topological sort, shortest paths on unweighted puzzles, and strongly connected components.*
 
-Quiz: [Algorithms and Data Structures – Part 12](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat12)
+Quiz: [Algorithms and Data Structures – Part 12](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat12) ✅ Open
 
 **Covers & focus**
 - [Lecture 8 – Traversering av grafer](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-8---traversering-av-grafer) ← **highest focus**
@@ -916,7 +916,7 @@ Quiz: [Algorithms and Data Structures – Part 12](https://dev-quizmachine.itaut
 ---
 *Disjoint-set forests (union–find), MST cut/cycle properties, Kruskal/Prim runtimes, and “safe edge” reasoning.*
 
-Quiz: [Algorithms and Data Structures – Part 13](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat13)
+Quiz: [Algorithms and Data Structures – Part 13](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat13) ✅ Open
 
 **Covers & focus**
 - [Lecture 9 – Minimale spenntrær](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-9---minimale-spenntr%C3%A6r) ← **highest focus**
@@ -942,7 +942,7 @@ Quiz: [Algorithms and Data Structures – Part 13](https://dev-quizmachine.itaut
 ---
 *Single-source shortest paths: DAG-SP, Dijkstra, relax/parent logic, queues & heaps (binary vs Fibonacci), and SSSP workflow details.*
 
-Quiz: [Algorithms and Data Structures – Part 14](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat14)
+Quiz: [Algorithms and Data Structures – Part 14](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat14) ✅ Open
 
 **Covers & focus**
 - [Lecture 10 – Korteste vei fra én til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-10---korteste-vei-fra-%C3%A9n-til-alle) ← **Highest focus**
@@ -967,7 +967,7 @@ Quiz: [Algorithms and Data Structures – Part 14](https://dev-quizmachine.itaut
 ---
 *All-pairs shortest paths (APSP): repeated Dijkstra vs Floyd–Warshall, predecessor matrices, transitive closure, shortest-path trees vs MSTs, and one voting-graph detour (Schulze).*
 
-Quiz: [Algorithms and Data Structures – Part 15](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat15)
+Quiz: [Algorithms and Data Structures – Part 15](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat15) ✅ Open
 
 **Covers & focus**
 - [Lecture 10 – Korteste vei fra én til alle](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-10---korteste-vei-fra-%C3%A9n-til-alle)
@@ -994,7 +994,7 @@ Quiz: [Algorithms and Data Structures – Part 15](https://dev-quizmachine.itaut
 ---
 *Max-flow & min-cut, residual networks, Edmonds–Karp, modeling tricks (production, matching, assignments), circulations with lower bounds, and a Warshall step for transitive closure.*
 
-Quiz: [Algorithms and Data Structures – Part 16](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat16)
+Quiz: [Algorithms and Data Structures – Part 16](https://dev-quizmachine.itautomasjon.no/Quiz/Take/algdat16) ✅ Open
 
 **Covers & focus**
 - [Lecture 12 – Maksimal flyt](https://github.com/henrhoi/Algdat-TDT4120?tab=readme-ov-file#forelesning-12---maksimal-flyt) ← **Highest focus**
@@ -1053,9 +1053,9 @@ Quiz: [Algorithms and Data Structures – Part 16](https://dev-quizmachine.itaut
 
 **Directly assignment related short quizes:**
 --
-- [TDT4136 - Assignment 1 Learning – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136assignment1learningpart1) — Setup & uninformed search (BFS, DFS, UCS)
-- [TDT4136 - Assignment 1 Learning – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136assignment1learningpart2) — Informed search (Greedy Best-First, A*)
-- [TDT4136 - Assignment 1 Learning – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136assignment1learningpart3) — A*, admissibility and consistency
+- [TDT4136 - Assignment 1 Learning – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136assignment1learningpart1) ✅ Open — Setup & uninformed search (BFS, DFS, UCS)
+- [TDT4136 - Assignment 1 Learning – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136assignment1learningpart2) ✅ Open — Informed search (Greedy Best-First, A*)
+- [TDT4136 - Assignment 1 Learning – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136assignment1learningpart3) ✅ Open — A*, admissibility and consistency
 - [TDT4136 - Assignment 2 Learning](https://dev-quizmachine.itautomasjon.no/p/tdt4136assignment2learning) - Constraint Satisfaction Problems
 
 **Assignment 1 – Search Algorithms:**  
@@ -1129,10 +1129,10 @@ references are to *Artificial Intelligence: A Modern Approach* — Breadth-First
 
 ### > Model-Driven Development – Part 1 - TDT4250
 ---
-*Dedicated to [Lecture 1 – Introduction to MDE](https://www.flexiquiz.com/SC/N/ModelDrivenDev1).*  
+*Dedicated to [Lecture 1 – Introduction to MDE](https://www.flexiquiz.com/SC/N/ModelDrivenDev1) ✅ Open.*  
 *Reflects [Schmidt 2006](https://ieeexplore.ieee.org/document/1610613) and [Whittle et al. 2014](https://ieeexplore.ieee.org/document/6824042).*  
 
-Quiz: [Model-Driven Development – Part 1](https://www.flexiquiz.com/SC/N/ModelDrivenDev1)  
+Quiz: [Model-Driven Development – Part 1](https://www.flexiquiz.com/SC/N/ModelDrivenDev1) ✅ Open  
 
   |                                                  |                                                         |
   |--------------------------------------------------|---------------------------------------------------------|
@@ -1150,10 +1150,10 @@ Quiz: [Model-Driven Development – Part 1](https://www.flexiquiz.com/SC/N/Model
 
 ### > Software Product Lines – Part 2 - TDT4250
 ---
-*Dedicated to [Lecture 2 – Software Product Lines](https://www.flexiquiz.com/SC/N/ModelDrivenDev2).*  
+*Dedicated to [Lecture 2 – Software Product Lines](https://www.flexiquiz.com/SC/N/ModelDrivenDev2) ❌ Closed.*  
 *Reflects [Apel et al. 2013, *Feature-Oriented Software Product Lines*](https://link.springer.com/book/10.1007/978-3-642-37521-7).*  
 
-Quiz: [Software Product Lines – Part 2](https://www.flexiquiz.com/SC/N/ModelDrivenDev2)  
+Quiz: [Software Product Lines – Part 2](https://www.flexiquiz.com/SC/N/ModelDrivenDev2) ❌ Closed  
 
   |                                                  |                                                                 |
   |--------------------------------------------------|-----------------------------------------------------------------|
@@ -1168,10 +1168,10 @@ Quiz: [Software Product Lines – Part 2](https://www.flexiquiz.com/SC/N/ModelDr
 
 ### > Variability Implementation – Part 3 - TDT4250
 ---
-*Dedicated to [Lecture 3 – Variability Implementation](https://www.flexiquiz.com/SC/N/ModelDrivenDev3).*  
+*Dedicated to [Lecture 3 – Variability Implementation](https://www.flexiquiz.com/SC/N/ModelDrivenDev3) ❌ Closed.*  
 *Reflects [Apel et al. 2013, *Feature-Oriented Software Product Lines*](https://link.springer.com/book/10.1007/978-3-642-37521-7).*  
 
-Quiz: [Variability Implementation – Part 3](https://www.flexiquiz.com/SC/N/ModelDrivenDev3)  
+Quiz: [Variability Implementation – Part 3](https://www.flexiquiz.com/SC/N/ModelDrivenDev3) ❌ Closed  
 
   |                                                  |                                                                 |
   |--------------------------------------------------|-----------------------------------------------------------------|
@@ -1189,10 +1189,10 @@ Quiz: [Variability Implementation – Part 3](https://www.flexiquiz.com/SC/N/Mod
 
 ### > Variability with Parameters – Classic Language-Based Mechanism - Part 4 - TDT4250
 ---
-*Dedicated to [Lecture 4 – Parameters](https://www.flexiquiz.com/SC/N/ModelDrivenDev4).*  
+*Dedicated to [Lecture 4 – Parameters](https://www.flexiquiz.com/SC/N/ModelDrivenDev4) ❌ Closed.*  
 *Reflects [Apel et al. 2013, *Feature-Oriented Software Product Lines*](https://link.springer.com/book/10.1007/978-3-642-37521-7).*  
 
-Quiz: [Variability Implementation – Part 4](https://www.flexiquiz.com/SC/N/ModelDrivenDev4)  
+Quiz: [Variability Implementation – Part 4](https://www.flexiquiz.com/SC/N/ModelDrivenDev4) ❌ Closed  
 
   |                                                  |                                                                 |
   |--------------------------------------------------|-----------------------------------------------------------------|
@@ -1210,10 +1210,10 @@ Quiz: [Variability Implementation – Part 4](https://www.flexiquiz.com/SC/N/Mod
 
 ### > Domain-Specific Languages – Modeling and Metamodeling - Part 5 - TDT4250
 ---
-*Dedicated to [Lecture 5 – Domain-Specific Languages](https://www.flexiquiz.com/SC/N/ModelDrivenDev5).*  
+*Dedicated to [Lecture 5 – Domain-Specific Languages](https://www.flexiquiz.com/SC/N/ModelDrivenDev5) ❌ Closed.*  
 *Reflects [Apel et al. 2013, *Feature-Oriented Software Product Lines*](https://link.springer.com/book/10.1007/978-3-642-37521-7).*  
 
-Quiz: [Variability Implementation – Part 5](https://www.flexiquiz.com/SC/N/ModelDrivenDev5)  
+Quiz: [Variability Implementation – Part 5](https://www.flexiquiz.com/SC/N/ModelDrivenDev5) ❌ Closed  
 
   |                                                  |                                                                 |
   |--------------------------------------------------|-----------------------------------------------------------------|
@@ -1231,10 +1231,10 @@ Quiz: [Variability Implementation – Part 5](https://www.flexiquiz.com/SC/N/Mod
 
 ### > MOF & Model-Driven Architecture (MDA) - Part 6 - TDT4250  
 ---  
-*Dedicated to [Lecture 6 – MOF and the Model-Driven Architecture (MDA)](https://www.flexiquiz.com/SC/N/ModelDrivenDev6).*  
+*Dedicated to [Lecture 6 – MOF and the Model-Driven Architecture (MDA)](https://www.flexiquiz.com/SC/N/ModelDrivenDev6) ✅ Open.*  
 *Reflects OMG MDA principles and the MOF/eMOF foundations.*  
 
-Quiz: [MOF & MDA – Part 6](https://www.flexiquiz.com/SC/N/ModelDrivenDev6)  
+Quiz: [MOF & MDA – Part 6](https://www.flexiquiz.com/SC/N/ModelDrivenDev6) ✅ Open  
 
   |                                                  |                                                                 |
   |--------------------------------------------------|-----------------------------------------------------------------|
@@ -1249,10 +1249,10 @@ Quiz: [MOF & MDA – Part 6](https://www.flexiquiz.com/SC/N/ModelDrivenDev6)
 
 ### > Eclipse Modeling Framework (EMF) & Ecore - Part 7 - TDT4250  
 ---  
-*Dedicated to [Lecture 7 – Eclipse Modeling Framework (EMF)](https://www.flexiquiz.com/SC/N/ModelDrivenDev7).*  
+*Dedicated to [Lecture 7 – Eclipse Modeling Framework (EMF)](https://www.flexiquiz.com/SC/N/ModelDrivenDev7) ✅ Open.*  
 *Based on the EMF/Ecore lecture material and examples.*  
 
-Quiz: [EMF & Ecore – Part 7](https://www.flexiquiz.com/SC/N/ModelDrivenDev7)  
+Quiz: [EMF & Ecore – Part 7](https://www.flexiquiz.com/SC/N/ModelDrivenDev7) ✅ Open  
 
   |                                                  |                                                                 |
   |--------------------------------------------------|-----------------------------------------------------------------|
@@ -1299,10 +1299,10 @@ Quiz: [EMF & Ecore – Part 7](https://www.flexiquiz.com/SC/N/ModelDrivenDev7)
 
 ### > Information Systems – Part 1 - TDT4175
 ---
-*Dedicated to [Lecture 1 – Introduction to Information Systems](https://www.flexiquiz.com/SC/N/infosystems1).*  
+*Dedicated to [Lecture 1 – Introduction to Information Systems](https://www.flexiquiz.com/SC/N/infosystems1) ❌ Closed.*  
 *Reflects core TDT4175 topics: IS types, ERP, strategy & process improvement, requirements & BPMN, ethics.*
 
-Quiz: [Information Systems – Part 1](https://www.flexiquiz.com/SC/N/infosystems1)
+Quiz: [Information Systems – Part 1](https://www.flexiquiz.com/SC/N/infosystems1) ❌ Closed
 
 |                                                  |                                                                                             |
 |--------------------------------------------------|---------------------------------------------------------------------------------------------|
@@ -1322,10 +1322,10 @@ Quiz: [Information Systems – Part 1](https://www.flexiquiz.com/SC/N/infosystem
 
 ### > Information Systems – Part 2 - TDT4175
 ---
-*Dedicated to [Lecture 2 – Information Systems in Organizations](https://www.flexiquiz.com/SC/N/infosystems2).*  
+*Dedicated to [Lecture 2 – Information Systems in Organizations](https://www.flexiquiz.com/SC/N/infosystems2) ❌ Closed.*  
 *Reflects core TDT4175 Lesson 2 topics: value chain, SCM/CRM, org structures, change & sourcing, BPR vs CI, diffusion/infusion, applications portfolio, alignment & strategy, evaluation & roles.*
 
-Quiz: [Information Systems – Part 2](https://www.flexiquiz.com/SC/N/infosystems2)
+Quiz: [Information Systems – Part 2](https://www.flexiquiz.com/SC/N/infosystems2) ❌ Closed
 
 |                                                  |                                                                                             |
 |--------------------------------------------------|---------------------------------------------------------------------------------------------|
@@ -1350,10 +1350,10 @@ Quiz: [Information Systems – Part 2](https://www.flexiquiz.com/SC/N/infosystem
 
 ### > Information Systems – Part 3 - TDT4175
 ---
-*Dedicated to [Lecture 3 – Business Process Modeling & Value Framework](https://www.flexiquiz.com/SC/N/infosystems3).*  
+*Dedicated to [Lecture 3 – Business Process Modeling & Value Framework](https://www.flexiquiz.com/SC/N/infosystems3) ❌ Closed.*  
 *Reflects core TDT4175 Lesson 3 topics: process modeling goals, SEQUAL framework, quality dimensions, modeling languages/methods/tools, value framework, participatory techniques, BPMN evaluation, and big data perspectives.*
 
-Quiz: [Information Systems – Part 3](https://www.flexiquiz.com/SC/N/infosystems3)
+Quiz: [Information Systems – Part 3](https://www.flexiquiz.com/SC/N/infosystems3) ❌ Closed
 
 |                                                  |                                                                                             |
 |--------------------------------------------------|---------------------------------------------------------------------------------------------|
@@ -1382,10 +1382,10 @@ Quiz: [Information Systems – Part 3](https://www.flexiquiz.com/SC/N/infosystem
 
 ### > Information Systems – Part 4 - TDT4175
 ---
-*Dedicated to [Lecture 4 – Business Process Modeling: Method & Style](https://www.flexiquiz.com/SC/N/infosystems4).*  
+*Dedicated to [Lecture 4 – Business Process Modeling: Method & Style](https://www.flexiquiz.com/SC/N/infosystems4) ❌ Closed.*  
 *Reflects core TDT4175 Lesson 4 topics: Business Process Model and Notation (BPMN) Method and Style (Chapters 1–6 of Bruce Silver), Level-1 palette, top-down modeling method, style rules for clarity and traceability, message flows and pools, end states, and practical modelling exercises.*
 
-Quiz: [Information Systems – Part 4](https://www.flexiquiz.com/SC/N/infosystems4)
+Quiz: [Information Systems – Part 4](https://www.flexiquiz.com/SC/N/infosystems4) ❌ Closed
 
 |                                                  |                                                                                             |
 |--------------------------------------------------|---------------------------------------------------------------------------------------------|
@@ -1412,7 +1412,7 @@ Quiz: [Information Systems – Part 4](https://www.flexiquiz.com/SC/N/infosystem
 ---
 *SEQUAL (semiotic quality), Lean value-stream thinking, conceptual & meta-modeling, coordination choices, and the EA lens.*  
 
-Quiz: [Information Systems – Part 5](https://www.flexiquiz.com/SC/N/infosystems5)
+Quiz: [Information Systems – Part 5](https://www.flexiquiz.com/SC/N/infosystems5) ✅ Open
 
 Lesson: **TDT4175 – Information Systems (Lesson 5)**
 
@@ -1435,7 +1435,7 @@ Lesson: **TDT4175 – Information Systems (Lesson 5)**
 ---
 *Operational systems (TPS/ERP/SCM/CRM), digital channels, and decision-support layers (MIS/DSS/GSS/ESS).*  
 
-Quiz: [Information Systems – Part 6](https://www.flexiquiz.com/SC/N/infosystems6)
+Quiz: [Information Systems – Part 6](https://www.flexiquiz.com/SC/N/infosystems6) ✅ Open
 
 Lesson: **TDT4175 – Information Systems (Lesson 6)**
 
@@ -1459,7 +1459,7 @@ Lesson: **TDT4175 – Information Systems (Lesson 6)**
 ---
 *From integrated operations to managerial/executive decision support, knowledge management, and expert systems.*  
 
-Quiz: [Information Systems – Part 7](https://www.flexiquiz.com/SC/N/infosystems7)
+Quiz: [Information Systems – Part 7](https://www.flexiquiz.com/SC/N/infosystems7) ✅ Open
 
 Lesson: **TDT4175 – Information Systems (Lesson 7)**
 
@@ -1482,7 +1482,7 @@ Lesson: **TDT4175 – Information Systems (Lesson 7)**
 ---
 *Knowledge management (KM), expert/specialized IS, pervasive/mobile computing, and computer-supported cooperative work (CSCW).*  
 
-Quiz: [Information Systems – Part 8](https://www.flexiquiz.com/SC/N/infosystems8)
+Quiz: [Information Systems – Part 8](https://www.flexiquiz.com/SC/N/infosystems8) ✅ Open
 
 Lesson: **TDT4175 – Information Systems (Lesson 8)**
 
@@ -1507,7 +1507,7 @@ Lesson: **TDT4175 – Information Systems (Lesson 8)**
 ---
 *BPMN modeling quality (pools/lanes, syntax vs semantics), mapping roles to information systems, data–information–knowledge, information quality, analytics/monitoring, and change & innovation (BPR, e-commerce types).*
 
-Quiz: [TDT4175 Information Systems – Exam 2024](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175exam2024quizversion)
+Quiz: [TDT4175 Information Systems – Exam 2024](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175exam2024quizversion) ✅ Open
 
 **Covers & focus**
 - Lesson 5 — SEQUAL, modeling goals/means, BPMN quality, Lean value stream mapping
@@ -1536,7 +1536,7 @@ Quiz: [TDT4175 Information Systems – Exam 2024](https://dev-quizmachine.itauto
 ---
 *Hospital surgical-department case covering BPMN scope and model quality, operational and decision-support systems, data–information–knowledge, process mining, knowledge management, sustainability, and what-if analysis.*
 
-Quiz: [TDT4175 Information Systems – Exam 2025 (Autumn)](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175exam2025autumn)
+Quiz: [TDT4175 Information Systems – Exam 2025 (Autumn)](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175exam2025autumn) ✅ Open
 
 **Covers & focus**
 
@@ -1565,7 +1565,7 @@ Quiz: [TDT4175 Information Systems – Exam 2025 (Autumn)](https://dev-quizmachi
 ---
 *Cross-topic practice on data–information–knowledge, BPMN model quality and gateways, SUSAF, information-system types, enterprise architecture, and knowledge management.*
 
-Quiz: [TDT4175 Information Systems – Various Knowledge #1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175variousknowledge1)
+Quiz: [TDT4175 Information Systems – Various Knowledge #1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175variousknowledge1) ✅ Open
 
 **Covers & focus**
 
@@ -1697,10 +1697,10 @@ Quiz: [TDT4175 Information Systems – Various Knowledge #3](http://dev-quizmach
 
 ### > Applied Data Science – Part 3 - TDT4259
 ---
-*Dedicated to [Lecture 3 – Lifecycle of a Data Science Project](https://www.flexiquiz.com/SC/N/applieddatascience3).*  
+*Dedicated to [Lecture 3 – Lifecycle of a Data Science Project](https://www.flexiquiz.com/SC/N/applieddatascience3) ❌ Closed.*  
 *Reflects core TDT4259 Lesson 3 topics: CRISP-DM methodology, data analytics types, one-pagers & design docs, business understanding, data understanding, data preparation, Aneo grid loss case study, and monitoring & maintenance.*
 
-Quiz: [Applied Data Science – Part 3](https://www.flexiquiz.com/SC/N/applieddatascience3)
+Quiz: [Applied Data Science – Part 3](https://www.flexiquiz.com/SC/N/applieddatascience3) ❌ Closed
 
 |                                                  |                                                                                             |
 |--------------------------------------------------|---------------------------------------------------------------------------------------------|
@@ -1721,10 +1721,10 @@ Quiz: [Applied Data Science – Part 3](https://www.flexiquiz.com/SC/N/appliedda
 
 ### > Applied Data Science – Part 4 - TDT4259
 ---
-*Dedicated to [Lecture 4 – Data → Features → Algorithms](https://www.flexiquiz.com/SC/N/applieddatascience_4).*  
+*Dedicated to [Lecture 4 – Data → Features → Algorithms](https://www.flexiquiz.com/SC/N/applieddatascience_4) ❌ Closed.*  
 *Reflects core TDT4259 Lesson 4 topics: variables → features, feature engineering, missingness & low-variance filters, scaling/normalization, PCA, supervised vs unsupervised, core algorithms (k-NN, SVM, trees, Naïve Bayes, neural nets), evaluation metrics, and a leakage-free pipeline.*
 
-Quiz: [Applied Data Science – Part 4](https://www.flexiquiz.com/SC/N/applieddatascience_4)
+Quiz: [Applied Data Science – Part 4](https://www.flexiquiz.com/SC/N/applieddatascience_4) ❌ Closed
 
 |                                                  |                                                                                             |
 |--------------------------------------------------|---------------------------------------------------------------------------------------------|
@@ -1796,7 +1796,7 @@ uxqb.org
 
 In other words, every question in this 40-item exam is drawn either from the public CPUX-F question set or directly from the official CPUX-F Curriculum & Glossary document, exactly as prescribed for TDT4180’s UXQB-F/CPUX-F module.
 
-- [CPUX-F - Test 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/cpux-f-test1) - TDT4180
+- [CPUX-F - Test 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/cpux-f-test1) ✅ Open - TDT4180
 
   |                               |                                   |
   |-------------------------------|-----------------------------------|
@@ -1812,7 +1812,7 @@ In other words, every question in this 40-item exam is drawn either from the pub
   | Stakeholders                  | User groups & roles               |
 
 
-- [CPUX-F - Test 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/cpux-f-test2) - TDT4180
+- [CPUX-F - Test 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/cpux-f-test2) ✅ Open - TDT4180
 
   |                              |                             |
   |------------------------------|-----------------------------|
@@ -1827,9 +1827,9 @@ In other words, every question in this 40-item exam is drawn either from the pub
   | Storyboards                  | Master-apprentice principle |
   | Error tolerance              | Dialogue principles         |
 
-- [CPUX-F - Test 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/cpux-f-test3) - TDT4180
-- [CPUX-F - Test 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/cpux-f-test4) - TDT4180
-- [CPUX-F - Test 5](https://dev-quizmachine.itautomasjon.no/Quiz/Take/cpux-f-test5) - TDT4180
+- [CPUX-F - Test 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/cpux-f-test3) ✅ Open - TDT4180
+- [CPUX-F - Test 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/cpux-f-test4) ✅ Open - TDT4180
+- [CPUX-F - Test 5](https://dev-quizmachine.itautomasjon.no/Quiz/Take/cpux-f-test5) ✅ Open - TDT4180
 
 </details>
 
@@ -1879,7 +1879,7 @@ Based on previous exam questions in the subject [TDT4240 – Software Architectu
 ---
 *Reflects the 2018 Software Architecture exam, Part 1 (Problems 1–3, first 28 questions). Exam paper and solution paper are hosted on NTNU Blackboard ([exam](https://ntnu.blackboard.com/bbcswebdav/pid-2980895-dt-content-rid-89339566_1/xid-89339566_1), [solutions](https://ntnu.blackboard.com/bbcswebdav/pid-2980895-dt-content-rid-89339567_1/xid-89339567_1) – NTNU login required).*
 
-Quiz: [Software Architecture Exam 2018 – Part 1](https://www.flexiquiz.com/SC/N/TDT4240_1)
+Quiz: [Software Architecture Exam 2018 – Part 1](https://www.flexiquiz.com/SC/N/TDT4240_1) ❌ Closed
 
 |                                       |                                                                                 |
 |---------------------------------------|---------------------------------------------------------------------------------|
@@ -1913,7 +1913,7 @@ Quiz: [Software Architecture Exam 2018 – Part 1](https://www.flexiquiz.com/SC/
 ---
 *12 questions from the 2019 NTNU exam, Part 1.*
 
-Quiz: [Software Architecture Exam 2019 – Part 1](https://www.flexiquiz.com/SC/N/TDT4240_2)
+Quiz: [Software Architecture Exam 2019 – Part 1](https://www.flexiquiz.com/SC/N/TDT4240_2) ❌ Closed
 
 |                                       |                                                                                 |
 |---------------------------------------|---------------------------------------------------------------------------------|
@@ -1936,7 +1936,7 @@ Quiz: [Software Architecture Exam 2019 – Part 1](https://www.flexiquiz.com/SC/
 ---
 *Tail of Part 1, plus Problem 2 (pattern selection), Problem 3 (QA scenarios for the Norwegian health portal), and two bonus questions on the "Big 7" QAs.*
 
-Quiz: [Software Architecture Exam 2019 – Part 2](https://www.flexiquiz.com/SC/N/TDT4240_3)
+Quiz: [Software Architecture Exam 2019 – Part 2](https://www.flexiquiz.com/SC/N/TDT4240_3) ❌ Closed
 
 |                                       |                                                                                 |
 |---------------------------------------|---------------------------------------------------------------------------------|
@@ -1956,7 +1956,7 @@ Quiz: [Software Architecture Exam 2019 – Part 2](https://www.flexiquiz.com/SC/
 ---
 *Full rehearsal of the 2020 NTNU exam. Problem 1 walks through designing the Distributed Board Game Platform (DBGP) end-to-end (ASRs, patterns, tactics, logical view, process view, rationale). Problem 2 covers Architecture for the Edge.*
 
-Quiz: [Software Architecture Exam 2020 – Part 4](https://www.flexiquiz.com/SC/N/TDT4240_4)
+Quiz: [Software Architecture Exam 2020 – Part 4](https://www.flexiquiz.com/SC/N/TDT4240_4) ❌ Closed
 
 |                                                        |                                                                                                      |
 |--------------------------------------------------------|------------------------------------------------------------------------------------------------------|
@@ -2003,7 +2003,7 @@ Quiz: [Software Architecture Exam 2020 – Part 4](https://www.flexiquiz.com/SC/
 ---
 *Full rehearsal of the 2025 NTNU exam. Focuses on curriculum topics in TDT4240, including QA scenario construction, ASR identification, tactics and patterns, Kruchten 4+1 views (physical and logical), and architectural rationale.*
 
-Quiz: [Software Architecture Exam 2025 – Part 5](https://www.flexiquiz.com/SC/N/TDT4240_5)
+Quiz: [Software Architecture Exam 2025 – Part 5](https://www.flexiquiz.com/SC/N/TDT4240_5) ❌ Closed
 
 |                                                        |                                                                                                      |
 |--------------------------------------------------------|------------------------------------------------------------------------------------------------------|
