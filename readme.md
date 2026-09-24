@@ -139,25 +139,25 @@ A series focused on core software testing concepts, methodologies, and best prac
 **Code quality** – using static analysis, peer review, and refactoring.  
 **Verification & validation** – evaluating large-scale and AI-driven systems.  
 
-- [Software Testing and Quality Quiz – Part 1](https://dev-quizmachine.covecode.net/Quiz/Take/softwaretesting1) - TDT4242
+- [Software Testing and Quality Quiz – Part 1](https://dev-quizmachine.covecode.net/Quiz/Take/softwaretesting1) ✅ Open - TDT4242
   Covers basic testing terminology, unit testing, and manual testing fundamentals.
 
-- [Software Testing and Quality Quiz – Part 2](https://www.flexiquiz.com/SC/N/SoftwareTesting2) ❌ Closed - TDT4242
+- [Software Testing and Quality Quiz – Part 2](https://dev-quizmachine.covecode.net/Quiz/Take/softwaretesting2) ✅ Open - TDT4242
   Explores automated testing, integration testing, and test strategies.
 
-- [Software Testing and Quality Quiz – Part 3](https://www.flexiquiz.com/SC/N/SoftwareTesting3) ❌ Closed - TDT4242
+- [Software Testing and Quality Quiz – Part 3](https://dev-quizmachine.covecode.net/Quiz/Take/softwaretesting3) ✅ Open - TDT4242
   Delves into testing methodologies.
 
-- [Software Testing and Quality Quiz – Part 4](https://www.flexiquiz.com/SC/N/SoftwareTesting4) ❌ Closed - TDT4242
+- [Software Testing and Quality Quiz – Part 4](https://dev-quizmachine.covecode.net/Quiz/Take/softwaretesting4) ✅ Open - TDT4242
   Examines advanced topics like performance testing and test coverage metrics.
 
-- [Software Testing and Quality Quiz – Part 5](https://www.flexiquiz.com/SC/N/SoftwareTesting5) ❌ Closed - TDT4242
+- [Software Testing and Quality Quiz – Part 5](https://dev-quizmachine.covecode.net/Quiz/Take/softwaretesting5) ✅ Open - TDT4242
   Explores requirements engineering and test setup.
 
-- [Software Testing and Quality Quiz – Part 6](https://www.flexiquiz.com/SC/N/SoftwareTesting6) ❌ Closed - TDT4242
+- [Software Testing and Quality Quiz – Part 6](https://dev-quizmachine.covecode.net/Quiz/Take/softwaretesting6) ✅ Open - TDT4242
   Explores code smells, DU-coverage and Devops.
 
-- [Software Testing and Quality Quiz – Part 7](https://www.flexiquiz.com/SC/N/SoftwareTesting7) ❌ Closed - TDT4242
+- [Software Testing and Quality Quiz – Part 7](https://dev-quizmachine.covecode.net/Quiz/Take/softwaretesting7) ✅ Open - TDT4242
   Explores domain testing, code smells, sustainability, all-pair combinatorial tests, and Devops terms
   |                          |                                     |
   |--------------------------|-------------------------------------|
@@ -548,6 +548,10 @@ A deep dive into common web vulnerabilities and how to prevent them.
 - [TDT4120 - Lesson 2 - Extra 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson2extra1) ✅ Open
 - [TDT4120 - Lecture 3-1 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson3part1) ✅ Open
 - [TDT4120 - Lecture 3-2 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson3part2) ✅ Open
+- [TDT4120 - Lecture 4 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson4) ✅ Open
+- [TDT4120 - Lecture 4 Code – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson4code) ✅ Open
+- [TDT4120 - Lecture 5 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson5) ✅ Open
+- [TDT4120 - Lecture 5 Code – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson5code) ✅ Open
 
 
 ### > Algorithms and Data Structures – Part 1 - TDT4120
