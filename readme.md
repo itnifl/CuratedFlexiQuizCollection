@@ -589,10 +589,11 @@ A deep dive into common web vulnerabilities and how to prevent them.
 - [TDT4120 - Lesson 2 - Extra 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson2extra1) ✅ Open
 - [TDT4120 - Lecture 3-1 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson3part1) ✅ Open
 - [TDT4120 - Lecture 3-2 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson3part2) ✅ Open
-- [TDT4120 - Lecture 4 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson4) ✅ Open
-- [TDT4120 - Lecture 4 Code – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson4code) ✅ Open
-- [TDT4120 - Lecture 5 – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson5) ✅ Open
-- [TDT4120 - Lecture 5 Code – Datastructures](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson5code) ✅ Open
+- [TDT4120 - Lecture 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson4) ✅ Open
+- [TDT4120 - Lecture 4 Code](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson4code) ✅ Open
+- [TDT4120 - Lecture 5](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson5) ✅ Open
+- [TDT4120 - Lecture 5 Code](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson5code) ✅ Open
+- [TDT4120 - Lecture 5 Tree Invariants](https://dev-quizmachine.covecode.net/Quiz/Take/tree-invariants-and-properties) ✅ Open
 
 
 ### > Algorithms and Data Structures – Part 1 - TDT4120
