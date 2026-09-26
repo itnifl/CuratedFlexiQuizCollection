@@ -1391,7 +1391,7 @@ Quiz: [Information Systems – Part 3](https://dev-quizmachine.itautomasjon.no/Q
 
 ### > Information Systems – Part 4 - TDT4175
 ---
-*Dedicated to [Lecture 4 – Business Process Modeling: Method & Style](https://www.flexiquiz.com/SC/N/infosystems4) ❌ Closed.*  
+*Dedicated to [Lecture 4 – Business Process Modeling: Method & Style](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems4) ✅ Open.*  
 *Reflects core TDT4175 Lesson 4 topics: Business Process Model and Notation (BPMN) Method and Style (Chapters 1–6 of Bruce Silver), Level-1 palette, top-down modeling method, style rules for clarity and traceability, message flows and pools, end states, and practical modelling exercises.*
 
 Quiz: [Information Systems – Part 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems4) ✅ Open
@@ -1710,10 +1710,10 @@ Quiz: [TDT4175 Information Systems – Various Knowledge #3](http://dev-quizmach
 
 ### > Applied Data Science – Part 3 - TDT4259
 ---
-*Dedicated to [Lecture 3 – Lifecycle of a Data Science Project](https://www.flexiquiz.com/SC/N/applieddatascience3) ❌ Closed.*  
+*Dedicated to [Lecture 3 – Lifecycle of a Data Science Project](https://dev-quizmachine.itautomasjon.no/Quiz/Take/applieddatascience3) ✅ Open.*  
 *Reflects core TDT4259 Lesson 3 topics: CRISP-DM methodology, data analytics types, one-pagers & design docs, business understanding, data understanding, data preparation, Aneo grid loss case study, and monitoring & maintenance.*
 
-Quiz: [Applied Data Science – Part 3](https://www.flexiquiz.com/SC/N/applieddatascience3) ❌ Closed
+Quiz: [Applied Data Science – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/applieddatascience3) ✅ Open
 
 |                                                  |                                                                                             |
 |--------------------------------------------------|---------------------------------------------------------------------------------------------|
@@ -1734,10 +1734,10 @@ Quiz: [Applied Data Science – Part 3](https://www.flexiquiz.com/SC/N/appliedda
 
 ### > Applied Data Science – Part 4 - TDT4259
 ---
-*Dedicated to [Lecture 4 – Data → Features → Algorithms](https://www.flexiquiz.com/SC/N/applieddatascience_4) ❌ Closed.*  
+*Dedicated to [Lecture 4 – Data → Features → Algorithms](https://dev-quizmachine.itautomasjon.no/Quiz/Take/applieddatascience4) ❌ Closed.*  
 *Reflects core TDT4259 Lesson 4 topics: variables → features, feature engineering, missingness & low-variance filters, scaling/normalization, PCA, supervised vs unsupervised, core algorithms (k-NN, SVM, trees, Naïve Bayes, neural nets), evaluation metrics, and a leakage-free pipeline.*
 
-Quiz: [Applied Data Science – Part 4](https://www.flexiquiz.com/SC/N/applieddatascience_4) ❌ Closed
+Quiz: [Applied Data Science – Part 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/applieddatascience4) ❌ Closed
 
 |                                                  |                                                                                             |
 |--------------------------------------------------|---------------------------------------------------------------------------------------------|
