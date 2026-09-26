@@ -274,6 +274,45 @@ A general-purpose quiz on core C# language features and ASP.NET Core Web API dev
   | `with`-expressions on records            | `with` on `record struct` vs `record class`       |
   | `record class` vs `record struct`        | Inheritance & extending positional records        |
 
+- [C# and Web API Quiz – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/csharp-quiz-3) ✅ Open -
+  Contains 12 dynamically selected questions: four each from C# language fundamentals, records, and strings. Covers core type behavior, modern record types, equality, immutability, interpolation, and efficient string construction.
+  |                                             |                                               |
+  | ------------------------------------------- | --------------------------------------------- |
+  | Reference types and value types             | Default values and nullable value types       |
+  | `const` vs `readonly`                       | Null-conditional operators                    |
+  | `try` / `finally` execution                 | Switch expressions                            |
+  | Positional record classes                   | Compiler-generated record members             |
+  | Record value equality                       | `record class` vs `record struct`             |
+  | Mutable and `readonly record struct`        | `with`-expressions and nondestructive mutation |
+  | `System.String` behavior                    | String immutability                           |
+  | `StringBuilder` for repeated concatenation  | String interpolation and extension methods    |
+
+- [C# and Web API Quiz – Part 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/csharp-quiz-4) ✅ Open -
+  Contains 12 dynamically selected questions: four each from asynchronous programming, LINQ and data access, and ASP.NET Core services. Focuses on correct asynchronous behavior, efficient query execution, dependency injection, configuration, logging, and HTTP-client management.
+  |                                              |                                               |
+  | -------------------------------------------- | --------------------------------------------- |
+  | `Task<T>` and `ValueTask<T>`                 | Synchronous completion and allocation behavior |
+  | Consuming `ValueTask<T>` correctly           | Multiple-await and `.AsTask()` pitfalls       |
+  | `.Result` / `.Wait()` risks                  | `ConfigureAwait(false)` in reusable libraries |
+  | LINQ deferred execution                      | Iterator methods and `yield return`           |
+  | `IEnumerable<T>` vs `IQueryable<T>`          | Server-side EF Core query composition         |
+  | ASP.NET Core dependency-injection lifetimes  | Options pattern and configuration binding     |
+  | Structured logging                           | Message templates vs string interpolation     |
+  | `IHttpClientFactory`                         | Managing outgoing HTTP connections correctly  |
+
+- [C# and Web API Quiz – Part 5](https://dev-quizmachine.itautomasjon.no/Quiz/Take/csharp-quiz-5) ✅ Open -
+  Contains 12 dynamically selected questions: four each from ASP.NET Core Web APIs, HTTP and REST, and ASP.NET Core services. Covers controller behavior, routing, validation, authentication, REST semantics, CORS, dependency injection, configuration, logging, and external HTTP calls.
+  |                                              |                                               |
+  | -------------------------------------------- | --------------------------------------------- |
+  | `[ApiController]` behavior                   | Model binding and automatic validation        |
+  | Controller routing and route constraints     | Route, query, body, and header values          |
+  | `ControllerBase` and action return types     | Middleware ordering                           |
+  | Authorization and `[AllowAnonymous]`         | HTTP `401` vs `403`                            |
+  | HTTP methods and idempotency                 | REST-style resource design                    |
+  | JSON content types and serialization         | CORS for browser clients                      |
+  | Dependency-injection lifetimes               | Options pattern and configuration binding     |
+  | Structured logging and `IHttpClientFactory`  | Request cancellation and service reliability  |
+
 </details>
 
 [![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://en.wikipedia.org/wiki/C_Sharp_(programming_language))
