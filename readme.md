@@ -443,7 +443,8 @@ A deep dive into common web vulnerabilities and how to prevent them.
 
 ### > Web Security – Part 1
 ---  
-- Quiz: [Web Security – Part 1](https://www.flexiquiz.com/SC/N/WebSecPart1) ✅ Open - TDT4237
+- Quiz: [Web Security – Part 1 - v1](https://www.flexiquiz.com/SC/N/WebSecPart1) ✅ Open - TDT4237
+- Quiz: [Web Security – Part 1 - v2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/websecpart1) ✅ Open - TDT4237
 
   |                                              |                                                     |
   |----------------------------------------------|-----------------------------------------------------|
@@ -456,7 +457,8 @@ A deep dive into common web vulnerabilities and how to prevent them.
 
 ### > Web Security – Part 2
 ---  
-- Quiz: [Web Security – Part 2](https://www.flexiquiz.com/SC/N/WebSecPart2) ✅ Open - TDT4237
+- Quiz: [Web Security – Part 2 - v1](https://www.flexiquiz.com/SC/N/WebSecPart2) ✅ Open - TDT4237
+- Quiz: [Web Security – Part 2 - v2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/websecpart2) ✅ Open - TDT4237
 
   |                                      |                                                     |
   |--------------------------------------|-----------------------------------------------------|
@@ -469,7 +471,7 @@ A deep dive into common web vulnerabilities and how to prevent them.
 
 ### > Web Security – Part 3
 ---  
-- Quiz: [Web Security – Part 3](https://www.flexiquiz.com/SC/N/WebSecPart3) ❌ Closed - TDT4237
+- Quiz: [Web Security – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/websecpart3) ✅ Open - TDT4237
 
   |                                                  |                                                      |
   |--------------------------------------------------|------------------------------------------------------|
@@ -483,7 +485,7 @@ A deep dive into common web vulnerabilities and how to prevent them.
 
 ### > Web Security – Part 4
 ---  
-- Quiz: [Web Security – Part 4](https://www.flexiquiz.com/SC/N/WebSecPart4) ❌ Closed - TDT4237
+- Quiz: [Web Security – Part 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/websecpart4) ✅ Open - TDT4237
  
   |                                   |                                     |
   |-----------------------------------|-------------------------------------|
