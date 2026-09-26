@@ -593,7 +593,7 @@ A deep dive into common web vulnerabilities and how to prevent them.
 - [TDT4120 - Lecture 4 Code](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson4code) ✅ Open
 - [TDT4120 - Lecture 5](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson5) ✅ Open
 - [TDT4120 - Lecture 5 Code](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4120lesson5code) ✅ Open
-- [TDT4120 - Lecture 5 Tree Invariants](https://dev-quizmachine.covecode.net/Quiz/Take/tree-invariants-and-properties) ✅ Open
+- [TDT4120 - Lecture 5 Tree Invariants](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tree-invariants-and-properties) ✅ Open
 
 
 ### > Algorithms and Data Structures – Part 1 - TDT4120
