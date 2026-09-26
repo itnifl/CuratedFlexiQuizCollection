@@ -1303,10 +1303,10 @@ Quiz: [EMF & Ecore – Part 7](https://www.flexiquiz.com/SC/N/ModelDrivenDev7) �
 
 ### > Information Systems – Part 1 - TDT4175
 ---
-*Dedicated to [Lecture 1 – Introduction to Information Systems](https://www.flexiquiz.com/SC/N/infosystems1) ❌ Closed.*  
+*Dedicated to [Lecture 1 – Introduction to Information Systems](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems1) ✅ Open
 *Reflects core TDT4175 topics: IS types, ERP, strategy & process improvement, requirements & BPMN, ethics.*
 
-Quiz: [Information Systems – Part 1](https://www.flexiquiz.com/SC/N/infosystems1) ❌ Closed
+Quiz: [Information Systems – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems1) ✅ Open
 
 |                                                  |                                                                                             |
 |--------------------------------------------------|---------------------------------------------------------------------------------------------|
@@ -1326,10 +1326,10 @@ Quiz: [Information Systems – Part 1](https://www.flexiquiz.com/SC/N/infosystem
 
 ### > Information Systems – Part 2 - TDT4175
 ---
-*Dedicated to [Lecture 2 – Information Systems in Organizations](https://www.flexiquiz.com/SC/N/infosystems2) ❌ Closed.*  
+*Dedicated to [Lecture 2 – Information Systems in Organizations](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems2) ✅ Open*  
 *Reflects core TDT4175 Lesson 2 topics: value chain, SCM/CRM, org structures, change & sourcing, BPR vs CI, diffusion/infusion, applications portfolio, alignment & strategy, evaluation & roles.*
 
-Quiz: [Information Systems – Part 2](https://www.flexiquiz.com/SC/N/infosystems2) ❌ Closed
+Quiz: [Information Systems – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems2) ✅ Open
 
 |                                                  |                                                                                             |
 |--------------------------------------------------|---------------------------------------------------------------------------------------------|
@@ -1354,10 +1354,10 @@ Quiz: [Information Systems – Part 2](https://www.flexiquiz.com/SC/N/infosystem
 
 ### > Information Systems – Part 3 - TDT4175
 ---
-*Dedicated to [Lecture 3 – Business Process Modeling & Value Framework](https://www.flexiquiz.com/SC/N/infosystems3) ❌ Closed.*  
+*Dedicated to [Lecture 3 – Business Process Modeling & Value Framework](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems3) ✅ Open.*  
 *Reflects core TDT4175 Lesson 3 topics: process modeling goals, SEQUAL framework, quality dimensions, modeling languages/methods/tools, value framework, participatory techniques, BPMN evaluation, and big data perspectives.*
 
-Quiz: [Information Systems – Part 3](https://www.flexiquiz.com/SC/N/infosystems3) ❌ Closed
+Quiz: [Information Systems – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems3) ✅ Open
 
 |                                                  |                                                                                             |
 |--------------------------------------------------|---------------------------------------------------------------------------------------------|
@@ -1389,7 +1389,7 @@ Quiz: [Information Systems – Part 3](https://www.flexiquiz.com/SC/N/infosystem
 *Dedicated to [Lecture 4 – Business Process Modeling: Method & Style](https://www.flexiquiz.com/SC/N/infosystems4) ❌ Closed.*  
 *Reflects core TDT4175 Lesson 4 topics: Business Process Model and Notation (BPMN) Method and Style (Chapters 1–6 of Bruce Silver), Level-1 palette, top-down modeling method, style rules for clarity and traceability, message flows and pools, end states, and practical modelling exercises.*
 
-Quiz: [Information Systems – Part 4](https://www.flexiquiz.com/SC/N/infosystems4) ❌ Closed
+Quiz: [Information Systems – Part 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems4) ✅ Open
 
 |                                                  |                                                                                             |
 |--------------------------------------------------|---------------------------------------------------------------------------------------------|
@@ -1416,7 +1416,8 @@ Quiz: [Information Systems – Part 4](https://www.flexiquiz.com/SC/N/infosystem
 ---
 *SEQUAL (semiotic quality), Lean value-stream thinking, conceptual & meta-modeling, coordination choices, and the EA lens.*  
 
-Quiz: [Information Systems – Part 5](https://www.flexiquiz.com/SC/N/infosystems5) ✅ Open
+Quiz: [Information Systems – Part 5 - v1](https://www.flexiquiz.com/SC/N/infosystems5) ✅ Open
+Quiz: [Information Systems – Part 5 - v2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems8) ✅ Open
 
 Lesson: **TDT4175 – Information Systems (Lesson 5)**
 
@@ -1439,7 +1440,8 @@ Lesson: **TDT4175 – Information Systems (Lesson 5)**
 ---
 *Operational systems (TPS/ERP/SCM/CRM), digital channels, and decision-support layers (MIS/DSS/GSS/ESS).*  
 
-Quiz: [Information Systems – Part 6](https://www.flexiquiz.com/SC/N/infosystems6) ✅ Open
+Quiz: [Information Systems – Part 6 - v1](https://www.flexiquiz.com/SC/N/infosystems6) ✅ Open
+Quiz: [Information Systems – Part 6 - v2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems8) ✅ Open
 
 Lesson: **TDT4175 – Information Systems (Lesson 6)**
 
@@ -1463,7 +1465,8 @@ Lesson: **TDT4175 – Information Systems (Lesson 6)**
 ---
 *From integrated operations to managerial/executive decision support, knowledge management, and expert systems.*  
 
-Quiz: [Information Systems – Part 7](https://www.flexiquiz.com/SC/N/infosystems7) ✅ Open
+Quiz: [Information Systems – Part 7 - v1](https://www.flexiquiz.com/SC/N/infosystems7) ✅ Open
+Quiz: [Information Systems – Part 7 - v2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems8) ✅ Open
 
 Lesson: **TDT4175 – Information Systems (Lesson 7)**
 
@@ -1486,7 +1489,8 @@ Lesson: **TDT4175 – Information Systems (Lesson 7)**
 ---
 *Knowledge management (KM), expert/specialized IS, pervasive/mobile computing, and computer-supported cooperative work (CSCW).*  
 
-Quiz: [Information Systems – Part 8](https://www.flexiquiz.com/SC/N/infosystems8) ✅ Open
+Quiz: [Information Systems – Part 8 - v1](https://www.flexiquiz.com/SC/N/infosystems8) ✅ Open
+Quiz: [Information Systems – Part 8 - v2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/infosystems8) ✅ Open
 
 Lesson: **TDT4175 – Information Systems (Lesson 8)**
 
@@ -1598,7 +1602,7 @@ Quiz: [TDT4175 Information Systems – Various Knowledge #1](https://dev-quizmac
 ---
 *Practice on BPMN quality and black-box pools, computer-based information systems, the TPS–MIS–DSS–EIS hierarchy, and supply-chain systems in the wider enterprise landscape.*
 
-Quiz: [TDT4175 Information Systems – Various Knowledge #2](http://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175variousknowledge2)
+Quiz: [TDT4175 Information Systems – Various Knowledge #2](http://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175variousknowledge2) ✅ Open
 
 **Covers & focus**
 
@@ -1625,7 +1629,7 @@ Quiz: [TDT4175 Information Systems – Various Knowledge #2](http://dev-quizmach
 ---
 *Practice on BPMN process design, PLM and ERP, CBIS hierarchy, organisational strategy and change, information quality, e-commerce, and cloud service models.*
 
-Quiz: [TDT4175 Information Systems – Various Knowledge #3](http://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175variousknowledge3)
+Quiz: [TDT4175 Information Systems – Various Knowledge #3](http://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4175variousknowledge3) ✅ Open
 
 **Covers & focus**
 
