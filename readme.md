@@ -1135,10 +1135,11 @@ references are to *Artificial Intelligence: A Modern Approach* — Breadth-First
 
 ### > Model-Driven Development – Part 1 - TDT4250
 ---
-*Dedicated to [Lecture 1 – Introduction to MDE](https://www.flexiquiz.com/SC/N/ModelDrivenDev1) ✅ Open.*  
+*Dedicated to [Lecture 1 – Introduction to MDE](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev1) ✅ Open.*  
 *Reflects [Schmidt 2006](https://ieeexplore.ieee.org/document/1610613) and [Whittle et al. 2014](https://ieeexplore.ieee.org/document/6824042).*  
 
-Quiz: [Model-Driven Development – Part 1](https://www.flexiquiz.com/SC/N/ModelDrivenDev1) ✅ Open  
+Quiz: [Model-Driven Development – Part 1 - v1](https://www.flexiquiz.com/SC/N/ModelDrivenDev1) ✅ Open  
+Quiz: [Model-Driven Development – Part 1 - v2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev1) ✅ Open
 
   |                                                  |                                                         |
   |--------------------------------------------------|---------------------------------------------------------|
@@ -1156,10 +1157,10 @@ Quiz: [Model-Driven Development – Part 1](https://www.flexiquiz.com/SC/N/Model
 
 ### > Software Product Lines – Part 2 - TDT4250
 ---
-*Dedicated to [Lecture 2 – Software Product Lines](https://www.flexiquiz.com/SC/N/ModelDrivenDev2) ❌ Closed.*  
+*Dedicated to [Lecture 2 – Software Product Lines](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev2) ✅.*  
 *Reflects [Apel et al. 2013, *Feature-Oriented Software Product Lines*](https://link.springer.com/book/10.1007/978-3-642-37521-7).*  
 
-Quiz: [Software Product Lines – Part 2](https://www.flexiquiz.com/SC/N/ModelDrivenDev2) ❌ Closed  
+Quiz: [Model-Driven Development – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev2) ✅ Open  
 
   |                                                  |                                                                 |
   |--------------------------------------------------|-----------------------------------------------------------------|
@@ -1174,10 +1175,10 @@ Quiz: [Software Product Lines – Part 2](https://www.flexiquiz.com/SC/N/ModelDr
 
 ### > Variability Implementation – Part 3 - TDT4250
 ---
-*Dedicated to [Lecture 3 – Variability Implementation](https://www.flexiquiz.com/SC/N/ModelDrivenDev3) ❌ Closed.*  
+*Dedicated to [Lecture 3 – Variability Implementation](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev3) ✅.*  
 *Reflects [Apel et al. 2013, *Feature-Oriented Software Product Lines*](https://link.springer.com/book/10.1007/978-3-642-37521-7).*  
 
-Quiz: [Variability Implementation – Part 3](https://www.flexiquiz.com/SC/N/ModelDrivenDev3) ❌ Closed  
+Quiz: [Model-Driven Development – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev3) ✅ Open
 
   |                                                  |                                                                 |
   |--------------------------------------------------|-----------------------------------------------------------------|
@@ -1195,10 +1196,10 @@ Quiz: [Variability Implementation – Part 3](https://www.flexiquiz.com/SC/N/Mod
 
 ### > Variability with Parameters – Classic Language-Based Mechanism - Part 4 - TDT4250
 ---
-*Dedicated to [Lecture 4 – Parameters](https://www.flexiquiz.com/SC/N/ModelDrivenDev4) ❌ Closed.*  
+*Dedicated to [Lecture 4 – Parameters](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev4) ✅.*  
 *Reflects [Apel et al. 2013, *Feature-Oriented Software Product Lines*](https://link.springer.com/book/10.1007/978-3-642-37521-7).*  
 
-Quiz: [Variability Implementation – Part 4](https://www.flexiquiz.com/SC/N/ModelDrivenDev4) ❌ Closed  
+Quiz: [Model-Driven Development – Part 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev4) ✅ Open
 
   |                                                  |                                                                 |
   |--------------------------------------------------|-----------------------------------------------------------------|
@@ -1216,10 +1217,10 @@ Quiz: [Variability Implementation – Part 4](https://www.flexiquiz.com/SC/N/Mod
 
 ### > Domain-Specific Languages – Modeling and Metamodeling - Part 5 - TDT4250
 ---
-*Dedicated to [Lecture 5 – Domain-Specific Languages](https://www.flexiquiz.com/SC/N/ModelDrivenDev5) ❌ Closed.*  
+*Dedicated to [Lecture 5 – Domain-Specific Languages](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev5) ✅ Open.*  
 *Reflects [Apel et al. 2013, *Feature-Oriented Software Product Lines*](https://link.springer.com/book/10.1007/978-3-642-37521-7).*  
 
-Quiz: [Variability Implementation – Part 5](https://www.flexiquiz.com/SC/N/ModelDrivenDev5) ❌ Closed  
+Quiz: [Model-Driven Development – Part 5](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev5) ✅ Open
 
   |                                                  |                                                                 |
   |--------------------------------------------------|-----------------------------------------------------------------|
@@ -1237,10 +1238,11 @@ Quiz: [Variability Implementation – Part 5](https://www.flexiquiz.com/SC/N/Mod
 
 ### > MOF & Model-Driven Architecture (MDA) - Part 6 - TDT4250  
 ---  
-*Dedicated to [Lecture 6 – MOF and the Model-Driven Architecture (MDA)](https://www.flexiquiz.com/SC/N/ModelDrivenDev6) ✅ Open.*  
+*Dedicated to [Lecture 6 – MOF and the Model-Driven Architecture (MDA)](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev6) ✅ Open.*  
 *Reflects OMG MDA principles and the MOF/eMOF foundations.*  
 
 Quiz: [MOF & MDA – Part 6](https://www.flexiquiz.com/SC/N/ModelDrivenDev6) ✅ Open  
+Quiz: [Model-Driven Development – Part 6](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev6) ✅ Open
 
   |                                                  |                                                                 |
   |--------------------------------------------------|-----------------------------------------------------------------|
@@ -1255,10 +1257,11 @@ Quiz: [MOF & MDA – Part 6](https://www.flexiquiz.com/SC/N/ModelDrivenDev6) ✅
 
 ### > Eclipse Modeling Framework (EMF) & Ecore - Part 7 - TDT4250  
 ---  
-*Dedicated to [Lecture 7 – Eclipse Modeling Framework (EMF)](https://www.flexiquiz.com/SC/N/ModelDrivenDev7) ✅ Open.*  
+*Dedicated to [Lecture 7 – Eclipse Modeling Framework (EMF)](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev7) ✅ Open.*  
 *Based on the EMF/Ecore lecture material and examples.*  
 
 Quiz: [EMF & Ecore – Part 7](https://www.flexiquiz.com/SC/N/ModelDrivenDev7) ✅ Open  
+Quiz: [Model-Driven Development – Part 7](https://dev-quizmachine.itautomasjon.no/Quiz/Take/modeldrivendev7) ✅ Open
 
   |                                                  |                                                                 |
   |--------------------------------------------------|-----------------------------------------------------------------|
