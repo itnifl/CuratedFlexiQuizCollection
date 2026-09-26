@@ -1734,10 +1734,10 @@ Quiz: [Applied Data Science – Part 3](https://dev-quizmachine.itautomasjon.no/
 
 ### > Applied Data Science – Part 4 - TDT4259
 ---
-*Dedicated to [Lecture 4 – Data → Features → Algorithms](https://dev-quizmachine.itautomasjon.no/Quiz/Take/applieddatascience4) ❌ Closed.*  
+*Dedicated to [Lecture 4 – Data → Features → Algorithms](https://dev-quizmachine.itautomasjon.no/Quiz/Take/applieddatascience4) ✅ Open.*  
 *Reflects core TDT4259 Lesson 4 topics: variables → features, feature engineering, missingness & low-variance filters, scaling/normalization, PCA, supervised vs unsupervised, core algorithms (k-NN, SVM, trees, Naïve Bayes, neural nets), evaluation metrics, and a leakage-free pipeline.*
 
-Quiz: [Applied Data Science – Part 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/applieddatascience4) ❌ Closed
+Quiz: [Applied Data Science – Part 4](https://dev-quizmachine.itautomasjon.no/Quiz/Take/applieddatascience4) ✅ Open
 
 |                                                  |                                                                                             |
 |--------------------------------------------------|---------------------------------------------------------------------------------------------|
