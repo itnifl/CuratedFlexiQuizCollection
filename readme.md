@@ -1,4 +1,4 @@
-# 🎓 FlexiQuiz Learning Series 
+# 🎓 QuizMachine Learning Series 
 
 **Index – quiz sections:**
 
