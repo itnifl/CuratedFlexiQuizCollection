@@ -1102,7 +1102,8 @@ Quiz: [Algorithms and Data Structures – Part 16](https://dev-quizmachine.itaut
 - [TDT4136 - Assignment 1 Learning – Part 1](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136assignment1learningpart1) ✅ Open — Setup & uninformed search (BFS, DFS, UCS)
 - [TDT4136 - Assignment 1 Learning – Part 2](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136assignment1learningpart2) ✅ Open — Informed search (Greedy Best-First, A*)
 - [TDT4136 - Assignment 1 Learning – Part 3](https://dev-quizmachine.itautomasjon.no/Quiz/Take/tdt4136assignment1learningpart3) ✅ Open — A*, admissibility and consistency
-- [TDT4136 - Assignment 2 Learning](https://dev-quizmachine.itautomasjon.no/p/tdt4136assignment2learning) - Constraint Satisfaction Problems
+- [TDT4136 - Assignment 2 Learning](https://dev-quizmachine.itautomasjon.no/p/tdt4136assignment2learning) ✅ Open — Constraint Satisfaction Problems
+- [TDT4136 - Lecture 5 Chapter 7 - Logical Agents](https://dev-quizmachine.covecode.net/Quiz/Take/tdt4136lecture5chapter7) ✅ Open — Logical Agents
 
 **Assignment 1 – Search Algorithms:**  
 A hand-computation exercise set on the search algorithms from the lectures. The problem is a
